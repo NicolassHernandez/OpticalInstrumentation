@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756686052.88364 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/2/main.tex" "main.pdf" "main" 1756686055.42822 0
+["pdflatex"] 1756836866.37443 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/2/main.tex" "main.pdf" "main" 1756836868.42205 0
   "1b.png" 1756685903 13692 307ebc663f7be95589db150366337c4c ""
   "2a.png" 1756684580 40557 df09958d638ca8ec2708cb03a2734c64 ""
   "2b.png" 1756684585 43426 b3bdf44703985cf76e04aa4375c4e485 ""
@@ -288,10 +288,10 @@
   "DovePrism.png" 1756684567 13820 f3e921f61509356be38e3e0788b3a2a8 ""
   "PentaPrism.png" 1756684573 23995 290514491e9f0dab6902b762a8675252 ""
   "RightAnglePrism.png" 1756684559 8408 f3f8e9eee8a88660b827845ec145768c ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/2/main.tex" 1756686049 7168 ed8121381d1ae0e2658a60162b7afdae ""
-  "main.aux" 1756686055 1936 aff857430a9fad9b7c8c2ca6e20357cb "pdflatex"
-  "main.out" 1756686055 192 6c9fb1084c6b06d09df10581b3d920e1 "pdflatex"
-  "main.tex" 1756686049 7168 ed8121381d1ae0e2658a60162b7afdae ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/2/main.tex" 1756836863 7142 5b559f0b23c2a5616f4d58089b3338a5 ""
+  "main.aux" 1756836868 1938 f1406ec4e85448d544b430ccb6a75087 "pdflatex"
+  "main.out" 1756836868 192 6c9fb1084c6b06d09df10581b3d920e1 "pdflatex"
+  "main.tex" 1756836863 7142 5b559f0b23c2a5616f4d58089b3338a5 ""
   "refs.bib" 1756517696 305 a8e082f4cca99b72918bc1c2f977372e ""
   (generated)
   "main.aux"

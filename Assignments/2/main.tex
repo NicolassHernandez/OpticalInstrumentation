@@ -70,16 +70,16 @@
 %%
 \section{Exercise 1}
 \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
-  \item \emph{Tunnel diagrams} are schemes that unfolds the optical path at each reflection, so that the total 
-  propagation of the ray remains straight. For the prism below, at each reflecting surface it must be flipped to 
-  achieve the above goal. The diagram then consists of a geometric figure composed of multiples rotation of the original prism.
+  \item \emph{Tunnel diagrams} are schemes that unfold the optical path at each reflection, so that the total 
+  propagation of the ray remains straight. For the prisms below, at each reflecting surface they must be flipped to 
+  achieve the above. The diagram then consists of a geometric figure composed of multiples flipped of the original prism.
   
   On the other hand, \emph{parity change} is the change in orientation of the object when looking backward through the $z$ optical
   axis to the object. Therefore, the parity change will be due to the $y$ axis (reversion) and $x$ axis (inversion). However,
   no parity change is due rotations with respect to the $z$ axis. In addition, only an odd number of reflection will change the parity.
 
   In the following three prisms, we will assume the ray propagates with total internal reflection or the surface is coated so that only
-  reflection is studied. The last surface is not coated and the ray exists perpendicular to its normal.
+  reflection is studied. The last surface is not coated and the ray exits perpendicular to its normal.
   \begin{enumerate}[label=\roman*.]
     \item \textbf{Right-angle prism}
     The ray is reflected twice (figure \ref{fig:1a}), therefore there is no parity change.  
@@ -88,23 +88,23 @@
     \item \textbf{Pentaprism}
       The ray is reflected twice (figure \ref{fig:1c}) so that there will be no parity change.
   \end{enumerate}
-    \begin{figure}[htbp]
+    \begin{figure}[h!]
       \centering
       \begin{subfigure}{.25\columnwidth}
         \centering
-        \includegraphics[width=.9\columnwidth]{RightAnglePrism.png}
+        \includegraphics[width=.8\columnwidth]{RightAnglePrism.png}
         \caption{Right-Angle prism.}
         \label{fig:1a}
       \end{subfigure}
       \hfill
-      \begin{subfigure}{.3\columnwidth}
+      \begin{subfigure}{.25\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{DovePrism.png}
         \caption{Dove prism}
         \label{fig:1b}
       \end{subfigure}
       \hfill
-      \begin{subfigure}{.35\columnwidth}
+      \begin{subfigure}{.3\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{PentaPrism.png}
         \caption{Penta prism}
@@ -112,21 +112,20 @@
       \end{subfigure}
       \caption{Tunnel diagram for the given prisms.}
     \end{figure}
-\item To obtain an equivalent effect with the Dove prism, we must see the propagation inside the geometry. In figure \ref{fig:1b} we have shown how can be disposed to achieve this, with dashed lines 
+\item To obtain an equivalent effect of the Dove and Right-Angle prisms, we must see the propagation inside the geometry. In figure \ref{fig:1b_a} we have shown how can be disposed to achieve this, with dashed lines 
 reinforcing this position as it can be seen as similar to a truncated right-angle prism.
-\begin{figure}[htbp]
+\begin{figure}[h!]
   \centering
-  \includegraphics[width=.5\columnwidth]{1b.png}
+  \includegraphics[width=.4\columnwidth]{1b.png}
   \caption{Equivalent orientation of the Dove prism to achieve an equivalent propagation as the Right-Angle prism.}
-  \label{fig:1b}
+  \label{fig:1b_a}
 \end{figure}
 \end{enumerate}
-
 %%
 \section{Exercise 2}
-The configuration is a lens of focal legnth $f=100\;mm$ with a pentaprism of $n=1.5$ just behind with some sides of length $a$.
+The configuration is a lens of focal legnth $f=100\;mm$ with a pentaprism of $n$ just behind the lens with some sides of length $a$.
 The image plane is required to be at $f$ and outside the prism. If we denote $d_{in}$ as the distance traveled by the ray inside the 
-prism and $d_{out}$ as the distance when the ray outs the prism, then the tocal length must be 
+prism and $d_{out}$ outside, then the total length must be 
 \begin{align*}
   d_{in}+d_{out}=f=100\;mm.
 \end{align*}
@@ -137,32 +136,29 @@ prism and $d_{out}$ as the distance when the ray outs the prism, then the tocal 
   \begin{align*}
     d_{in}=\frac{(2+\sqrt{2})a}{n}.
   \end{align*}
-  Thus, replacing $n=1/5$ and solving for $a$ yields
+  Thus, replacing $n=1.5$ and solving for $a$ yields
   \begin{align*}
-    \frac{(2+\sqrt{2})a_{max}}{1.5}+0&=100\\
-    a_{max}&=\frac{100(1.5)}{2+\sqrt{2}}=43.934\;mm.
+    \frac{(2+\sqrt{2})a_{max}}{1.5}+0=100\longrightarrow a_{max}=\frac{100(1.5)}{2+\sqrt{2}}=43.934\;mm.
   \end{align*}
 
-  \item If the length is given to $a=40\;mm$ and the refractive index changed to $n=1.66$, then the image will be located $d_{out}$ away from the exit surface 
-  of the pentaprism, that is,
+  \item If the length is given to be $a=40\;mm$ and the refractive index changes to $n=1.66$, then the image will be located $d_{out}$ away from the exit surface 
+  of the pentaprism (figure \ref{fig:2b}), that is,
   \begin{align*}
-    \frac{(2+\sqrt{2})(40)}{1.66}+d_{out}&=100\\
-    d_{out}&=100-\frac{(2+\sqrt{2})(40)}{1.66}=17.729\;mm.
+    \frac{(2+\sqrt{2})(40)}{1.66}+d_{out}=100\longrightarrow d_{out}=100-\frac{(2+\sqrt{2})(40)}{1.66}=17.729\;mm.
   \end{align*}
-  Figure \ref{fig:2b} illustrates this case.
 \end{enumerate}
   \begin{figure}[h!]
     \centering
     \begin{subfigure}{.45\columnwidth}
       \centering
-      \includegraphics[width=\columnwidth]{2a.png}
+      \includegraphics[width=.65\columnwidth]{2a.png}
       \caption{Distance only atributed to $d_{in}$}
       \label{fig:2a}
     \end{subfigure}
     \hfill
     \begin{subfigure}{.45\columnwidth}
       \centering
-    \includegraphics[width=\columnwidth]{2b.png}
+    \includegraphics[width=.65\columnwidth]{2b.png}
     \caption{$d_{in}$ and $d_{out}$ contributes to tha total propagation}
     \label{fig:2b}
     \end{subfigure}

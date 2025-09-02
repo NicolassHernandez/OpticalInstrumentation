@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  31 AUG 2025 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 SEP 2025 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,11 +1165,7 @@ LaTeX Info: File `refs.bib' already exists on the system.
             Not generating it from this source.
 
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 66.
-(main.aux
-
-LaTeX Warning: Label `fig:1b' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1270,38 +1266,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: RightAnglePrism.png Graphic file (type png)
 <use RightAnglePrism.png>
 Package pdftex.def Info: RightAnglePrism.png  used on input line 95.
-(pdftex.def)             Requested size: 112.1983pt x 73.30476pt.
+(pdftex.def)             Requested size: 99.73288pt x 65.15993pt.
 <DovePrism.png, id=19, 134.904pt x 103.1052pt>
 File: DovePrism.png Graphic file (type png)
 <use DovePrism.png>
 Package pdftex.def Info: DovePrism.png  used on input line 102.
-(pdftex.def)             Requested size: 149.6003pt x 114.34741pt.
+(pdftex.def)             Requested size: 124.66563pt x 95.2827pt.
 <PentaPrism.png, id=20, 192.2382pt x 97.5645pt>
 File: PentaPrism.png Graphic file (type png)
 <use PentaPrism.png>
 Package pdftex.def Info: PentaPrism.png  used on input line 109.
-(pdftex.def)             Requested size: 174.53494pt x 88.57985pt.
+(pdftex.def)             Requested size: 149.6003pt x 75.9258pt.
 <1b.png, id=22, 197.538pt x 82.6287pt>
 File: 1b.png Graphic file (type png)
 <use 1b.png>
 Package pdftex.def Info: 1b.png  used on input line 119.
-(pdftex.def)             Requested size: 249.33128pt x 104.29549pt.
- [1
+(pdftex.def)             Requested size: 199.46198pt x 83.43538pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
 
 {C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./RightAnglePrism.png> <./DovePrism.png> <./PentaPrism.png>]
 <2a.png, id=50, 195.6108pt x 138.7584pt>
 File: 2a.png Graphic file (type png)
 <use 2a.png>
-Package pdftex.def Info: 2a.png  used on input line 158.
-(pdftex.def)             Requested size: 224.39664pt x 159.1771pt.
+Package pdftex.def Info: 2a.png  used on input line 154.
+(pdftex.def)             Requested size: 145.85643pt x 103.4651pt.
 <2b.png, id=51, 218.2554pt x 138.7584pt>
 File: 2b.png Graphic file (type png)
 <use 2b.png>
-Package pdftex.def Info: 2b.png  used on input line 165.
-(pdftex.def)             Requested size: 224.39664pt x 142.66443pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package pdftex.def Info: 2b.png  used on input line 161.
+(pdftex.def)             Requested size: 145.85643pt x 92.7305pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1310,38 +1307,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2 <./1b.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3 <./2a.png> <./2b.png>] (main.aux)
+[2 <./1b.png> <./2a.png> <./2b.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6C9FB1084C6B06D09DF10581B3D920E1;192.
  ) 
 Here is how much of TeX's memory you used:
  58428 strings out of 474486
- 1506486 string characters out of 5743755
- 2273532 words of memory out of 5000000
- 80019 multiletter control sequences out of 15000+600000
+ 1506490 string characters out of 5743755
+ 2273534 words of memory out of 5000000
+ 80020 multiletter control sequences out of 15000+600000
  579264 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,830b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,830b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (3 pages, 251496 bytes).
+Output written on main.pdf (2 pages, 251231 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
