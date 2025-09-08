@@ -1,0 +1,273 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 3}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section{Exercise 1}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=(\alph*)]
+  \item
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
+    \item The ray diagram is illustrated in figure \ref{fig:1a}. We have traced three rays:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item Parallel to the optical axis from the object, then it is refracted with direction to the fron focal length.
+      \item Direct to the back focal length: it is refracted so that it becomes parallel to the optical axis.
+      \item The chief ray, which maintain its direction through its propagation.
+    \end{itemize}
+    The intersection of these three rays producte the image. We can see that the image is to the left of the lens, but to the right of the object.
+    Therefore, it will be a virtual image and demagnified.
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=.8\columnwidth]{1a.pdf}
+      \caption{Ray diagram of the problem, the position of the image is $z'$ and is located to the right of the object. Dashed lines correspond to 
+      virtual rays.}
+      \label{fig:1a}
+    \end{figure}
+    \item Using the thin lens equation, considering that $F'=-100\;mm$ and $z=-50\;mm$ provides
+    \begin{align*}
+      \frac{1}{z'}&=\frac{1}{F'}+\frac{1}{z}\\
+      \frac{1}{z'}&=\frac{1}{-100}+\frac{1}{-50}\\
+      z'&=\frac{(-100)(-50)}{-150}=-33.333\;mm.
+    \end{align*}
+    Because $z'<0$, the image is \textbf{virtual} and will be to the left of the lens. Its magnification is:
+    \begin{align*}
+      m=\frac{z'}{z}=\frac{-33.333}{-50}=0.667.
+    \end{align*}
+    The image is then erected ($\text{sgn}(m)=1$), and demagnified ($|m|<1$) making it smaller than the object.
+  \end{enumerate}
+  \item The Galilean telescope is composed of a positive lens and a negative to the right (figure \ref{fig:1b}). In order to make the system afocal, 
+  is necessary that the concave lens be located so that $F_2$ is at the back focal plane of the convex lens, that is,
+  $F_1'=F_2$.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{1b.pdf}
+    \caption{Galilean telescope illustration.}
+    \label{fig:1b}
+  \end{figure}
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
+    \item The distance between the two lenses $t$ is computed if we plot the focal length of each one as illustrated in the figure. 
+    We see that $f_1$ is the total distance, shich can be thought as the sum of $f_1$ and $t$. Then, equating them and solving gives the distance $t$:
+    \begin{align*}
+      f_1&=t-f_2\\
+      200&=t-(-50)\longrightarrow t=200-50=150\;mm.
+    \end{align*} 
+    Lets remember that an afocal system does not have focal points, that is, incoming rays parallel to the optical axis will produce an 
+    image ray also parallel to the optical axis.
+
+    On the other hand, the magnification is the ratio of the heights $h'/h$, or in this case $-f_2/f_1$:
+    \begin{align*}
+      m=\frac{-f_2}{f_1}=\frac{50}{200}=\frac{1}{4}.
+    \end{align*}
+    Therefore, the image will be demagnified but erected; there will be no parity change.
+    \item Figure \ref{fig:1b} also shows the ray diagram that begins parallel to the optical axis. Then, it is refracted to be converged at point $F_1'$. However,
+    before reaching the point the negative lens refracts again the ray so that it goes back to its initial direction parallel to the optical axis. 
+    This effect is because $F_2$ is located at $F_1'$ so that the second lens see an object converging to its focal length.
+  \end{enumerate}
+\end{enumerate}
+
+
+\section{Exercise 2}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=(\alph*)]
+  \item What we are asked to plot is the position $z'$ of the image when the position of the object is varied in the range $z\in[-300,300]\;mm$. To plot it as a function,
+  we will use the rearranged thin lens equation 
+  \begin{align}
+    z'=\frac{zf}{z+f}.
+    \label{eq:zprime}
+  \end{align} 
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
+    \item For a positive lens $f=+100\;mm$, we have figure \ref{fig:2a1}. We can see that the curve has two asymptotas which corresponds to:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item\textbf{(1)} Object located at $z=-1$, generating a real image at $z'=\infty$.
+      \item\textbf{(2)} Real image located at $z'=1$, which is due to an object at $z=-\infty$.
+    \end{itemize} 
+    \item For $f=-100\;mm$, we have the figure \ref{fig:2a2}, where the same behavior is obtained as in th eprevious case. In this case,
+    the asymptotes are displaced so that:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item\textbf{(1)} Object located at $z=1$, generating a real image at $z'=\infty$.
+      \item\textbf{(2)} Virtual image located at $z'=-1$, which is due to an object at $z=-\infty$. 
+    \end{itemize} 
+  \end{enumerate}
+  \begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \begin{circuitikz}[scale=.7]
+        \def\f{1}
+        \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+        \draw[arrow](0,-4)--(0,4)node[above]{$z'$};
+        \draw[very thick,NavyBlue,domain=-3:-1.35,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+        \draw[very thick,NavyBlue,domain=-.8:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+        \draw[dashed](-4,1)--(4,1)(-1,4)--(-1,-4)(-1,2)node[fill=white]{$(1)$}(-2,1)node[fill=white]{$(2)$};
+        \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
+        \foreach \y in{-3,-2,-1,1,2,3}{\draw(-.1,\y)--(.1,\y)node[right,fill=white]{$\y$};}
+        \draw[](-1/2,-1)node[draw,fill=red,circle,inner sep=1.5]{};
+      \end{circuitikz}
+      \caption{$f=+100\;mm$}
+      \label{fig:2a1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \begin{circuitikz}[scale=.7]
+        \def\f{-1}
+        \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+        \draw[arrow](0,-4)--(0,4)node[above]{$z'$};
+        \draw[very thick,NavyBlue,domain=-3:.8,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+        \draw[very thick,NavyBlue,domain=1.35:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+        \draw[dashed](-4,-1)--(4,-1)(1,4)--(1,-4)(1,-2)node[fill=white]{$(1)$}(2,-1)node[fill=white]{$(2)$};
+        \foreach \t in{-3,...,3}{\draw(\t,-.1)--(\t,.1)node[above]{$\t$};}
+        \foreach \y in{-3,-2,-1,1,2,3}{\draw(.1,\y)--(-.1,\y)node[left,fill=white]{$\y$};}
+        \draw[](1/2,1)node[draw,fill=red,circle,inner sep=1.5]{};
+      \end{circuitikz}
+      \caption{$f=-100\;mm$}
+      \label{fig:2a2}
+    \end{subfigure}
+    \caption{Plot $z'-z$. Both axis were normalized by $100\;mm$ for clarity.}
+  \end{figure}
+  %%
+  \item The magnification can be described as a function of the object distance $z$'. We use the magnification equation $m=z'/z$ and the equation \eqref{eq:zprime}:
+  \begin{align}
+    m=\frac{z'}{z}=\frac{f}{z+f}.
+    \label{eq:mag}
+  \end{align}
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
+    \item For a positive lens $f=+100\;mm$, we have figure \ref{fig:2b1}. We can see that the curve has two asymptotas which corresponds to:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item\textbf{(1)} Real object located at $z=-1$, generating a real image with $m=\infty$.
+      \item\textbf{(2)} Real image with $m=0$, which is due to an real object at $z=-\infty$.
+    \end{itemize} 
+    \item For $f=-100\;mm$, we have the figure \ref{fig:2b2}, where the same behavior is obtained as in th eprevious case. In this case,
+    the asymptotes are displaced so that:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item\textbf{(1)} Virtual object located at $z=1$, generating a real image with $m=\infty$.
+      \item\textbf{(2)} Virtual image located with $m=0$, which is due to a real object at $z=-\infty$. 
+    \end{itemize} 
+  \end{enumerate}
+  \begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \begin{circuitikz}[scale=.7]
+        \def\f{1}
+        \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+        \draw[arrow](0,-4)--(0,4)node[above]{$m$};
+        \draw[very thick,NavyBlue,domain=-3:-1.25,samples=100] plot(\x,{ (\f)/(\x+\f) });
+        \draw[very thick,NavyBlue,domain=-.75:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+        \draw[dashed](-4,0)--(4,0)(-1,4)--(-1,-4)(-1,1)node[fill=white]{$(1)$}(-3.5,0)node[fill=white]{$(2)$};
+        \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
+        \foreach \y in{-3,-2,-1,1,2,3}{\draw(-.1,\y)--(.1,\y)node[right,fill=white]{$\y$};}
+        \draw[](-1/2,2)node[draw,fill=red,circle,inner sep=1.5]{};
+      \end{circuitikz}
+      \caption{$f=+100\;mm$}
+      \label{fig:2b1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \begin{circuitikz}[scale=.7]
+        \def\f{-1}
+        \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+        \draw[arrow](0,-4)--(0,4)node[above]{$m$};
+        \draw[very thick,NavyBlue,domain=-3:.75,samples=100] plot(\x,{ (\f)/(\x+\f) });
+        \draw[very thick,NavyBlue,domain=1.25:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+        \draw[dashed](-4,0)--(4,0)(1,4)--(1,-4)(1,1)node[fill=white]{$(1)$}(-3.5,0)node[fill=white]{$(2)$};
+        \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
+        \foreach \y in{-3,-2,-1,1,2,3}{\draw(.1,\y)--(-.1,\y)node[left,fill=white]{$\y$};}
+        \draw[](1/2,2)node[draw,fill=red,circle,inner sep=1.5]{};
+      \end{circuitikz}
+      \caption{$f=-100\;mm$}
+      \label{fig:2b2}
+    \end{subfigure}
+    \caption{Plot $m-z$. Horizontal axis was normalized by $100\;mm$ for clarity.}
+  \end{figure}
+  \item For a magnification $m+=2$, the distances of the object and image can be obtained by looking the figures \ref{fig:2b1} and \ref{fig:2b2}, respectively.
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
+    \item For a positive lens $f=+100\;mm$, this magnification is obtained by looking at figure \ref{fig:2b1} (red circle), indicating that $z<0$.
+    Then, we solve the magnification equation \eqref{eq:mag}
+    \begin{align*}
+      m=\frac{f}{z+f}=2\longrightarrow f&=2z+2f\\ 
+      -f&=2z\\
+      z&=-f/2.
+    \end{align*}
+    Substituting the image position in $m=z'/z$ give the object position:
+    \begin{align*}
+      m=\frac{z'}{z}=\frac{z'}{-f/2}=2\longrightarrow z'=-f.
+    \end{align*}
+    Thus, both the object and image are located to the left of the lens, the object is real but the image is virtual and to the left of the object.
+    \item In the case of a negative lens $f=-100\;mm$, by looking figure \ref{fig:2b2} we know that the object must be to the right of the negative lens, as $z'>0$.
+    By t=doing an analogus procedure as before, we found that $z=f/2$ and $z'=f$. However, after verifying with a ray diagram we concluded that is \textbf{not possible} 
+    to obtain a magnified image by either considering a real or virtual object. So, is not possible to meet a $+2$ magnified image even when the plot is 
+    showing the contrary. 
+  \end{enumerate}
+\end{enumerate}
+
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}
