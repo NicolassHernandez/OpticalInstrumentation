@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1757136880.34319 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/3/main.tex" "main.pdf" "main" 1757136883.88276 0
+["pdflatex"] 1757527377.48306 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/3/main.tex" "main.pdf" "main" 1757527380.33062 0
   "1a.pdf" 1757126321 10523 98a02adc1b9237a042e88c524ec0a899 ""
   "1b.pdf" 1757127098 14982 445685b2223f7901b8ac9f21cd53a0bb ""
-  "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756137709 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
+  "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1756171264 49100 75decf4a6256d2337b95f774a69046a5 ""
@@ -286,10 +286,10 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/3/main.tex" 1757136879 13398 455ed6d9c3cd67f65e850898661ab997 ""
-  "main.aux" 1757136883 2177 d90bf8afa9dd723ae4ca5abc286d874c "pdflatex"
-  "main.out" 1757136883 192 6c9fb1084c6b06d09df10581b3d920e1 "pdflatex"
-  "main.tex" 1757136879 13398 455ed6d9c3cd67f65e850898661ab997 ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/3/main.tex" 1757527376 13329 c981a4fd4969ee9aa1cd619b75af657b ""
+  "main.aux" 1757527379 2177 64ca4473e30376c0692904292f1c6bcf "pdflatex"
+  "main.out" 1757527379 192 6c9fb1084c6b06d09df10581b3d920e1 "pdflatex"
+  "main.tex" 1757527376 13329 c981a4fd4969ee9aa1cd619b75af657b ""
   "refs.bib" 1757113619 305 a8e082f4cca99b72918bc1c2f977372e ""
   (generated)
   "main.aux"

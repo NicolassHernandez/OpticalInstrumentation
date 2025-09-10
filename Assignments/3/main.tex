@@ -74,11 +74,11 @@
   \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
     \item The ray diagram is illustrated in figure \ref{fig:1a}. We have traced three rays:
     \begin{itemize}[itemsep=0pt,topsep=0pt]
-      \item Parallel to the optical axis from the object, then it is refracted with direction to the fron focal length.
-      \item Direct to the back focal length: it is refracted so that it becomes parallel to the optical axis.
+      \item Parallel to the optical axis from the object, then it is refracted with direction to $F'$.
+      \item Direct to $F$: it is refracted so that it becomes parallel to the optical axis.
       \item The chief ray, which maintain its direction through its propagation.
     \end{itemize}
-    The intersection of these three rays producte the image. We can see that the image is to the left of the lens, but to the right of the object.
+    The intersection of these three rays produces the image. We can see that the image is to the left of the lens, but to the right of the object.
     Therefore, it will be a virtual image and demagnified.
     \begin{figure}[h!]
       \centering
@@ -99,7 +99,7 @@
     \end{align*}
     The image is then erected ($\text{sgn}(m)=1$), and demagnified ($|m|<1$) making it smaller than the object.
   \end{enumerate}
-  \item The Galilean telescope is composed of a positive lens and a negative to the right (figure \ref{fig:1b}). In order to make the system afocal, 
+  \item The Galilean telescope is composed of a positive lens and a negative lens to the right (figure \ref{fig:1b}). In order to make the system afocal, 
   is necessary that the concave lens be located so that $F_2$ is at the back focal plane of the convex lens, that is,
   $F_1'=F_2$.
   \begin{figure}[h!]
@@ -110,7 +110,7 @@
   \end{figure}
   \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
     \item The distance between the two lenses $t$ is computed if we plot the focal length of each one as illustrated in the figure. 
-    We see that $f_1$ is the total distance, shich can be thought as the sum of $f_1$ and $t$. Then, equating them and solving gives the distance $t$:
+    We see that $f_1$ is the total distance, which can be thought of as the sum of $f_2$ and $t$. Then, equating them and solving gives the distance $t$:
     \begin{align*}
       f_1&=t-f_2\\
       200&=t-(-50)\longrightarrow t=200-50=150\;mm.
@@ -124,7 +124,7 @@
     \end{align*}
     Therefore, the image will be demagnified but erected; there will be no parity change.
     \item Figure \ref{fig:1b} also shows the ray diagram that begins parallel to the optical axis. Then, it is refracted to be converged at point $F_1'$. However,
-    before reaching the point the negative lens refracts again the ray so that it goes back to its initial direction parallel to the optical axis. 
+    before reaching the point the negative lens refracts it again so that it goes back to its initial direction, parallel to the optical axis. 
     This effect is because $F_2$ is located at $F_1'$ so that the second lens see an object converging to its focal length.
   \end{enumerate}
 \end{enumerate}
@@ -139,12 +139,12 @@
     \label{eq:zprime}
   \end{align} 
   \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
-    \item For a positive lens $f=+100\;mm$, we have figure \ref{fig:2a1}. We can see that the curve has two asymptotas which corresponds to:
+    \item For a positive lens $f=+100\;mm$, we have figure \ref{fig:2a1}. We can see that the curve has two asymptotes which corresponds to:
     \begin{itemize}[itemsep=0pt,topsep=0pt]
       \item\textbf{(1)} Object located at $z=-1$, generating a real image at $z'=\infty$.
       \item\textbf{(2)} Real image located at $z'=1$, which is due to an object at $z=-\infty$.
     \end{itemize} 
-    \item For $f=-100\;mm$, we have the figure \ref{fig:2a2}, where the same behavior is obtained as in th eprevious case. In this case,
+    \item For $f=-100\;mm$, we have figure \ref{fig:2a2}, where the same behavior is obtained as in the eprevious case. However,
     the asymptotes are displaced so that:
     \begin{itemize}[itemsep=0pt,topsep=0pt]
       \item\textbf{(1)} Object located at $z=1$, generating a real image at $z'=\infty$.
@@ -164,7 +164,7 @@
         \draw[dashed](-4,1)--(4,1)(-1,4)--(-1,-4)(-1,2)node[fill=white]{$(1)$}(-2,1)node[fill=white]{$(2)$};
         \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
         \foreach \y in{-3,-2,-1,1,2,3}{\draw(-.1,\y)--(.1,\y)node[right,fill=white]{$\y$};}
-        \draw[](-1/2,-1)node[draw,fill=red,circle,inner sep=1.5]{};
+        %\draw[](-1/2,-1)node[draw,fill=red,circle,inner sep=1.5]{};
       \end{circuitikz}
       \caption{$f=+100\;mm$}
       \label{fig:2a1}
@@ -181,7 +181,7 @@
         \draw[dashed](-4,-1)--(4,-1)(1,4)--(1,-4)(1,-2)node[fill=white]{$(1)$}(2,-1)node[fill=white]{$(2)$};
         \foreach \t in{-3,...,3}{\draw(\t,-.1)--(\t,.1)node[above]{$\t$};}
         \foreach \y in{-3,-2,-1,1,2,3}{\draw(.1,\y)--(-.1,\y)node[left,fill=white]{$\y$};}
-        \draw[](1/2,1)node[draw,fill=red,circle,inner sep=1.5]{};
+        %\draw[](1/2,1)node[draw,fill=red,circle,inner sep=1.5]{};
       \end{circuitikz}
       \caption{$f=-100\;mm$}
       \label{fig:2a2}
@@ -197,14 +197,14 @@
   \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*.]
     \item For a positive lens $f=+100\;mm$, we have figure \ref{fig:2b1}. We can see that the curve has two asymptotas which corresponds to:
     \begin{itemize}[itemsep=0pt,topsep=0pt]
-      \item\textbf{(1)} Real object located at $z=-1$, generating a real image with $m=\infty$.
-      \item\textbf{(2)} Real image with $m=0$, which is due to an real object at $z=-\infty$.
+      \item\textbf{(1)} Object located at $z=-1$, generating a real image with $m=\infty$.
+      \item\textbf{(2)} Real image with $m=0$, which is due to an object at $z=-\infty$.
     \end{itemize} 
     \item For $f=-100\;mm$, we have the figure \ref{fig:2b2}, where the same behavior is obtained as in th eprevious case. In this case,
     the asymptotes are displaced so that:
     \begin{itemize}[itemsep=0pt,topsep=0pt]
-      \item\textbf{(1)} Virtual object located at $z=1$, generating a real image with $m=\infty$.
-      \item\textbf{(2)} Virtual image located with $m=0$, which is due to a real object at $z=-\infty$. 
+      \item\textbf{(1)} Object located at $z=1$, generating a real image with $m=\infty$.
+      \item\textbf{(2)} Virtual image with $m=0$, which is due to a object at $z=-\infty$. 
     \end{itemize} 
   \end{enumerate}
   \begin{figure}[h!]
@@ -257,11 +257,11 @@
     \begin{align*}
       m=\frac{z'}{z}=\frac{z'}{-f/2}=2\longrightarrow z'=-f.
     \end{align*}
-    Thus, both the object and image are located to the left of the lens, the object is real but the image is virtual and to the left of the object.
+    Thus, both the object and image are located to the left of the lens, the object is real while the image is virtual and to the left of the object.
     \item In the case of a negative lens $f=-100\;mm$, by looking figure \ref{fig:2b2} we know that the object must be to the right of the negative lens, as $z'>0$.
-    By t=doing an analogus procedure as before, we found that $z=f/2$ and $z'=f$. However, after verifying with a ray diagram we concluded that is \textbf{not possible} 
+    By doing an analogus procedure as before, we found that $z=f/2$ and $z'=f$. However, after verifying with a ray diagram we concluded that is \textbf{not possible} 
     to obtain a magnified image by either considering a real or virtual object. So, is not possible to meet a $+2$ magnified image even when the plot is 
-    showing the contrary. 
+    showing the contrary.
   \end{enumerate}
 \end{enumerate}
 
