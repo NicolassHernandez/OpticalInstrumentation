@@ -1,0 +1,60 @@
+\section*{Formula sheet}
+%%
+\columnratio{.4}
+\begin{paracol}{2}
+\subsection*{$z'$ and $m$ curves}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{\columnwidth}
+    \centering
+    \begin{circuitikz}[scale=.7]
+    \def\f{1}
+    \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+    \draw[arrow](0,-4)--(0,4)node[above]{$z'/m$};
+    \draw[very thick,NavyBlue,domain=-3:-1.35,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,NavyBlue,domain=-.8:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-3:-1.25,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-.75:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[dashed](-4,1)--(4,1)(-1,4)--(-1,-4);
+    \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
+    \foreach \y in{-3,-2,-1,1,2,3}{\draw(-.1,\y)--(.1,\y)node[right,fill=white]{$\y$};}
+    \begin{scope}[shift={(1.5,3.5)}] % move legend to top-right
+        \draw[very thick,NavyBlue](0,0)--(0.8,0)node[right,black]{$z'$};
+        \draw[very thick,OliveGreen](0,-0.5)--(0.8,-0.5)node[right,black]{$m$};
+    \end{scope}
+    \end{circuitikz}
+    \caption{$f>0$}
+    \label{fig:2a1}
+\end{subfigure}
+\hfill
+\begin{subfigure}{\columnwidth}
+    \centering
+    \begin{circuitikz}[scale=.7]
+    \def\f{-1}
+    \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+    \draw[arrow](0,-4)--(0,4)node[above]{$z'$};
+    \draw[very thick,NavyBlue,domain=-3:.8,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,NavyBlue,domain=1.35:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-3:.75,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=1.25:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[dashed](-4,-1)--(4,-1)(1,4)--(1,-4);
+    \foreach \t in{-3,...,3}{\draw(\t,-.1)--(\t,.1)node[above]{$\t$};}
+    \foreach \y in{-3,-2,-1,1,2,3}{\draw(.1,\y)--(-.1,\y)node[left,fill=white]{$\y$};}
+    \begin{scope}[shift={(1.5,3.5)}] % move legend to top-right
+        \draw[very thick,NavyBlue](0,0)--(0.8,0)node[right,black]{$z'$};
+        \draw[very thick,OliveGreen](0,-0.5)--(0.8,-0.5)node[right,black]{$m$};
+    \end{scope}
+    \end{circuitikz}
+    \caption{$f<0$}
+    \label{fig:2a2}
+\end{subfigure}
+\end{figure}
+\switchcolumn
+\subsection*{Gaussian imaging formulas}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{l|l|l}
+        $\frac{1}{z'}=\frac{1}{z}+\frac{1}{f}$&$m=\frac{z'}{z}=\frac{h'}{h}$&$m_{\text{total}}=\prod_im_i$
+    \end{tabular}
+\end{table}
+\end{paracol}
