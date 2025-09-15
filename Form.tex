@@ -1,13 +1,13 @@
 \section*{Formula sheet}
 %%
-\columnratio{.4}
+\columnratio{.3}
 \begin{paracol}{2}
 \subsection*{$z'$ and $m$ curves}
 \begin{figure}[h!]
 \centering
 \begin{subfigure}{\columnwidth}
     \centering
-    \begin{circuitikz}[scale=.7]
+    \begin{circuitikz}[scale=.6]
     \def\f{1}
     \draw[arrow](-4,0)--(4,0)node[right]{$z$};
     \draw[arrow](0,-4)--(0,4)node[above]{$z'/m$};
@@ -29,7 +29,7 @@
 \hfill
 \begin{subfigure}{\columnwidth}
     \centering
-    \begin{circuitikz}[scale=.7]
+    \begin{circuitikz}[scale=.6]
     \def\f{-1}
     \draw[arrow](-4,0)--(4,0)node[right]{$z$};
     \draw[arrow](0,-4)--(0,4)node[above]{$z'$};
@@ -50,11 +50,40 @@
 \end{subfigure}
 \end{figure}
 \switchcolumn
-\subsection*{Gaussian imaging formulas}
+\subsection*{Useful formulas}
 \begin{table}[h!]
     \centering
     \begin{tabular}{l|l|l}
-        $\frac{1}{z'}=\frac{1}{z}+\frac{1}{f}$&$m=\frac{z'}{z}=\frac{h'}{h}$&$m_{\text{total}}=\prod_im_i$
+        $\nu=\frac{V}{\lambda}=\frac{1}{T}=\frac{V}{\lambda}$&$n=\frac{c}{V}$&$\text{OPL}=\int_a^b\bm{n}(s)\cdot d\bm{s}$\\
+        $\frac{1}{z'}=\frac{1}{z}+\frac{1}{f}$&$m=\frac{z'}{z}=\frac{h'}{h}$&$m_{\text{total}}=\prod_im_i$\\
+        $n_1\sin\theta_1=n_2\sin\theta_2$&$\theta_2=-\theta_1$&$\theta_i>\theta_c=\sin^{-1}n_2/n_1$\\
+        $d=\frac{n-1}{n}t$&$D\approx-t\theta\frac{n-1}{n}$&$\tau=t/n$\\
+        \multicolumn{3}{l}{($f>0$) $|z|\gg f\Longrightarrow z'\approx f\land m\approx f/z\land L=z'-z\approx -z$}\\
+        \multicolumn{3}{l}{($f>0$) $|z'|\gg f\Longrightarrow z\approx-f\land m\approx -z'/f\land L\approx z'$}\\
+        \multicolumn{3}{l}{Afocal systems $m=-f_2/f_1$}\\
+        $\phi=(n'-n)C$&$C=1/R$&$n'u'=nu-y\phi$\\
+        $f=f_E=1/\phi$&$f_F=-nf_E$&$f'_R=n'f_E$
     \end{tabular}
 \end{table}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.3\columnwidth]{figures/snell.png}
+    \includegraphics[width=.3\columnwidth]{figures/imagerotations.png}
+    \includegraphics[width=.7\columnwidth]{figures/paraxialgeometry.png}
+\end{figure}
 \end{paracol}
+
+
+
+\subsection*{Key points}
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item $n$ tells us how much light slows down compared to the vacuum. Frecuency doesnt change but wavelength does.
+    \item Fermat's principle states that the path is given by $\text{OPL}'(\text{path})=0$.
+    \item Reflection is a refraction with negative index $n'=-n$.
+    \item Sign convention is: up-right, counter clockwise, vertex-radius of curvature.
+    \item Parity change is preserved only for an \textbf{even} number of reflections. It is determined by looking backwards to the object.
+    \item Wherever we have a roof mirror, denoted by a V, we must account for two reflections.
+    \item Reduced thickness is the air-equivalent distance of a medium. All objects are therefore reduced.
+    \item In negative lenses, the rear and focal points are reversed from positive lenses.
+    \item The $\text{FOV}=2\text{HFOV}$ has several definitions, but all are related each other: solid arc can be measured.
+\end{itemize}
