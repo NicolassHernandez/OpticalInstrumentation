@@ -53,6 +53,7 @@
 \subsection*{Useful formulas}
 \begin{table}[h!]
     \centering
+    \renewcommand{\arraystretch}{1.2}
     \begin{tabular}{l|l|l}
         $\nu=\frac{V}{\lambda}=\frac{1}{T}=\frac{V}{\lambda}$&$n=\frac{c}{V}$&$\text{OPL}=\int_a^b\bm{n}(s)\cdot d\bm{s}$\\
         $\frac{1}{z'}=\frac{1}{z}+\frac{1}{f}$&$m=\frac{z'}{z}=\frac{h'}{h}$&$m_{\text{total}}=\prod_im_i$\\
@@ -60,18 +61,23 @@
         $d=\frac{n-1}{n}t$&$D\approx-t\theta\frac{n-1}{n}$&$\tau=t/n$\\
         \multicolumn{3}{l}{($f>0$) $|z|\gg f\Longrightarrow z'\approx f\land m\approx f/z\land L=z'-z\approx -z$}\\
         \multicolumn{3}{l}{($f>0$) $|z'|\gg f\Longrightarrow z\approx-f\land m\approx -z'/f\land L\approx z'$}\\
-        \multicolumn{3}{l}{Afocal systems $m=-f_2/f_1$}\\
+        Afocal $m=\frac{h'}{h}=\frac{-f_2}{f_1}$&Keplerian $m<0$&Galilean $m>0$\\
         $\phi=(n'-n)C$&$C=1/R$&$n'u'=nu-y\phi$\\
-        $f=f_E=1/\phi$&$f_F=-nf_E$&$f'_R=n'f_E$
+        $f=f_E=1/\phi$&$f_F=-nf_E$&$f'_R=n'f_E$\\
+        $\frac{n'}{z'}=\frac{n}{z}+\phi$&\multicolumn{2}{l}{$\frac{1}{f}=(n-1)(1/R_1-1/R_2)$}\\
+        \multicolumn{3}{l}{$\frac{1}{f}=(n-1)[1/R_1+1/R_2-\frac{(n-1)}{R_1R_2}\frac{t}{n}]$}
     \end{tabular}
 \end{table}
+\end{paracol}
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=.3\columnwidth]{figures/snell.png}
-    \includegraphics[width=.3\columnwidth]{figures/imagerotations.png}
-    \includegraphics[width=.7\columnwidth]{figures/paraxialgeometry.png}
+    \includegraphics[width=.2\columnwidth]{figures/snell.png}
+    \includegraphics[width=.2\columnwidth]{figures/ppp1.png}
+    \includegraphics[width=.2\columnwidth]{figures/ppp2.png}
+    \includegraphics[width=.15\columnwidth]{figures/imagerotations.png}
+    \includegraphics[width=.4\columnwidth]{figures/paraxialgeometry.png}
 \end{figure}
-\end{paracol}
 
 
 
@@ -84,6 +90,8 @@
     \item Parity change is preserved only for an \textbf{even} number of reflections. It is determined by looking backwards to the object.
     \item Wherever we have a roof mirror, denoted by a V, we must account for two reflections.
     \item Reduced thickness is the air-equivalent distance of a medium. All objects are therefore reduced.
-    \item In negative lenses, the rear and focal points are reversed from positive lenses.
+    \item In negative lenses, the rear $f_R'$ and front $f_F$ focal points are reversed from positive lenses.
     \item The $\text{FOV}=2\text{HFOV}$ has several definitions, but all are related each other: solid arc can be measured.
+    \item Newtonian equations measure the object and image distances from the focal planes, while Gaussian equations from the principal planes.
+    \item Nodal points $N$ and $N'$ preserves magnification of 1.
 \end{itemize}

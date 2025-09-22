@@ -74,70 +74,85 @@ The greater $n$ the shorter the equivalent distance, that because the wave propa
 \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
   \item In this case, we have
   \begin{align*}
-    \tau=\frac{500\;mm}{1.33}=375.94\;mm.
+    d_{\text{total}}=\frac{500\;mm}{1.33}=375.94\;mm.
   \end{align*}
-  \item The total distance is the sum of the air thickness and the reduced thickness of the water:
+  The fish appears to be $377\;mm$ below the surface of the water.
+  \item The total distance is the sum of the air thickness in terms of the water and the thickness of the water:
   \begin{align*}
-    \tau_{\text{total}}=500\;mm+375.94\;mm=875.94\;mm.
+    d_{\text{total}}=1.33\cdot500\;mm+500\;mm=665\;mm+500\;mm=1165\;mm.
   \end{align*}
-  \item In this case, we assume that the thick layer of ice has \textbf{replaced} $100\;m$ of the air distance while the distance from 
-  of the water remains the same.
+  The cat appears to be $665\;mm$ above the surface of the water.
+  \item In this case, we assume that the thick layer of ice has \textbf{replaced} $100\;m$ of the water while the distance of air remains the same.
   \begin{itemize}[itemsep=0pt,topsep=0pt]
     \item For the part a), the distance would be:
     \begin{align*}
-      \tau_{\text{total}}=\frac{100\;mm}{1.31}+\frac{500\;mm}{1.33}=452.27\;mm.
+      d_{\text{total}}=(\frac{100\;mm}{1.31}+\frac{400\;mm}{1.33})+500\;mm=377\;mm+500\;mm=877\;mm.
     \end{align*}
-    \item For part b), the total equivalent distance is 
+    The fish appears to be $377\;mm$ below the surface of the ice.
+    \item For part b), the total equivalent distance is the distance of the water, plus the equivalent distance in water of the ice and air: 
     \begin{align*}
-      \tau_{\text{total}}=400\;mm+\frac{100\;mm}{1.31}+\frac{500\;mm}{1.33}=852.27\;mm.
+      d_{\text{total}}=1.33\cdot(\frac{100\;mm}{1.31}+500\;mm)+400\;mm=767\;mm+400\;mm=1166.53\;mm.
     \end{align*}
-    Because $100\;mm$ of aire has now been replaced by the ice.
+    The cat appears to be $767\;mm$ above the water, that is, below the air and the ice.
+    We computed first the reduced thickness of ice in order to then convert it to the equivalent in water.
   \end{itemize}
 \end{enumerate}
 
 \section*{Exercise 2}
-I will assume that the glass rod is intended to perform the action of the two lenses in each case so that depending on the raddi of curvatures of each surface,
-an incoming collimated ray will outputs collimated but scaled. Therefore, the problem reduces to find $R_1$ and $R_2$ of the rod to accomplish both 
-conditions: remains collimated (zero total optical power), and perform magnification.
+The afocal we have seen in classes are Galilean (positive magnification) and Keplerian (negative magnification).
 \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
-  \item For a magnification of $-0.5$, we have 
+  \item For a magnification of $-0.5$, we have a Keplerian telescope, composed of two positive lenses.
+    The reduced thickness of the glass rodd is then:
+    \begin{align*}
+      \tau_{\text{air}}=\frac{150\;mm}{1.5}=100\;mm=f_1+f_2.
+    \end{align*}
+    The magnification is:
+    \begin{align*}
+      m=-\frac{f_2}{f_1}=-0.5\longrightarrow f_1=2f_2.
+    \end{align*}
+    We replace $f_1$ in the reduced thickness formula 
+    \begin{align*}
+      (2f_2)+f_2=f_2=\frac{100\;mm}{3}\longrightarrow f_2=33.3\;mm.
+    \end{align*}
+    Then,
+    \begin{align*}
+      f_1=2f_2=66.6\;mm.
+    \end{align*}
+    The focal length can be related to the optical power through the formula $\Phi_i=1/f_i=(n'-n)/R_i$. We apply it for each lens:
+    \begin{align*}
+      \Phi_1=\frac{1.5-1}{R_1}=\frac{1}{f_1}=\frac{1}{66.6\;mm}\longrightarrow R_1=+33.3\;mm.
+    \end{align*}
+    For the second lens, we have:
+    \begin{align*}
+      \Phi_2=\frac{1-1.5}{R_2}=\frac{1}{f_2}=\frac{1}{33.3\;mm}\longrightarrow R_2=-16.6\;mm.
+    \end{align*}
+  \item To achieve a magnification of $+0.5$ we use the Galilean telescope, composed of a positive lens followed by a negative one.
+  The procedure is similar to above.
+  The reduced thickness of the glass rodd is then:
   \begin{align*}
-    \Phi_{\text{total}}=\Phi_{1}+\Phi_{2}-\frac{t}{n}\Phi_1\Phi_2=0.
+    \tau_{\text{air}}=\frac{150\;mm}{1.5}=100\;mm=f_1+f_2.
   \end{align*}
-  Using the magnification formula for afocal systems $m=-f_2/f_1$ and the definition of the optical power $\Phi_i=(n'-n)/R_i=1/f_i$  allow us to related 
-  the optical power of each surface as $m=-\Phi_1/\Phi_2$. Equating the magnification if the previous formula
+  The magnification is:
   \begin{align*}
-    m=-\Phi_1/\Phi_2=-0.5\longrightarrow\Phi_1=0.5\Phi_2.
+    m=-\frac{f_2}{f_1}=0.5\longrightarrow f_1=-2f_2.
   \end{align*}
-  If we replace this rsult in the total power and solve for $\Phi_2$ yields
+  We replace $f_1$ in the reduced thickness formula 
   \begin{align*}
-    (0.5\Phi_2)+\Phi_2-\frac{t}{n}(0.5\Phi_2)\Phi_2=0\longrightarrow\Phi_2=\frac{3n}{t}=-\frac{(n-1)}{R_2}.
+    (-2f_2)+f_2=-f_2=100\;mm\longrightarrow f_2=-100\;mm.
   \end{align*}
-  We can now substitute the refactive index and the length for then solve for $R_2$:
+  Then,
   \begin{align*}
-    \Phi_2=30\;mm^{-1}\longrightarrow R_2=-0.016\;mm.
+    f_1=-2f_2=200\;mm.
   \end{align*}
-  Then, $R_1$ is 
+  The focal length can be related to the optical power through the formula $\Phi_i=1/f_i=(n'-n)/R_i$. We apply it for each lens:
   \begin{align*}
-    \Phi_1=0.5(30)=15\;mm^{-1}\longrightarrow R_1=\frac{n-1}{\Phi_1}=0.033\;mm.
+    \Phi_1=\frac{1.5-1}{R_1}=\frac{1}{f_1}=\frac{1}{200\;mm}\longrightarrow R_1=+100\;mm.
   \end{align*}
-  \item To achieve a magnification of $+0.5$ we do the same procedure.
-  First, the magnification tells us 
+  For the second lens, we have:
   \begin{align*}
-    m=-\frac{\Phi_1}{\Phi_2}=0.5\longrightarrow\Phi_2=-2\Phi_1.
+    \Phi_2=\frac{1-1.5}{R_2}=\frac{1}{f_2}=\frac{1}{-100\;mm}\longrightarrow R_2=+50\;mm.
   \end{align*}
-  Then, substituting in the total power and solving for $\Phi_1$ yields
-  \begin{align*}
-    \Phi_1+(-2\Phi_1)-\frac{t}{n}\Phi_1(-2\Phi_1)=0\longrightarrow\Phi_1=\frac{n}{2t}=\frac{(n-1)}{R_1}.
-  \end{align*}
-  The value of the raddii of curvature 1 is 
-  \begin{align*}
-    \Phi_1=5\;mm^{-1}\longrightarrow R_1=0.10\;mm.
-  \end{align*}
-  The same for $R_2$ is 
-  \begin{align*}
-    \Phi_2=-2(5)=-10\;mm^{-1}\longrightarrow R_2=0.050\;mm.
-  \end{align*}
+
 \end{enumerate}
 
 

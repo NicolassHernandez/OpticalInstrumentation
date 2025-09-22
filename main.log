@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  15 SEP 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  22 SEP 2025 00:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2299,22 +2299,32 @@ Overfull \hbox (7.90028pt too wide) in paragraph at lines 47--48
 <figures/snell.png, id=75, 154.32657pt x 98.61844pt>
 File: figures/snell.png Graphic file (type png)
 <use figures/snell.png>
-Package pdftex.def Info: figures/snell.png  used on input line 70.
-(pdftex.def)             Requested size: 98.74463pt x 63.10202pt.
-<figures/imagerotations.png, id=77, 499.11469pt x 487.8225pt>
+Package pdftex.def Info: figures/snell.png  used on input line 75.
+(pdftex.def)             Requested size: 99.73099pt x 63.73253pt.
+<figures/ppp1.png, id=77, 188.95593pt x 144.54pt>
+File: figures/ppp1.png Graphic file (type png)
+<use figures/ppp1.png>
+Package pdftex.def Info: figures/ppp1.png  used on input line 76.
+(pdftex.def)             Requested size: 99.73099pt x 76.28822pt.
+<figures/ppp2.png, id=78, 217.5628pt x 126.4725pt>
+File: figures/ppp2.png Graphic file (type png)
+<use figures/ppp2.png>
+Package pdftex.def Info: figures/ppp2.png  used on input line 77.
+(pdftex.def)             Requested size: 99.73099pt x 57.97542pt.
+<figures/imagerotations.png, id=79, 499.11469pt x 487.8225pt>
 File: figures/imagerotations.png Graphic file (type png)
 <use figures/imagerotations.png>
-Package pdftex.def Info: figures/imagerotations.png  used on input line 71.
-(pdftex.def)             Requested size: 98.74463pt x 96.50578pt.
-<figures/paraxialgeometry.png, id=78, 472.76625pt x 141.52875pt>
+Package pdftex.def Info: figures/imagerotations.png  used on input line 78.
+(pdftex.def)             Requested size: 74.79634pt x 73.10323pt.
+<figures/paraxialgeometry.png, id=80, 472.76625pt x 141.52875pt>
 File: figures/paraxialgeometry.png Graphic file (type png)
 <use figures/paraxialgeometry.png>
-Package pdftex.def Info: figures/paraxialgeometry.png  used on input line 72.
-(pdftex.def)             Requested size: 230.40082pt x 68.97392pt.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 80.
+Package pdftex.def Info: figures/paraxialgeometry.png  used on input line 79.
+(pdftex.def)             Requested size: 199.46198pt x 59.71161pt.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 86.
 (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-))
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2322,7 +2332,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./figures/snell.png> <./figures/imagerotations.png> <./figures/paraxialgeometry.png>] [9] (main.ind)
+[8 <./figures/snell.png> <./figures/ppp1.png> <./figures/ppp2.png> <./figures/imagerotations.png> <./figures/paraxialgeometry.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9] [10] (main.ind)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2346,7 +2364,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10] (main.aux)
+[11] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2358,17 +2376,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 89604 strings out of 474486
- 2237004 string characters out of 5743755
- 3438540 words of memory out of 5000000
- 110726 multiletter control sequences out of 15000+600000
+ 89619 strings out of 474486
+ 2237331 string characters out of 5743755
+ 3439538 words of memory out of 5000000
+ 110740 multiletter control sequences out of 15000+600000
  623812 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,14n,104p,1683b,1936s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (10 pages, 331755 bytes).
+<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (11 pages, 383601 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
