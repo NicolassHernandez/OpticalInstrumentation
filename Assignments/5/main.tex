@@ -70,15 +70,104 @@
 %%
 \section*{Exercise 1}
 \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
-  \item In this case, the object is virtual and the image will be real, erected and demagnified.
+  \item In this case, the object is virtual and the image will be real and erected.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{problem1_a.png}
+    \caption{}
+  \end{figure}
   \item The object is virtual, and therefore the image will be real and erected.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{problem1_b.png}
+    \caption{}
+  \end{figure}
   \item The object is virtual, and the image will be virtual and inverted. 
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{problem1_c.png}
+    \caption{}
+  \end{figure}
 \end{enumerate}
 %%
 \section*{Exercise 2}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item For a single refracting surface, we have that:
+  \begin{itemize}
+    \item Both nodal points are located at the center of curvature CC.
+    \item Front and real principal planes are located at the vortex.
+    \item The reduced thickness of the surface is the focal length of its thin lens representation.
+  \end{itemize}
+  We illustrate these quantities along with the vertex and the focal lengths in the following figure.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{problem2_a.png}
+    \caption{Illustration of cardinal point for a single refractive surface.}
+  \end{figure}
+  We illustrate also some quantities of this surface:
+  \begin{align*}
+    &C=\frac{1}{R}=100\;m^{-1},\quad \phi=(n'-n)C=33.3\;m^{-1},\quad f_E=\frac{1}{\phi}=30\;mm,\\
+    &f_F=-nf_E=-30\;mm,\quad f'_R=n'f_E=40\;mm.
+  \end{align*}
+  \item We use the following equation:
+  \begin{align*}
+    \frac{n'}{z'}=\frac{n}{z}+\frac{1}{f_E}\longrightarrow z'=\frac{n'zf_E}{nf_E+z}.
+  \end{align*}
+  Replacing the physical values and the EFL:
+  \begin{align*}
+    z'=\frac{(1.333)(30)(100)}{(1)(30)+100}=+30.7615\;mm.
+  \end{align*}
+  Its height is determined by the magnification:
+  \begin{align*}
+    m=\frac{h'}{h}=\frac{z'/n'}{z/n}=\frac{30.7615/1.333}{100/1}=0.231\longrightarrow h'=mh=(0.231)(10\;mm)=2.31\;mm.
+  \end{align*}
+  \item The cube is divided in equal part by the optical axis, yielding a height of $h=5\;mm$. Its last side is located $100\;mm$ from the principal planes, as all their 
+  sides have the same sizes. Its first face is located $110\;mm$ from the principal plane. Now, the area of one side is $100\;mm^2$.
+  We want to find the equivalent (area of volume) of its image.
+  We can address this problem by considering two lines at each side of the cube as two independent objects with $(z_1,h_1)$ and $(z_2,h_2)$.
+  Then, we do imaging of both to get $(z_1',h_1')$ and $(z_2',h_2')$. The difference between positions and heights allow us to construct the image dimension.
+  
+  \begin{align*}
+    z_1:&\quad z_1'=\frac{(1.333)(30)(110)}{(1)(30)+110}=+31.42\;mm\\
+    z_2:&\quad z_2'=\frac{(1.333)(30)(100)}{(1)(30)+100}=+30.76\;mm
+  \end{align*}
+  We do the same for the magnification to compute the corresponding heights:
+  \begin{align*}
+    m_1&=\frac{31.42/1.333}{110/1}=0.214\longrightarrow h_1'=m_1h_1=(0.214)(5)=1.07\;mm\\
+    m_2&=\frac{30.76/1.333}{100/1}=0.231\longrightarrow h_2'=m_2h_2=(0.231)(5)=1.16\;mm.
+  \end{align*}
+  The other dimension remains the same $10\;mm$ as it is seen at the same distance from the refractive surface. The area, would be 
+  the integration from $z_1'$ to $z_2'$ with the respective height which can be used to create a linear function (interpolation). However, we will 
+  assum the mean value between them to consider it as a constant value. Then, the are is:
+  \begin{align*}
+    A=\Delta z'\Delta h'=2(z_2'-z_1')(\frac{h_1'+h_2'}{2})=1.472\;mm^2.
+  \end{align*} 
+  And the volume is this area multiplied by the remaining dimension:
+  \begin{align*}
+    \Delta x \cdot A=(10)(1.472)=14.72\;mm^3.
+  \end{align*}
+\end{enumerate}
 
 %%
 \section*{Exercise 3}
+For a two positive lens system, we use Gaussian reduction to reduce the effect to a single thin lens.
+We first compute the overall optical power with the power of individual lenses:
+\begin{align*}
+  \phi=\phi_1+\phi_2-\phi_1\phi_2t=\frac{1}{40}+\frac{1}{40}-\frac{1}{40}\frac{1}{40}\cdot20=0.038mm^{-1}\longrightarrow f_E=\frac{1}{\phi}=26.67\;mm.
+\end{align*}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{problem3.png}
+    \caption{Gaussian reduction for two positive lenses.}
+  \end{figure}
+The distances $d$ and $d'$ are the shift in the principal plane of the respective individual elelemnt, to the ones of the total system. In this case where $n=1$,
+they are given by
+\begin{align*}
+  d=\frac{\phi_2}{\phi}t=\frac{0.025}{0.038}20=13.158\;mm,\quad\text{and}\quad d'=-\frac{\phi_1}{\phi}t=-\frac{0.025}{0.038}20=-13.158\;mm.
+\end{align*}
+
+I think the distances are just relative, no absolute value can be given, what would be the reference then?
+
 
 %%
 \section*{Exercise 4}

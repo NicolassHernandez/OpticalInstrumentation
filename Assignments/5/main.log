@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  23 SEP 2025 01:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  23 SEP 2025 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,9 +1261,68 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
  (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<problem1_a.png, id=6, 1273.8792pt x 477.7047pt>
+File: problem1_a.png Graphic file (type png)
+<use problem1_a.png>
+Package pdftex.def Info: problem1_a.png  used on input line 76.
+(pdftex.def)             Requested size: 299.20059pt x 112.195pt.
+<problem1_b.png, id=8, 1287.8514pt x 586.5915pt>
+File: problem1_b.png Graphic file (type png)
+<use problem1_b.png>
+Package pdftex.def Info: problem1_b.png  used on input line 82.
+(pdftex.def)             Requested size: 299.20059pt x 136.2737pt.
+<problem1_c.png, id=9, 1410.9513pt x 685.1196pt>
+File: problem1_c.png Graphic file (type png)
+<use problem1_c.png>
+Package pdftex.def Info: problem1_c.png  used on input line 88.
+(pdftex.def)             Requested size: 299.20059pt x 145.2802pt.
 
-{C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+{C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./problem1_a.png> <./problem1_b.png>]
+<problem2_a.png, id=31, 1252.9209pt x 595.2639pt>
+File: problem2_a.png Graphic file (type png)
+<use problem2_a.png>
+Package pdftex.def Info: problem2_a.png  used on input line 104.
+(pdftex.def)             Requested size: 299.20059pt x 142.1487pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2 <./problem1_c.png> <./problem2_a.png>]
+<problem3.png, id=48, 2805.2805pt x 741.972pt>
+File: problem3.png Graphic file (type png)
+<use problem3.png>
+Package pdftex.def Info: problem3.png  used on input line 160.
+(pdftex.def)             Requested size: 398.93158pt x 105.50568pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./problem3.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1272,17 +1331,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 58289 strings out of 474486
- 1504179 string characters out of 5743755
- 2263827 words of memory out of 5000000
- 79898 multiletter control sequences out of 15000+600000
- 570404 words of font info for 70 fonts, out of 8000000 for 9000
+ 58381 strings out of 474486
+ 1506009 string characters out of 5743755
+ 2275828 words of memory out of 5000000
+ 79975 multiletter control sequences out of 15000+600000
+ 574444 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,93p,830b,1030s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (1 page, 45392 bytes).
+ 84i,12n,93p,830b,1264s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\irisp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (4 pages, 3437172 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
