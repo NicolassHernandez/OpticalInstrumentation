@@ -1,6 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1758682242.03547 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1758682247.79491 0
+["pdflatex"] 1758952221.89578 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1758952227.19012 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
+  "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1756171264 49100 75decf4a6256d2337b95f774a69046a5 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1095.pk" 1756171256 26228 944af790e0b2f4b0f85a204fcfe40f1b ""
@@ -9,6 +10,7 @@
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk" 1756171263 42516 1687e0251d74b8a768bf5cd507129156 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1756176365 12668 8c287de5bc4bc1e8b6936895349343bf ""
   "C:/Users/irisp/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742926672 24225046 9ec2a4cd9862b36a5ed07fea43cca913 ""
+  "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993061956 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0600.tfm" 993062116 3160 116e21835795bb29209ae8bb4682382f ""
@@ -273,15 +275,16 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1758682241 7255 d8b1666a8de02613d6358a2d8a4d2b9e ""
-  "main.aux" 1758682247 884 d3ea9fd82617a8e811bd178e86891e5f "pdflatex"
-  "main.out" 1758682243 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1758682241 7255 d8b1666a8de02613d6358a2d8a4d2b9e ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1758952220 12767 103bb5c896ea9ae366d37f7163f3bfca ""
+  "main.aux" 1758952226 1318 67e0fd3945c0e7043d89dd2cc116ff98 "pdflatex"
+  "main.out" 1758952223 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1758952220 12767 103bb5c896ea9ae366d37f7163f3bfca ""
   "problem1_a.png" 1758673779 473032 9694e8818ac43d0c294e0f27fb91ff86 ""
   "problem1_b.png" 1758673789 547852 0320655b440175a4ce489385c0b9bb4e ""
   "problem1_c.png" 1758673801 621986 3b797a26934ef732eb1bf1e6e44e6c60 ""
   "problem2_a.png" 1758674878 192140 f5d437c27838435214d4e94ad1a1f831 ""
-  "problem3.png" 1758681462 469487 a5ab703f92a827f8a8ca149c0b4b4046 ""
+  "problem3.pdf" 1758934307 17022 22ed9b38665b569546cf216bb6e43b82 ""
+  "problem4_a.pdf" 1758944099 46568 4c50ae6f19e0c16e7e0bbdbd545b6217 ""
   "refs.bib" 1758603200 305 a8e082f4cca99b72918bc1c2f977372e ""
   (generated)
   "main.aux"
