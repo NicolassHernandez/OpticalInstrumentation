@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758952221.89578 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1758952227.19012 0
+["pdflatex"] 1759122924.63156 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1759122929.50113 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
@@ -275,14 +275,15 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1758952220 12767 103bb5c896ea9ae366d37f7163f3bfca ""
-  "main.aux" 1758952226 1318 67e0fd3945c0e7043d89dd2cc116ff98 "pdflatex"
-  "main.out" 1758952223 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1758952220 12767 103bb5c896ea9ae366d37f7163f3bfca ""
-  "problem1_a.png" 1758673779 473032 9694e8818ac43d0c294e0f27fb91ff86 ""
-  "problem1_b.png" 1758673789 547852 0320655b440175a4ce489385c0b9bb4e ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1759122923 15038 6d83d360341c091539ec6d08d9e693f4 ""
+  "main.aux" 1759122929 2156 1713315ed52400be61e3496b34d8af2c "pdflatex"
+  "main.out" 1759122926 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1759122923 15038 6d83d360341c091539ec6d08d9e693f4 ""
+  "problem1_a.png" 1759111718 473733 3401a6ca83972f22870724a7820d2902 ""
+  "problem1_b.png" 1759111726 557605 2782b498154df0e20a3c50b758c5a95b ""
   "problem1_c.png" 1758673801 621986 3b797a26934ef732eb1bf1e6e44e6c60 ""
   "problem2_a.png" 1758674878 192140 f5d437c27838435214d4e94ad1a1f831 ""
+  "problem2_b.png" 1759114251 284675 96ec1815d67fe0a3110ad16ec97a320c ""
   "problem3.pdf" 1758934307 17022 22ed9b38665b569546cf216bb6e43b82 ""
   "problem4_a.pdf" 1758944099 46568 4c50ae6f19e0c16e7e0bbdbd545b6217 ""
   "refs.bib" 1758603200 305 a8e082f4cca99b72918bc1c2f977372e ""
