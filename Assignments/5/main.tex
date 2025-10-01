@@ -296,6 +296,8 @@ In this case we have three surface, each with their correspond surface curvature
   The focal lengths match exactly as the ones computed by Gaussian reduction. We can also compute the principal planes shifts, but we will not do it as we already know the answer.
 %%
 \section*{Exercise 5}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item 
 For this problem, we must consider the reflection with a negative index and a negative distante $t$. We will asume that $n=1$.
 The first media after the object space is the one with $n=1.5$ which has a negative curvature $C_1$. Then, a mirror with negative $C_2$ reflects the ray where 
 a negative distance must be considered. After refracts again in the surface $1$, the air propagation extend to infinity. 
@@ -306,22 +308,45 @@ The following table illustrates the raytracing, where a parallel ray is propagat
     &\shortstack{Object\\space}&Space 1&Surface 1&Space 2&Surface 2&Space 3&Surface 3&Space 4&\shortstack{Image\\space}\\
     \hline
     $C$&&&-0.01&&-0.006&&-0.01&&\\
-    $t$&&\textcolor{blue}{127.667}&&10&&-10&&\textcolor{red}{-84.182}&\\
+    $t$&&\textcolor{blue}{84.182}&&10&&-10&&\textcolor{red}{-84.182}&\\
     $n$&&1&&1.5&&-1.5&&-1&\\
     \hline 
     $-\phi$&&&0.005&&-0.02&&0.005&&\\
-    $t/n$&&\textcolor{blue}{127.667}&&6.667&&6.667&&\textcolor{red}{84.182}&\\
+    $t/n$&&\textcolor{blue}{84.182}&&6.667&&6.667&&\textcolor{red}{84.182}&\\
     \hline 
     $y$&1&1&1&&1.033&&0.926&&0\\
     $nu$&0&0&&0.005&&-0.016&&-0.011&\\
     $u$&0&0&&&&&&-0.011&\\
     \hline
-    $y$&0&&0.766&&0.833&&1&1&1\\
-    $nu$&&0.006&&0.010&&0.025&&0&0\\
-    $u$&&0.006&&&&&&0&0
+    $y$&0&&0.926&&1.033&&1&1&1\\
+    $nu$&&0.011&&0.016&&-0.005&&0&0\\
+    $u$&&0.011&&&&&&0&0
   \end{tabular}
 \end{table}
 
+From the forward ray, we see that 
+\begin{align*}
+  f'_{E}=\frac{1}{\phi'}=-\frac{y_1}{nu'}=-\frac{1}{-0.011}=90.909\;mm.
+\end{align*}
+Therefore, the rear focal length is:
+\begin{align*}
+  f_{R'}=nf'_{E}=(-1)(90.909)=-90.909\;mm.
+\end{align*}
+The shift from the rear principal plane $P'$ and the last surface is computed as the following substraction:
+\begin{align*}
+  d'=\text{BFD}-f'_R=-84.182+90.909=6.727\;mm.
+\end{align*}
+Therefore, $P'$ is to the right of the last surface.
+
+\item With the backward ray, we have the same properties for the front cardinal points:
+\begin{align*}
+  \text{FFD}&=-84.182\;mm\\
+  f_E&=\frac{1}{\phi}=\frac{y_2}{nu}=\frac{1}{0.011}=90.909\;mm.\\
+  f_F&=-nf_E=-90.909\;mm.\\
+  d&=\text{FFD}-f_F=-84.182+90.909=6.727\;mm.
+\end{align*}
+The FFD is located to the left of the first surface and the fron principal plane is shifted to the right by $d$.
+\end{enumerate}
 
 %\nocite{*}
 %\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.

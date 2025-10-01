@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759122924.63156 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1759122929.50113 0
+["pdflatex"] 1759282012.8785 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" "main.pdf" "main" 1759282018.96667 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
@@ -53,6 +53,7 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -275,10 +276,10 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1759122923 15038 6d83d360341c091539ec6d08d9e693f4 ""
-  "main.aux" 1759122929 2156 1713315ed52400be61e3496b34d8af2c "pdflatex"
-  "main.out" 1759122926 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1759122923 15038 6d83d360341c091539ec6d08d9e693f4 ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/5/main.tex" 1759282011 16022 710f44bb4c3b1534e66348f688f27420 ""
+  "main.aux" 1759282018 2156 1713315ed52400be61e3496b34d8af2c "pdflatex"
+  "main.out" 1759282014 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1759282011 16022 710f44bb4c3b1534e66348f688f27420 ""
   "problem1_a.png" 1759111718 473733 3401a6ca83972f22870724a7820d2902 ""
   "problem1_b.png" 1759111726 557605 2782b498154df0e20a3c50b758c5a95b ""
   "problem1_c.png" 1758673801 621986 3b797a26934ef732eb1bf1e6e44e6c60 ""
