@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 OCT 2025 03:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 OCT 2025 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2703,34 +2703,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png, id=486, 232.61906pt x 84.315pt>
 File: PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png  used on input line 46.
+Package pdftex.def Info: PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png  used on input line 45.
 (pdftex.def)             Requested size: 224.39664pt x 81.3377pt.
 <PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png, id=487, 231.86626pt x 85.06781pt>
 File: PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png  used on input line 52.
+Package pdftex.def Info: PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png  used on input line 51.
 (pdftex.def)             Requested size: 224.39664pt x 82.32875pt.
 <PartOne/ChapterOne/figures/cassegraintelescope.png, id=488, 264.99pt x 281.55188pt>
 File: PartOne/ChapterOne/figures/cassegraintelescope.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/cassegraintelescope.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope.png  used on input line 67.
+Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope.png  used on input line 66.
 (pdftex.def)             Requested size: 244.3474pt x 259.62372pt.
 <PartOne/ChapterOne/figures/cassegraintelescope_b.png, id=489, 264.23718pt x 274.02374pt>
 File: PartOne/ChapterOne/figures/cassegraintelescope_b.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/cassegraintelescope_b.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope_b.png  used on input line 68.
+Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope_b.png  used on input line 67.
 (pdftex.def)             Requested size: 244.3474pt x 253.39691pt.
- [29 <./PartOne/ChapterOne/figures/paraxialopticsscheme.png> <./PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png> <./PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./PartOne/ChapterOne/figures/paraxialopticsscheme.png> <./PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png> <./PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>]
 <PartOne/ChapterOne/figures/thinlens_raytrace.png, id=503, 342.5297pt x 167.87718pt>
 File: PartOne/ChapterOne/figures/thinlens_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thinlens_raytrace.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens_raytrace.png  used on input line 74.
+Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens_raytrace.png  used on input line 73.
 (pdftex.def)             Requested size: 398.93158pt x 195.53432pt.
  [30 <./PartOne/ChapterOne/figures/cassegraintelescope.png> <./PartOne/ChapterOne/figures/cassegraintelescope_b.png> <./PartOne/ChapterOne/figures/thinlens_raytrace.png>]
 <PartOne/ChapterOne/figures/problem4_a.pdf, id=517, 1058.95625pt x 1069.9975pt>
 File: PartOne/ChapterOne/figures/problem4_a.pdf Graphic file (type pdf)
 <use PartOne/ChapterOne/figures/problem4_a.pdf>
-Package pdftex.def Info: PartOne/ChapterOne/figures/problem4_a.pdf  used on input line 131.
+Package pdftex.def Info: PartOne/ChapterOne/figures/problem4_a.pdf  used on input line 130.
 (pdftex.def)             Requested size: 249.33128pt x 251.92293pt.
 
 
@@ -2743,7 +2747,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <PartOne/ChapterOne/figures/raytraceworksheet.png, id=538, 167.12437pt x 316.93407pt>
 File: PartOne/ChapterOne/figures/raytraceworksheet.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/raytraceworksheet.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/raytraceworksheet.png  used on input line 179.
+Package pdftex.def Info: PartOne/ChapterOne/figures/raytraceworksheet.png  used on input line 178.
 (pdftex.def)             Requested size: 299.20059pt x 567.50189pt.
 ) [33 <./PartOne/ChapterOne/figures/raytraceworksheet.png>] (PartOne/ChapterOne/bibliography.tex
 \blx@maxsegment@1=\count592
@@ -2789,13 +2793,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  89874 strings out of 474486
  2255421 string characters out of 5743755
- 3435293 words of memory out of 5000000
+ 3435294 words of memory out of 5000000
  110795 multiletter control sequences out of 15000+600000
  658678 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (37 pages, 3915560 bytes).
+Output written on main.pdf (37 pages, 3915345 bytes).
 PDF statistics:
  708 PDF objects out of 1000 (max. 8388607)
  180 named destinations out of 1000 (max. 500000)
