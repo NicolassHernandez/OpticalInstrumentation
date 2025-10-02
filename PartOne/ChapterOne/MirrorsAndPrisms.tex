@@ -1,0 +1,108 @@
+\section{Mirrors and prisms}
+
+\subsection{Parallel mirrors}
+Plane mirrors are used to:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Produce a deviation
+    \item Fold the optical path
+    \item Change image parity
+\end{itemize}
+
+\subsection{Parity change}
+A reflection from the plane mirror will cause a parity change in the image.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/planemirrorparitychange.png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/paritychange.png}
+        \caption{}        
+    \end{subfigure}
+\end{figure}
+An inversion (reversion) is a parity change about the horizontal (vertical) line, whereas a $180^\circ$ rotation has no parity change and is rotated about the optical axis.
+An inversion and a reversion is equivalent to a $180^\circ$ rotation.
+\begin{emphasizer}[Parity change]
+    Only an \textbf{odd} number of reflections changes parity.
+\end{emphasizer}
+Parity is determined by looking back agains the propagation towards the obejct. Compare looking directly the objet vs at the reflection.
+
+\begin{emphasizeb}
+    A lens adds inversion and reversion to the object, so that the image has no parity change, only rotation.
+\end{emphasizeb}
+
+%%
+\subsection{Non-parallel plane mirror}
+The \bfemph{dihedral line} is the line of intersection of two non-parallel plane mirrors. The ray is deviated twice the angle between the mirrors.
+\begin{align}
+    \gamma=2\alpha=\begin{cases}
+        \text{Input-Output rays cross},&\alpha<90^\circ\\
+        \text{Input-Output rays diverge},&\alpha>90^\circ\\
+        \text{Input-Output rays anti-parallel},&\alpha=90^\circ
+    \end{cases}
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterOne/figures/nonparallelmirrors.png}
+    \caption{}
+\end{figure}
+
+There are several mirrors,
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item\textbf{Roof mirror} Two plane mirrors with a dihedral angle of $90^\circ$. It is used to insert two reflection in the propagation. The presence of this mirror
+    is indicated by a "V".
+\end{itemize}
+
+\subsection{Prisms and tunnel diagrams}
+\bfemph{Prisms} can be considered systems of plane mirrors. The reflection may be due to TIR, or by reflective coating.
+
+A \bfemph{tunnel diagram} \textbf{unfolds} the optical path at each reflection so that the ray is maintained straight through the propagation in the prism.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.2\columnwidth]{PartOne/ChapterOne/figures/RightAnglePrism.png}
+    \includegraphics[width=.3\columnwidth]{PartOne/ChapterOne/figures/PentaPrism.png}
+    \includegraphics[width=.25\columnwidth]{PartOne/ChapterOne/figures/DovePrism.png}
+    \caption{}
+\end{figure}
+
+
+\subsection{Reduced thickness}
+The \bfemph{reduced thickness} is the vacuum equivalent distance of the medium that has the same propagation effect.
+\begin{align}
+    \text{Reduced thickness}\qquad\highlight{\tau=\frac{t}{n}}.
+\end{align}
+Expressing all distances in $\tau$ is equivalent to propagates the light in only vacuum (or air).
+This quantity is implicitly in the optical propagation and will be present in equations. When a reflection takes place,
+both $n$ and $t$ are negative, but $\tau$ remains positive. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.35\columnwidth]{PartOne/ChapterOne/figures/reducedthickness_a.png}
+    \includegraphics[width=.35\columnwidth]{PartOne/ChapterOne/figures/reducedthickness_b.png}
+    \caption{Reduced thickness is the vacuum (air) equivalent distance.}
+\end{figure}
+
+
+Tunnel diagrams are afected by the reduced thickness along the 
+propagation distance. If the total distance is $L$, then the reduced is $L/n$. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterOne/figures/rtunneldiagram_a.png}
+    \includegraphics[width=.35\columnwidth]{PartOne/ChapterOne/figures/rtunneldiagram_b.png}
+    \caption{The diagram is only shortened along the direction of the propagation.}
+\end{figure}
+
+In a plate parallel plate (PPP), the beam is shifted horizontally a distance proportional to $\tau$ when is placed perpendicular ot the optical axis:
+\begin{align}
+    d=\frac{n-1}{n}t.
+\end{align}
+If it is disposed with an angle $\theta$, then the ray will be shifted vertically
+\begin{align}
+    D\approx -t\theta\frac{n-1}{n}.
+\end{align}
+
+

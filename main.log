@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  22 SEP 2025 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  1 OCT 2025 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2240,7 +2240,19 @@ File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 
 {C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]) (struct/Preface.tex) [2
 
-] (main.toc)
+] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+ (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
@@ -2264,7 +2276,14 @@ File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 
  [6
 
-] [7] (Form.tex
+] [7
+
+] (PartOne/ChapterOne/main.tex
+Chapter 1.
+\c@ttl@toc@chapters=\count591
+(main.ptc) [8
+
+] (PartOne/ChapterOne/Introduction.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -2272,75 +2291,136 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 16.41594pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 5.
+(Font)              scaled to size 11.39996pt on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
- (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Overfull \hbox (7.90028pt too wide) in paragraph at lines 25--26
- [][] 
- []
-
-
-Overfull \hbox (7.90028pt too wide) in paragraph at lines 47--48
- [][] 
- []
-
-<figures/snell.png, id=75, 154.32657pt x 98.61844pt>
-File: figures/snell.png Graphic file (type png)
-<use figures/snell.png>
-Package pdftex.def Info: figures/snell.png  used on input line 75.
-(pdftex.def)             Requested size: 99.73099pt x 63.73253pt.
-<figures/ppp1.png, id=77, 188.95593pt x 144.54pt>
-File: figures/ppp1.png Graphic file (type png)
-<use figures/ppp1.png>
-Package pdftex.def Info: figures/ppp1.png  used on input line 76.
-(pdftex.def)             Requested size: 99.73099pt x 76.28822pt.
-<figures/ppp2.png, id=78, 217.5628pt x 126.4725pt>
-File: figures/ppp2.png Graphic file (type png)
-<use figures/ppp2.png>
-Package pdftex.def Info: figures/ppp2.png  used on input line 77.
-(pdftex.def)             Requested size: 99.73099pt x 57.97542pt.
-<figures/imagerotations.png, id=79, 499.11469pt x 487.8225pt>
-File: figures/imagerotations.png Graphic file (type png)
-<use figures/imagerotations.png>
-Package pdftex.def Info: figures/imagerotations.png  used on input line 78.
-(pdftex.def)             Requested size: 74.79634pt x 73.10323pt.
-<figures/paraxialgeometry.png, id=80, 472.76625pt x 141.52875pt>
-File: figures/paraxialgeometry.png Graphic file (type png)
-<use figures/paraxialgeometry.png>
-Package pdftex.def Info: figures/paraxialgeometry.png  used on input line 79.
-(pdftex.def)             Requested size: 199.46198pt x 59.71161pt.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 86.
-(C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1bch.fd
+(Font)              scaled to size 11.39996pt on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 9.
+ (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
+<PartOne/ChapterOne/figures/wavefront.png, id=123, 296.60812pt x 95.6072pt>
+File: PartOne/ChapterOne/figures/wavefront.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/wavefront.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/wavefront.png  used on input line 27.
+(pdftex.def)             Requested size: 349.06227pt x 112.51935pt.
+<PartOne/ChapterOne/figures/signconvention.png, id=125, 329.73187pt x 75.28125pt>
+File: PartOne/ChapterOne/figures/signconvention.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/signconvention.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/signconvention.png  used on input line 45.
+(pdftex.def)             Requested size: 498.66258pt x 113.85316pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./figures/snell.png> <./figures/ppp1.png> <./figures/ppp2.png> <./figures/imagerotations.png> <./figures/paraxialgeometry.png>])
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+<PartOne/ChapterOne/figures/electromagneticspectrum.jpg, id=126, 1927.2pt x 1084.05pt>
+File: PartOne/ChapterOne/figures/electromagneticspectrum.jpg Graphic file (type jpg)
+<use PartOne/ChapterOne/figures/electromagneticspectrum.jpg>
+Package pdftex.def Info: PartOne/ChapterOne/figures/electromagneticspectrum.jpg  used on input line 55.
+(pdftex.def)             Requested size: 349.06227pt x 196.34464pt.
+[9 <./PartOne/ChapterOne/figures/wavefront.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 67.
 
-[9] [10] (main.ind)
+Underfull \vbox (badness 4779) has occurred while \output is active []
+
+ [10 <./PartOne/ChapterOne/figures/signconvention.png> <./PartOne/ChapterOne/figures/electromagneticspectrum.jpg>]
+<PartOne/ChapterOne/figures/snellrefraction.png, id=151, 228.10219pt x 153.57375pt>
+File: PartOne/ChapterOne/figures/snellrefraction.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/snellrefraction.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/snellrefraction.png  used on input line 95.
+(pdftex.def)             Requested size: 134.63934pt x 90.6499pt.
+<PartOne/ChapterOne/figures/snellreflection.png, id=152, 184.43906pt x 169.38281pt>
+File: PartOne/ChapterOne/figures/snellreflection.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/snellreflection.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/snellreflection.png  used on input line 101.
+(pdftex.def)             Requested size: 134.63934pt x 123.6484pt.
+Package mdframed Info: mdframed works in twoside mode on input line 107.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 107.
+) (PartOne/ChapterOne/MirrorsAndPrisms.tex [11 <./PartOne/ChapterOne/figures/snellrefraction.png> <./PartOne/ChapterOne/figures/snellreflection.png>]
+<PartOne/ChapterOne/figures/planemirrorparitychange.png, id=168, 208.52907pt x 116.68594pt>
+File: PartOne/ChapterOne/figures/planemirrorparitychange.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/planemirrorparitychange.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/planemirrorparitychange.png  used on input line 17.
+(pdftex.def)             Requested size: 224.39664pt x 125.57202pt.
+<PartOne/ChapterOne/figures/paritychange.png, id=169, 240.9pt x 228.855pt>
+File: PartOne/ChapterOne/figures/paritychange.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/paritychange.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/paritychange.png  used on input line 23.
+(pdftex.def)             Requested size: 134.63934pt x 127.90997pt.
+Package mdframed Info: mdframed works in twoside mode on input line 29.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 29.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 31.
+Package mdframed Info: mdframed works in twoside mode on input line 35.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 35.
+<PartOne/ChapterOne/figures/nonparallelmirrors.png, id=170, 238.64156pt x 140.02313pt>
+File: PartOne/ChapterOne/figures/nonparallelmirrors.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/nonparallelmirrors.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/nonparallelmirrors.png  used on input line 50.
+(pdftex.def)             Requested size: 199.46198pt x 117.03319pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./PartOne/ChapterOne/figures/planemirrorparitychange.png> <./PartOne/ChapterOne/figures/paritychange.png>]
+<PartOne/ChapterOne/figures/RightAnglePrism.png, id=183, 126.4725pt x 82.6287pt>
+File: PartOne/ChapterOne/figures/RightAnglePrism.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/RightAnglePrism.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/RightAnglePrism.png  used on input line 66.
+(pdftex.def)             Requested size: 99.73099pt x 65.15868pt.
+<PartOne/ChapterOne/figures/PentaPrism.png, id=184, 192.2382pt x 97.5645pt>
+File: PartOne/ChapterOne/figures/PentaPrism.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/PentaPrism.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/PentaPrism.png  used on input line 67.
+(pdftex.def)             Requested size: 149.6003pt x 75.9258pt.
+<PartOne/ChapterOne/figures/DovePrism.png, id=185, 134.904pt x 103.1052pt>
+File: PartOne/ChapterOne/figures/DovePrism.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/DovePrism.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/DovePrism.png  used on input line 68.
+(pdftex.def)             Requested size: 124.66563pt x 95.2827pt.
+<PartOne/ChapterOne/figures/reducedthickness_a.png, id=186, 277.78781pt x 130.23656pt>
+File: PartOne/ChapterOne/figures/reducedthickness_a.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/reducedthickness_a.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/reducedthickness_a.png  used on input line 83.
+(pdftex.def)             Requested size: 174.53494pt x 81.82887pt.
+<PartOne/ChapterOne/figures/reducedthickness_b.png, id=187, 271.0125pt x 130.23656pt>
+File: PartOne/ChapterOne/figures/reducedthickness_b.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/reducedthickness_b.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/reducedthickness_b.png  used on input line 84.
+(pdftex.def)             Requested size: 174.53494pt x 83.87573pt.
+<PartOne/ChapterOne/figures/rtunneldiagram_a.png, id=188, 283.0575pt x 146.04562pt>
+File: PartOne/ChapterOne/figures/rtunneldiagram_a.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/rtunneldiagram_a.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/rtunneldiagram_a.png  used on input line 94.
+(pdftex.def)             Requested size: 199.46198pt x 102.91536pt.
+<PartOne/ChapterOne/figures/rtunneldiagram_b.png, id=189, 243.15843pt x 146.04562pt>
+File: PartOne/ChapterOne/figures/rtunneldiagram_b.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/rtunneldiagram_b.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/rtunneldiagram_b.png  used on input line 95.
+(pdftex.def)             Requested size: 174.53494pt x 104.82962pt.
+ [13 <./PartOne/ChapterOne/figures/nonparallelmirrors.png> <./PartOne/ChapterOne/figures/RightAnglePrism.png> <./PartOne/ChapterOne/figures/PentaPrism.png> <./PartOne/ChapterOne/figures/DovePrism.png> <./PartOne/ChapterOne/figures/reducedthickness_a.png> <./PartOne/ChapterOne/figures/reducedthickness_b.png>]) (PartOne/ChapterOne/ThinLensImaging.tex) [14 <./PartOne/ChapterOne/figures/rtunneldiagram_a.png> <./PartOne/ChapterOne/figures/rtunneldiagram_b.png>] (PartOne/ChapterOne/bibliography.tex
+\blx@maxsegment@1=\count592
+\blx@sectionciteorder@1=\count593
+Package biblatex Info: Reference section=1 on input line 3.
+Package biblatex Info: Setting label 'refsection:1' on input line 3.
+Package biblatex Info: Reference section=0 on input line 11.
+)) [15] [16] [17] (main.ind)
+
+Package caption Warning: Unused \captionsetup[table] on input line 71.
+See the caption package documentation for explanation.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2352,41 +2432,36 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
-
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
+\tf@ptc=\write14
+\openout14 = `main.ptc'.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[11] (main.aux)
+[18] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 36C6A865D1E024E31D6C1DADB710BEB1;79.
+(rerunfilecheck)             Checksum: 957A9A5A52B0E159C68B891E66C8C1D7;944.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 89619 strings out of 474486
- 2237331 string characters out of 5743755
- 3439538 words of memory out of 5000000
- 110740 multiletter control sequences out of 15000+600000
- 623812 words of font info for 124 fonts, out of 8000000 for 9000
+ 87601 strings out of 474486
+ 2198661 string characters out of 5743755
+ 3418827 words of memory out of 5000000
+ 108669 multiletter control sequences out of 15000+600000
+ 634729 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,14n,104p,1683b,1936s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (11 pages, 383601 bytes).
+ 103i,17n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (18 pages, 868528 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

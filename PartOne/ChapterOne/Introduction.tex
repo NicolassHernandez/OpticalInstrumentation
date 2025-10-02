@@ -1,0 +1,116 @@
+\section{Introduction}
+%
+\subsection{Light propagation}
+Geometrical optics is the study of light in the limit of short wavelenegths. We treat light as propagating rays.
+Geometrical optics usually ignores interferences, diffraction, polarization and quantum effects.
+
+It often includes:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Reflection, refraction
+    \item Optical design
+    \item Imaging properties 
+    \item Aberrations
+    \item Radiometry
+\end{itemize}
+
+Light is a self-propagating EM wave where electric and magnetic fields are perpendicular or transverse to direction of propagation.
+In a vacuum, light propagates at the speed of light $c$, which is 
+\begin{align}
+    c=\frac{1}{\sqrt{\mu_0\epsilon_0}}=2.99792458\times10^8\quad(m/s).
+\end{align}
+The \bfemph{wavelength} $\lambda$ is the distance between two peaks or two valleys on the wave.
+
+A \bfemph{wavefront} is a surface of constant propagtion time from the source. It begins from a point source in spherical form, 
+and as it propagates away, a given solid arc tend to behaves a a planar wavefront. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\columnwidth]{PartOne/ChapterOne/figures/wavefront.png}
+    \caption{We can treat the wavefront as planar when assuming a distant object.}
+\end{figure}
+
+The time for one wavelength to pass is knwon as the \bfemph{period} $T$:
+\begin{align}
+    T=\frac{\lambda}{V}\quad(s),
+\end{align}
+where $V$ is the velocity of propagation. The number of wavelengths to pass in one second is the \bfemph{frequency} $\nu$:
+\begin{align}
+    \nu=\frac{1}{T}\quad(s^{-1})(Hz).
+\end{align}
+
+\subsection{Sign convention}
+We define the sign convention for which the light propagates. It allows us to keep track of physical quantities and multiple reflections when analyzing 
+complex optical systems.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/signconvention.png}
+    \caption{}
+\end{figure}
+
+%
+\subsection{Electromagnetic spectrum}
+The light can be of various wavelengths (frequencies) which translates to the color of the light. The range of 
+the wavelengths is called the \bfemph{electromagnetic spectrum}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\columnwidth]{PartOne/ChapterOne/figures/electromagneticspectrum.jpg}
+    \caption{}
+\end{figure}
+The \bfemph{index of refraction} tells how much the light is slown down in a medium with respecto to vacuum.
+\begin{align}
+    \text{Index of refraction}\qquad\highlight{n=\frac{\text{Speed of light in vacuum}}{\text{Speed of light in medium}}=\frac{c}{V}\geq1}.
+\end{align}
+From one medium to another, the frequency remains unchanged but only the wavelength is modified. The index of refraction is 
+a function of the wavelength and of the temperature.
+
+\begin{emphasizer}[Vaccum equal to air]
+    In geometrical optics, vacuum and air are used interchangable as the index of refraction of air is $n\approx1$.
+\end{emphasizer}
+%
+\subsection{Optical path length}
+The \bfemph{optical path length} (OPL) is the equivalent distance in vacuum that light would cover in the same time as it takes to cross the actual medium.
+\begin{align}
+    \text{Optical path length}\qquad\highlight{\text{OPL}=\int_a^b\bm{n}(s)\cdot d\bm{s}}.
+\end{align}
+When the medium is homogeneous, the index $n$ reduces to a constant value. Consequently, the ray travels in \textbf{straight lines}. 
+
+\bfemph{Fermat's principle} states that the path taken by the light from one point to another is the path for which the OPL is stationary:
+\begin{align}
+    \text{Fermat's principle}\qquad\highlight{\frac{d\text{OPL}}{d\text{path}}=0}.
+\end{align}
+
+\subsection{Snell's laws of reflection and refraction}
+Snell's law can be obtained from Fermat's postulate. They governs the dynamics of the ray when passing thourgh an interface of different index of 
+refractions:
+\begin{align}
+    \text{Snell's laws}\qquad\highlight{\begin{array}{rl}
+        n_1\sin\theta_1&=n_2\sin\theta_2\\
+        \theta_1&=-\theta_2
+    \end{array}}
+\end{align}
+The angles are measured relative to the surface normal.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/snellrefraction.png}
+        \caption{Refraction}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/snellreflection.png}
+        \caption{Reflection}
+    \end{subfigure}
+    \caption{In refraction and reflection, the angles are taken respective to the surface normal.}
+\end{figure}
+\begin{emphasizer}
+    The reflection is equal to refraction with a negative index: $n=-n$.
+\end{emphasizer}
+
+%
+\subsection{Total internal reflection (TIR)}
+\bfemph{Total internal reflection} occurs when the light propagating from a medium $n_1$ to another $n_2$, with $n1>n_2$, exceed a critical incident angle 
+\begin{align}
+    \text{Total internal reflection}\qquad\highlight{\theta_i>\theta_c=\sin^{-1}\frac{n_2}{n_1}}.
+\end{align} 
+Under this condition, 100\% of the light is reflected into $n_1$, and no refracted light is present.
