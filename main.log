@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 OCT 2025 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 OCT 2025 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2410,23 +2410,23 @@ File: PartOne/ChapterOne/figures/rtunneldiagram_b.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/rtunneldiagram_b.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/rtunneldiagram_b.png  used on input line 95.
 (pdftex.def)             Requested size: 174.53494pt x 104.82962pt.
- [13 <./PartOne/ChapterOne/figures/nonparallelmirrors.png> <./PartOne/ChapterOne/figures/RightAnglePrism.png> <./PartOne/ChapterOne/figures/PentaPrism.png> <./PartOne/ChapterOne/figures/DovePrism.png> <./PartOne/ChapterOne/figures/reducedthickness_a.png> <./PartOne/ChapterOne/figures/reducedthickness_b.png>]) (PartOne/ChapterOne/ThinLensImaging.tex
-<PartOne/ChapterOne/figures/frthinlens.png, id=275, 277.035pt x 114.4275pt>
+ [13 <./PartOne/ChapterOne/figures/nonparallelmirrors.png> <./PartOne/ChapterOne/figures/RightAnglePrism.png> <./PartOne/ChapterOne/figures/PentaPrism.png> <./PartOne/ChapterOne/figures/DovePrism.png> <./PartOne/ChapterOne/figures/reducedthickness_a.png> <./PartOne/ChapterOne/figures/reducedthickness_b.png>] [14 <./PartOne/ChapterOne/figures/rtunneldiagram_a.png> <./PartOne/ChapterOne/figures/rtunneldiagram_b.png>]) (PartOne/ChapterOne/ThinLensImaging.tex
+<PartOne/ChapterOne/figures/frthinlens.png, id=287, 277.035pt x 114.4275pt>
 File: PartOne/ChapterOne/figures/frthinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/frthinlens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/frthinlens.png  used on input line 17.
 (pdftex.def)             Requested size: 224.39664pt x 92.68576pt.
-<PartOne/ChapterOne/figures/frnegativethinlens.png, id=276, 164.86594pt x 90.3375pt>
+<PartOne/ChapterOne/figures/frnegativethinlens.png, id=288, 164.86594pt x 90.3375pt>
 File: PartOne/ChapterOne/figures/frnegativethinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/frnegativethinlens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/frnegativethinlens.png  used on input line 18.
 (pdftex.def)             Requested size: 201.9556pt x 110.6637pt.
-<PartOne/ChapterOne/figures/ffthinlens.png, id=277, 314.67563pt x 107.65219pt>
+<PartOne/ChapterOne/figures/ffthinlens.png, id=289, 314.67563pt x 107.65219pt>
 File: PartOne/ChapterOne/figures/ffthinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/ffthinlens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/ffthinlens.png  used on input line 24.
 (pdftex.def)             Requested size: 224.39664pt x 76.76703pt.
-<PartOne/ChapterOne/figures/ffnegativethinlens.png, id=278, 166.37157pt x 94.85437pt>
+<PartOne/ChapterOne/figures/ffnegativethinlens.png, id=290, 166.37157pt x 94.85437pt>
 File: PartOne/ChapterOne/figures/ffnegativethinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/ffnegativethinlens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/ffnegativethinlens.png  used on input line 25.
@@ -2443,59 +2443,63 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 35.
 Package mdframed Info: Not enough space on this page on input line 36.
- [14 <./PartOne/ChapterOne/figures/rtunneldiagram_a.png> <./PartOne/ChapterOne/figures/rtunneldiagram_b.png>]
+ [15 <./PartOne/ChapterOne/figures/frthinlens.png> <./PartOne/ChapterOne/figures/frnegativethinlens.png> <./PartOne/ChapterOne/figures/ffthinlens.png> <./PartOne/ChapterOne/figures/ffnegativethinlens.png>]
 Package mdframed Info: Not enough space on this page on input line 36.
-<PartOne/ChapterOne/figures/imagingscheme.png, id=289, 268.75406pt x 94.85437pt>
+<PartOne/ChapterOne/figures/imagingscheme.png, id=304, 268.75406pt x 94.85437pt>
 File: PartOne/ChapterOne/figures/imagingscheme.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/imagingscheme.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/imagingscheme.png  used on input line 46.
 (pdftex.def)             Requested size: 349.06227pt x 123.1992pt.
- [15 <./PartOne/ChapterOne/figures/frthinlens.png> <./PartOne/ChapterOne/figures/frnegativethinlens.png> <./PartOne/ChapterOne/figures/ffthinlens.png> <./PartOne/ChapterOne/figures/ffnegativethinlens.png> <./PartOne/ChapterOne/figures/imagingscheme.png>]
+
 
 LaTeX Warning: Reference `fig:1a' on page 16 undefined on input line 68.
 
-<PartOne/ChapterOne/figures/imagingnegativethinlens.pdf, id=306, 172.645pt x 54.2025pt>
+<PartOne/ChapterOne/figures/imagingnegativethinlens.pdf, id=305, 172.645pt x 54.2025pt>
 File: PartOne/ChapterOne/figures/imagingnegativethinlens.pdf Graphic file (type pdf)
 <use PartOne/ChapterOne/figures/imagingnegativethinlens.pdf>
 Package pdftex.def Info: PartOne/ChapterOne/figures/imagingnegativethinlens.pdf  used on input line 78.
 (pdftex.def)             Requested size: 299.20059pt x 93.94519pt.
-<PartOne/ChapterOne/figures/opticalspace.png, id=307, 315.42844pt x 111.41624pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./PartOne/ChapterOne/figures/imagingscheme.png>]
+<PartOne/ChapterOne/figures/opticalspace.png, id=316, 315.42844pt x 111.41624pt>
 File: PartOne/ChapterOne/figures/opticalspace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/opticalspace.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/opticalspace.png  used on input line 101.
 (pdftex.def)             Requested size: 299.20059pt x 105.69012pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./PartOne/ChapterOne/figures/imagingnegativethinlens.pdf>]
 <PartOne/ChapterOne/figures/virtualobject.png, id=317, 326.72063pt x 92.59593pt>
 File: PartOne/ChapterOne/figures/virtualobject.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/virtualobject.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/virtualobject.png  used on input line 163.
 (pdftex.def)             Requested size: 299.20059pt x 84.79648pt.
- [17 <./PartOne/ChapterOne/figures/opticalspace.png> <./PartOne/ChapterOne/figures/virtualobject.png>]
-<PartOne/ChapterOne/figures/fov.png, id=327, 181.42781pt x 91.09032pt>
+[17 <./PartOne/ChapterOne/figures/imagingnegativethinlens.pdf> <./PartOne/ChapterOne/figures/opticalspace.png>] [18 <./PartOne/ChapterOne/figures/virtualobject.png>]
+<PartOne/ChapterOne/figures/fov.png, id=337, 181.42781pt x 91.09032pt>
 File: PartOne/ChapterOne/figures/fov.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/fov.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/fov.png  used on input line 192.
 (pdftex.def)             Requested size: 299.20059pt x 150.2383pt.
-<PartOne/ChapterOne/figures/keplerian.png, id=328, 325.96782pt x 131.74219pt>
+<PartOne/ChapterOne/figures/keplerian.png, id=338, 325.96782pt x 131.74219pt>
 File: PartOne/ChapterOne/figures/keplerian.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/keplerian.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/keplerian.png  used on input line 209.
 (pdftex.def)             Requested size: 224.39664pt x 90.69514pt.
-<PartOne/ChapterOne/figures/galilean.png, id=329, 315.42844pt x 110.66344pt>
+<PartOne/ChapterOne/figures/galilean.png, id=339, 315.42844pt x 110.66344pt>
 File: PartOne/ChapterOne/figures/galilean.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/galilean.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/galilean.png  used on input line 214.
 (pdftex.def)             Requested size: 224.39664pt x 78.72691pt.
-) (PartOne/ChapterOne/ImagingAndParaxialOptics.tex [18 <./PartOne/ChapterOne/figures/fov.png>]
-<PartOne/ChapterOne/figures/realprincipalplane.png, id=341, 347.79938pt x 121.20282pt>
+) (PartOne/ChapterOne/ImagingAndParaxialOptics.tex [19 <./PartOne/ChapterOne/figures/fov.png> <./PartOne/ChapterOne/figures/keplerian.png> <./PartOne/ChapterOne/figures/galilean.png>]
+<PartOne/ChapterOne/figures/realprincipalplane.png, id=352, 347.79938pt x 121.20282pt>
 File: PartOne/ChapterOne/figures/realprincipalplane.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/realprincipalplane.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/realprincipalplane.png  used on input line 25.
 (pdftex.def)             Requested size: 224.39664pt x 78.19832pt.
-<PartOne/ChapterOne/figures/frontprincipalplane.png, id=342, 239.39438pt x 79.04532pt>
+<PartOne/ChapterOne/figures/frontprincipalplane.png, id=353, 239.39438pt x 79.04532pt>
 File: PartOne/ChapterOne/figures/frontprincipalplane.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/frontprincipalplane.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/frontprincipalplane.png  used on input line 31.
@@ -2507,22 +2511,22 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 48.
- [19 <./PartOne/ChapterOne/figures/keplerian.png> <./PartOne/ChapterOne/figures/galilean.png> <./PartOne/ChapterOne/figures/realprincipalplane.png> <./PartOne/ChapterOne/figures/frontprincipalplane.png>]
-<PartOne/ChapterOne/figures/sag.png, id=358, 149.05687pt x 110.66344pt>
+<PartOne/ChapterOne/figures/sag.png, id=354, 149.05687pt x 110.66344pt>
 File: PartOne/ChapterOne/figures/sag.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/sag.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/sag.png  used on input line 53.
 (pdftex.def)             Requested size: 149.6003pt x 111.07347pt.
-<PartOne/ChapterOne/figures/sloperay.png, id=359, 149.8097pt x 70.01157pt>
+<PartOne/ChapterOne/figures/sloperay.png, id=355, 149.8097pt x 70.01157pt>
 File: PartOne/ChapterOne/figures/sloperay.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/sloperay.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/sloperay.png  used on input line 59.
 (pdftex.def)             Requested size: 149.6003pt x 69.91844pt.
-<PartOne/ChapterOne/figures/singlerefractingsurface.png, id=360, 307.90031pt x 108.405pt>
+<PartOne/ChapterOne/figures/singlerefractingsurface.png, id=356, 307.90031pt x 108.405pt>
 File: PartOne/ChapterOne/figures/singlerefractingsurface.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/singlerefractingsurface.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/singlerefractingsurface.png  used on input line 65.
 (pdftex.def)             Requested size: 119.68068pt x 42.13551pt.
+ [20 <./PartOne/ChapterOne/figures/realprincipalplane.png> <./PartOne/ChapterOne/figures/frontprincipalplane.png> <./PartOne/ChapterOne/figures/sag.png> <./PartOne/ChapterOne/figures/sloperay.png> <./PartOne/ChapterOne/figures/singlerefractingsurface.png>]
 File: PartOne/ChapterOne/figures/singlerefractingsurface.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/singlerefractingsurface.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/singlerefractingsurface.png  used on input line 78.
@@ -2531,92 +2535,91 @@ Package mdframed Info: mdframed works in twoside mode on input line 96.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 96.
- [20 <./PartOne/ChapterOne/figures/sag.png> <./PartOne/ChapterOne/figures/sloperay.png> <./PartOne/ChapterOne/figures/singlerefractingsurface.png>]
-Package mdframed Info: Not enough space on this page on input line 97.
-<PartOne/ChapterOne/figures/generalparaxialsystem.png, id=375, 317.68687pt x 124.96687pt>
+<PartOne/ChapterOne/figures/generalparaxialsystem.png, id=374, 317.68687pt x 124.96687pt>
 File: PartOne/ChapterOne/figures/generalparaxialsystem.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/generalparaxialsystem.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/generalparaxialsystem.png  used on input line 102.
 (pdftex.def)             Requested size: 398.93158pt x 156.94043pt.
-Package mdframed Info: mdframed works in twoside mode on input line 107.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 107.
-) (PartOne/ChapterOne/GaussianImagery.tex
-<PartOne/ChapterOne/figures/rearcardinalpoint.png, id=376, 319.94531pt x 171.64125pt>
-File: PartOne/ChapterOne/figures/rearcardinalpoint.png Graphic file (type png)
-<use PartOne/ChapterOne/figures/rearcardinalpoint.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/rearcardinalpoint.png  used on input line 19.
-(pdftex.def)             Requested size: 224.39664pt x 120.38374pt.
-<PartOne/ChapterOne/figures/frontcardinalpoint.png, id=377, 319.1925pt x 183.68625pt>
-File: PartOne/ChapterOne/figures/frontcardinalpoint.png Graphic file (type png)
-<use PartOne/ChapterOne/figures/frontcardinalpoint.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/frontcardinalpoint.png  used on input line 25.
-(pdftex.def)             Requested size: 224.39664pt x 129.13443pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterOne/figures/nodalpoints.png, id=378, 362.10281pt x 121.95563pt>
+Package mdframed Info: mdframed works in twoside mode on input line 107.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 107.
+) (PartOne/ChapterOne/GaussianImagery.tex [21]
+<PartOne/ChapterOne/figures/rearcardinalpoint.png, id=383, 319.94531pt x 171.64125pt>
+File: PartOne/ChapterOne/figures/rearcardinalpoint.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/rearcardinalpoint.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/rearcardinalpoint.png  used on input line 19.
+(pdftex.def)             Requested size: 224.39664pt x 120.38374pt.
+<PartOne/ChapterOne/figures/frontcardinalpoint.png, id=384, 319.1925pt x 183.68625pt>
+File: PartOne/ChapterOne/figures/frontcardinalpoint.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/frontcardinalpoint.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/frontcardinalpoint.png  used on input line 25.
+(pdftex.def)             Requested size: 224.39664pt x 129.13443pt.
+<PartOne/ChapterOne/figures/nodalpoints.png, id=385, 362.10281pt x 121.95563pt>
 File: PartOne/ChapterOne/figures/nodalpoints.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/nodalpoints.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/nodalpoints.png  used on input line 34.
 (pdftex.def)             Requested size: 249.33128pt x 83.97453pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterOne/figures/problem1_a.png, id=379, 1273.8792pt x 477.7047pt>
+<PartOne/ChapterOne/figures/problem1_a.png, id=386, 1273.8792pt x 477.7047pt>
 File: PartOne/ChapterOne/figures/problem1_a.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/problem1_a.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/problem1_a.png  used on input line 52.
 (pdftex.def)             Requested size: 224.39664pt x 84.14626pt.
-<PartOne/ChapterOne/figures/problem1_b.png, id=380, 1287.8514pt x 586.5915pt>
+<PartOne/ChapterOne/figures/problem1_b.png, id=387, 1287.8514pt x 586.5915pt>
 File: PartOne/ChapterOne/figures/problem1_b.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/problem1_b.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/problem1_b.png  used on input line 58.
 (pdftex.def)             Requested size: 224.39664pt x 102.20752pt.
-[21 <./PartOne/ChapterOne/figures/generalparaxialsystem.png>]
+[22 <./PartOne/ChapterOne/figures/generalparaxialsystem.png> <./PartOne/ChapterOne/figures/rearcardinalpoint.png> <./PartOne/ChapterOne/figures/frontcardinalpoint.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 64.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 64.
-<PartOne/ChapterOne/figures/newtonianequations.png, id=388, 251.43938pt x 74.52844pt>
+<PartOne/ChapterOne/figures/newtonianequations.png, id=398, 251.43938pt x 74.52844pt>
 File: PartOne/ChapterOne/figures/newtonianequations.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/newtonianequations.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/newtonianequations.png  used on input line 72.
 (pdftex.def)             Requested size: 299.20059pt x 88.68538pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PartOne/ChapterOne/figures/gaussianequations.png, id=389, 252.19218pt x 70.76437pt>
+<PartOne/ChapterOne/figures/gaussianequations.png, id=399, 252.19218pt x 70.76437pt>
 File: PartOne/ChapterOne/figures/gaussianequations.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/gaussianequations.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianequations.png  used on input line 87.
 (pdftex.def)             Requested size: 299.20059pt x 83.95581pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterOne/figures/longitudinalmagnification.png, id=390, 292.09125pt x 103.13531pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterOne/figures/longitudinalmagnification.png, id=400, 292.09125pt x 103.13531pt>
 File: PartOne/ChapterOne/figures/longitudinalmagnification.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/longitudinalmagnification.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/longitudinalmagnification.png  used on input line 107.
 (pdftex.def)             Requested size: 299.20059pt x 105.65456pt.
-[22 <./PartOne/ChapterOne/figures/rearcardinalpoint.png> <./PartOne/ChapterOne/figures/frontcardinalpoint.png> <./PartOne/ChapterOne/figures/nodalpoints.png> <./PartOne/ChapterOne/figures/problem1_a.png> <./PartOne/ChapterOne/figures/problem1_b.png>]
-<PartOne/ChapterOne/figures/singlesurface.png, id=407, 277.78781pt x 110.66344pt>
+[23 <./PartOne/ChapterOne/figures/nodalpoints.png> <./PartOne/ChapterOne/figures/problem1_a.png> <./PartOne/ChapterOne/figures/problem1_b.png> <./PartOne/ChapterOne/figures/newtonianequations.png>]
+<PartOne/ChapterOne/figures/singlesurface.png, id=415, 277.78781pt x 110.66344pt>
 File: PartOne/ChapterOne/figures/singlesurface.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/singlesurface.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/singlesurface.png  used on input line 129.
 (pdftex.def)             Requested size: 249.33128pt x 99.32767pt.
-<PartOne/ChapterOne/figures/thinlensreduction.png, id=408, 251.43938pt x 103.88812pt>
+<PartOne/ChapterOne/figures/thinlensreduction.png, id=416, 251.43938pt x 103.88812pt>
 File: PartOne/ChapterOne/figures/thinlensreduction.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thinlensreduction.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/thinlensreduction.png  used on input line 135.
 (pdftex.def)             Requested size: 224.39664pt x 92.71376pt.
- [23 <./PartOne/ChapterOne/figures/newtonianequations.png> <./PartOne/ChapterOne/figures/gaussianequations.png> <./PartOne/ChapterOne/figures/longitudinalmagnification.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package mdframed Info: mdframed works in twoside mode on input line 141.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2626,39 +2629,38 @@ Overfull \hbox (0.82578pt too wide) in paragraph at lines 141--142
 []\T1/bch/m/n/10.95 The use of re-duced dis-tances and op-ti-cal an-gles al-lows a sys-tem to be rep-re-sented as an air-equivalent
  []
 
-<PartOne/ChapterOne/figures/problem2_a.png, id=420, 1252.9209pt x 595.2639pt>
+[24 <./PartOne/ChapterOne/figures/gaussianequations.png> <./PartOne/ChapterOne/figures/longitudinalmagnification.png>]
+<PartOne/ChapterOne/figures/problem2_a.png, id=428, 1252.9209pt x 595.2639pt>
 File: PartOne/ChapterOne/figures/problem2_a.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/problem2_a.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/problem2_a.png  used on input line 155.
 (pdftex.def)             Requested size: 249.33128pt x 118.45119pt.
-[24 <./PartOne/ChapterOne/figures/singlesurface.png> <./PartOne/ChapterOne/figures/thinlensreduction.png> <./PartOne/ChapterOne/figures/problem2_a.png>]
-<PartOne/ChapterOne/figures/afocalsystems.png, id=434, 255.95625pt x 95.6072pt>
+<PartOne/ChapterOne/figures/afocalsystems.png, id=429, 255.95625pt x 95.6072pt>
 File: PartOne/ChapterOne/figures/afocalsystems.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/afocalsystems.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/afocalsystems.png  used on input line 183.
 (pdftex.def)             Requested size: 299.20059pt x 111.76804pt.
-) (PartOne/ChapterOne/ObjectImageRelationship.tex) (PartOne/ChapterOne/GaussianReduction.tex
-<PartOne/ChapterOne/figures/gaussianreductionscheme.png, id=435, 265.74281pt x 121.95563pt>
-File: PartOne/ChapterOne/figures/gaussianreductionscheme.png Graphic file (type png)
-<use PartOne/ChapterOne/figures/gaussianreductionscheme.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionscheme.png  used on input line 5.
-(pdftex.def)             Requested size: 299.20059pt x 137.32066pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[25 <./PartOne/ChapterOne/figures/singlesurface.png> <./PartOne/ChapterOne/figures/thinlensreduction.png> <./PartOne/ChapterOne/figures/problem2_a.png>]) (PartOne/ChapterOne/ObjectImageRelationship.tex) (PartOne/ChapterOne/GaussianReduction.tex
+<PartOne/ChapterOne/figures/gaussianreductionscheme.png, id=444, 265.74281pt x 121.95563pt>
+File: PartOne/ChapterOne/figures/gaussianreductionscheme.png Graphic file (type png)
+<use PartOne/ChapterOne/figures/gaussianreductionscheme.png>
+Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionscheme.png  used on input line 5.
+(pdftex.def)             Requested size: 299.20059pt x 137.32066pt.
+ [26 <./PartOne/ChapterOne/figures/afocalsystems.png> <./PartOne/ChapterOne/figures/gaussianreductionscheme.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 24.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 24.
-[25 <./PartOne/ChapterOne/figures/afocalsystems.png>]
-Package mdframed Info: Not enough space on this page on input line 26.
-<PartOne/ChapterOne/figures/vertexdistances.png, id=446, 202.50656pt x 186.6975pt>
+<PartOne/ChapterOne/figures/vertexdistances.png, id=452, 202.50656pt x 186.6975pt>
 File: PartOne/ChapterOne/figures/vertexdistances.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/vertexdistances.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/vertexdistances.png  used on input line 37.
 (pdftex.def)             Requested size: 149.6003pt x 137.92323pt.
-<PartOne/ChapterOne/figures/gaussianreductionutility.png, id=447, 262.73157pt x 138.5175pt>
+<PartOne/ChapterOne/figures/gaussianreductionutility.png, id=453, 262.73157pt x 138.5175pt>
 File: PartOne/ChapterOne/figures/gaussianreductionutility.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/gaussianreductionutility.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionutility.png  used on input line 45.
@@ -2667,12 +2669,12 @@ Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionutility.png
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterOne/figures/thicklens.png, id=448, 266.49562pt x 240.14719pt>
+<PartOne/ChapterOne/figures/thicklens.png, id=454, 266.49562pt x 240.14719pt>
 File: PartOne/ChapterOne/figures/thicklens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thicklens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/thicklens.png  used on input line 55.
 (pdftex.def)             Requested size: 157.07695pt x 141.55002pt.
-<PartOne/ChapterOne/figures/thinlens.png, id=449, 249.93375pt x 157.33781pt>
+<PartOne/ChapterOne/figures/thinlens.png, id=455, 249.93375pt x 157.33781pt>
 File: PartOne/ChapterOne/figures/thinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thinlens.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens.png  used on input line 61.
@@ -2680,14 +2682,14 @@ Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens.png  used on input 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./PartOne/ChapterOne/figures/gaussianreductionscheme.png> <./PartOne/ChapterOne/figures/vertexdistances.png>] [27 <./PartOne/ChapterOne/figures/gaussianreductionutility.png> <./PartOne/ChapterOne/figures/thicklens.png> <./PartOne/ChapterOne/figures/thinlens.png>]
-<PartOne/ChapterOne/figures/problem3.pdf, id=471, 1700.3525pt x 2101.8525pt>
+[27 <./PartOne/ChapterOne/figures/vertexdistances.png>] [28 <./PartOne/ChapterOne/figures/gaussianreductionutility.png> <./PartOne/ChapterOne/figures/thicklens.png> <./PartOne/ChapterOne/figures/thinlens.png>]
+<PartOne/ChapterOne/figures/problem3.pdf, id=478, 1700.3525pt x 2101.8525pt>
 File: PartOne/ChapterOne/figures/problem3.pdf Graphic file (type pdf)
 <use PartOne/ChapterOne/figures/problem3.pdf>
 Package pdftex.def Info: PartOne/ChapterOne/figures/problem3.pdf  used on input line 101.
 (pdftex.def)             Requested size: 249.33128pt x 308.17644pt.
 ) (PartOne/ChapterOne/ParaxialRaytrace.tex
-<PartOne/ChapterOne/figures/paraxialopticsscheme.png, id=472, 253.69781pt x 86.57344pt>
+<PartOne/ChapterOne/figures/paraxialopticsscheme.png, id=479, 253.69781pt x 86.57344pt>
 File: PartOne/ChapterOne/figures/paraxialopticsscheme.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/paraxialopticsscheme.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/paraxialopticsscheme.png  used on input line 9.
@@ -2699,23 +2701,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./PartOne/ChapterOne/figures/problem3.pdf>]
-<PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png, id=486, 232.61906pt x 84.315pt>
+ [29 <./PartOne/ChapterOne/figures/problem3.pdf>]
+<PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png, id=493, 232.61906pt x 84.315pt>
 File: PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png  used on input line 45.
 (pdftex.def)             Requested size: 224.39664pt x 81.3377pt.
-<PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png, id=487, 231.86626pt x 85.06781pt>
+<PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png, id=494, 231.86626pt x 85.06781pt>
 File: PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png  used on input line 51.
 (pdftex.def)             Requested size: 224.39664pt x 82.32875pt.
-<PartOne/ChapterOne/figures/cassegraintelescope.png, id=488, 264.99pt x 281.55188pt>
+<PartOne/ChapterOne/figures/cassegraintelescope.png, id=495, 264.99pt x 281.55188pt>
 File: PartOne/ChapterOne/figures/cassegraintelescope.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/cassegraintelescope.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope.png  used on input line 66.
 (pdftex.def)             Requested size: 244.3474pt x 259.62372pt.
-<PartOne/ChapterOne/figures/cassegraintelescope_b.png, id=489, 264.23718pt x 274.02374pt>
+<PartOne/ChapterOne/figures/cassegraintelescope_b.png, id=496, 264.23718pt x 274.02374pt>
 File: PartOne/ChapterOne/figures/cassegraintelescope_b.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/cassegraintelescope_b.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope_b.png  used on input line 67.
@@ -2724,14 +2726,14 @@ Package pdftex.def Info: PartOne/ChapterOne/figures/cassegraintelescope_b.png  u
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29 <./PartOne/ChapterOne/figures/paraxialopticsscheme.png> <./PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png> <./PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>]
-<PartOne/ChapterOne/figures/thinlens_raytrace.png, id=503, 342.5297pt x 167.87718pt>
+[30 <./PartOne/ChapterOne/figures/paraxialopticsscheme.png> <./PartOne/ChapterOne/figures/rearcardinalpoints_raytrace.png> <./PartOne/ChapterOne/figures/frontcardinalpoints_raytrace.png>]
+<PartOne/ChapterOne/figures/thinlens_raytrace.png, id=510, 342.5297pt x 167.87718pt>
 File: PartOne/ChapterOne/figures/thinlens_raytrace.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thinlens_raytrace.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens_raytrace.png  used on input line 73.
 (pdftex.def)             Requested size: 398.93158pt x 195.53432pt.
- [30 <./PartOne/ChapterOne/figures/cassegraintelescope.png> <./PartOne/ChapterOne/figures/cassegraintelescope_b.png> <./PartOne/ChapterOne/figures/thinlens_raytrace.png>]
-<PartOne/ChapterOne/figures/problem4_a.pdf, id=517, 1058.95625pt x 1069.9975pt>
+ [31 <./PartOne/ChapterOne/figures/cassegraintelescope.png> <./PartOne/ChapterOne/figures/cassegraintelescope_b.png> <./PartOne/ChapterOne/figures/thinlens_raytrace.png>]
+<PartOne/ChapterOne/figures/problem4_a.pdf, id=525, 1058.95625pt x 1069.9975pt>
 File: PartOne/ChapterOne/figures/problem4_a.pdf Graphic file (type pdf)
 <use PartOne/ChapterOne/figures/problem4_a.pdf>
 Package pdftex.def Info: PartOne/ChapterOne/figures/problem4_a.pdf  used on input line 130.
@@ -2743,19 +2745,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32 <./PartOne/ChapterOne/figures/problem4_a.pdf>]
-<PartOne/ChapterOne/figures/raytraceworksheet.png, id=538, 167.12437pt x 316.93407pt>
+[32] [33 <./PartOne/ChapterOne/figures/problem4_a.pdf>]
+<PartOne/ChapterOne/figures/raytraceworksheet.png, id=545, 167.12437pt x 316.93407pt>
 File: PartOne/ChapterOne/figures/raytraceworksheet.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/raytraceworksheet.png>
 Package pdftex.def Info: PartOne/ChapterOne/figures/raytraceworksheet.png  used on input line 178.
 (pdftex.def)             Requested size: 299.20059pt x 567.50189pt.
-) [33 <./PartOne/ChapterOne/figures/raytraceworksheet.png>] (PartOne/ChapterOne/bibliography.tex
+) [34 <./PartOne/ChapterOne/figures/raytraceworksheet.png>] (PartOne/ChapterOne/bibliography.tex
 \blx@maxsegment@1=\count592
 \blx@sectionciteorder@1=\count593
 Package biblatex Info: Reference section=1 on input line 3.
 Package biblatex Info: Setting label 'refsection:1' on input line 3.
 Package biblatex Info: Reference section=0 on input line 11.
-)) [34] [35] [36] (main.ind)
+)) [35] [36] [37] (main.ind)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2775,7 +2777,7 @@ Package minitoc(hints) Warning: W0024
 \tf@ptc=\write14
 \openout14 = `main.ptc'.
 
-[37] (main.aux)
+[38] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2791,17 +2793,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 89874 strings out of 474486
- 2255421 string characters out of 5743755
- 3435294 words of memory out of 5000000
- 110795 multiletter control sequences out of 15000+600000
+ 89877 strings out of 474486
+ 2255426 string characters out of 5743755
+ 3435269 words of memory out of 5000000
+ 110794 multiletter control sequences out of 15000+600000
  658678 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (37 pages, 3915345 bytes).
+Output written on main.pdf (38 pages, 3918786 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
+ 717 PDF objects out of 1000 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
  487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

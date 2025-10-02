@@ -15,30 +15,30 @@
 \contentsline {subsection}{\numberline {1.2.3}Non-parallel plane mirror}{12}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Prisms and tunnel diagrams}{13}{subsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Reduced thickness}{13}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Thin lens Imaging}{14}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Introduction}{14}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Imaging relationships}{15}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Optical spaces}{16}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Object-image approximations}{17}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.3}Thin lens Imaging}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Introduction}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Imaging relationships}{16}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Optical spaces}{17}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Object-image approximations}{18}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}Field of view}{18}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Afocal systems}{18}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.6}Afocal systems}{19}{subsection.1.3.6}%
 \contentsline {section}{\numberline {1.4}Imaging and paraxial optics}{19}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}General system}{19}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Paraxial optics}{19}{subsection.1.4.2}%
-\contentsline {subsubsection}{Single refractive surface}{20}{figure.caption.24}%
+\contentsline {subsection}{\numberline {1.4.1}General system}{20}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Paraxial optics}{20}{subsection.1.4.2}%
+\contentsline {subsubsection}{Single refractive surface}{21}{figure.caption.24}%
 \contentsline {section}{\numberline {1.5}Gaussian imagery}{21}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Representation of an optical system}{22}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Newtonian equations}{22}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Gaussian equations}{22}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Longitudinal magnification}{23}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Gaussian properties of a single refracting surface}{23}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}Generalized afocal systems}{25}{subsection.1.5.6}%
-\contentsline {section}{\numberline {1.6}Object image relationship}{25}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Gaussian reduction}{25}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Vertex distances}{26}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{26}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Paraxial raytrace}{28}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Introduction}{28}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Procedure}{29}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{33}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.5.1}Representation of an optical system}{23}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Newtonian equations}{23}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Gaussian equations}{23}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Longitudinal magnification}{24}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Gaussian properties of a single refracting surface}{24}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Generalized afocal systems}{26}{subsection.1.5.6}%
+\contentsline {section}{\numberline {1.6}Object image relationship}{26}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Gaussian reduction}{26}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Vertex distances}{27}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{27}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Paraxial raytrace}{29}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Introduction}{29}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Procedure}{30}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{34}{subsection.1.8.3}%
 \contentsfinish 
