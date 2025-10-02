@@ -1,0 +1,108 @@
+\section{Imaging and paraxial optics}
+An optical system is a collection of optical elements. The first-order properties of the system is charectized
+by a \textbf{single} focal length, or magnification.
+First-order optics is the optics of perfect imaging systems: no aberrations, where the object is \textbf{mapped} to its image. 
+
+A small number of system properties can completely define and determine the mapping of first-order imaging properties. These are 
+known as the \bfemph{cardinal points} of the imaging system.
+
+
+Each time a rafecting or reflecting surface is encountered, a new optical space is entered. In general, if a system coantains $N$ surfaces, 
+there will be $N+1$ optical spaces. The first space is calles the \bfemph{object space} and the last \bfemph{image space}.
+%%
+\subsection{General system}
+A black box is a convenient way to treat the optical system and analyze the refractions. 
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item An infinite object from left is effectively refracted by the system at the \bfemph{rear principal plane} $P'$.
+    The distance from $P'$ to the \bfemph{rear focal point} $F'$ is the \bfemph{rear focal length} $f_R'$.
+    \item An object starting at $F$ is effectively refracted by the system at the \bfemph{front principal plane} $P$.
+    The distance from $P$ to the \bfemph{front focal point} $F$ is the \bfemph{front focal length} $f_F$.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/realprincipalplane.png}
+        \caption{Refraction at $P'$ ($f_R'>0$)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/frontprincipalplane.png}
+        \caption{Refraction at $P$ ($f_F<0$)}
+    \end{subfigure}
+\end{figure}
+The system can now be trated as a thin lens, with the difference that object and image distances 
+are from their respective principal planes.
+
+%
+\subsection{Paraxial optics}
+The first-order properties of the system can be found using \bfemph{paraxial rays}.
+\begin{definition}[Paraxial ray]
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item Rays are nearly parallel to the optical axis.
+        \item The amount a ray is bent at surfaces is assumed to be small: $\cos u\approx\cos u'$.
+        \item The sag of surfaces is ignored: $|\text{sag}|\ll|R|,|z|,|z'|$. Rays refracts at the vertex.
+        \item Rays are traced using the slopes of the rays instead of ray angles: $u=y/-z$.
+    \end{enumerate}
+\end{definition}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/sag.png}
+        \caption{Sag is ignored}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/sloperay.png}
+        \caption{Ray slopes instead of ray angles}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterOne/figures/singlerefractingsurface.png}
+        \caption{Ray slopes instead of ray angles}
+    \end{subfigure}
+\end{figure}
+%
+\subsubsection{Single refractive surface}
+Single refracting surface are the fundamental object from which all other are composed of. They are defined by two 
+refractive indices at the object and image space $n$ and $n'$, respectively, and the curvature of the surface:
+\begin{align}
+    \text{Radius of curvature}\qquad\highlight{R=\frac{1}{C}}.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterOne/figures/singlerefractingsurface.png}
+    \caption{SIngle refracting surface.}
+\end{figure}
+The \bfemph{optical power} $\phi$ is a measure of the benting power of the surface:
+\begin{align}
+    \text{Optical power}\qquad\highlight{\phi=(n'-n)C\quad(m^{-1})(\text{diopters})}.
+\end{align}
+
+Then, the \bfemph{paraxial raytrace equation} describes how the ray will travel after hitting the refracting surface:
+\begin{align}
+    \text{Paraxial raytrace equation}\qquad\highlight{n'u'=nu-y\phi}.
+\end{align}
+
+There are others useful equations, illustrated as follows 
+\begin{align}
+    \frac{n'}{z'}=\frac{n}{z}+\phi,\quad f_E=\frac{1}{\phi},\quad f_F=-nf_E,\quad f_R'=n'f_E.
+\end{align}
+\begin{emphasizer}
+    A reflective surface is a special case with $n'=-n$.
+\end{emphasizer}
+
+With all variables defined, the scheme is illustrated as follows:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterOne/figures/generalparaxialsystem.png}
+    \caption{General paraxial system, with parameters defined previously.}
+\end{figure}
+
+\begin{emphasizer}
+    The focal length $f_E$ is not a physical distance, but the front and real focal lengths are physical distances.
+\end{emphasizer}

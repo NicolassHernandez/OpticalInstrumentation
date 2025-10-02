@@ -1,2 +1,217 @@
 \section{Thin lens Imaging}
 
+\subsection{Introduction}
+A \bfemph{thin lens} is an idealization of an optical system with:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Zero thickness $\tau$.
+    \item Refracting power $\phi$.
+    \item Characterized by its focal length $f$.
+\end{itemize}
+
+An object at infiniity is imaged to the \bfemph{rear focal point} $F'$, whereas an object ar the \bfemph{front focal point} $F$ is 
+iamged to infinity. The respective distances from the center of the thin lens to $F$ is $f_F$ and to $F'$ is $f_R'$. 
+\begin{figure}
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/frthinlens.png}
+        \includegraphics[width=.9\columnwidth]{PartOne/ChapterOne/figures/frnegativethinlens.png}
+        \caption{Rear focal length $f_R'$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/ffthinlens.png}
+        \includegraphics[width=.9\columnwidth]{PartOne/ChapterOne/figures/ffnegativethinlens.png}
+        \caption{Front focal length $f_F$}
+    \end{subfigure}
+\end{figure}
+\begin{emphasizer}[Positive vs negative thin lenses]
+    A positive lens has a positive focal length $f>0$, a positive $f_R'>0$ but a negative $f_F<0$. In the negative lens,
+    \textbf{all} is opposite. 
+\end{emphasizer}
+
+\begin{emphasizer}
+    These points and lenghts are purely geometric properties of the lens.
+\end{emphasizer}
+
+\bfemph{Real rays} are rays that are physically present, they can be touched. On the other hand, \bfemph{virtual rays} are 
+rays that are projection of real rays, and cannot be touched. Both type of rays are useful for imaging.
+
+%
+\subsection{Imaging relationships}
+The imaging property of a thin lens relates the position of the object with that of the image.
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\columnwidth]{PartOne/ChapterOne/figures/imagingscheme.png}
+    \caption{Imaging scheme}
+\end{figure}
+
+The \bfemph{thin lens equation} is 
+\begin{align}
+    \text{Thin lens equation}\qquad\highlight{\frac{1}{z'}=\frac{1}{z}+\frac{1}{f}}.
+\end{align}
+The \bfemph{transverse magnification} is the ratio of the heights:
+\begin{align}
+    \text{Transverse magnitication}\qquad\highlight{m=\frac{h'}{h}=\frac{z'}{z}}.
+\end{align}
+These two equations are the most fundamental for imaging. They are used extensivelty through geometrical optics.
+
+Intersecting at elast 2 rays is enough to map a point from object to image. The following are the trivial rays used:
+\begin{itemize}
+    \item Parallel ray from the object, emerges (diverges) through the rear focal point.
+    \item Ray from object throught the front focal point, emerging parallel (antiparallel).
+    \item A ray that goes directly from the object through the center of the lens which is not refracted.
+\end{itemize}
+
+\begin{example}{Imaging with a negative lens}
+The ray diagram is illustrated in figure \ref{fig:1a}. We have traced three rays:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+      \item Parallel to the optical axis from the object, then it is refracted with direction to $F'$.
+      \item Direct to $F$: it is refracted so that it becomes parallel to the optical axis.
+      \item The chief ray, which maintain its direction through its propagation.
+    \end{itemize}
+    The intersection of these three rays produces the image. We can see that the image is to the left of the lens, but to the right of the object.
+    Therefore, it will be a virtual image and demagnified.
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/imagingnegativethinlens.pdf}
+      \caption{Ray diagram of the problem, the position of the image is $z'$ and is located to the right of the object. Dashed lines correspond to 
+      virtual rays.}
+    \end{figure}
+    Using the thin lens equation, considering that $F'=-100\;mm$ and $z=-50\;mm$ provides
+    \begin{align*}
+      \frac{1}{z'}&=\frac{1}{F'}+\frac{1}{z}\\
+      \frac{1}{z'}&=\frac{1}{-100}+\frac{1}{-50}\\
+      z'&=\frac{(-100)(-50)}{-150}=-33.333\;mm.
+    \end{align*}
+    Because $z'<0$, the image is \textbf{virtual} and will be to the left of the lens. Its magnification is:
+    \begin{align*}
+      m=\frac{z'}{z}=\frac{-33.333}{-50}=0.667.
+    \end{align*}
+    The image is then erected ($\text{sgn}(m)=1$), and demagnified ($|m|<1$) making it smaller than the object.
+\end{example}
+
+%
+\subsection{Optical spaces}
+Any optical object creates two optical spaces: the object space and the image space. Each optical space extends from $-\infty$ 
+to $\infty$ and has an associated index of refraction. The connection of both spaces is through the optical object.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/opticalspace.png}
+    \caption{}
+\end{figure}
+A \bfemph{real object} is to the left of the object while a \bfemph{virtual object} is to the right. 
+A \bfemph{real image} is to the right of the object and a \bfemph{virtual image} to the left.
+In an optical space with negative index, left and right are reversed in these descriptions.
+
+A thin lens creates two optical spaces:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item\textbf{Object space} contains the object and the front focal point $F$.
+    \item\textbf{Image space} contains the image and the rear focal point $F'$.
+\end{itemize}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.45\columnwidth}
+    \centering
+    \begin{circuitikz}[scale=.6]
+    \def\f{1}
+    \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+    \draw[arrow](0,-4)--(0,4)node[above]{$z'/m$};
+    \draw[very thick,NavyBlue,domain=-3:-1.35,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,NavyBlue,domain=-.8:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-3:-1.25,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-.75:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[dashed](-4,1)--(4,1)(-1,4)--(-1,-4);
+    \foreach \t in{-3,...,3}{\draw(\t,.1)--(\t,-.1)node[below]{$\t$};}
+    \foreach \y in{-3,-2,-1,1,2,3}{\draw(-.1,\y)--(.1,\y)node[right,fill=white]{$\y$};}
+    \begin{scope}[shift={(1.5,3.5)}] % move legend to top-right
+        \draw[very thick,NavyBlue](0,0)--(0.8,0)node[right,black]{$z'$};
+        \draw[very thick,OliveGreen](0,-0.5)--(0.8,-0.5)node[right,black]{$m$};
+    \end{scope}
+    \end{circuitikz}
+    \caption{$f>0$}
+    \label{fig:2a1}
+\end{subfigure}
+\hfill
+\begin{subfigure}{.45\columnwidth}
+    \centering
+    \begin{circuitikz}[scale=.6]
+    \def\f{-1}
+    \draw[arrow](-4,0)--(4,0)node[right]{$z$};
+    \draw[arrow](0,-4)--(0,4)node[above]{$z'$};
+    \draw[very thick,NavyBlue,domain=-3:.8,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,NavyBlue,domain=1.35:3,samples=100] plot(\x,{ (\x*\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=-3:.75,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[very thick,OliveGreen,domain=1.25:3,samples=100] plot(\x,{ (\f)/(\x+\f) });
+    \draw[dashed](-4,-1)--(4,-1)(1,4)--(1,-4);
+    \foreach \t in{-3,...,3}{\draw(\t,-.1)--(\t,.1)node[above]{$\t$};}
+    \foreach \y in{-3,-2,-1,1,2,3}{\draw(.1,\y)--(-.1,\y)node[left,fill=white]{$\y$};}
+    \begin{scope}[shift={(1.5,3.5)}] % move legend to top-right
+        \draw[very thick,NavyBlue](0,0)--(0.8,0)node[right,black]{$z'$};
+        \draw[very thick,OliveGreen](0,-0.5)--(0.8,-0.5)node[right,black]{$m$};
+    \end{scope}
+    \end{circuitikz}
+    \caption{$f<0$}
+\end{subfigure}
+\caption{Plot of $z'$ and $m$ for positive and negative lenses. We can directly see when an object (image) is real or virtual.}
+\end{figure}
+
+Virtual objects occur when an image is projected into the lens by a previous optical system. 
+\begin{figure}
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/virtualobject.png}
+    \caption{A virtual object is the projection of the image of a previous optical system.}
+\end{figure}
+
+
+\subsection{Object-image approximations}
+We can make further appproximations for extreme situations:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item\textbf{Distant object} When the magnitude of the object distance $z$ is more then a few times the magnitude of the system focal length, the image distance $z'$ is approximately equal to the real focal length.
+    \begin{align}
+        |z|\gg|f|\Longrightarrow a)\;z'\approx f\quad b)\;L=z'-z\approx f-z\approx-z\quad c)\;m=\frac{z'}{z}\approx\frac{f}{z}.
+    \end{align} 
+    \item\textbf{Distant image} Similarly,
+    \begin{align}
+        |z'|\gg|f|\Longrightarrow a)\;z\approx-f\quad b)\;L=z'-z\approx z'+f\approx z'\quad c)\;m=\frac{z'}{z}\approx-\frac{z'}{f}.
+    \end{align}
+\end{itemize}
+This fraction error of these approximations is about $|f|/|z|$ so they are very useful for distant object/image from over $4f$.
+
+\subsection{Field of view}
+The half \bfemph{field of view} (HFOV) is often expressed as:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item maximum object height $h$.
+    \item maximum image height $h'$.
+    \item maximum angular size of the object as seen from the optical system $\theta_{1/2}$.
+    \item maximum angular size of the image as seen from the optical system $\theta_{1/2}'$.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/fov.png}
+    \caption{}
+\end{figure}
+\begin{align}
+    \text{FOV}=2\text{HFOV},\quad \text{HFOV}=\theta_{1/2}=\theta_{1/2}',\quad \tan\theta_{1/2}=\frac{h}{z}=\frac{h'}{z'}.
+\end{align}
+In many situations, the FOV is determines by the detector size, which impose the maximum spatial dimensions. 
+
+%%
+\subsection{Afocal systems}
+An \bfemph{afocal system} does not have focal points. Parallel rays will produce parallel images. The only change is in the transverse magnification.
+\begin{align}
+    m=\frac{h'}{h}=\frac{-f_2}{f_1}.
+\end{align}
+\begin{figure}
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/keplerian.png}
+        \caption{Keplerian telescope ($m<0$).}        
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/galilean.png}
+        \caption{Galilean telescope ($m>0$).}        
+    \end{subfigure}
+\end{figure}

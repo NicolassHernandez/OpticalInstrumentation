@@ -1,0 +1,196 @@
+\section{Gaussian imagery}
+Gaussian optics is a system of treating imaging as a mapping from object into image space. It is a special case of a 
+\textbf{collinear transformation} applied to rotationally symmetric systems, and it maps points to points, lines to lines, and places to planes.
+The corresponding object and image elements are called \bfemph{conjugate elements}. 
+
+The cardinal points and planes completely describes the focal mapping. They are defined by specific magnifications:
+\begin{align*}
+    \begin{array}{lll}
+        F&\text{Front focal point/plane}&m=\infty\\
+        F'&\text{Rear focal point/plane}&m=0\\
+        P&\text{Front principal plane}&m=1\\
+        P'&\text{Rear principal plane}&m=1
+    \end{array}\quad m=\frac{h'}{h}.
+\end{align*}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/rearcardinalpoint.png}
+        \caption{Rear cardinal point/plane}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/frontcardinalpoint.png}
+        \caption{Front cardinal point/plane}
+    \end{subfigure}
+\end{figure}
+
+Also, there exists \bfemph{nodal points} $N$ and $N'$ that define the location of unit angular magnification for a focal system.
+A ray passing through one is mapped to a ray passsing through the other having the same angle.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterOne/figures/nodalpoints.png}
+    \caption{}
+\end{figure}
+\begin{align}
+    z_{PN}=z'_{PN}=f_F+f_R'=(n'-n)f_E,\quad m_N=-\frac{f_F}{f'_R}=\frac{n}{n'}.
+\end{align}
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Both nodal points of a single surface are located at the center of curvature of the surface: $z_{PN}=z'_{PN}=R$.
+    \item If $n=n'$, then $z_{PN}=z'_{PN}=0$ and the nodal points are coincident with the respective principal planes.
+    \item The angular substense of an image seen from $N'$ equals to the one seen from $N$: $m=h'/h=z'_N/z_N$.
+\end{itemize}
+%
+\subsection{Representation of an optical system}
+An optical system can be represented as a set of principal planes and a set of focal points.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/problem1_a.png}
+        \caption{Positive system}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/problem1_b.png}
+        \caption{Negative system}
+    \end{subfigure}
+\end{figure}
+    
+\begin{emphasizer}
+    Remember that refraction for $F$ must happen at $P$ while for $F'$ at $P'$.
+\end{emphasizer}
+
+%
+\subsection{Newtonian equations}
+\bfemph{Newtonian equations} measure object and image distances form the \textbf{focal planes}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/newtonianequations.png}
+    \caption{Newtonian equations.}
+\end{figure}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{l|l|l|l|l|l}
+        $z=-\dfrac{f_F}{m}$&$z'=-mf_R'$&$zz'=f_Ff_R'$&$\dfrac{z}{n}=\dfrac{f_E}{m}$&$\dfrac{z'}{n'}=-mf_E$&$\dfrac{z}{n}\dfrac{z'}{n'}=-f_E^2$
+    \end{tabular}
+\end{table}
+%
+\subsection{Gaussian equations}
+\bfemph{Gaussian equations} measure object and image distances 
+from the \textbf{principal planes}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/gaussianequations.png}
+    \caption{Gaussian equations.}
+\end{figure}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{l|l|l|l|l}
+        $z=-\dfrac{(1-m)}{m}f_F$&$z'=(1-m)f_R'$&$m=-\dfrac{z'}{z}\dfrac{f_F}{f_R'}$&$\dfrac{f_R'}{z'}+\dfrac{f_F}{z}=1$&$\dfrac{z}{n}=\dfrac{(1-m)}{m}f_E$\\
+        $\dfrac{z'}{n'}=(1-m)f_E$&$m=\dfrac{z'/n'}{z/n}$&$\dfrac{n'}{z'}=\dfrac{n}{z}+\dfrac{1}{f_E}$&&
+    \end{tabular}
+\end{table}
+
+A ray angle multiplied by the refractive indesx of its optical space is called \bfemph{optical angle}:
+\begin{align}
+    \text{Optical angle}\qquad\highlight{\omega=nu\quad(-)}.
+\end{align}
+
+\subsection{Longitudinal magnification}
+The \bfemph{longitudinal magnification} relates the distances between pairs of conjugate planes.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/longitudinalmagnification.png}
+    \caption{Longitudinal magnification allows you to have the thickness of the object or image.}
+\end{figure}
+
+\begin{align}
+    \Delta z=z_2-z_1,\quad\Delta z'=z_2'-z_1',\quad m_1=\frac{h_1'}{h_1},\quad m_2=\frac{h_2'}{h_2},\quad \frac{\Delta z'}{\Delta z}=-\frac{f_R'}{f_F}m_1m_2,\quad \frac{\Delta z'/n'}{\Delta z/n}=m_1m_2
+\end{align}
+As the plane separation approaches zero, $m_1\approx m_2\approx m$ and the local magnification $\bar{m}$ is obtained:
+\begin{align}
+    \bar{m}=\frac{n'}{n}m^2,\quad \frac{\Delta z'/n'}{\Delta z/n}=m^2.
+\end{align}
+
+
+%
+\subsection{Gaussian properties of a single refracting surface}
+The radius of curvature $R$ is defined to be the distance from its vertex to the center of curvature CC.
+The front and rear principal planes are coincident and located at the surface vertex. In addition, both nodal points are located at the center 
+of the curvature (CC) of the optical surface.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.5\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/singlesurface.png}
+        \caption{Single surface}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterOne/figures/thinlensreduction}
+        \caption{Thin lens reduction}
+    \end{subfigure}
+\end{figure}
+
+\begin{emphasizer}
+    The use of reduced distances and optical angles allows a system to be represented as an air-equivalent system with thin lenses of the same power $\phi$.   
+\end{emphasizer}
+
+\begin{example}{Gaussian imagery of a single refractive surface}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item For a single refracting surface, we have that:
+        \begin{itemize}
+            \item Both nodal points are located at the center of curvature CC.
+            \item Front and real principal planes are located at the vortex.
+            \item The reduced thickness of the surface is the focal length of its thin lens representation.
+        \end{itemize}
+        We illustrate these quantities along with the vertex and the focal lengths in the following figure.
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=.5\columnwidth]{PartOne/ChapterOne/figures/problem2_a.png}
+            \caption{Illustration of cardinal point for a single refractive surface.}
+        \end{figure}
+        We illustrate also some quantities of this surface:
+        \begin{align*}
+            &C=\frac{1}{R}=100\;m^{-1},\quad \phi=(n'-n)C=33.3\;m^{-1},\quad f_E=\frac{1}{\phi}=30\;mm,\\
+            &f_F=-nf_E=-30\;mm,\quad f'_R=n'f_E=40\;mm.
+        \end{align*}
+        \item We use the following equation:
+        \begin{align*}
+            \frac{n'}{z'}=\frac{n}{z}+\frac{1}{f_E}\longrightarrow z'=\frac{n'zf_E}{nf_E+z}.
+        \end{align*}
+        Replacing the physical values and the EFL:
+        \begin{align*}
+            z'=\frac{(1.333)(30)(-100)}{(1)(30)-100}=+57.129\;mm.
+        \end{align*}
+        Its height is determined by the magnification:
+        \begin{align*}
+            m=\frac{h'}{h}=\frac{z'/n'}{z/n}=\frac{57.129/1.333}{-100/1}=-0.429\longrightarrow h'=mh=(-0.429)(10\;mm)=-4.29\;mm.
+        \end{align*}
+    \end{enumerate}
+\end{example}
+%%
+\subsection{Generalized afocal systems}
+An afocal system is formed by the combination of two focal systems. The rear focal point of the first one is coincident with the front 
+focal points of the second system. Common afocal systems are telescopes, binoculars, and beam expanders.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/afocalsystems.png}
+    \caption{Generalized afocal system.}
+\end{figure}
+The transverse and longitudinal magnification are constant. Due to this, the cardinal points are not defined, and the Gaussian and 
+Newton equations \textbf{cannot} be used to determine cnojugate planes. However, any pair of conjugate planes coupled with $\bar{m}$ 
+can be employed.
+\begin{align}
+    m=\frac{f_{F2}}{f_{R1}'}=-\frac{f_{E2}}{f_{E1}}=-\frac{f_2}{f_1},\quad \bar{m}=\frac{n'}{n}m^2,\quad \frac{\Delta z'/n'}{\Delta z/n}=m^2.
+\end{align}
+
+
+
+
+

@@ -1,0 +1,109 @@
+\section{Gaussian reduction}
+\bfemph{Gaussian reduction} is the process that combinar multiple elements two at a time into a single equivalent focal system.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/gaussianreductionscheme.png}
+    \caption{Gaussian reduction scheme.}
+\end{figure}
+The system is defined by its Gaussian properties which include:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Power of the overall system.
+    \item Front and rear focal lengths of the overall system.
+    \item Principal planes of the overall system.
+\end{itemize}
+The principal equation for Gaussian reduction are:
+\begin{align}
+    \text{Overall power}\qquad\highlight{\phi=\phi_1+\phi_2-\phi_1\phi_2\tau,\quad \tau=\frac{t}{n_2}}.
+\end{align}
+The new principal planes $P,P'$ will be \textbf{shifted} from the front principal plane of the left system $P_1$ and the rear principal plane 
+of the second system $P_2'$, by the following amount:
+\begin{align}
+    \text{Shifting distance from $P_1$ and $P_2'$}\qquad\highlight{\frac{d}{n}=\frac{\phi_2}{\phi}\tau,\quad\frac{d'}{n'}=-\frac{\phi_1}{\phi}\tau}
+\end{align}
+\begin{emphasizer}
+    Recall that $P$ is in the object space ($n$) and $P'$ is in the image space $n'$. Therefore, $d$ occurs in the system object
+    space $n$, whereas $d;$ occurs in the system image space $n'$.
+\end{emphasizer} 
+%
+\subsection{Vertex distances}
+The \bfemph{surface vertices} are the mechanical datums in a system and are often the reference locations for the cardinal points.
+The \bfemph{back focal distance} (BFD) and \bfemph{front focal distance} (FFD) are the distance measured from the 
+back (front) vertex to the back (front) focal point $F'$ ($F$).
+\begin{align}
+    \text{Distances}\qquad\highlight{\text{BFD}=f_R'+d',\quad \text{FFD}=f_F+d}
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.3\columnwidth]{PartOne/ChapterOne/figures/vertexdistances.png}
+    \caption{Vertex distances are used to define BFD and FFD.}
+\end{figure}
+
+The utility of Gaussian reduction is that the imaging properties of any combination of optical elements can be represented 
+by a system power of focal length, a pair of principal planes and a pair of focal points. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterOne/figures/gaussianreductionutility.png}
+    \caption{All reduces to 5 cardinal points.}
+\end{figure}
+%
+\subsection{Thick and thin lenses}
+The \bfemph{thick lens} is composed ot two refractive surfaces with a thicknes between them.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterOne/figures/thicklens.png}
+        \caption{Thick lens}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterOne/figures/thinlens.png}
+        \caption{Thin lens}
+    \end{subfigure}
+\end{figure}
+The overall power in term of curvature is:
+\begin{align}
+    \phi_{\text{thick}}=(n-1)[C_1-C_2+(n-1)C_1C_2\tau],\quad d=\frac{\phi_2}{\phi}\tau,\quad d'=-\frac{\phi_1}{\phi}\tau.
+\end{align}
+In this case, the nodal points are coincident with the principal planes.
+
+The \bfemph{thin lens} approximation is obtained for $t\to0$, which reduces the overall power to 
+\begin{align}
+    \phi_{\text{thin}}=(n-1)(C_1-C_2),\quad d=d'=0,\quad\text{BFD}=f.
+\end{align}
+This idealized element can be considered as a singel refracting surface separating two spaces.
+The principal planes and nodal points are located at the lens (middle).
+
+\begin{example}{Gaussian reduction of two lenses}
+    For a two positive lens system, we use Gaussian reduction to reduce the effect to a single thin lens.
+    We first compute the overall optical power with the power of individual lenses:
+    \begin{align*}
+    \phi=\phi_1+\phi_2-\phi_1\phi_2t=\frac{1}{40}+\frac{1}{40}-\frac{1}{40}\frac{1}{40}\cdot20=0.038mm^{-1}\longrightarrow f_E=\frac{1}{\phi}=26.67\;mm.
+    \end{align*}
+    The front and real focal lengths are:
+    \begin{align*}
+        f_F=-n_1f_E=(1)(26.67\;mm)=-26.67\;mm,\quad\text{and}\quad f_R'=n_3f_E=(1)(26.67\;mm)=26.67\;mm.
+    \end{align*}
+    Then the distances $d$ and $d'$, corresponding to the shift from the front (rear) principal planes $P,P'$ of the equivalent system with respect to $f_F,f_R'$ are given by
+    \begin{align*}
+    d=\frac{\phi_2}{\phi}t=\frac{0.025}{0.038}20=13.158\;mm,\quad\text{and}\quad d'=-\frac{\phi_1}{\phi}t=-\frac{0.025}{0.038}20=-13.158\;mm.
+    \end{align*}
+    The front (back) focal distances are then:
+    The FFD and BFD are therefore,
+    \begin{align*}
+    \text{FFD}&=f_F+d=-26.67\;mm+13.158\;mm=-13.512\;mm.\\
+    \text{BFD}&=f_R'+d'=26.67\;mm-13.512\;mm=13.512\;mm.
+    \end{align*}
+    The reduction process and the quantities obtained are illustrated in figure \ref{fig:problem3}.
+    \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterOne/figures/problem3.pdf}
+    \caption{Gaussian reduction for two positive lenses.}
+    \label{fig:problem3}
+    \end{figure}
+    The nodal points are coincident with the principal planes.
+\end{example}
+
+
+
