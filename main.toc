@@ -36,9 +36,9 @@
 \contentsline {section}{\numberline {1.6}Object image relationship}{26}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Gaussian reduction}{26}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Vertex distances}{27}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{27}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Paraxial raytrace}{29}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Introduction}{29}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{28}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Paraxial raytrace}{30}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Introduction}{30}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Procedure}{30}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{34}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{35}{subsection.1.8.3}%
 \contentsfinish 
