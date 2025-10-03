@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  3 OCT 2025 01:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  3 OCT 2025 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2651,57 +2651,46 @@ File: PartOne/ChapterOne/figures/gaussianreductionscheme.png Graphic file (type 
 Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionscheme.png  used on input line 5.
 (pdftex.def)             Requested size: 299.20059pt x 137.32066pt.
  [26 <./PartOne/ChapterOne/figures/afocalsystems.png> <./PartOne/ChapterOne/figures/gaussianreductionscheme.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 24.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 24.
 <PartOne/ChapterOne/figures/vertexdistances.png, id=452, 202.50656pt x 186.6975pt>
 File: PartOne/ChapterOne/figures/vertexdistances.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/vertexdistances.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/vertexdistances.png  used on input line 37.
+Package pdftex.def Info: PartOne/ChapterOne/figures/vertexdistances.png  used on input line 36.
 (pdftex.def)             Requested size: 149.6003pt x 137.92323pt.
 <PartOne/ChapterOne/figures/gaussianreductionutility.png, id=453, 262.73157pt x 138.5175pt>
 File: PartOne/ChapterOne/figures/gaussianreductionutility.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/gaussianreductionutility.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionutility.png  used on input line 45.
+Package pdftex.def Info: PartOne/ChapterOne/figures/gaussianreductionutility.png  used on input line 44.
 (pdftex.def)             Requested size: 299.20059pt x 157.75095pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package mdframed Info: mdframed works in twoside mode on input line 49.
+Package mdframed Info: mdframed works in twoside mode on input line 48.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 49.
+(mdframed)              on input line 48.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 56.
-
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last box will be empty
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 56.
-
+(mdframed)              on input line 55.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 56.
+(mdframed)              on input line 55.
 [27 <./PartOne/ChapterOne/figures/vertexdistances.png>]
 <PartOne/ChapterOne/figures/thicklens.png, id=464, 266.49562pt x 240.14719pt>
 File: PartOne/ChapterOne/figures/thicklens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thicklens.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/thicklens.png  used on input line 64.
+Package pdftex.def Info: PartOne/ChapterOne/figures/thicklens.png  used on input line 63.
 (pdftex.def)             Requested size: 157.07695pt x 141.55002pt.
 <PartOne/ChapterOne/figures/thinlens.png, id=465, 249.93375pt x 157.33781pt>
 File: PartOne/ChapterOne/figures/thinlens.png Graphic file (type png)
 <use PartOne/ChapterOne/figures/thinlens.png>
-Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens.png  used on input line 70.
+Package pdftex.def Info: PartOne/ChapterOne/figures/thinlens.png  used on input line 69.
 (pdftex.def)             Requested size: 179.51799pt x 113.01424pt.
  [28 <./PartOne/ChapterOne/figures/gaussianreductionutility.png> <./PartOne/ChapterOne/figures/thicklens.png> <./PartOne/ChapterOne/figures/thinlens.png>]
 <PartOne/ChapterOne/figures/problem3.pdf, id=479, 1700.3525pt x 2101.8525pt>
 File: PartOne/ChapterOne/figures/problem3.pdf Graphic file (type pdf)
 <use PartOne/ChapterOne/figures/problem3.pdf>
-Package pdftex.def Info: PartOne/ChapterOne/figures/problem3.pdf  used on input line 110.
+Package pdftex.def Info: PartOne/ChapterOne/figures/problem3.pdf  used on input line 109.
 (pdftex.def)             Requested size: 249.33128pt x 308.17644pt.
 ) (PartOne/ChapterOne/ParaxialRaytrace.tex
 <PartOne/ChapterOne/figures/paraxialopticsscheme.png, id=480, 253.69781pt x 86.57344pt>
@@ -2816,15 +2805,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 89884 strings out of 474486
- 2255543 string characters out of 5743755
- 3435368 words of memory out of 5000000
- 110798 multiletter control sequences out of 15000+600000
+ 89883 strings out of 474486
+ 2255523 string characters out of 5743755
+ 3435346 words of memory out of 5000000
+ 110797 multiletter control sequences out of 15000+600000
  658678 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (39 pages, 3921440 bytes).
+Output written on main.pdf (39 pages, 3921705 bytes).
 PDF statistics:
  724 PDF objects out of 1000 (max. 8388607)
  187 named destinations out of 1000 (max. 500000)
