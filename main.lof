@@ -1,32 +1,41 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction to Optics}{8}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces We can treat the wavefront as planar when assuming a distant object.}}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces In refraction and reflection, the angles are taken respective to the surface normal.}}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Reduced thickness is the vacuum (air) equivalent distance.}}{13}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces The diagram is only shortened along the direction of the propagation.}}{14}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Imaging scheme}}{16}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Ray diagram of the problem, the position of the image is $z'$ and is located to the right of the object. Dashed lines correspond to virtual rays.}}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces \relax }}{17}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Plot of $z'$ and $m$ for positive and negative lenses. We can directly see when an object (image) is real or virtual.}}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces A virtual object is the projection of the image of a previous optical system.}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces \relax }}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces SIngle refracting surface.}}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces General paraxial system, with parameters defined previously.}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{23}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Newtonian equations.}}{23}{figure.caption.30}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian equations.}}{24}{figure.caption.32}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Longitudinal magnification allows you to have the thickness of the object or image.}}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Illustration of cardinal point for a single refractive surface.}}{25}{figure.caption.36}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Generalized afocal system.}}{26}{figure.caption.37}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Gaussian reduction scheme.}}{26}{figure.caption.38}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Vertex distances are used to define BFD and FFD.}}{27}{figure.caption.39}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces All reduces to 5 cardinal points.}}{28}{figure.caption.40}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian reduction for two positive lenses.}}{29}{figure.caption.42}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A paraxial raytrace is linear with respect to ray angle and heights.}}{30}{figure.caption.43}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Gaussian reduction for the three-surfaces object.}}{33}{figure.caption.47}%
+\contentsline {xchapter}{Introduction to Optics}{9}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces We can treat the wavefront as planar when assuming a distant object.}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces In refraction and reflection, the angles are taken respective to the surface normal.}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Reduced thickness is the vacuum (air) equivalent distance.}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The diagram is only shortened along the direction of the propagation.}}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Imaging scheme}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Ray diagram of the problem, the position of the image is $z'$ and is located to the right of the object. Dashed lines correspond to virtual rays.}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Plot of $z'$ and $m$ for positive and negative lenses. We can directly see when an object (image) is real or virtual.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces A virtual object is the projection of the image of a previous optical system.}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces \relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces SIngle refracting surface.}}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces General paraxial system, with parameters defined previously.}}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Newtonian equations.}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian equations.}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Longitudinal magnification allows you to have the thickness of the object or image.}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Illustration of cardinal point for a single refractive surface.}}{26}{figure.caption.36}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Generalized afocal system.}}{27}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Gaussian reduction scheme.}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Vertex distances are used to define BFD and FFD.}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces All reduces to 5 cardinal points.}}{29}{figure.caption.40}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian reduction for two positive lenses.}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A paraxial raytrace is linear with respect to ray angle and heights.}}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Gaussian reduction for the three-surfaces object.}}{34}{figure.caption.47}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Concepts of optics}{38}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The stop limits the cone of light, and its image in object (image) space creates the entrance (exit) pupil.}}{39}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The smallest angular size corrsponds to the stop in object space. Same for image space.}}{39}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The minimum slope value corresponds to the aperture stop.}}{40}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The}}{40}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The}}{41}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \relax }}{42}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The ray bundle is clipped and the beam is no longer circular.}}{45}{figure.caption.61}%
 \contentsfinish 

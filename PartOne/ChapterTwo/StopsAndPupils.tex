@@ -1,0 +1,207 @@
+\section{Stops and pupils}
+%
+\subsection{Aperture stop}
+The \bfemph{aperture stop} is a physical/real surface that limits the cone of light entering and exiting the 
+optical system.
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The \bfemph{entrance pupil} (EP) is the image of the stop in the object space.
+    \item The \bfemph{exit pupil} (XP) is the image of the spot in the image space.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/stop.png}
+    \caption{The stop limits the cone of light, and its image in object (image) space creates the 
+    entrance (exit) pupil.}
+\end{figure}
+
+There is a stop or pupil in each optical space. Intermediate pupils are formed in other spaces.
+There are two methods to determine which aperture in a system serves as the system stop:
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+    \item Image each potential stop into object space. The pupil with the \textbf{smallest} angular size corresponds 
+    to the stop. The same can be done in image space.
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/smallestcone.png}
+        \caption{The smallest angular size corrsponds to the stop in object space. Same for image space.}
+    \end{figure}
+    \item Trace a ray through the system from the axial object point with arbitrary initial angle. At each potential stop,
+    determine the ratio of the aperture radio $a_k$ to the ray height at that surface $\tilde{y}_k$.
+    \begin{align}
+        \text{Aperture stop}=\min\left\{\left|\frac{a_k}{\tilde{y}_k}\right|\right\}.
+    \end{align}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/minimumslope.png}
+        \caption{The minimum slope value corresponds to the aperture stop.}
+    \end{figure}
+\end{enumerate}
+
+The pupils are the image of the stop and do not change position or size with an off-axis object. Intermediate 
+pupils are formed in each optical space for multi-element systems. If there are $N$ elements, there are $N+1$ pupils
+(including the stop).
+
+\begin{emphasizer}
+    When designing a system, is usually critical that the stop surface does not change over a range of possible object positions
+    that the system will be used with.
+\end{emphasizer}
+
+%%
+\subsection{Marginal and Chief rays}
+Rays confined to the $yz$-plane are called \bfemph{meridional rays}. There are two special meridional 
+rays that define properties of the object, images and pupils:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The \bfemph{marginal ray} travels from the base of the object to the edge of EP . It defines image locations and pupil sizes. 
+    \item The \bfemph{chief ray} travels from the edge of the object to the center of the EP. It defines image heights and pupil locations.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/meridionalrays.png}
+    \hfill
+    \includegraphics[width=.18\columnwidth]{PartOne/ChapterTwo/heightsmedirional.png}
+    \caption{The}
+\end{figure}
+
+The heights of the marginal ray and the chief ray can be evaluated at any $z$ in any optical space. When the marginal ray crosses the axis, an image is located, and the size of the image is given by the chief ray height.
+Whenever the chief ray crosses the axis, a pupil or stop is located, and the pupil radius is given by the marginal ray height. Intermediate images and pupils 
+are often virtual.
+
+%%
+\subsection{Pupil locations}
+%
+\subsubsection{By raytrace}
+Once you know which surface is the stop, you have the information to determine the location of EP and XP. The \bfemph{pupil locations} can be found by tracing a paraxial ray starting at the center of the stop and is 
+back/forward propagated. The intersections of this ray with the axis in object and image space determine the locations of EP and XP.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/pupillocations.png}
+    \caption{The}
+\end{figure}
+
+This ray become the chief ray when it is scaled to the object or image size. The marginal ray gives the pupil sizes.
+\begin{example}{Pupil location by paraxial raytrace}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.3\columnwidth]{PartOne/ChapterTwo/example1_pupillocation.png}
+    \includegraphics[width=.2\columnwidth]{PartOne/ChapterTwo/example1info_pupillocation.png}
+\end{figure} 
+\subsubsection{Solution}
+The stop is a real object for the formation of both EP and XP. There is a ray that has a height of $0$ at the EP, stop and XP. We first set $y=0$ at the stop, and then 
+with arbitrary angle 
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item[EP] we set $y=0$ for the EP and solve for the distance.
+    \item[XP] we set $y=0$ for the XP and solve for the distance.
+\end{itemize}
+We used a potential chief to find pupil locations. For the pupil sizes, we find the true marginal ray scaling a potential maginal ray. Remember that 
+the chief ray was for pupil locations, now with the marginal ray we find the pupil sizes. We can also use it to find the image location.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.3\columnwidth]{PartOne/ChapterTwo/example1dev1_pupillocation.png}
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/example1dev2_pupillocation.png}
+\end{figure} 
+
+Finally, the height of the EP is $13.33\;mm$, the stop $10\;mm$, the XP $15\;mm$.
+\end{example}
+%
+\subsubsection{By Gaussian imagery}
+We treat each group independently, considering the stop as our object propagating in the direction of te given group. For EP, the object propagates from right 
+to left, so the respective minus sign must be added (as in reflection).
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterTwo/pupillocation_gaussrear.png}
+    \hfill
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterTwo/pupillocation_gaussfront.png}
+    \caption{}
+\end{figure}
+\begin{align}
+    \text{For XP}&\qquad\frac{n'}{z'_{XP}}=\frac{n}{Z_{stop}}+\frac{1}{f_{RG}},\quad m_{XP}=\frac{z'_{XP}}{z_{stop}},\quad D_{XP}=|m_{XP}|D_{stop}\\
+    \text{For EP}&\qquad\frac{n'}{Z'_{EP}}=\frac{n}{Z_{stop}}+\frac{1}{f_{FG}},\quad m_{EP}=\frac{z'_{EP}}{z_{stop}},\quad D_{EP}=|m_{EP}|D_{stop}\quad(n=n'=-1)
+\end{align}
+
+For EP, remember that the direction of propagation is \textbf{oposite} to the classical, so we flip the sign of distances and refractive indices.
+\begin{example}{Pupil locations by Gaussian imagery}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterTwo/example2_pupillocation.png}
+    \end{figure}
+\end{example}
+
+
+\begin{emphasizer}[EP,STOP,XP are invariant to object location]
+    Changing the object location does not change the position of the EP, stop, and XP.
+\end{emphasizer}
+%%
+\subsection{Lagrange invariant}
+The linearity of paraxial optics provides a relationship between the heights and angles of any two ray s propagating through the system. The \bfemph{Lagrande invariant}
+$\Xi$ is formed with the paraxial marginal and chief rays:
+\begin{align}
+    \text{Lagrange invariant}\qquad\highlight{\Xi=n\bar{u}y-nu\bar{y}=\bar{\omega}y-\omega\bar{y}}.
+\end{align}
+It is invariant for refraction and transferm and it can be evaluated at any $z$ in any optical space. The Lagrange invariant is particularly simple at 
+images or objects ($y=0$) and pupils ($\bar{y}=0$):
+\begin{align}
+    \text{Image/Object}&\qquad\Xi=-nu\bar{y}=-\omega\bar{y}\\
+    \text{Pupils}&\qquad\Xi=n\bar{u}y=\bar{\omega}y
+\end{align}
+If two rays other than the marginal and chief are used, the more general \bfemph{optical invariant} $I$ is formed.
+
+Given two rays, a third ray can be formed as a linear combination of the two rays. The coefficients are the ratios of the pair-wise invariantas of the values for the three rays at some 
+initial $z$. The expressions are valid for any $z$:
+\begin{align}
+    &y_3=Ay_1+By_2,\quad u_3=Au_1+Bu_2\\
+    &A=I_{32}/I_{12},\quad B=I_{13}/I_{12},\quad I_{ij}=nu_iy_j-nu_jy_i.
+\end{align}
+Changing the Lagrange invariant of a system \textbf{scales} the optical system. Doubling the invariant while maintaining the same object and image sizes and pupil diameters haves all of the 
+axial distances (and the focal length).
+
+The \bfemph{throughout}, \bfemph{etedue} of \bfemph{$A\Omega$ product} in \bfemph{radiometry} and \bfemph{radiative transfer} are relalted to the square of the Lagrange invariant:
+\begin{align}
+    n^2A\Omega=\pi^2\Xi^2.
+\end{align}
+%%
+\subsection{Field of view}
+We revisit again the concept of FOV but know using the EP and XP.
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item \textbf{Field of view FOV} diameter of the object/image. 
+    \item \textbf{Half field of view HFOV} radius of the object/image.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/fov.png}
+\end{figure}
+%%
+\subsection{Numerical aperture and F-number}
+In an optical space of index $n_k$, the \bfemph{numerical aperture} $N_A$ describes the axial cone of light in terms of the real marginal angle $U_k$:
+\begin{align}
+    \text{Numerical aperture}\qquad\highlight{NA=n_k|sinU_k|\approx n_k|u_k|}.
+\end{align}
+The \bfemph{F-number} $f/\#$ describes the image-space cone of light for an object \textbf{at infinity}:
+\begin{align}
+    \text{F-number}\qquad\highlight{f/\#=\frac{f_E}{D_{EP}}}.
+\end{align}
+While the $f/\#$ is an image-space, infinite-conjugate measure, the approximate relationship between NA and $f/\#$ allows and $f/\#$ to be defined for other 
+optical spaces and conjugates. As a result, an $f/\#$ can be defined for any cone of light. This $f/\#$ is called \bfemph{working F-number} $f/\#_W$.
+This previous relationship becomes a definition
+\begin{align}
+    \text{Working F-number}\qquad f/\#_W=\frac{1}{2NA}\approx\frac{1}{2n|u|}=(1-m)f/\#.
+\end{align}
+Fast optical system have small numeric values for the $f/\#$. Most lenses with adjustable stops have $f/\#$ of \bfemph{f-stops} labeled in increments of $\sqrt{2}$.
+The usual progression is:
+\begin{align*}
+    f/1.4,\quad f/2,\quad f/2.8,\quad f/4,\quad f/5.6,\quad f/8,\quad f/11,\quad f/16,\quad f/22,\quad\text{etc}.
+\end{align*}
+Each stop changes the area of the EP (light colelction ability) by a factor of $2$.
+%
+\begin{emphasizer}
+    The Lagrange invariant relates the magnification between two pupils to the chief ray angles at the pupils.
+    \begin{align}
+        \Xi=n\bar{u}y_{pupil}=n'\bar{u}'y'_{pupil},\quad m_{pupil}=\frac{y'_{pupil}}{y_{pupil}}=\frac{n\bar{u}}{n'\bar{u}'}=\frac{\bar{\omega}}{\bar{\omega}'}.
+    \end{align}
+\end{emphasizer}
+%
+\subsubsection{Use of working F-number (left)}
+The most common use of the working F-number is to describe the image-forming cone for a finite conjugate optical system. This is the cone formed 
+by the XP and the axial image point.
+
+
+
+

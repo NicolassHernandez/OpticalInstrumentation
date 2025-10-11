@@ -1,0 +1,92 @@
+\section{Vignetting}
+%%
+\subsection{Ray bundles}
+The \bfemph{ray bundle} for an \textbf{on-axis} object is a rotationally symmetric spindle made up of section of right circular cones.
+Each cone section if bounded by the pupil and the object/image in that optical space.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/raybundle1.png}
+    \hfill
+    \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/raybundle2.png}
+\end{figure}
+At any $z$, the cross section of the bundle is circular, and the radius of the bundle is the marginal ray value.
+
+For an \textbf{off-axis} object point, the ray bundle skews, and is comprised of section of skew circular cones wwhich are still defined by the same elements.
+The cross section of the ray bundle at any $z$ remains circular with a radius equal to the radius of the axial bundle. The off-axis bundle is 
+centered about the chief ray height.
+
+The maximum radial extent of the ray bundle at any $z$ is:
+\begin{align}
+    \text{Maximum radial extent}\qquad|y_{max}|=|y|+|\bar{y}|.
+\end{align}
+%%
+\subsection{Vignetting}
+The \bfemph{vignetting} occurs when other apertures in the system (others than the stop) block a proportion of an off-axis ray bundle.
+For no vignetting, each aperture radius $a$ must equal or exceed the maximum height of the ray bundle at the aperture.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/vignetting.png}
+    \caption{The ray bundle is clipped and the beam is no longer circular.}
+\end{figure}
+
+The maximum FOV supported by the system occurs when an aperture completely blocks the ray bundle from the object point.
+
+We can have three conditions of vignetting, depending on the proportion of clip of the light beam.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/vignettingcases.png}
+\end{figure}
+
+The vignetting conditions are used in two different manners:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item For a given set of apertures, the FOV that the system will suppport with a prescribed amount of vignetting can be determined. A different chief ray defined each FOV.
+    \item For a given FOC and vignetting condition, the required aperture diameters can be determined.
+\end{itemize}
+
+A system with vignetting will have an image that has full irradiance or brightness out to a radius corresponding to the unvignetted FOV limit.
+The irradiance will then begin to fall off, going to about halr at the half-vignetted FOV, and decreasing to zero at the fully vignetting FOV.
+This fully vignetted FOV is the absolute maximum possible.
+
+The diameter of the aperture stop is very important design parameter for an optical system as it controls five separate performance aspects of the 
+system:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The system FOV determined by vignetting.
+    \item The radiometric or photometric speed of the system or its light collection ability.
+    \item The depth of focus and depth of field of the system.
+    \item The amount of aberrations degrading image quality.
+    \item The diffraction-based performance of the system.
+\end{itemize}
+
+
+\begin{example}{}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example1.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example1b.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example1c.png}
+    \end{figure}
+\end{example}
+
+\begin{example}{Vignetting with paraxial raytrace}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2a.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2b.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2c.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2d.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2e.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/vignetting_example2f.png}
+    \end{figure} 
+\end{example}
+
+
+%%
+\subsection{Dymmy surfaces}
+In a raytrace, a zero-power surface can be inserted at any location to examine the ray properties.
+
+An example of its application is the following Cassegrain objective, where we require to find the size of the hole.
+For that, we place a dummy surface \textbf{at the hole}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/dummysurfaces.png}
+\end{figure}
