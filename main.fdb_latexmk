@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber main"] 1759367044.88468 "main.bcf" "main.bbl" "main" 1760210692.97975 0
+["biber main"] 1759367044.88468 "main.bcf" "main.bbl" "main" 1760215743.41485 0
   "PartOne/ChapterOne/bib_.bib" 1756311235 814 ca0c4b5b986e047b1001d6e5f3140200 ""
-  "main.bcf" 1760210692 108139 eeab2fac862e356875dc41b2bb6442d1 "pdflatex"
+  "main.bcf" 1760215742 108139 eeab2fac862e356875dc41b2bb6442d1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1760206345.50662 "main.idx" "main.ind" "main" 1760210692.97916 0
-  "main.idx" 1760210686 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1760206345.50662 "main.idx" "main.ind" "main" 1760215743.41411 0
+  "main.idx" 1760215734 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1760210683.57563 "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" "main.pdf" "main" 1760210692.98039 0
+["pdflatex"] 1760215730.27155 "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" "main.pdf" "main" 1760215743.4156 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1742930834 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1756137706 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -732,8 +732,8 @@
   "PartOne/ChapterOne/figures/virtualobject.png" 1759366984 45469 c225fb3173b034dca20bf003faf8d729 ""
   "PartOne/ChapterOne/figures/wavefront.png" 1759359029 57353 bef832855da2dca93ff2240471552360 ""
   "PartOne/ChapterOne/main.tex" 1759385533 683 58de4fdcc1c4f01e3ab93f1ef7679bfd ""
-  "PartOne/ChapterTwo/StopsAndPupils.tex" 1760208599 11187 f2eaf0556f9e94d5d760d13ead7d54a5 ""
-  "PartOne/ChapterTwo/Vignetting.tex" 1760210682 4776 03dbd229b915237b428926943f0f9d07 ""
+  "PartOne/ChapterTwo/StopsAndPupils.tex" 1760215729 11041 09c5cf6cbe491ea21328066ee5f0bf63 ""
+  "PartOne/ChapterTwo/Vignetting.tex" 1760210737 4776 03dbd229b915237b428926943f0f9d07 ""
   "PartOne/ChapterTwo/dummysurfaces.png" 1760210500 74584 f6d338756eb8b38522484d3e07265615 ""
   "PartOne/ChapterTwo/example1_pupillocation.png" 1760202118 31049 d1c87c303158df15a78427fb4d6a1f08 ""
   "PartOne/ChapterTwo/example1dev1_pupillocation.png" 1760202803 73320 25be52babcfcd45d31153a5a1af1137b ""
@@ -764,19 +764,19 @@
   "PartOne/ChapterTwo/vignetting_example2f.png" 1760210396 107953 11e5d815bfa22d80a483361eae85209b ""
   "PartOne/ChapterTwo/vignettingcases.png" 1760209192 87839 46309bf531abddebe9d6df2227ff4c78 ""
   "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" 1760199034 946 0f30ca542c37dd6bcaa28de5d281e8ca ""
-  "main.aux" 1760210692 17339 18ddada5f576ecab947e38f7c878323a "pdflatex"
+  "main.aux" 1760215742 17339 18ddada5f576ecab947e38f7c878323a "pdflatex"
   "main.bbl" 1759367048 9226 6afc9a62d2d5a4cfda0cae0fcc08661d "biber main"
   "main.ind" 1760206345 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1760210692 4648 e314c038b6545d9cd00f5fa323ba1b4c "pdflatex"
-  "main.lol" 1760210687 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.lot" 1760210692 212 e357725bbb6ebaae4e129baf8f937eae "pdflatex"
-  "main.mtc" 1760210684 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.mtc0" 1760210684 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.out" 1760210692 2147 8f7ba51871eaf158c090028d9384256f "pdflatex"
-  "main.ptc" 1760210692 5117 30962be995a7a5a6297bcc654413f1f8 "pdflatex"
-  "main.run.xml" 1760210692 2318 471f701eca3e29696c4e2ff7a8ae79b2 "pdflatex"
+  "main.lof" 1760215742 4648 e314c038b6545d9cd00f5fa323ba1b4c "pdflatex"
+  "main.lol" 1760215735 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lot" 1760215742 212 e357725bbb6ebaae4e129baf8f937eae "pdflatex"
+  "main.mtc" 1760215732 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.mtc0" 1760215732 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.out" 1760215742 2147 8f7ba51871eaf158c090028d9384256f "pdflatex"
+  "main.ptc" 1760215742 5117 30962be995a7a5a6297bcc654413f1f8 "pdflatex"
+  "main.run.xml" 1760215742 2318 471f701eca3e29696c4e2ff7a8ae79b2 "pdflatex"
   "main.tex" 1760199034 946 0f30ca542c37dd6bcaa28de5d281e8ca ""
-  "main.toc" 1760210692 5037 ddb87bfc01d0b7f282078cd2fe912653 "pdflatex"
+  "main.toc" 1760215742 5037 ddb87bfc01d0b7f282078cd2fe912653 "pdflatex"
   "struct/Frontpage.tex" 1756311235 694 d9fdb487a8bf032879278c8f1e42e602 ""
   "struct/Preface.tex" 1756311235 119 33a77da7ce89f15d2a52b013e322dbd9 ""
   "struct/circuitikz.tex" 1756311235 3621 e55994767a1aa6f3db9e8adbe25c8836 ""

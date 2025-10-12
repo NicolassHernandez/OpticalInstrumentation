@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  11 OCT 2025 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  11 OCT 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2856,26 +2856,26 @@ Package pdftex.def Info: PartOne/ChapterTwo/pupillocation_gaussfront.png  used o
 <PartOne/ChapterTwo/example2_pupillocation.png, id=652, 327.47343pt x 162.6075pt>
 File: PartOne/ChapterTwo/example2_pupillocation.png Graphic file (type png)
 <use PartOne/ChapterTwo/example2_pupillocation.png>
-Package pdftex.def Info: PartOne/ChapterTwo/example2_pupillocation.png  used on input line 124.
+Package pdftex.def Info: PartOne/ChapterTwo/example2_pupillocation.png  used on input line 123.
 (pdftex.def)             Requested size: 349.06227pt x 173.32831pt.
-Package mdframed Info: mdframed works in twoside mode on input line 129.
+Package mdframed Info: mdframed works in twoside mode on input line 128.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 129.
+(mdframed)              on input line 128.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 131.
+(mdframed)              on input line 130.
  [42 <./PartOne/ChapterTwo/pupillocation_gaussrear.png> <./PartOne/ChapterTwo/pupillocation_gaussfront.png> <./PartOne/ChapterTwo/example2_pupillocation.png>]
-<PartOne/ChapterTwo/fov.png, id=665, 323.70938pt x 131.74219pt>
+<PartOne/ChapterTwo/fov.png, id=666, 323.70938pt x 131.74219pt>
 File: PartOne/ChapterTwo/fov.png Graphic file (type png)
 <use PartOne/ChapterTwo/fov.png>
-Package pdftex.def Info: PartOne/ChapterTwo/fov.png  used on input line 169.
+Package pdftex.def Info: PartOne/ChapterTwo/fov.png  used on input line 168.
 (pdftex.def)             Requested size: 398.93158pt x 162.36555pt.
  [43 <./PartOne/ChapterTwo/fov.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 195.
+Package mdframed Info: mdframed works in twoside mode on input line 194.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 195.
+(mdframed)              on input line 194.
 ) (PartOne/ChapterTwo/Vignetting.tex
 <PartOne/ChapterTwo/raybundle1.png, id=682, 266.49562pt x 107.65219pt>
 File: PartOne/ChapterTwo/raybundle1.png Graphic file (type png)
@@ -3001,7 +3001,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,2785s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (49 pages, 5587715 bytes).
+Output written on main.pdf (49 pages, 5587646 bytes).
 PDF statistics:
  904 PDF objects out of 1000 (max. 8388607)
  245 named destinations out of 1000 (max. 500000)

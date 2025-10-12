@@ -1,0 +1,228 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 6}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section*{Exercise 1}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item We trace the chief ray denoted as CR, and a potential marginal ray MR with unitary height at the stop.
+  \begin{table}[h!]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{ll|l|l|l|l|l|l|l|l|l|l|l}
+      &&\shortstack{Object\\space}&EP&&$L_1$&&Stop&&$L_2$&&XP&\shortstack{Image\\space}\\
+      \hline
+      &$C/R/f$&&&&$250$&&&&$400$&&&\\
+      &$t$&&&$z_{EP}=-62.5$&&$50$&&$70$&&$z_{XP}=-84.8$&&\\
+      &$n$&1&1&1&1&1&1&1&1&1&1&1\\
+      \hline 
+      &$-\phi$&&&&$-0.004$&&&&$-0.0025$&&&\\
+      &$t/n$&&&$\tau_{EP}=-62.5$&&$50$&&$70$&&$\tau_{XP}=-84.8$&&\\
+      \hline 
+      &$y$&&$0$&&$-5$&&\textcolor{red}{$0$}&&$7$&&$0$&\\
+      CR&$nu$&&&$0.08$&&\textcolor{red}{$0.1$}&&\textcolor{red}{$0.1$}&&$0.0825$&&\\
+      &$u$&&&$0.08$&&$0.1$&&$0.1$&&$0.0825$&&\\
+      \hline
+      &$y$&&$R_{EP}=1.25$&&$1$&&\textcolor{red}{$1$}&&$1$&&$R_{XP}=1.21$&\\
+      MR&$nu$&&&$0.004$&&\textcolor{red}{$0$}&&\textcolor{red}{$0$}&&$-0.0025$&&\\
+      &$u$&&&&&$0$&&$0$&&&&
+    \end{tabular}}
+    \caption{Raytrace, with CR=Chief ray, MR=Marginal ray.}
+  \end{table}
+
+  Due to the diameter of the stop is $R_{stop}=10\;mm$, we scale the potential marginal ray to give the true marginal ray and therefore obtain the radius of 
+  the pupils:
+  \begin{align*}
+    \begin{array}{l}
+    R_{EP}=(10)(1.25)=12.5\;mm\\
+    R_{XP}=(10)(1.21)=12.1\;mm
+    \end{array}\Longrightarrow
+    \begin{array}{l}
+    D_{EP}=2R_{EP}=25.0\;mm\\
+    D_{XP}=2R_{XP}=24.2\;mm
+    \end{array}
+  \end{align*}
+
+  \item For Gaussian imagery, we see the stop as the object for the front group and rear group.
+  For the EP, we have a backward propagation that is maganed with the flip of the sign in the refrractive indices.
+  \begin{align*}
+    \frac{-1}{z_{EP}}&=\frac{-1}{Z_{\text{stop}}}+\frac{1}{250}\longrightarrow z_{EP}=62.5\;mm.
+  \end{align*}
+  This entrance pupil is to the right of the lens $L_1$. The magnification is:
+  \begin{align*}
+    m_{EP}=\frac{z_{EP}}{z_{\text{stop}}}=\frac{R_{EP}}{R_{\text{stop}}}=-1.25.
+  \end{align*}
+  The diameter of the entrance pupil is therefore:
+  \begin{align*}
+    D_{EP}=2R_{EP}=2[|m_{EP}|R_{\text{stop}}]=25\;mm.
+  \end{align*}
+  For the rear group, we have analogously:
+  \begin{align*}
+    \frac{1}{z_{XP}}=\frac{1}{Z_{\text{stop}}}+\frac{1}{400}\longrightarrow z_{XP}=-84.848\;mm.
+  \end{align*}
+  The exit pupil is then to the left of the lens $L_2$. The magnification in this case is 
+  \begin{align*}
+    m_{XP}=\frac{z_{XP}}{z_{\text{stop}}}=\frac{R_{XP}}{R_{\text{stop}}}=1.21.
+  \end{align*}
+  The diameter of the exit pupil is:
+  \begin{align*}
+    D_{XP}=2R_{XP}=2[|m_{XP}|R_{\text{stop}}]=24.2\;mm.
+  \end{align*}
+  The illustration of each case is illustrated in the figure \ref{gaussianimagery}.
+
+  \begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \includegraphics[width=.8\columnwidth]{problem1_a.png}
+      \caption{EP for front group}
+      \label{frontgroup}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \includegraphics[width=.8\columnwidth]{problem1_a.png}
+      \caption{XP for rear group}
+      \label{reargroup}
+    \end{subfigure}
+    \caption{With Gaussian imagery, the computation of the pupils is based on the stop as the object of two optical systems.}
+    \label{gaussianimagery}
+  \end{figure}
+  Using either method, the result is the same and is shown in figure \ref{problem1}
+  \begin{figure}
+    \centering
+    \includegraphics[width=.5\columnwidth]{problem1.png}
+    \caption{Illustration of the stop and pupil in the optical system.}
+    \label{problem1}
+  \end{figure}
+\end{enumerate}
+%%
+\section*{Exercise 2}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item The raytrace needs of three rays, the chief ray, the marginal ray, and a forward parallel ray. The following table shown those.
+  We need to notice that the propagation through the pupils and stop require to \textbf{copy} the ray angle as there is no refraction. It is equivalent to just sum the 
+  partial distance and do one raytrace from one surface to the next one.
+  \begin{table}[h!]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{ll|l|l|l|l|l|l|l|l|l|l|l|l|l}
+      &&EP&&1&&2&&Stop&&3&&XP&&\\
+      \hline
+      &$C/R/f$&&&$50$&&$-100$&&$-$&&$100$&&&\\
+      &$t$&&$z_{EP}=-47.541$&&$15$&&$20$&&$14$&&$z_{XP}=-17.647$&&$z'=38.978$&\\
+      &$n$&$1$&$1$&$1$&$1.5$&$1$&$1$&$1$&$1$&$1$&$1$&$1$&&\\
+      \hline
+      &$-\phi$&&&$-0.01$&&$-0.005$&&&&$-0.01$&&&\\
+      &$\tau$&&$\tau_{EP}=-47.541$&&$10$&&$20$&&$15$&&$\tau_{XP}=-17.647$&&$\tau_{z'}=38.978$&\\
+      \hline
+      &$y$&$0$&&$-2.9$&&$-2$&&\textcolor{red}{$0$}&&$1.5$&&$0$&&\\
+      CR&$nu$&&$0.061$&&$0.09$&&$\textcolor{red}{0.1}$&&$\textcolor{red}{0.1}$&&$0.085$&&\\
+      &$u$&&$0.061$&&$0.06$&&$0.1$&&$0.1$&&$0.085$&&\\
+      \hline
+      &$y$&$R_{EP}=1.639$&&$0.95$&&$1$&&\textcolor{red}{$1$}&&$1$&$R_{XP}=1.176$&&\\
+      MR&$nu$&&$0.0145$&&$0.005$&&\textcolor{red}{$0$}&&\textcolor{red}{$0$}&&$-0.01$&&&\\
+      &$u$&&$0.0145$&&$0.003$&&$0$&&$0$&&$-0.01$&&&\\
+      \hline
+      &$y$&\textcolor{red}{$1$}&&$1$&&$0.9$&&$0.61$&&$0.3925$&&$0.7172$&&$0$\\
+      FR&$nu$&&\textcolor{red}{$0$}&&$-0.01$&&$-0.0145$&$\longrightarrow$&$-0.0145$&&$-0.0184$&$\longrightarrow$&$-0.0184$&\\
+      &$u$&&$0$&&$-0.006$&&$-0.0145$&&$-0.0145$&&$-0.0184$&&$-0.0184$&\\
+    \end{tabular}}
+  \end{table}
+
+  The optical power is the ratio $\omega=-\omega_k/y_1$:
+  \begin{align*}
+    \phi=-\frac{\omega_k}{y_1}=0.0184\longrightarrow f_E=\frac{1}{\phi}=54.35\;mm.
+  \end{align*}
+  The back focal distance can be obtained as the \textbf{sum} of the distance $XPF'=z'$ and $L3XP=z_{XP}$:
+  \begin{align*}
+    BFD=z_{XP}+z'=38.978-17.647=21.33\;mm.
+  \end{align*}
+
+  The true marginal ray is obtained scaling the potential marginal ray traced by $5$. Therefore, the diameters are:
+  \begin{align*}
+    D_{EP}=2(5R_{EP})=16.39\;mm,\quad D_{XP}=2(5R_{XP})=11.76\;mm.
+  \end{align*}
+  \item In this case, the F-number gives us the information of the entrance pupil:
+  \begin{align*}
+    f/\#=\frac{f_E}{D_{EP}}\longrightarrow D_{EP}=10.9\;mm.
+  \end{align*}
+  With this value, we can obtain the scale we need to apply to the exit pupil and the stop diameters:
+  \begin{align*}
+    m=\frac{D_{EP}^{\text{new}}}{D_{EP}^{\text{old}}}=\frac{10.9}{16.5}=0.662.
+  \end{align*}
+  Therefore,
+  \begin{align*}
+    D_{\text{stop}}^{\text{new}}=mD_{\text{stop}}^{\text{old}}=6.6\;mm,\quad\text{and}\quad D_{XP}^{\text{new}}=mD_{XP}^{\text{old}}=7.9\;mm.
+  \end{align*}
+\end{enumerate}
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}
