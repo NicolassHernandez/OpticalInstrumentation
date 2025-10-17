@@ -203,4 +203,104 @@ by the XP and the axial image point.
 
 
 
+\begin{example}{Determination of stop and pupil}
+Determine the location and size of the pupils for th efollowing the system in air.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/example_stophw6.png}
+\end{figure}
+\subsubsection{Solution}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item We trace the chief ray denoted as CR, and a potential marginal ray MR with unitary height at the stop.
+  \begin{table}[h!]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{ll|l|l|l|l|l|l|l|l|l|l|l}
+      &&\shortstack{Object\\space}&EP&&$L_1$&&Stop&&$L_2$&&XP&\shortstack{Image\\space}\\
+      \hline
+      &$C/R/f$&&&&$250$&&&&$400$&&&\\
+      &$t$&&&$z_{EP}=-62.5$&&$50$&&$70$&&$z_{XP}=-84.8$&&\\
+      &$n$&1&1&1&1&1&1&1&1&1&1&1\\
+      \hline 
+      &$-\phi$&&&&$-0.004$&&&&$-0.0025$&&&\\
+      &$t/n$&&&$\tau_{EP}=-62.5$&&$50$&&$70$&&$\tau_{XP}=-84.8$&&\\
+      \hline 
+      &$y$&&$0$&&$-5$&&\textcolor{red}{$0$}&&$7$&&$0$&\\
+      CR&$nu$&&&$0.08$&&\textcolor{red}{$0.1$}&&\textcolor{red}{$0.1$}&&$0.0825$&&\\
+      &$u$&&&$0.08$&&$0.1$&&$0.1$&&$0.0825$&&\\
+      \hline
+      &$y$&&$R_{EP}=1.25$&&$1$&&\textcolor{red}{$1$}&&$1$&&$R_{XP}=1.21$&\\
+      MR&$nu$&&&$0.004$&&\textcolor{red}{$0$}&&\textcolor{red}{$0$}&&$-0.0025$&&\\
+      &$u$&&&&&$0$&&$0$&&&&
+    \end{tabular}}
+    \caption{Raytrace, with CR=Chief ray, MR=Marginal ray.}
+  \end{table}
+
+  Due to the diameter of the stop is $R_{stop}=10\;mm$, we scale the potential marginal ray to give the true marginal ray and therefore obtain the radius of 
+  the pupils:
+  \begin{align*}
+    \begin{array}{l}
+    R_{EP}=(10)(1.25)=12.5\;mm\\
+    R_{XP}=(10)(1.21)=12.1\;mm
+    \end{array}\Longrightarrow
+    \begin{array}{l}
+    D_{EP}=2R_{EP}=25.0\;mm\\
+    D_{XP}=2R_{XP}=24.2\;mm
+    \end{array}
+  \end{align*}
+
+  \item For Gaussian imagery, we see the stop as the object for the front group and rear group.
+  For the EP, we have a backward propagation that is maganed with the flip of the sign in the refrractive indices.
+  \begin{align*}
+    \frac{-1}{z_{EP}}&=\frac{-1}{Z_{\text{stop}}}+\frac{1}{250}\longrightarrow z_{EP}=62.5\;mm.
+  \end{align*}
+  This entrance pupil is to the right of the lens $L_1$. The magnification is:
+  \begin{align*}
+    m_{EP}=\frac{z_{EP}}{z_{\text{stop}}}=\frac{R_{EP}}{R_{\text{stop}}}=-1.25.
+  \end{align*}
+  The diameter of the entrance pupil is therefore:
+  \begin{align*}
+    D_{EP}=2R_{EP}=2[|m_{EP}|R_{\text{stop}}]=25\;mm.
+  \end{align*}
+  For the rear group, we have analogously:
+  \begin{align*}
+    \frac{1}{z_{XP}}=\frac{1}{Z_{\text{stop}}}+\frac{1}{400}\longrightarrow z_{XP}=-84.848\;mm.
+  \end{align*}
+  The exit pupil is then to the left of the lens $L_2$. The magnification in this case is 
+  \begin{align*}
+    m_{XP}=\frac{z_{XP}}{z_{\text{stop}}}=\frac{R_{XP}}{R_{\text{stop}}}=1.21.
+  \end{align*}
+  The diameter of the exit pupil is:
+  \begin{align*}
+    D_{XP}=2R_{XP}=2[|m_{XP}|R_{\text{stop}}]=24.2\;mm.
+  \end{align*}
+  The illustration of each case is illustrated in the figure \ref{gaussianimagery}.
+
+  \begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/problem1_a.png}
+      \caption{EP for front group}
+      \label{frontgroup}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+      \centering
+      \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/problem1_a.png}
+      \caption{XP for rear group}
+      \label{reargroup}
+    \end{subfigure}
+    \caption{With Gaussian imagery, the computation of the pupils is based on the stop as the object of two optical systems.}
+    \label{gaussianimagery}
+  \end{figure}
+  Using either method, the result is the same and is shown in figure \ref{problem1}
+  \begin{figure}
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/problem1.png}
+    \caption{Illustration of the stop and pupil in the optical system.}
+    \label{problem1}
+  \end{figure}
+\end{enumerate}
+\end{example}
 

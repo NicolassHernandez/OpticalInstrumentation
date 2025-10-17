@@ -80,8 +80,22 @@ system:
 \end{example}
 
 
+In general,
+\begin{emphasizer}[Key points in solving problems]
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+        \item Trace the potential chief ray (CR) to know the locations of the pupils (and image size).
+        \item Trace the potential marginal ray (MR) to determine image location and pupil sizes.
+        \item If the MR comes parallel, then it can be used to obtain the first-order properties.
+        \item The F-number gives us the real size of EP so we can scale the MR.
+        \item The image size allows us to get the real CR.
+        \item The HFOV is determined with the incident angle $\bar{u}$ at EP in the real CR: $\text{HFOV}=\tan^{-1}\bar{u}$.
+        \item The vignetting is found by looking at $y,\bar{y}$ in the real MR and CR and applying the criteria.
+        \item We can arbitraryly define a dummy surface to our convenience.
+    \end{itemize}
+\end{emphasizer}
+
 %%
-\subsection{Dymmy surfaces}
+\subsection{Dummy surfaces}
 In a raytrace, a zero-power surface can be inserted at any location to examine the ray properties.
 
 An example of its application is the following Cassegrain objective, where we require to find the size of the hole.
