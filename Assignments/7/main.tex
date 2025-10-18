@@ -1,0 +1,218 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 7}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section*{Exercise 1}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item Given the magnification, we have 
+  \begin{align*}
+    m=\frac{z'}{z}=-\frac{1}{2}\longrightarrow z=2z'.
+  \end{align*}
+  We use this relation in the thin lens equation and solve for $z$:
+  \begin{align*}
+    \frac{1}{z'}=\frac{1}{(2z')}+\frac{1}{f}\longrightarrow z'=120\;mm.
+  \end{align*}
+  and,
+  \begin{align*}
+    z=-2z'=-240\;mm.
+  \end{align*}
+  The object is $240\;mm$ to the left of the thin lens, and the image $120\;mm$ to the right.
+  The scheme to proceed is illustrated in the figure, where we have traced the chief and marginal ray. THe first one will allows us to compute the FOV through the angle $\bar{u}$, while both are 
+  used to determine the height at the lens position.
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{problem1.png}
+    \caption{Chief and marginal rays used to the vignetting condition and obtain the FOV.}
+  \end{figure}
+  \begin{align*}
+    \text{Chief ray}:&\qquad y_{\text{stop}}=10\;mm,\quad u_{\text{stop}}=\frac{10}{240-40}=0.05\\
+    \text{Marginal ray}:&\qquad\bar{y}_{\text{stop}}=0\;mm,\quad\bar{u}_{\text{stop}}=-\frac{\bar{y}_{\text{stop}}}{200}
+  \end{align*}
+  We transfer the chief and marignal ray to the lens
+  \begin{align*}
+    y_{\text{lens}}&=y_{\text{stop}}+u_{\text{stop}}t=10+0.05\cdot40=12\;mm\\
+    \bar{y}_{\text{lens}}&=\bar{y}_{\text{stop}}+\bar{u}_{\text{stop}}t=0-\frac{\bar{y}_{\text{stop}}}{200}\cdot40=-0.2\bar{y}_{\text{obj}}.
+  \end{align*}
+  With both heights, we can set the vignetting condition. For unvignetetted at the lens, we must have 
+  \begin{align*}
+    \frac{D_{\text{lens}}}{2}&\geq|\bar{y}_{\text{lens}}|+|y_{\text{lens}}|\\
+    12.5&=0.2\bar{y}_{\text{obj}}+12\\
+    \bar{y}_{\text{obj}}&=2.5\;mm.
+  \end{align*}
+  Then,
+  \begin{align*}
+    \bar{u}_{\text{stop}}=-\frac{2.5}{200}=-0.0125.
+  \end{align*}
+  Therefore, the unvignetted object diameter FOV is twice the height of the object: $\text{FOV}=2\bar{y}_{\text{obj}}=5\;mm$.
+  \item For fully vignetted, we use the same rays properties but the condition is changed:
+  \begin{align*}
+    \frac{D_{\text{lens}}}{2}&\leq|\bar{y}_{\text{lens}}|-|y_{\text{lens}}|\\
+    12.5&0.2\bar{y}_{\text{obj}}-12\\
+    \bar{y}_{\text{obj}}=122.5\;mm.
+  \end{align*}
+  The angle of the chief ray is 
+  \begin{align*}
+    \bar{u}=-\frac{122.5}{200}=-0.6125.
+  \end{align*}
+  Similarly, the vignetted object diameter FOV is $\text{FOV}=2\bar{y}_{\text{obj}}=245\;mm$.
+\end{enumerate}
+For the above, we didnt use neither Gaussian reduction or raytrace as the system is simple enough to be analized with one step transfer and the thin lens equation.
+%%
+\section*{Exercise 2}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item We raytrace the chief and marginal rays to determine the properties of the system. Notice that the marginal ray is parallel at the object space so that 
+  in addition to help us with the pupil sizes, it will provide us information about the system first-order properties.
+  \clearpage
+  \begin{sidewaystable}[htbp]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+      &Object&&EP&&1&&2&&Stop&&3&&XP&&Image\\
+      \hline
+      $C/R/f$&&&&&$100$&&$-50$&&$-$&&$100$&&&\\
+      $t$&&&&$z_{EP}=-71.429$&&$25$&&$25$&&$50$&&$z_{XP}=-100$&&$z'=280$&\\
+      $n$&&&&$1$&&$1$&&$1$&&$1$&&$1$&&$1$&\\
+      \hline
+      $-\phi$&&&&&$-0.01$&&$-0.02$&&&&$-0.01$&&&&\\
+      $\tau$&&&&$\tau_{EP}=$&&$25$&&$25$&&$50$&&$\tau_{XP}=$&&$\tau_{z'}=$&\\
+      \hline
+      $y$&&&$0$&&$-6.25$&&$-2.5$&&\textcolor{red}{$0$}&&$5$&&$0$&&$14$\\
+      $nu$&&&&$0.0875$&&$0.15$&&$\textcolor{red}{0.1}$&&$\textcolor{red}{0.1}$&&$0.05$&&$0.05$&\\
+      $u$&&&&$0.0875$&&$0.15$&&$0.1$&&$0.1$&&$0.05$&&$0.05$&\\
+      \hline
+      $y$&\textcolor{red}{$1$}&&$1$&&$1$&&$0.75$&&$0.875$&&$1.125$&&$1.75$&&$0$\\
+      $nu$&&\textcolor{red}{$0$}&&$0$&&$-0.01$&&$0.05$&&$0.05$&&$-0.006$&&&\\
+      $u$&&$0$&&$0$&&$-0.01$&&$0.05$&&$0.05$&&$-0.006$&&&
+    \end{tabular}}
+  \end{sidewaystable}
+  \clearpage
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*)]
+    \item The entrance pupil location is the distance that the chief ray transfer from the lend 1 to the a position with height zero:
+    \begin{align*}
+      z_{EP}=-71.429\;mm\quad(\text{right of lens 1}).
+    \end{align*}
+    Its size is given by the marginal ray at that position. First, we need to \textbf{scale} the potential marignal ray we traced, at the stop location, by the amounf equal to 
+    the ratio between the radius provided of the stop by the value obtained at that location by the ray:
+    \begin{align*}
+      m_{MR}=\frac{10}{0.875}=11.429.
+    \end{align*}
+    Then, the size of the EP is:
+    \begin{align*}
+      D_{EP}=2(11.429)(1)=22.858\;mm.
+    \end{align*}
+    \item For the exit pupil, we look at the distance from the lens 3 to the height of zero in the chief ray:
+    \begin{align*}
+      z_{XP}=-100\;mm\quad(\text{left of lens 3}).
+    \end{align*}
+    The diameter is:
+    \begin{align*}
+      D_{XP}=2(11.429)(1.75)=40\;mm.
+    \end{align*}
+    \item We use the marginal ray as it was set parallel at the object space. The effective focal length is the negative ratio of the input height by the image space slope ray:
+    \begin{align*}
+      f_E=-\frac{y_1}{\omega_k}=-\frac{1}{0.006}=166.67\;mm.
+    \end{align*}
+    In this case we can just take the potential morginal ray, as both quantities are scaled so that it has no effect in the ratio.
+    \item The back focal distance is the distance between the lens 3 and the image location. We can obtained by summing the distance from the lens 3 to XP and the distance between XP and the image location:
+    \begin{align*}
+      \text{BFD}=z_{XP}+z'=-100+280=180\;mm.
+    \end{align*} 
+  \end{enumerate}
+  \item asf
+  \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\roman*)]
+    \item This FOV corresponds to the spatial dstance of the image, which is literally the same as provided. Its angular correspondence, is the inverse tangent of the $\bar{u}$ of the real chief ray. This ray is obtained by scaling 
+    the one traced by the amount:
+    \begin{align*}
+      m_{CR}=\frac{50}{14}=3.57.
+    \end{align*}
+    Therefore,
+    \begin{align*}
+      \text{FOV}=\pm\theta_{1/2}=\pm\tan^{-1}\bar{u}=\pm\tan^{-1}{0.0714}=\pm10.125^\circ.
+    \end{align*}
+    \item To have diameters of lenses for unvignetted, they must be \textbf{at least} the same radius of the sum of the height of the chief ray and the marginal ray at that location. Applying this 
+    idea to each lens gives:
+    \begin{align*}
+      L1:&\qquad D\geq2(|m_{MR}y_{L_1}|+|m_{CR}\bar{y}_{L_1}|)=2(11.429\cdot1+3.54\cdot6.25)=67.108\;mm\\
+      L2:&\qquad D\geq2(|m_{MR}y_{L_2}|+|m_{CR}\bar{y}_{L_2}|)=2(11.429\cdot0.75+3.54\cdot2.5)=34.844\;mm\\
+      L3:&\qquad D\geq2(|m_{MR}y_{L_3}|+|m_{CR}\bar{y}_{L_3}|)=2(11.429\cdot1.125+3.54\cdot5)=61.115\;mm
+    \end{align*}
+    \item The FOV of the object space in angle is the inverse tangent of $\bar{u}$ in the real chief ray at the EP:
+    \begin{align*}
+      \text{FOV}=\pm\tan^{-1}(\bar{u})=\pm17.21^\circ.
+    \end{align*}
+  \end{enumerate}
+\end{enumerate}
+
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}
