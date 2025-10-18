@@ -103,8 +103,8 @@
   With both heights, we can set the vignetting condition. For unvignetetted at the lens, we must have 
   \begin{align*}
     \frac{D_{\text{lens}}}{2}&\geq|\bar{y}_{\text{lens}}|+|y_{\text{lens}}|\\
-    12.5&=0.2\bar{y}_{\text{obj}}+12\\
-    \bar{y}_{\text{obj}}&=2.5\;mm.
+    12.5&\geq0.2\bar{y}_{\text{obj}}+12\\
+    \bar{y}_{\text{obj}}&\leq2.5\;mm.
   \end{align*}
   Then,
   \begin{align*}
@@ -114,8 +114,8 @@
   \item For fully vignetted, we use the same rays properties but the condition is changed:
   \begin{align*}
     \frac{D_{\text{lens}}}{2}&\leq|\bar{y}_{\text{lens}}|-|y_{\text{lens}}|\\
-    12.5&0.2\bar{y}_{\text{obj}}-12\\
-    \bar{y}_{\text{obj}}=122.5\;mm.
+    12.5&\leq0.2\bar{y}_{\text{obj}}-12\\
+    \bar{y}_{\text{obj}}&\geq122.5\;mm.
   \end{align*}
   The angle of the chief ray is 
   \begin{align*}
@@ -141,7 +141,7 @@ For the above, we didnt use neither Gaussian reduction or raytrace as the system
       $n$&&&&$1$&&$1$&&$1$&&$1$&&$1$&&$1$&\\
       \hline
       $-\phi$&&&&&$-0.01$&&$-0.02$&&&&$-0.01$&&&&\\
-      $\tau$&&&&$\tau_{EP}=$&&$25$&&$25$&&$50$&&$\tau_{XP}=$&&$\tau_{z'}=$&\\
+      $\tau$&&&&$\tau_{EP}=-71.429$&&$25$&&$25$&&$50$&&$\tau_{XP}=-100$&&$\tau_{z'}=280$&\\
       \hline
       $y$&&&$0$&&$-6.25$&&$-2.5$&&\textcolor{red}{$0$}&&$5$&&$0$&&$14$\\
       $nu$&&&&$0.0875$&&$0.15$&&$\textcolor{red}{0.1}$&&$\textcolor{red}{0.1}$&&$0.05$&&$0.05$&\\

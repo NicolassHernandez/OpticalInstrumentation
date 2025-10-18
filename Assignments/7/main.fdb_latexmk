@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760765936.31919 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/7/main.tex" "main.pdf" "main" 1760765939.0693 0
+["pdflatex"] 1760766098.44085 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/7/main.tex" "main.pdf" "main" 1760766101.06258 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757176733 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
@@ -281,10 +281,10 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/7/main.tex" 1760765935 9600 45fca592a0281c3fc14729adb31e52c3 ""
-  "main.aux" 1760765938 375 174613be8140e2186ebcbaf318633424 "pdflatex"
-  "main.out" 1760765938 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1760765935 9600 45fca592a0281c3fc14729adb31e52c3 ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/7/main.tex" 1760766097 9628 9e08aafc6f9e6bec11ff33b6297a8978 ""
+  "main.aux" 1760766100 375 174613be8140e2186ebcbaf318633424 "pdflatex"
+  "main.out" 1760766100 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1760766097 9628 9e08aafc6f9e6bec11ff33b6297a8978 ""
   "problem1.png" 1760765926 61961 db332ee42ebeb5c9950690a080828023 ""
   "refs.bib" 1760754485 305 a8e082f4cca99b72918bc1c2f977372e ""
   (generated)
