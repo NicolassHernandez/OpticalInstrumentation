@@ -1,0 +1,140 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 8}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section*{Exercise 1}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item The blur on the monitor is the tangent of the resolution of the eye times the distance from the eye to the monitor:
+  \begin{align*}
+    B_{\text{monitor}}=\tan(\frac{1}{60})\cdot500\;mm=0.145\;mm.
+  \end{align*}
+  The blur on the retina is given by the magnification from the monitor to the eye
+  \begin{align*}
+    m=\frac{200\;mm}{10\;mm}=20,
+  \end{align*}
+  times the blur on the monitor:
+  \begin{align*}
+    B'_{\text{detector}}=\frac{B_{\text{monitor}}}{m}=0.00727\;mm.
+  \end{align*}
+  Assuming that the blur equals the pixel size means that the amount of pixels in each dimension is:
+  \begin{align*}
+    \text{Width}=\frac{10\;mm}{0.00727}=1375.1\approx1376\;px,\quad\text{Height}=\frac{15\;mm}{0.00727}=2062.6\approx2063\;px
+  \end{align*}
+  Therefore, the resolution of the system in pixels is $1376\times2063$ px.
+  \item The near distance that meets the blur condition is given $L_{\text{near}}=-2\;m$.
+  We now use the formula given in the lectures and solve for the F-number:
+  \begin{align*}
+    L_{\text{near}}=-\frac{f^2}{2B'\;f/\#}\longrightarrow f/\#=-\frac{f^2}{2B'L_{\text{near}}}=\frac{15.8^2}{2(0.00727)(-2000)}=8.6.
+  \end{align*}
+  Thus, the F-number must be at least $8.6$ to meet the blur condition.
+\end{enumerate}
+%%
+\section*{Exercise 2}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item The reverse telephoto zoom lens is composed of a negative lens $L_1$ followed by a positive lens $L_2$.
+  The overall optical power is given by:
+  \begin{align*}
+    \phi=\phi_1+\phi_2-\phi_1\phi_2\tau=\frac{-1}{f_1}+\frac{1}{f_1}+\frac{1}{f_1^2}t=\frac{1}{f}\longrightarrow t=\frac{f_1^2}{f}.
+  \end{align*}
+  The back focal distance is given by the sum of the effective focal length $f$ and the sihft of the rear focal distance $d'$:
+  \begin{align*}
+    \text{BFD}=f+d'=f-\frac{\phi_1}{\phi}t=f+50\;mm.
+  \end{align*}
+  The system focal length consists of the distance from the first lens to the rear focal point $F'$:
+  \begin{align*}
+    L=t+\text{BFD}=\frac{2500\;mm^2}{f}+f+50\;mm.
+  \end{align*}
+  \item With the quantities computed in the previous part, we now plot the lens positions with respect to the system focal length $L$, which gives the location of the fixed image.
+  First, we pick one focal length $f$, and compute the $t$ distance. Then, we compute the BFD and finally the total length $L$. The following figure illustrate the 
+  position of the lenses relative to the image. 
+  \begin{figure}[h!]
+    \centering
+    \begin{circuitikz}[yscale=3]
+      \draw[arrow](0,0)--(10,0)node[below]{$f\;(mm)$};
+      \draw[arrow](0,0)--(0,2.5)node[right]{Distance from image$\;(mm)$};
+      \draw[very thick,NavyBlue,domain=3:8,samples=100] plot(\x,{ (10*\x+50+(250/\x))/100 });
+      \draw[very thick,OliveGreen,domain=3:8,samples=100] plot(\x,{ (10*\x+50)/100 });
+      \foreach\x in {3,4,...,8}{\draw(\x,.1)--(\x,-.1)node[below]{$\x0$};}
+      \draw(.1,.8)--(-.1,.8)node[left]{$80$}(.1,1)--(-.1,1)node[left]{$100$}(.1,1.2)--(-.1,1.2)node[left]{$120$}(.1,1.4)--(-.1,1.4)node[left]{$140$}
+      (.1,1.6)--(-.1,1.6)node[left]{$160$}(.1,1.8)--(-.1,1.8)node[left]{$180$};
+      \begin{scope}[shift={(9,2)}] % move legend to top-right
+          \draw[very thick,NavyBlue](0,0)--(0.8,0)node[right,black]{$L_1\;(L)$};
+          \draw[very thick,OliveGreen](0,-0.2)--(0.8,-0.2)node[right,black]{$L_2\;(\text{BFD})$};
+      \end{scope}
+    \end{circuitikz}
+  \end{figure}
+\end{enumerate}
+
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}
