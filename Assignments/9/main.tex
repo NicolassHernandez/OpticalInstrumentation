@@ -1,0 +1,191 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 9}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section*{Exercise 1}
+We use raytracing with the chief and marginal ray and the information given. Recall that the stop is placed at 
+the primary mirror, so the chief ray must have 0 height at that location. Also, we put a \textbf{dummy surface} at the primary mirror 
+to use it for vignetting, and working
+\begin{table}[h!]
+  \centering
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{ll|l|l|l|l|l|l|l|l|l|l|l|l}
+    &&\shortstack{Object\\space}&EP&&$M_1$ (stop)&&$M_2$&&Dummy&&XP&&\shortstack{Image\\space}\\
+    \hline
+    &$R$&&&&$-500$&&$-125$&&$\infty$&&&&\\
+    &$t$&&&$z_{EP}=$&&$-200$&&$200$&&$=$&&&\\
+    &$n$&1&&1&&-1&&1&&1&&1\\
+    \hline 
+    &$-\phi$&&&&$-0.004$&&$0.016$&&$0$&&$0$&&\\
+    &$t/n$&&&$\tau_{EP}=$&&$200$&&$200$&&$-247.619$&&$297.625$&\\
+    \hline 
+    &$y$&&&&\textcolor{red}{$0$}&&$20$&&$104$&&\textcolor{red}{$0$}&&\\
+    CR&$nu$&&&\textcolor{red}{$0.1$}&&$0.1$&&$0.42$&&$0.42$&&&\\
+    &$u$&&&&&&&&&&&&\\
+    \hline
+    &$y$&&$R_{EP}=$&&\textcolor{red}{$1$}&&$0.2$&&$0.04$&&$R_{XP}=0.2381$&&\textcolor{red}{$0$}\\
+    MR&$nu$&&&\textcolor{red}{$0$}&&$-0.004$&&$-0.0008$&&$-0.0008$&&$-0.0008$&\\
+    &$u$&&&&&&&&&&&&
+  \end{tabular}}
+  \caption{Raytrace, with CR=Chief ray, MR=Marginal ray.}
+\end{table}
+
+From the marginal ray, we know that the effective focal length is:
+\begin{align*}
+  f=-\frac{y_1}{\omega_k}=-\frac{1}{-0.0008}=1250\;mm.
+\end{align*}
+The working distance is the sum of the distance from the dummy surface to the exit pupil and the distance from the exit pupil to the image location:
+\begin{align*}
+  \text{WD}=-247.619+297.625\approx50\;mm.
+\end{align*}
+By looking the distance of the dumy to the exit pupil, we say that the exit pupil is located $247.619\;mm$ to the left of the primary mirror.
+The diameter of the pupils are obtained through the f-number requirement.
+\begin{align*}
+  f/\#=4=\frac{f}{D_{EP}}\longrightarrow D_{EP}=\frac{1250}{4}=312.5\;mm.
+\end{align*}
+
+
+
+%%
+\section*{Exercise 2}
+A relaxed eye means that the intermediate image must be at the front focal plane $f_{EP}$ of the eyepiece so that the 
+rays output parallel. The magnifying power is:
+\begin{align*}
+  MP=\frac{250\;mm}{f_{EP}}=10\longrightarrow f_{EP}=25\;mm.
+\end{align*}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item For a simple eyepiece, the $f_{EP}$ corresponds to the front focal length of the eyepiece: $f_{eye}=f_{EP}$.
+  Because the stop is $200\;mm$ to the left of the intermediate image, which is $25\;mm$ to the left of the eyepiece, the total distance from this lens is:
+  \begin{align*}
+    z=-200-f_{eye}=-200-25=-225\;mm.
+  \end{align*}
+  Using the thin-lens equation, we find the distance of the object and therefore the eye relief:
+  \begin{align*}
+    \frac{1}{ER}=\frac{1}{z}+\frac{1}{f_{eye}}\longrightarrow ER=\frac{1}{\frac{1}{-225}+\frac{1}{25}}=28.125\;mm.
+  \end{align*}
+  \item In the case of a compound eyepiece, the field lens is placed at one front focal length from the eye lens. This implies that only the 
+  rear principal plane and the ER change from the simple eyepiece discussed previously. It is shifted by the following amount:
+  \begin{align*}
+    d'=-\frac{\phi_F}{\phi_{EP}}t=-\frac{f^2_{eye}}{f_{F}}=-\frac{25^2}{40}=-15.625\;mm.
+  \end{align*}
+  The eyerelief is then shifted by the same amount to the left:
+  \begin{align*}
+    ER=28.125-15.625=12.5\;mm.
+  \end{align*}
+  \item In the Ramsden eyepiece, we need to have the same eye relief of part b) knowing that the field lens is located $12\;mm$ to the right of the intermediate image plane.
+  Recall also that we have to achieve the magnyfying power and the image location, so we have three conditions to meet.
+  \begin{align*}
+    f_{EP}=25\;mm,\quad d'=-\frac{\phi_F}{\phi_{eye}}t,\quad f_{EP}=12+d=25\;mm,\quad \frac{1}{z'}=\frac{1}{z}+\frac{1}{f_{EP}}.
+  \end{align*}
+  First, the focal length $f_{EP}$ allows us to obtain the shift of the front principal plane:
+  \begin{align*}
+    f_{EP}=12+d=25\longrightarrow d=13\;mm.
+  \end{align*}
+  This shifting is equal to the ratio of powers, which enables us to solve for the power of the eye:
+  \begin{align*}
+    d=13=\frac{\phi_{eye}}{\phi_{EP}}t\longrightarrow \phi_{eye}t=\frac{d}{f_{EP}}=\frac{13}{25}=0.52.
+  \end{align*}
+  The distance of the stop to the front principal plane is:
+  \begin{align*}
+    z=-200-23-d=-225\;mm.
+  \end{align*}
+  Using the thin-lens equation:
+  \begin{align*}
+    \frac{1}{z'}=\frac{1}{z}+\frac{1}{f_{EP}}\longrightarrow z'=28.215\;mm.
+  \end{align*}
+  This distance is from the rear principal plane to the exit pupil so we can extract the shifrt $d'$:
+  \begin{align*}
+    ER-d'=28.215\longrightarrow d'=-15.625\;mm.
+  \end{align*}
+  We can relate it to tits formula and get the term $\phi_Ft$:
+  \begin{align*}
+    d'=-\frac{\phi_F}{\phi_{EP}}t\longrightarrow \phi_Ft=-\frac{d'}{f_{EP}}=0.625.
+  \end{align*}
+  Using the overal power multiplied by $t$ allow us to get this distance,
+  \begin{align*}
+    \phi_{EP}t=\phi_Ft+\phi_{eye}t-\phi_F\phi_{eye}t^2=0.625+0.52-0.625\cdot0.52=0.82.
+  \end{align*}
+  Therefore, 
+  \begin{align*}
+    t=\frac{0.82}{\phi_{EP}}=0.82f_{EP}\longrightarrow t=20.5\;mm.
+  \end{align*}
+  With this distance, we now have the focal length of the eye and the field lens:
+  \begin{align*}
+    \phi_{eye}&=\frac{0.52}{20.5}=\frac{1}{f_{eye}}\longrightarrow f_{eye}=39.42\;mm\\
+    \phi_{F}&=\frac{0.625}{20.5}=\frac{1}{f_{F}}\longrightarrow f_F=32.8\;mm.
+  \end{align*}
+\end{enumerate}
+
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}

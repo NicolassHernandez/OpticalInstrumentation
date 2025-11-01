@@ -1,0 +1,200 @@
+\section{Radiative transfer}
+\subsection{Radiometry}
+\bfemph{Radiometry} characterizes the propagation of radiant energy through an optical system.
+The basic unit is the watt W. Radiometric terminology and units are:
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{l|l|l|l}
+        Quantity&Symbol&Units&Units description\\
+        \hline
+        Energy&$Q$&$J$&\\
+        Flux&$\Phi$&$W$&Power\\
+        Intensity&$I$&$W/sr$&Power per unit solid angle\\
+        Irradiance&$E$&$W/m^2$&Incident power per unit area\\
+        Exitance&$M$&$W/m^2$&Exiting power per unit area\\
+        Radiance&$L$&$W/m^2sr$&Power per unit projectedarea per unit solid angle
+    \end{tabular} 
+\end{table}
+There are some assumptions:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The source is \textbf{incoherent}, meaning that scenes are collection of independently point sources, no interference.
+    \item Objects and images on-axis and perpendicular to the optical axis, so that the projected area equals the area.
+\end{itemize}
+
+The solid angle $\Omega$ equals the surface area of the unit sphere in a given vecinity. The units are $4\pi$ steradians (sr).
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/solidangle.png}
+    \caption{The solid angle of a sphere can be approximated to the solid angle of a cone.}
+\end{figure}
+
+\begin{align*}
+    d\Omega=\frac{dA}{r^2}=\frac{r^2\sin\theta d\theta d\phi}{r^2}=\sin\theta d\theta d\phi\stackrel{\int}{\longrightarrow}\highlight{\Omega_{\text{sphere}}=4\pi\sin^2(\theta_0/2)}.
+\end{align*}
+In optics, its common to approximate the solid angle of a sphere to the section of a cone:
+\begin{align*}
+    \Omega\approx\frac{\pi r_0^2}{d^2}\approx\pi\sin^2\theta_0\approx\pi\theta^2_0\quad(\text{small angle approximation}).
+\end{align*}
+
+\subsection{Radiative transfer}
+\bfemph{Radiative transfer} uses first-order geometrical principles to determine the amount of light from an object that reaches an image or detector.
+
+Exitance and irradiance are related by the \bfemph{reflectance} of the surface $\rho$:
+\begin{align}
+    M=\rho E.
+\end{align} 
+For average scenes, $\rho=18\%$. Exposures are often set using this value, that is, we expose the print to that average so that the prin reflectance ends up with $18\%$.
+
+The irradiance of a \bfemph{Lambertian source} (perfectly diffuse surface) is constant. The intensity falls off with the apparaent source size or the \bfemph{orjected area} (\bfemph{Lambert's law}).
+The exitance of a Lambertian source is related to its radiance by $\pi$.
+\begin{align*}
+    \text{Lambertian source}\qquad\highlight{\begin{array}{ll}
+        L(\theta,\phi)=\text{constant}&I=I_0\cos\theta\\
+        M=\pi L&\pi L=\rho E
+    \end{array}}
+\end{align*}
+
+We now analyze the optical power from an object that reaches the image in an optical system.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/radiativetransfer.png}
+\end{figure}
+
+In air, the radiance and the \bfemph{$A\Omega$ product} or \bfemph{throughput} are conserved, and the flux collected by the lens $\Phi$ is transferred to the image area $A'$:
+\begin{align*}
+    \Phi=LA_p\Omega=LA\frac{\pi D_p^2}{4z^2}\stackrel{A'=m^2A}{\longrightarrow}\Phi=\frac{\pi LA'D_p^2}{4m^2z^2}.
+\end{align*}
+
+Using gaussian equations and f-number equations, the image plane irradiance $E'$ is
+\begin{align}
+    \text{Camera equation}\qquad\highlight{E'=\frac{\Phi}{A'}=\frac{\pi L}{4(f/\#_W)^2}\to\pi L(\text{NA})^2,\quad L=\frac{\rho E_0}{\pi}}.
+\end{align}
+
+\subsubsection{Spectral dependence}
+Spectral dependence can also be added. 
+\begin{align*}
+    \begin{array}{l}
+        E_0(\lambda)=\text{Object irradiance}\\
+        \rho(\lambda)=\text{Object reflectance}\\
+        L(\lambda)=\text{Object radiance}
+    \end{array}\longrightarrow\begin{array}{l}
+        L(\lambda)=\frac{M(\lambda)}{\pi}=\frac{\rho(\lambda)E_0(\lambda)}{\pi}\\
+        E'(\lambda)=\frac{\rho(\lambda)E_0(\lambda)}{4(1-m)^2(f/\#)^2}
+    \end{array}
+\end{align*}
+This can be integrated over all wavelengths for total irradiance 
+\begin{align*}
+    E'=\frac{1}{4(1-m)^2(f/\#)^2}\int_{\lambda_1}^{\lambda_2}\rho(\lambda)E_0(\lambda)\;d\lambda.
+\end{align*}
+%
+\subsubsection{Exposure}
+
+Most detectors respond to energy per unit area rathen than power per unit area. Multiplying the image irradiance by the exposure time gives the expoure ($J/m^2$):
+\begin{align}
+    \text{Exposure}\qquad\highlight{H=E'\Delta t}.
+\end{align}
+The mean solar constant is $1368\;W/m^2$ outside the atmosphere of the earth, and the solar irradiance on the surface is about $1000\;W/m^2$. 
+%%
+\subsection{Photometry}
+\bfemph{Photometry} is the subset of radiometry that deals with visual measurements, and luminous power is measured in \bfemph{lumens} $lm$. The lumen is a watt
+wighted to the visual \bfemph{photopic response}. This peak response occurs at $555\;nm$, where the conversion is $683\;lm/W$. The dark adapted or \bfemph{scotopic response} peaks 
+at $507\;nm$ with $1700\;lm/W$.
+
+\begin{table}[h!]
+  \centering
+  \begin{subtable}[t]{0.45\textwidth}
+    \centering
+    \caption{Photometric terminology}
+    \begin{tabular}{lll}
+      Luminous power&$\Phi_V$&$lm$\\
+      Luminous intensity&$I_V$&$lm/sr$\\
+      Illuminance&$E_V$&$lm/m^2$\\
+      Luminous exitance&$M_V$&$lm/m^2$\\
+      Luminance&$L_V$&$lm/m^2sr$\\
+      Exposure&$H_V$&$lm\;s/m^2$\\
+      \hline
+      candela (cd)&$I_V$&$lm/sr$\\
+      lux (lx)&$E_V$&$lm/m^2$\\
+      foot-candle (fc)&&$lm/ft^2$\\
+      &\multicolumn{2}{l}{$1fc=10.76\;lx$}\\
+      foot-lambert (fL)&$L_V$&$\frac{1}{\pi}cd/ft^2$\\
+      nit (nt)&&$=cd/m^2$\\
+      &\multicolumn{2}{l}{$1fL=3.426\;nt$}\\
+      lux-second (lx s)&$H_V$&$lm \;s/m^2$
+    \end{tabular}
+  \end{subtable}
+  \hfill
+  \begin{subtable}[t]{0.45\textwidth}
+    \centering
+    \caption{Luminous photopic efficacy}
+    {\scriptsize
+    \begin{tabular}{ll}
+      $\lambda\;(nm)$&$lm/W$\\
+      \hline
+      400&0.3\\
+      420&2.7\\
+      440&15.7\\
+      460&41.0\\
+      480&95.0\\
+      500&221\\
+      520&485\\
+      540&652\\
+      560&680\\
+      580&594\\
+      600&425\\
+      620&260\\
+      640&120\\
+      660&41.7\\
+      680&11.6\\
+      700&2.8\\
+      720&0.7
+    \end{tabular}}
+  \end{subtable}
+  \hfill
+  \begin{subtable}[t]{\columnwidth}
+    \centering 
+    \caption{Typical illuminance levels}
+    \begin{tabular}{llllllll}
+        Sunny day&$10^5\;lx$&Moonlit night&$10^{-1}\;lx$&Overcast day&$10^3\;lx$&Starry night&$10^{-3}\;lx$\\
+        Inerior&$10^2\;lx$&Desk lighting&$10^3\;lx$&&&&
+    \end{tabular}
+  \end{subtable}
+\end{table}
+
+The candela (cd) is the fundamental SI unit for luminous intensity.
+
+%%
+\subsubsection{$A\Omega$ product}
+Recall the flux hrough a system is 
+\begin{align*}
+    \Phi=LA\Omega.
+\end{align*}
+The $A\Omega$ product appears to be the geometric portion, while $L$ would be related to the source characteristics.
+In an object or an image plane,
+\begin{align*}
+    \text{object/pupil plane}\qquad A=\pi\bar{y}^2,\quad\theta=u,\quad A\Omega=\pi^2\bar{y}^2u^2=\pi^2\chi^2/n^2,\quad\chi=n\bar{y}u\\
+    \text{pupil plane}\qquad A=\pi y^2,\quad\theta=\bar{u},\quad A\Omega=\pi^2y^2\bar{u}^2=\pi^2\chi^2/n^2,\quad\chi=ny\bar{u}
+\end{align*}
+
+In the general situation when the index is not unity, the \bfemph{basic throughout} $n^2A\Omega$ and the \bfemph{basic radiance} $L/n^2$ are invariant. Since throughput is 
+based on areas, the basic throughput is proportional to the Lagrange invariant squared:
+\begin{align}
+    n^2A\Omega=\pi^2\chi^2.
+\end{align}
+
+For a lossless optical system, the flux through the system is constant. For $n=1$, we have 
+\begin{align*}
+    \Phi=L_1A_1\Omega_1=L_2A_2\Omega_1=\cdots=\text{constant}.
+\end{align*}
+Since $A\Omega$ is also constant, the radiance $L$ must also be constant. This allow us to relate different portions of the optical system as the flux is conserved.
+
+However, if the index of refraction is not unity and changes ,the radiance is no longer conserved. It will change at each interface as the solid angle will change.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/fluxconservation.png}
+\end{figure}
+We then have that 
+\begin{align*}
+    A\Omega_1\neq A\Omega_2\land\Omega=L_1A\Omega_1=L_2A\Omega_2\Longrightarrow L_1\neq L_2.
+\end{align*}
+The flux is still constant. In fact, $L/n^2=\text{constant}$ as well as $n^2A\Omega=\text{constant}$.

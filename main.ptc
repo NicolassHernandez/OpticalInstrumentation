@@ -1,64 +1,29 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Preface}{2}{chapter*.1}%
-\contentsline {part}{I\hspace {1em}Introduction to Geometrical Optics principles}{8}{part.1}%
-\contentsline {chapter}{\numberline {1}Introduction to Optics}{9}{chapter.1}%
+\contentsline {part}{I\hspace {1em}Introduction to Geometrical Optics principles}{7}{part.1}%
+\contentsline {chapter}{\numberline {1}Concepts of optics}{8}{chapter.1}%
 \ttl@starttoc {chapters@1}
-\contentsline {section}{\numberline {1.1}Introduction}{10}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Light propagation}{10}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Sign convention}{10}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Electromagnetic spectrum}{11}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Optical path length}{12}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Snell's laws of reflection and refraction}{12}{subsection.1.1.5}%
-\contentsline {subsection}{\numberline {1.1.6}Total internal reflection (TIR)}{12}{subsection.1.1.6}%
-\contentsline {section}{\numberline {1.2}Mirrors and prisms}{13}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Parallel mirrors}{13}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Parity change}{13}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Non-parallel plane mirror}{13}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Prisms and tunnel diagrams}{14}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Reduced thickness}{14}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Thin lens Imaging}{16}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Introduction}{16}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Imaging relationships}{17}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Optical spaces}{18}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Object-image approximations}{19}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Field of view}{19}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Afocal systems}{20}{subsection.1.3.6}%
-\contentsline {section}{\numberline {1.4}Imaging and paraxial optics}{20}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}General system}{21}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Paraxial optics}{21}{subsection.1.4.2}%
-\contentsline {subsubsection}{Single refractive surface}{22}{figure.caption.24}%
-\contentsline {section}{\numberline {1.5}Gaussian imagery}{22}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Representation of an optical system}{24}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Newtonian equations}{24}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Gaussian equations}{24}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Longitudinal magnification}{25}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Gaussian properties of a single refracting surface}{25}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}Generalized afocal systems}{27}{subsection.1.5.6}%
-\contentsline {section}{\numberline {1.6}Object image relationship}{27}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Gaussian reduction}{27}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Vertex distances}{28}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{29}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Paraxial raytrace}{31}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Introduction}{31}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Procedure}{31}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{36}{subsection.1.8.3}%
-\contentsline {chapter}{\numberline {2}Concepts of optics}{38}{chapter.2}%
-\ttl@stoptoc {chapters@1}
-\ttl@starttoc {chapters@2}
-\contentsline {section}{\numberline {2.1}Stops and pupils}{39}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Aperture stop}{39}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Marginal and Chief rays}{40}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Pupil locations}{40}{subsection.2.1.3}%
-\contentsline {subsubsection}{By raytrace}{40}{subsection.2.1.3}%
-\contentsline {subsubsection}{Solution}{41}{figure.caption.55}%
-\contentsline {subsubsection}{By Gaussian imagery}{42}{figure.caption.56}%
-\contentsline {subsection}{\numberline {2.1.4}Lagrange invariant}{42}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Field of view}{43}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Numerical aperture and F-number}{43}{subsection.2.1.6}%
-\contentsline {subsubsection}{Use of working F-number (left)}{44}{equation.2.1.13}%
-\contentsline {subsubsection}{Solution}{44}{figure.caption.60}%
-\contentsline {section}{\numberline {2.2}Vignetting}{46}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ray bundles}{46}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Vignetting}{47}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Dummy surfaces}{49}{subsection.2.2.3}%
+\contentsline {section}{\numberline {1.1}Stops and pupils}{9}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Aperture stop}{9}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Marginal and Chief rays}{10}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Pupil locations}{10}{subsection.1.1.3}%
+\contentsline {subsubsection}{By raytrace}{10}{subsection.1.1.3}%
+\contentsline {subsubsection}{Solution}{11}{figure.caption.11}%
+\contentsline {subsubsection}{By Gaussian imagery}{12}{figure.caption.12}%
+\contentsline {subsection}{\numberline {1.1.4}Lagrange invariant}{12}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Field of view}{13}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Numerical aperture and F-number}{13}{subsection.1.1.6}%
+\contentsline {subsubsection}{Use of working F-number (left)}{14}{equation.1.1.13}%
+\contentsline {subsubsection}{Solution}{14}{figure.caption.16}%
+\contentsline {section}{\numberline {1.2}Vignetting}{16}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Ray bundles}{16}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Vignetting}{17}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Dummy surfaces}{19}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Radiative transfer}{19}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Radiometry}{19}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Radiative transfer}{21}{subsection.1.3.2}%
+\contentsline {subsubsection}{Spectral dependence}{21}{equation.1.3.16}%
+\contentsline {subsubsection}{Exposure}{22}{equation.1.3.16}%
+\contentsline {subsection}{\numberline {1.3.3}Photometry}{22}{subsection.1.3.3}%
+\contentsline {subsubsection}{$A\Omega $ product}{22}{table.caption.29}%
 \contentsfinish 
