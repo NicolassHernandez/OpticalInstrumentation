@@ -80,14 +80,14 @@ to use it for vignetting, and working
     &&\shortstack{Object\\space}&EP&&$M_1$ (stop)&&$M_2$&&Dummy&&XP&&\shortstack{Image\\space}\\
     \hline
     &$R$&&&&$-500$&&$-125$&&$\infty$&&&&\\
-    &$t$&&&$z_{EP}=$&&$-200$&&$200$&&$=$&&&\\
+    &$t$&&&$z_{EP}=$&&$-200$&&$200$&&&&&\\
     &$n$&1&&1&&-1&&1&&1&&1\\
     \hline 
     &$-\phi$&&&&$-0.004$&&$0.016$&&$0$&&$0$&&\\
     &$t/n$&&&$\tau_{EP}=$&&$200$&&$200$&&$-247.619$&&$297.625$&\\
     \hline 
-    &$y$&&&&\textcolor{red}{$0$}&&$20$&&$104$&&\textcolor{red}{$0$}&&\\
-    CR&$nu$&&&\textcolor{red}{$0.1$}&&$0.1$&&$0.42$&&$0.42$&&&\\
+    &$y$&&&&\textcolor{red}{$0$}&&$20$&&$104$&&\textcolor{red}{$0$}&&$123.743$\\
+    CR&$nu$&&&\textcolor{red}{$0.1$}&&$0.1$&&$0.42$&&$0.42$&&$0.42$&\\
     &$u$&&&&&&&&&&&&\\
     \hline
     &$y$&&$R_{EP}=$&&\textcolor{red}{$1$}&&$0.2$&&$0.04$&&$R_{XP}=0.2381$&&\textcolor{red}{$0$}\\
@@ -106,10 +106,42 @@ The working distance is the sum of the distance from the dummy surface to the ex
   \text{WD}=-247.619+297.625\approx50\;mm.
 \end{align*}
 By looking the distance of the dumy to the exit pupil, we say that the exit pupil is located $247.619\;mm$ to the left of the primary mirror.
-The diameter of the pupils are obtained through the f-number requirement.
+
+The potential chief ray must be scaled to reach the maximum image size required. We found that the potential CR has an image size of $123.743\;mm$ and the required is 
+$8\;mm$, so we need to downscale it at the image location by a factor of 
+\begin{align*}
+  m_{CR}=\frac{y_{\text{required}}'}{\bar{y}'}=\frac{8}{123.743}=0.0646.
+\end{align*}
+In the same way, for the potential marginal ray, we need to upscale at the stop so that the F-number is satisfied:
 \begin{align*}
   f/\#=4=\frac{f}{D_{EP}}\longrightarrow D_{EP}=\frac{1250}{4}=312.5\;mm.
 \end{align*}
+and, remembering that the EP is at the same location that the stop:
+\begin{align*}
+  m_{MR}=\frac{y_{\text{required at EP}}}{y_{\text{EP}}}=\frac{312.5/2}{1}=156.25\;mm.
+\end{align*}
+
+The object FOV is determine with the slope ray of the chief ray at the entrance pupil:
+\begin{align*}
+  \text{FOV}=\pm \tan^{-1}(m_{CR}\cdot\bar{u}_{\text{EP}})=\pm\tan^{-1}[(0.1)(0.0646)]=\pm0.371^\circ.
+\end{align*}
+
+The diameter of the exit pupil is therefore:
+\begin{align*}
+  D_{XP}=2m_{MR}y_{\text{XP}}=2(156.25)(0.2381)=74.397\;mm.
+\end{align*}
+
+The diameter of the secondary mirror as well as the diameter of the hole must be obtained by setting the non-vignetting condition.
+At the secondary mirror, we have
+\begin{align*}
+  a_{S}\geq|y_{S}|+|\bar{y}_{S}|=1.292+31.25=32.542\;mm\longrightarrow D_S\geq2a_S=65.084\;mm.
+\end{align*}
+In the same way, for the hole we have that 
+\begin{align*}
+  a_{H}\geq|y_H|+\bar{y}_H|=6.718+6.25=12.968\longrightarrow D_H\geq2a_H=25.937\;mm.
+\end{align*}
+
+
 
 
 

@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1762016340.92927 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/9/main.tex" "main.pdf" "main" 1762016342.91304 0
+["pdflatex"] 1762110090.02364 "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/9/main.tex" "main.pdf" "main" 1762110091.98263 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761848276 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1756180023 28976 9aeca79fa7ac83055dfed08e9abf16c6 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1756171257 40136 7003ba06b6cea7a70224e2f1036a7f49 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1756171264 49100 75decf4a6256d2337b95f774a69046a5 ""
+  "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk" 1756605945 19080 e2c7a8905135e62656c355e04813d4e7 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1095.pk" 1756171256 26228 944af790e0b2f4b0f85a204fcfe40f1b ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1756171259 28440 6d53ed4e1bb1487e05155ae470a71190 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk" 1756171261 34320 b9e2d0373b0c2eaef807eaeec682d325 ""
@@ -278,10 +279,10 @@
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/irisp/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/9/main.tex" 1762016340 7795 051cacf5be2cca45b78f3d18a83d2926 ""
-  "main.aux" 1762016342 324 97d8827bd7333f287ee59e54199cbe2d "pdflatex"
-  "main.out" 1762016342 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1762016340 7795 051cacf5be2cca45b78f3d18a83d2926 ""
+  "c:/Users/irisp/Documents/python/OpticalInstrumentation/Assignments/9/main.tex" 1762110089 9207 f453845d945c1452c59e82a04a3fa0ed ""
+  "main.aux" 1762110091 324 97d8827bd7333f287ee59e54199cbe2d "pdflatex"
+  "main.out" 1762110091 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1762110089 9207 f453845d945c1452c59e82a04a3fa0ed ""
   "refs.bib" 1762005600 305 a8e082f4cca99b72918bc1c2f977372e ""
   (generated)
   "main.aux"
