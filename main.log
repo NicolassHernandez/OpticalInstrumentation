@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 NOV 2025 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 NOV 2025 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2559,17 +2559,17 @@ File: PartOne/ChapterTwo/reversetelephoto.png Graphic file (type png)
 <use PartOne/ChapterTwo/reversetelephoto.png>
 Package pdftex.def Info: PartOne/ChapterTwo/reversetelephoto.png  used on input line 34.
 (pdftex.def)             Requested size: 119.68175pt x 62.15973pt.
- [23 <./PartOne/ChapterTwo/fluxconservation.png>]
-<PartOne/ChapterTwo/depthoffocus.png, id=383, 225.84375pt x 178.41656pt>
+<PartOne/ChapterTwo/depthoffocus.png, id=374, 225.84375pt x 178.41656pt>
 File: PartOne/ChapterTwo/depthoffocus.png Graphic file (type png)
 <use PartOne/ChapterTwo/depthoffocus.png>
 Package pdftex.def Info: PartOne/ChapterTwo/depthoffocus.png  used on input line 51.
 (pdftex.def)             Requested size: 179.51799pt x 141.82686pt.
-<PartOne/ChapterTwo/dofrelationfnumber.png, id=384, 316.18124pt x 204.01219pt>
+<PartOne/ChapterTwo/dofrelationfnumber.png, id=375, 316.18124pt x 204.01219pt>
 File: PartOne/ChapterTwo/dofrelationfnumber.png Graphic file (type png)
 <use PartOne/ChapterTwo/dofrelationfnumber.png>
 Package pdftex.def Info: PartOne/ChapterTwo/dofrelationfnumber.png  used on input line 57.
 (pdftex.def)             Requested size: 224.39664pt x 144.79051pt.
+ [23 <./PartOne/ChapterTwo/fluxconservation.png>]
 <PartOne/ChapterTwo/depthoffield.png, id=385, 255.95625pt x 106.14656pt>
 File: PartOne/ChapterTwo/depthoffield.png Graphic file (type png)
 <use PartOne/ChapterTwo/depthoffield.png>
@@ -2843,7 +2843,7 @@ File: PartOne/ChapterTwo/afocalexample.png Graphic file (type png)
 Package pdftex.def Info: PartOne/ChapterTwo/afocalexample.png  used on input line 108.
 (pdftex.def)             Requested size: 299.20059pt x 148.0776pt.
 ) (PartOne/ChapterTwo/StopAndImageQuality.tex
-Underfull \vbox (badness 4316) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./PartOne/ChapterTwo/afocal.png> <./PartOne/ChapterTwo/afocal2.png> <./PartOne/ChapterTwo/afocalexample.png>]
 <PartOne/ChapterTwo/airy.png, id=588, 129.48375pt x 129.48375pt>
@@ -2958,13 +2958,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  88217 strings out of 474486
  2223235 string characters out of 5743755
- 3437099 words of memory out of 5000000
+ 3437100 words of memory out of 5000000
  109114 multiletter control sequences out of 15000+600000
  655758 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (43 pages, 6148205 bytes).
+Output written on main.pdf (43 pages, 6147686 bytes).
 PDF statistics:
  796 PDF objects out of 1000 (max. 8388607)
  209 named destinations out of 1000 (max. 500000)
