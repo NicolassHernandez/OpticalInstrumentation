@@ -1,0 +1,111 @@
+\section{Stop and image quality}
+
+\subsection{Diffraction-limited}
+Because light is a wave, it does not focus to a perfect point image. Diffraction from the aperture limit the size of the image spot.
+For circular aperture, we get an \bfemph{Airy disk} pattern.
+\begin{align}
+    \text{Airy disk equation}\qquad E=E_0\left[\frac{2J_1(\pi r/\lambda f/\#_W)}{\pi r/\lambda f/\#_W}\right]^2,
+\end{align}
+where $r$ is the radial coordinate, $J_1$ is the first-kind Bessel function, and $f/\#_W$ the image space working.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterTwo/airy.png}
+        \caption{Airy disk pattern}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/airyprofile.png}
+        \caption{Airy disk profile}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.4\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/airyzeros}
+        \caption{Airy zeros}
+    \end{subfigure}
+\end{figure}
+
+The diameter of the Airy disk to the first zero is:
+\begin{align}
+    D=2.44\lambda\cdot f/\#_W.
+\end{align}
+
+The \bfemph{Rayleight resolution criterion} states that two point objects can be resolved if the peak of one falls on the first zero on the other:
+\begin{align}
+    \text{Resolution}=1.22\lambda\cdot f/\#_W.
+\end{align}
+The \bfemph{angular resolution} is found by dividing by the focal length (or image distance):
+\begin{align}
+    \text{Angular resolution}=\alpha=1.22\lambda/D_{\text{EP}}. 
+\end{align} 
+
+%%
+\subsection{Spherical aberration}
+\bfemph{Spherical aberration} SA causes the power or focal length of the system to vary with pupil radius. 
+For a singlet, the power of the lens increases quadraticallt with pupil radius; the focal length decrease euqdratically.
+
+The image plane can be shifted from paraxial focus to obtain better image quality in the presence of SA. There are different focus criteria as seen in the figure.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/sphericalaberration1.png}
+        \caption{Spherical aberration}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/sphericalaberration2.png}
+        \caption{Image plane criteria}
+    \end{subfigure}
+    \caption{Spherical aberration produces different image plane criteria. LA and Ta stand for longitudinal and transverse aberration, respectively.}
+\end{figure}
+
+In first-order geometrical optics, each point on the object plane corresponds to a point on the image plane. However, in real life we are not so lucky.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/spotdiagramspherical.png}
+        \caption{Spot diagram of focus criteria}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/sphericalfnumber.png}
+        \caption{Spot size versus F-number}
+    \end{subfigure}
+\end{figure}
+
+The spot size scales as the cube of the entrance pupil diameter.
+%%
+\subsection{Lens bending and minimum spherical aberration}
+\bfemph{Bending the lens} of orientation does not change the power, but its aberration do change. The minimum SA occurs when the ray is bent the same at both surfaces.
+This is directly analogous to the angle of minimum deviation for prisms. For an object at infinity and $n=1.5$, the corect lens shape is approximately convex-plano.
+At finite conjugates, a biconvex lens is used. A trick to further minimize spherical aberration in finite conjugates is to sploit the biconvex into two plano-convex lenses and then flip each of the lenses.
+
+With large apertures, aberrations and depth of field errors are dominant. With small apertures, diffraction dominates with a linear dependence of blut with $f/\#$.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.35\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/convexplano.png}
+        \caption{Infinite conjugate}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.35\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/biconvex}
+        \caption{Finite conjugate}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/blurfnumber.png}
+        \caption{Blur vs F-number}
+    \end{subfigure}
+\end{figure}

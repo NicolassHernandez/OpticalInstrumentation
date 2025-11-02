@@ -1,0 +1,68 @@
+\section{Materials}
+\subsection{Dispersion}
+Index of refration is commonly measured and reported at the specific wavelengths of elemental spectral lines. 
+Over the visible spectrum, the \bfemph{dispersion} of the index for optical gladd is about $0.5\%$ (low dispersion) to $1.5\%$ (high dispersion) of the mean value of the index.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/dispersion.png}
+    \caption{For visible applications, the F, d, and C lines are usually used.}
+\end{figure}
+
+We define some useful quantities:
+\begin{align}
+    \text{Refractivity}=n_d-1,\quad\text{Principal dispersion}=n_F-n_C,\quad\text{Partial dispersion}=n_d-n_C.
+\end{align}
+The \bfemph{Abbe number} is the single number used to characterize the disperion of the index of an optical material:
+\begin{align}
+    \text{Abbe number}\qquad\highlight{\nu=V=\frac{n_d-1}{n_F-n_C}}
+\end{align}
+Typical values of the Abbe number for optical glass range from 25 to 65. Low $\nu$-values indicate high dispersion.
+
+Relative partial dispersion ratio or P-value gives the fraction of the total index change that occurs between the d and C wavelengths $n_d-n_C$:
+\begin{align}
+    P=P_{d,C}=\frac{n_d-n_C}{n_F-n_C}.
+\end{align}
+Due to flattening of the dispersion, $P_{d,C}<0.5$. P-values can also be defined for other sets of wavelengths:
+\begin{align}
+    \text{Relative partial dispersion ratio}\qquad\highlight{P_{X,Y}=\frac{n_X-n_Y}{n_F-n_C}}.
+\end{align} 
+
+
+%
+\subsection{Optical glass}
+%
+\subsubsection{Glass map}
+The \bfemph{glass map} plots index of refraction versus Abbe number. By traddition, the Abbe number increases to the left, so that dispersion increases to the right.
+The \bfemph{glass line} is the locus of ordinary optical glasses based on silicon dioxide.
+
+The green line at $\nu\sim50-55$ separates the glasses into crown glass (low dispersion) and flint flass (high dispersion).
+
+The addition of lead oxide increases the dispersion and the index and moves the glass up the glass line. To increase the index withoutchanging the dispersion, barium oxide is added.
+
+Glass away from the glass line are softer ans more difficult to polish. Low index glasses are less dense and generally have better blue transmission.
+%
+\subsubsection{Glass code}
+The six-digit \bfemph{glass code} specifies the index and the Abbe number:
+\begin{align}
+    abcdef\Longrightarrow n_d=1.abc,\quad\nu=de.f
+\end{align}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/glassmap.png}
+        \caption{Glass map}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/glasscode}
+        \caption{Glass code}
+    \end{subfigure}
+\end{figure}
+
+The properties of an individual sample, especially for the plastic material and water, can vary from these catalog values. The measured indices of the actual glass should be used in final design for precision systems.
+The listed indices are measured relative to air ($n\approx1.0003$), and the indices should be corrected for use in vacuum. The glass catalog lists other material properties important
+for a design such as \bfemph{thermal expansion coefficient}, \bfemph{teperature coefficient of refractive index}, \bfemph{internal transmission}, etc.
+

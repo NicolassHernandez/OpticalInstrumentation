@@ -1,0 +1,169 @@
+\section{Objectives}
+\subsection{Type of objectives}
+\bfemph{Objectives} are lens element combinations used to image distance objects. To classify them, separated group of lens elements are modeled sa thin lenses.
+
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item \textbf{Simple objective} consiste of a positive thin lens.
+    \item \item \textbf{Colimator} is a reversed simple objective. It creates a collimated beam from a source at the system focal point.
+    \item \textbf{Petzval objective} consists of two separated positive groups of elements. The real principal plane os located between the groups.
+    \item \textbf{Telephoto objective} produces a system focal length longer than the system length. It consists of a positive followed by a negative group.
+    \item \textbf{Reverse telephoto objective} consists of a negative group followed a positive group. Used to produce a system with BFD larger than the system focal length.
+\end{itemize}
+\begin{figure}
+    \centering
+    \begin{subfigure}{.24\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/simpleobjective.png}
+        \caption{Simple objective}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.24\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/petzvalobjective.png}
+        \caption{Petzval objective}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.24\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/telephotoobjective.png}
+        \caption{Telephoto objective}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.24\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/reversetelephoto.png}
+        \caption{Reverse Telephoto}
+    \end{subfigure}
+    \caption{Different type of objectives.}
+\end{figure}
+
+%%
+\subsection{Depth of focus and field}
+There is often some allowable image blut that defins the performance requirement of an optical system. No diffraction or aberrations are included.
+%%
+\subsubsection{Depth of focus}
+The \bfemph{depth of focus} DOF describes the amount the detector can be shifted from the nominal image position (focal plane) for a fixed object before 
+the resulting blur exceed the blur diameter criterion $B'$.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/depthoffocus.png}
+        \caption{Depth of focus}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/dofrelationfnumber.png}
+        \caption{Depth of focus vs F-number}
+    \end{subfigure}
+\end{figure}
+
+The $\pm b'$ transverse distance from the nominal point is used to define the DOF as the whole distance $2b'$:
+\begin{align}
+    b'=\frac{B'L_0'}{D_{XP}}\approx\frac{B'z'}{D_{EP}},\quad \text{DOF}\approx\pm b'\approx\pm B'f/\#_W\approx\frac{B'}{2\text{NA}}.
+\end{align}
+The figure illustrates how the DOF is changed as the diameter of the lens is varied; they are inversely proportional.
+%%
+\subsubsection{Depth of field}
+The \bfemph{depth of field} is the maximum distance, from $L_{\text{near}}$ to $L_{\text{far}}$, the object can move before exceed the aceptable blur $B'$ at the fixed image plane.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/depthoffield.png}
+\end{figure}
+The following relations are given
+\begin{align}
+    L_{\text{far}}\approx\frac{L_0fD}{fD+L_0B'},\quad L_{\text{near}}\approx\frac{L_0fD}{fD-L_0B'}.
+\end{align}
+Al objects positiones between these distances will produces images on the detector that have geometrical blurs less than the blur criterion $B'$.
+%%
+\subsection{Hyperfocal distance}
+When the far point of the depth of field $L_{\text{far}}$ is at infinity, the optical system is focused at the \bfemph{hyperfocal distance} $L_H$, and all objects from $L_{\text{near}}$ to 
+infinity meet the image plane blur criterion.
+\begin{align*}
+    L_{\text{far}}=\infty\Longrightarrow fD+L_HB'=0.
+\end{align*}
+Solving for $L_H$,
+\begin{align}
+    \text{Hyperfocal distance}\qquad\highlight{L_H=-\frac{fD}{B'}=-\frac{f^2}{(f/\#)B'}}.
+\end{align}
+Substituting of $L_H$ in $L_{\text{near}}$ yields
+\begin{align}
+    L_{\text{near}}\approx-\frac{fD}{2B'}=\frac{L_H}{2}.
+\end{align}
+%%
+\subsubsection{Hyperfocal distance and depth of}
+The relation between the depth of focus and the hyperfocal distance where the detector is placed is, by the thin-lens equations,
+\begin{align}
+    L_H'\approx f+B'f=f+\text{DOF}.
+\end{align}
+\begin{emphasizer}
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+        \item Focusing at the hyperfocal distance \textbf{ensures} that any greater distance meets the blur criteria.
+        \item As $f/\#$ increases (lens stopped down), the hyperfocal distance moves closer to the lens. 
+    \end{itemize}
+\end{emphasizer}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/hyperfocal1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/hyperfocal2.png}
+    \end{subfigure}
+\end{figure}
+
+\begin{example}{Fixed-focus camera}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/fixedfocuscamera.png}
+    \end{figure}
+\end{example}
+
+\begin{example}{Fixed-focus digital camera}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/fixedfocusdigital.png}
+    \end{figure}    
+\end{example}
+
+%%
+\subsection{Zoom lenses}
+A \bfemph{zoom lens} is a variable focal length objective with a \textbf{fixed} image plane. The simplest system is composed of two groups with powers $\phi_1$ and $\phi_2$
+where both the focal length $f$ and the BFD vary with the element spacing $t$.
+\begin{align*}
+    \phi=\frac{1}{f}=\phi_1+\phi_2-\phi_1\phi_2t\quad \text{BFD}=f+d'=f-\frac{\phi_1}{\phi}t.
+\end{align*}
+To vary the focal length with a fixed image plane, we:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Move the lens $L_1$ a distance $L=t+\text{BFD}$ from the image plane.
+    \item Displace lens $L_2$ a distance $t$ from $L_1$. 
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.49\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/telephotozoom.png}
+        \caption{Telephoto zoom (limited by BFD)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.49\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/reversetelephotozoom.png}
+        \caption{Reverse telephoto zoom (commonly used)}
+    \end{subfigure}
+\end{figure}
+
+As the separation approaches the sum of the individual focal lengths ($f_1+f_2$), the system becomes afocal ($f\to\infty$).
+
+
+
+A mechanical cam provides the complicated lens motion required for these \bfemph{mechanical compoensated} zoom lenses. A common three group configuration uses 
+a fixed front element and moving second and third groups.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/mechanicalcompensated.png}
+\end{figure}

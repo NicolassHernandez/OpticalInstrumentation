@@ -1,0 +1,111 @@
+\section{Telecentric systems}
+
+\subsection{Telecentricity}
+In a \bfemph{telecentric system}, the EP and/or the XP are located at \textbf{infinity}. \bfemph{Telecentricity} in object or image space requires that the chief ray 
+be parallel to the axis in that space. Consequently, the apparaent system magnification is \textbf{constant} even if the object or image plane is displaced.
+The image will be blurred, but of the correct size or magnification.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/telecentricity1.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/telecentricity2.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/telecentricity3.png}
+    \end{subfigure}
+\end{figure}
+%%
+\subsection{Single telecenctric systems}
+When the stop is located at the front focal plane of a focal system, the XP is at infinity, and the system is \bfemph{image-space telecentric}. Defocus of the image plane or detector will not 
+change the image height.
+
+On the other hand, placing the stop at the rear focal plane puts the EP at infinity and forms an \bfemph{object-space telecentric} system. Tthe blur from the defocused object is centered about the chief ray and the 
+image height at the nomial image is constant.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/imagespacetelecentric.png}
+        \caption{Image-space telecentric}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/objectspacetelecentric.png}
+        \caption{Object-space telecentric}
+    \end{subfigure}
+\end{figure}
+\begin{emphasizer}
+    The telecentric system must be unvignetted over the entire object FOV, otherwise the blut spot will no longer be symmetric and the centroid will shift.
+\end{emphasizer}
+
+Object-space telecentric systems are almost used at finite conjugated. The maximum object size is limited to approximately the radius of the objective lens due to vignetting considerations.
+This system doesnt have a $f/\#$ because the EP is at infinity and is infinite in size.
+%%
+\subsection{Double telecentric systems}
+An afocal system is made \bfemph{double telecentric} by placing the system stop at the common focal point. The chief ray is parallel to the axis in object and image space, and both the EP and XP are located 
+at infinity. All double telecentric systems must be afocal.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/doubletelecentric.png}
+\end{figure}
+
+Since the ray bundle is centered on the chief ray, this condition guarantees that height of the blur forming the image is independent of axial object/image shifts.
+
+
+\begin{emphasizer}[FOV in telecentric systems]
+    Defining te angular FOV relative to the EP or XP is impossible if the system is telecentric in that particular optical space because that pupil is in infinity.    
+    The object height or image height can be used instead.
+
+    A second method is to measure the angular size of the object relative to the front nodal point N. Angular sizes of the object and image are equal when viewed from te respective nodal points.
+    But for afocal systems (like telecentric) fails as they do not have these points.
+
+    The choice of the method is of little consequence hen the object is distant.
+\end{emphasizer}
+
+%%
+\subsection{Imaging with an afocal system}
+An afocal system consists of two focal system sharing a common focal point. If th estop is located at this location, the system becomes telecentric.
+Because the magnification is constant, the cardinal points are not defined.
+
+However, we can pick any pair of conjugate planes coupled with the longitudinal magnification:
+\begin{align}
+    \bar{m}=m^2=\frac{\Delta z'}{\Delta z}=\frac{z_A'}{z_A}.
+\end{align}
+A usual pair is the front focal point of the first system with the rear focal point of the second system. Another is either the object is located at the first lens, 
+or the image is at te second lens. These two situations image as if the other lens as not present.
+
+Once selected, any other pair can be found using the longitudinal magnification.
+An axial shift in object space results in an image plane shift given by
+\begin{align}
+    z_A'=\bar{m}z_A.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/afocal}
+        \caption{Focal points conjugate pair}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/afocal2}
+        \caption{First/second lens conjugate pair}
+    \end{subfigure}
+\end{figure}
+
+\begin{example}[Imaging with afocal system]
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/afocalexample.png}
+\end{figure}
+\end{example}
+

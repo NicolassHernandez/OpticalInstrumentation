@@ -1,0 +1,216 @@
+\section{Magnifiers and Telescopes}
+%%
+\subsection{Magnifiers}
+The largest image magnification possible with the unaided eye occurs when the object is placed at the \bfemph{near point} of the eye, by convention, $250\;mm$ or $10\;in$.
+A \bfemph{magnifier} is a single lens that provides an enlarged \textbf{erect virtual image} of a nearby object for visual observation. The object must be placed 
+within the fron focal length of the lens.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/magnifier.png}
+\end{figure}
+
+The \bfemph{magnifying power} MP is defined as (stop at the eye):
+\begin{align*}
+    \text{MP}&=\frac{\text{Angular size of the image (with lens)}}{\text{Angular size of the object at the near point}}\\
+    &=\frac{\bar{u}_M}{\bar{u}_U}=\frac{h'/(z'-s)}{h/d_{NP}},\quad d_{NP}=-250\;mm\\
+    &=\frac{250\;mm(z'-f)}{f(z'-s)}\approx\frac{250\;mm}{f}.
+\end{align*}
+The approximation relation is the most common definition of the MP. It assumes that the lens is close to the eye and the image is presented to a relaxed eye ($z'=\infty$).
+
+The angular substense $\theta$ of the image $h'$ at the eye is 
+\begin{align}
+    \theta=\frac{h\text{MP}}{250\;mm}.
+\end{align}
+The resolution of the human eye is about $1\;arcmin$, or $(1/60)^\circ$. In order to resolve an object of size $h$, th required MP is then 
+\begin{align*}
+    \text{MP}\geq\frac{0.075\;mm}{h}.
+\end{align*}
+Magnifiers up t about 25X are practical; 10X is common.
+
+%%
+\subsection{Telescopes}
+Telescopes are afocal systems used for visual observation of distant objects. The image through the telescope subtends an angle $\theta'$ different from the angle subtend by the object $\theta$.
+The magnifying power of a telescope is:
+\begin{align}
+    \text{MP}=\frac{\theta'}{\theta}=\begin{cases}
+        |\text{MP}|>1,&\text{Telescope magnifies}\\
+        |\text{MP}|<1,&\text{Telescope minifies}
+    \end{cases}.
+\end{align}
+
+In Keplerian and Galilean telescope, the lateral magnification $m$ is given by:
+\begin{align}
+    \text{Lateral magnification of telescope}\qquad m=\frac{1}{\text{MP}}=-\frac{f_{\text{EYE}}}{f_{\text{OBJ}}}.
+\end{align}
+It is important to notice the reciprocal relation between the magnification and the magnifying power. For instance an image smaller than the object, also have the image much closer, so that the 
+apparent size is much larger.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterTwo/magnificationmagnifyingpower.png}
+    \caption{In this case, $m<1$ while also $\text{MP}>1$: height and distance are important for these quantities.}
+\end{figure}
+%%
+\subsubsection{Keplerian telescope}
+A Keplerian telescope or astronomical telescope consists of an objective that creates an \bfemph{aerial image} (real image in the air) followed by a magnifier
+separated by $f_1+f_2$. The system stop is usually at or near the objective lens. 
+
+The Keplearian has a negative MP $\text{MP}<1$ and the image presented to the eye is inverted and reverted (rotated $189^\circ$). The eye should be placed at the real XP to couple the eye to the telescope and see the entire FOV, if not vignetting may occur.
+The XP position is called the \bfemph{eye relief} ER.  The magnification of the telescope related the diameters of EP and XP:
+\begin{align}
+    \text{ER}=z'=(1-m)f_{\text{EYE}},\quad D_{\text{XP}}=|m|D_{\text{EP}}.
+\end{align}
+The XP of a visual instrument is also known as the \bfemph{eye circle} or the \bfemph{Ramsden circle}.
+%
+\subsubsection{Galilean telescope}
+The Galilean telescope uses a positive lens followed by a negative lens to obtain an erect image and a positive MP $\text{MP}>1$.
+In this case, the XP is internal o virtual and not accesible to the eye. The FOV of the system is therefore small. There is no intermediate image plane.
+
+\begin{emphasizer}
+For a given $|\text{MP}|$, the Galilean telescope is shorter and the FOV smaller than the corresponding Keplerian telescope.
+\end{emphasizer}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.49\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/kepleariantelescope.png}
+        \caption{Keplerian telescope}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.49\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/galileantelescope.png}
+        \caption{Galilean telescope}
+    \end{subfigure}
+\end{figure}
+
+We describe several important points:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Usually in telescope, the objective is the stop so that this lens is also the EP. Keplerian have real XP to the right of the eye lens.
+    \item A \bfemph{reversed Galilean telescope} provides a minified erect image $0<\text{MP}<1$ and the eye is usually the system stop.
+    \item \bfemph{Binoculars} are a pair of parallel telescope for each eye.
+    \item The specification provided on telescope and binoculars is of the form 
+    \begin{align}
+        \text{AXB}\Longrightarrow A=|\text{MP}|,\quad\text{and}\quad B=\text{Objective diameter in mm}.
+    \end{align} 
+\end{itemize}
+
+\begin{example}{Eye relief of a Keplerian telescope}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterTwo/eyereliefkeplerian.png}
+    \end{figure}
+\end{example}
+
+%%
+\subsection{Field lenses}
+The FOV of the Keplerian telescope is limited by vignetting at the eye lens. A \bfemph{field lens} placed at the intermediate image plane 
+increases the FOV by bending the ray bundle into the aperture of the eye lens.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/fieldlend.png}
+        \caption{Field lens}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/fieldlens2.png}
+        \caption{Reduction of the ER}
+    \end{subfigure}
+\end{figure}
+
+This combination is called an \bfemph{eyepiece}. If we assume the separation between them si equal to the focal length of the eye lens, then the overall power is:
+\begin{align*}
+    \phi=\phi_{\text{EYE}}+\phi_{\text{FIELD}}-\phi_{\text{EYE}}\phi_{\text{FIELD}}\cdot\frac{1}{\phi_{\text{EYE}}}=\phi_{\text{EYE}}.
+\end{align*}
+Thus, the eyepiece maintain its focal length and therefore its MP. The shifts of the principal planes are:
+\begin{align}
+    d=\frac{\phi_{\text{EYE}}}{\phi_{\text{EYE}}}\frac{1}{\phi_{\text{EYE}}}=f_{\text{EYE}},\quad\text{and}\quad d'=-\frac{\phi_{\text{FIELD}}}{\phi_{\text{EYE}}}\frac{1}{\phi_{\text{EYE}}}=-\frac{f^2_{\text{EYE}}}{f_{\text{FIELD}}}.
+\end{align}
+To summarize, the inclusion of the field lens:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Decrease vigneting incresing in the same way the FOV.
+    \item Does not change the MP of the telescope or the size of the XP.
+    \item The front principal plane is unchanged, but the rear principal plane and ER are shifted by $d'$.
+    \item The field lens is usually also displaced from the image plane to minimize the inclusion of information of the field lens to the image through defocus.
+    \item MP of the eyepiece is the same as the MP of a magnifier.
+\end{itemize}
+
+%%
+\subsection{Eyepieces}
+An \bfemph{eyepiece} or \bfemph{ocular} is the combination of the field lens and the eye lens. A simple eye piece does not have a field lens. A compounf eyepiece has both of them.
+A field stop can be placed at the intermediate image plane to restrict the system FOV. This aperture serves to correct the vignetting. 
+
+Two special eyepiece configuations displace the field lens from the intermediate image:
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item \textbf{Huygens eyepiece} has the intermediate image between the two elements.
+    \item \textbf{Ramsden eyepiece} has intermediate image in front of the field lens. This configuration has about $50\%$ more ER than the Huygens eyepiece.
+    \item \textbf{Kellner eyepiece} replaces the singlet eye lens of the Ramsden eyepiece with a doublet for color correciton.
+\end{itemize} 
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/huygenseyepiece.png}
+        \caption{Huygens eyepiece}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterTwo/ramsdeneyepiece.png}
+        \caption{Ramsden eyepiece}
+    \end{subfigure}
+\end{figure}
+
+Hand-held instruments should have $15-20\;mm$ of eye relief. Microscopes may have as little as $2-3\;mm$. Other systems, such as riflescopes, shoud have a very long eye relief.
+The human eye pupil diameter varies from $2-8\;mm$, with a diameter of about $4\;mm$ under ordinary lighting conditions. When overfiled, the eye becomes the system stop.
+%
+\subsection{Mirror-based Telescopes}
+The imaging properties of conic surfaces are used in the design of \bfemph{mirror-based telescopes}.
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item \textbf{Newtonian telescope} uses a parabola with a fold flat. It is analogous to a Keplerian refracting telescope.
+    \item \textbf{Gregorian telescope} uses a parabola followed by an ellipse to relay the intermediate image. It prooduces an erect image.
+    \item \textbf{Cassegrain telescope} uses a parabola combined with a hyperbolic secondary mirror to reduce the system length. It is equivalent to a telephoto objective. The two conic surfaces 
+    correct the spherical aberration.
+    \item \textbf{Ritchey-Chretien telescope} is identical to Cassegrain telescope in layout, except that it uses two hyperbolic mirrors to correct coma as well as spherical aberration.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterTwo/newtonian}
+        \caption{Newtonian}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/gregorian}
+        \caption{Gregorian}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/cassegrain}
+        \caption{Cassegrain}
+    \end{subfigure}
+\end{figure}
+
+
+\begin{example}{Vignetting in a Keplerian telescope}
+    \begin{figure}
+        \centering
+        \includegraphics[width=.3\columnwidth]{PartOne/ChapterTwo/keplerianvignetting1.png}
+        \includegraphics[width=.3\columnwidth]{PartOne/ChapterTwo/keplerianvignetting2.png}
+        \includegraphics[width=.3\columnwidth]{PartOne/ChapterTwo/keplerianvignetting3.png}
+    \end{figure}
+\end{example}
+
+\begin{example}{Vignetting in a Galilean telescope}
+    \begin{figure}
+        \centering
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/galileanvignetting1.png}
+        \includegraphics[width=.45\columnwidth]{PartOne/ChapterTwo/galileanvignetting2.png}
+    \end{figure}    
+\end{example}

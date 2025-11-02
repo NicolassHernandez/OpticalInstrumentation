@@ -1,0 +1,100 @@
+\section{Relays and Microscopes}
+
+\subsection{Prisms and relay lenses}
+For many applications, it is important that the image have the same orientation as the object. The commonly used methods for image erection is to use prism, and relay sistems.
+
+On the one hand, prisms as porro or Pechan-roof prism may help to erect the image. It is important that the ray bundle must be sized so the entrance and exit faces fo no vignette the FOV.
+Unfolding the prism make possible to treat it as a plane parallel plate of glass.
+
+On the other hand, the \bfemph{relay lens} consists of an addition lens that takes the image of the objective (object for this lens) and image it to the right. This image is the object for the 
+eyepiece. The net MP of the relayed Keplerian telescope of the image is positive and equals to the product of the magnification of the relay and the MP of the original Keplerian telescope:
+\begin{align}
+    \text{MP}=m_R\text{MP}_K=-\frac{z_R'f_{\text{OBJ}}}{z_Rf_{\text{EYE}}},\quad\text{where}\quad m_R=\frac{z_R'}{z_R}.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterTwo/prism.png}
+        \caption{Using a prism}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/relay.png}
+        \caption{Using a relay lens}
+    \end{subfigure}
+\end{figure}
+
+Multiple relay lenses can be used to transfer the imager over long distances, such as in periscoopes, andoescopes and borescopes. Field lenses can also be added at the intermediate lenses.
+
+The functions of a field lens and a relay lens ca be combined into a single \bfemph{erector lens}. This lens will require a diameter larger than the replaced field 
+or relay lenses. The relayed image and pupil are shifter from their original positions.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/erectorlens.png}
+\end{figure}
+
+%%
+\subsection{Microscopes}
+\subsubsection{Definition}
+A \bfemph{microscope} is a sophisticated magnifier consisting of an objective plus an eyepiece.
+The \bfemph{visual magnification} is the product of the objective magnification and the eyepiece MP:
+\begin{align}
+    \text{Visual magnification}\qquad\highlight{m_V=m_{\text{OBJ}}\text{MP}_{\text{EYE}}=\frac{z_0'}{z_0}\frac{250\;mm}{f_{\text{EYE}}}}.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=.9\columnwidth]{PartOne/ChapterTwo/microscope.png}
+        \caption{Structure}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/objectivemicroscope.png}
+        \caption{Numerical aperture}
+    \end{subfigure}
+\end{figure}
+
+The \bfemph{optical tube length} OTL of a microscope is defined as the distance from the rear focal point of the objective to the front focal point of the eyepiece (intermediate image).
+Standard values are $160\;mm$ and $125\;mm$. The OTL is a Newtonian mage distance:
+\begin{align}
+    m_{\text{OBJ}}=-\frac{\text{OTL}}{f_{\text{OBJ}}}.
+\end{align}
+
+The NA of a microscope objective is defined in object space by the half-angle of the accepted input ray bundle. Along with the objective magnification, the NA is inscribed on the objective barrel:
+\begin{align}
+    \text{NA}=n\sin\theta.
+\end{align}
+Microscope objective are often telecentric in object space. The stop is placed at the rear focal point of the objective so that the magnification does not change with defocus.
+%%
+\subsubsection{Microscope terminology}
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The \bfemph{working distance} WD is the distance from the object to the first element of the objective; can be less than $1\;mm$ for high-power objectives.
+    \item The \bfemph{mechanical tube length} is the separation between the shoulder of the threaded mount of the objetctive an the end of the tube into which the eyepiece is inserted.
+    \item A set of \bfemph{parfocal objectives} have different magnifications, but the same \bfemph{shoulder height} and the same shoulder-to-intermediate image distance.
+    \item \bfemph{Biological objectives} are aberration corrected assuming a cover glass between the object and the objective.
+    \item Research-graded microscopes are usually designed using \bfemph{infinity corrected objectives}. The object plane is the front focal plane of the objective, and a collimated beam results for each point. 
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/shoulderheight.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterTwo/microscopeinternal.png}
+    \end{subfigure}
+\end{figure}
+
+The magnification of the objective-tube lens combination is 
+\begin{align}
+    m_{\text{OBJ}}=-\frac{f_{\text{TUBE}}}{f_{\text{OBJ}}}.
+\end{align}
+If the objective is object-space telecentric and $f_{\text{TUBE}}$ equals the infinite optical tube length IOTL, the combination is afocal and double telecentric. This is a useful feature when 
+using reticles in the eyepiece.
+
