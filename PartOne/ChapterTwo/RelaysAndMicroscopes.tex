@@ -35,6 +35,43 @@ or relay lenses. The relayed image and pupil are shifter from their original pos
     \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/erectorlens.png}
 \end{figure}
 
+\begin{example}{Keplerian telescope with relay lens}
+    A 30X relayed Keplerian telescope is constructed out of three thin lenses in
+    air. The relay lens of the telescope operates with a magnification of 1.5. The focal length
+    of the objective lens is 400 mm, and the overall telescope length is 500 mm.
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item Determine the design of the telescope.
+        \item Assuming that the system stop is located at the objective lens, determine the eye relief of the telescope (distance from the eye lens to the XP).
+    \end{enumerate}
+    \subsubsection{Solution}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item The magnification of the relay lens and the total magnification are:
+        \begin{align*}
+            m_R=\frac{z_R'}{z_R}=-1.5,\quad m=-\frac{f_1}{f_2}(-1.5)=30\longrightarrow f_2=\frac{400\cdot1.5}{30}=20\;mm.
+        \end{align*}
+        Therefore, the remaining space is $80\;mm$ which is distribtued for the relay lens.
+        \begin{align*}
+            -z_R+z_R'=80\;mm.
+        \end{align*}
+        Using it with the relay magnification we have that
+        \begin{align*}
+            z_R=-32\;mm,\quad\text{and}\quad z_R'=48\;mm.
+        \end{align*}
+        The focal length of the relay lens is obtained with the thin-lens equation:
+        \begin{align*}
+            \frac{1}{z_R'}=\frac{1}{z_R}+\frac{1}{f_R}\longrightarrow f_R=19.2\;mm.
+        \end{align*}
+        \item The eye relief is located at the image position in image space of the stop. The relay lens take that object located at $z=-(32+400)=-432\;mm$.
+        \begin{align*}
+            z'=\frac{1}{\frac{1}{-432}+\frac{1}{19.2}}=20.093\;mm.
+        \end{align*}
+        This image is located at $z=-(20+48-20.093)=-47.907\;mm$ to the eye lens and is seen as the object, which is imaged to:
+        \begin{align*}
+            z'_{\text{XP}}=\text{ER}=\frac{1}{\frac{1}{-47.907}+\frac{1}{20}}=34.333\;mm.
+        \end{align*}
+    \end{enumerate}
+\end{example}
+
 %%
 \subsection{Microscopes}
 \subsubsection{Definition}

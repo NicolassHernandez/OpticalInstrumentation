@@ -58,8 +58,6 @@ at infinity. All double telecentric systems must be afocal.
 \end{figure}
 
 Since the ray bundle is centered on the chief ray, this condition guarantees that height of the blur forming the image is independent of axial object/image shifts.
-
-
 \begin{emphasizer}[FOV in telecentric systems]
     Defining te angular FOV relative to the EP or XP is impossible if the system is telecentric in that particular optical space because that pupil is in infinity.    
     The object height or image height can be used instead.
@@ -69,6 +67,45 @@ Since the ray bundle is centered on the chief ray, this condition guarantees tha
 
     The choice of the method is of little consequence when the object is distant.
 \end{emphasizer}
+
+\begin{example}{Double telecentric system}
+    A double telecentric system is constructed out of two thin lenses in air. It
+    has a magnification of |1/10|. The focal length of the first lens of the system is 100 mm.
+    An object of size $\pm100\;mm$ is located 500 mm to the left of the first lens in the system.
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item Provide a layout of the system showing the second lens, spacings and the stop.
+        \item What is the focal length of the second lens?
+        \item Where is the image plane (location relative to the second lens element)?
+        \item What is the size and orientation of the image?
+    \end{enumerate}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.4\columnwidth]{PartOne/ChapterTwo/doubletelecentricexample.png}
+    \end{figure}
+    \subsubsection{Solution}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item Second lens should be $f_1+f_2$ to the right of $L_1$ while the stop in the intermediate image.
+        \item Magnification is
+        \begin{align*}
+            m=-\frac{f_2}{f_1}=-\frac{1}{10}=-\frac{f_2}{100\;mm}\longrightarrow f_2=10\;mm.
+        \end{align*}
+        The length between the lenses is therefore $L=f_1+f_2=110\;mm$. 
+        \item The longitudinal magnification is 
+        \begin{align*}
+            \bar{m}=m^2=0.01.
+        \end{align*}
+        Assuming the pair of conjugates from the front and rear focal lengths, the depth of the object is:
+        \begin{align*}
+            \Delta z=-500-(-100)=-400\;mm,\quad\text{and}\quad\Delta z'=\bar{m}\Delta z=-4\;mm.
+        \end{align*}
+        The object is located $500\;mm$ to the left of the first lens and the image is $6\;mm$ to the right of the second lens.
+        \item The size of the image is
+        \begin{align*}
+            h'=mh=(-0.1)(\pm100)=\mp10\;mm,
+        \end{align*}
+        which is inverted.
+    \end{enumerate}
+\end{example}
 
 %%
 \subsection{Imaging with an afocal system}

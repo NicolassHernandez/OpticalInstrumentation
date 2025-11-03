@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  2 NOV 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  3 NOV 2025 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2386,117 +2386,130 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 130.
- [12 <./PartOne/ChapterTwo/pupillocation_gaussrear.png> <./PartOne/ChapterTwo/pupillocation_gaussfront.png> <./PartOne/ChapterTwo/example2_pupillocation.png>]
-<PartOne/ChapterTwo/fov.png, id=241, 323.70938pt x 131.74219pt>
+<PartOne/ChapterTwo/crmr.png, id=226, 125.34328pt x 246.1697pt>
+File: PartOne/ChapterTwo/crmr.png Graphic file (type png)
+<use PartOne/ChapterTwo/crmr.png>
+Package pdftex.def Info: PartOne/ChapterTwo/crmr.png  used on input line 136.
+(pdftex.def)             Requested size: 124.66563pt x 244.85063pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./PartOne/ChapterTwo/pupillocation_gaussrear.png> <./PartOne/ChapterTwo/pupillocation_gaussfront.png> <./PartOne/ChapterTwo/example2_pupillocation.png>]
+<PartOne/ChapterTwo/fov.png, id=242, 323.70938pt x 131.74219pt>
 File: PartOne/ChapterTwo/fov.png Graphic file (type png)
 <use PartOne/ChapterTwo/fov.png>
-Package pdftex.def Info: PartOne/ChapterTwo/fov.png  used on input line 168.
+Package pdftex.def Info: PartOne/ChapterTwo/fov.png  used on input line 176.
 (pdftex.def)             Requested size: 398.93158pt x 162.36555pt.
- [13 <./PartOne/ChapterTwo/fov.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 194.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./PartOne/ChapterTwo/crmr.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 202.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 194.
-<PartOne/ChapterTwo/example_stophw6.png, id=258, 335.75438pt x 130.98938pt>
+(mdframed)              on input line 202.
+<PartOne/ChapterTwo/example_stophw6.png, id=259, 335.75438pt x 130.98938pt>
 File: PartOne/ChapterTwo/example_stophw6.png Graphic file (type png)
 <use PartOne/ChapterTwo/example_stophw6.png>
-Package pdftex.def Info: PartOne/ChapterTwo/example_stophw6.png  used on input line 210.
+Package pdftex.def Info: PartOne/ChapterTwo/example_stophw6.png  used on input line 218.
 (pdftex.def)             Requested size: 299.20059pt x 116.72807pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./PartOne/ChapterTwo/example_stophw6.png>]
-<PartOne/ChapterTwo/problem1_a.png, id=271, 538.6524pt x 272.9397pt>
+ [14 <./PartOne/ChapterTwo/fov.png>] [15 <./PartOne/ChapterTwo/example_stophw6.png>]
+<PartOne/ChapterTwo/problem1_a.png, id=282, 538.6524pt x 272.9397pt>
 File: PartOne/ChapterTwo/problem1_a.png Graphic file (type png)
 <use PartOne/ChapterTwo/problem1_a.png>
-Package pdftex.def Info: PartOne/ChapterTwo/problem1_a.png  used on input line 283.
+Package pdftex.def Info: PartOne/ChapterTwo/problem1_a.png  used on input line 291.
 (pdftex.def)             Requested size: 179.51799pt x 90.96161pt.
 File: PartOne/ChapterTwo/problem1_a.png Graphic file (type png)
 <use PartOne/ChapterTwo/problem1_a.png>
-Package pdftex.def Info: PartOne/ChapterTwo/problem1_a.png  used on input line 290.
+Package pdftex.def Info: PartOne/ChapterTwo/problem1_a.png  used on input line 298.
 (pdftex.def)             Requested size: 179.51799pt x 90.96161pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PartOne/ChapterTwo/problem1.png, id=273, 661.2705pt x 490.4724pt>
+<PartOne/ChapterTwo/problem1.png, id=284, 661.2705pt x 490.4724pt>
 File: PartOne/ChapterTwo/problem1.png Graphic file (type png)
 <use PartOne/ChapterTwo/problem1.png>
-Package pdftex.def Info: PartOne/ChapterTwo/problem1.png  used on input line 300.
+Package pdftex.def Info: PartOne/ChapterTwo/problem1.png  used on input line 308.
 (pdftex.def)             Requested size: 249.33128pt x 184.92955pt.
 ) (PartOne/ChapterTwo/Vignetting.tex
-<PartOne/ChapterTwo/raybundle1.png, id=274, 266.49562pt x 107.65219pt>
+<PartOne/ChapterTwo/raybundle1.png, id=285, 266.49562pt x 107.65219pt>
 File: PartOne/ChapterTwo/raybundle1.png Graphic file (type png)
 <use PartOne/ChapterTwo/raybundle1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/raybundle1.png  used on input line 8.
 (pdftex.def)             Requested size: 224.39664pt x 90.64897pt.
-<PartOne/ChapterTwo/raybundle2.png, id=275, 265.74281pt x 106.89937pt>
+<PartOne/ChapterTwo/raybundle2.png, id=286, 265.74281pt x 106.89937pt>
 File: PartOne/ChapterTwo/raybundle2.png Graphic file (type png)
 <use PartOne/ChapterTwo/raybundle2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/raybundle2.png  used on input line 10.
 (pdftex.def)             Requested size: 224.39664pt x 90.2695pt.
- [15] [16 <./PartOne/ChapterTwo/problem1_a.png> <./PartOne/ChapterTwo/problem1.png> <./PartOne/ChapterTwo/raybundle1.png> <./PartOne/ChapterTwo/raybundle2.png>]
-<PartOne/ChapterTwo/vignetting.png, id=293, 306.39468pt x 62.48344pt>
-File: PartOne/ChapterTwo/vignetting.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting.png  used on input line 28.
-(pdftex.def)             Requested size: 498.66258pt x 101.69835pt.
-<PartOne/ChapterTwo/vignettingcases.png, id=294, 311.66437pt x 130.23656pt>
-File: PartOne/ChapterTwo/vignettingcases.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignettingcases.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignettingcases.png  used on input line 37.
-(pdftex.def)             Requested size: 498.66258pt x 208.38274pt.
- [17 <./PartOne/ChapterTwo/vignetting.png> <./PartOne/ChapterTwo/vignettingcases.png>]
-<PartOne/ChapterTwo/vignetting_example1.png, id=304, 313.9228pt x 152.06813pt>
-File: PartOne/ChapterTwo/vignetting_example1.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example1.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1.png  used on input line 64.
-(pdftex.def)             Requested size: 224.39664pt x 108.70003pt.
-<PartOne/ChapterTwo/vignetting_example1b.png, id=305, 314.67563pt x 129.48375pt>
-File: PartOne/ChapterTwo/vignetting_example1b.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example1b.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1b.png  used on input line 65.
-(pdftex.def)             Requested size: 224.39664pt x 92.33516pt.
-<PartOne/ChapterTwo/vignetting_example1c.png, id=306, 255.95625pt x 127.97812pt>
-File: PartOne/ChapterTwo/vignetting_example1c.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example1c.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1c.png  used on input line 66.
-(pdftex.def)             Requested size: 224.39664pt x 112.19928pt.
-<PartOne/ChapterTwo/vignetting_example2a.png, id=307, 304.13625pt x 96.36pt>
-File: PartOne/ChapterTwo/vignetting_example2a.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2a.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2a.png  used on input line 73.
-(pdftex.def)             Requested size: 224.39664pt x 71.09795pt.
-<PartOne/ChapterTwo/vignetting_example2b.png, id=308, 312.41719pt x 148.30406pt>
-File: PartOne/ChapterTwo/vignetting_example2b.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2b.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2b.png  used on input line 74.
-(pdftex.def)             Requested size: 224.39664pt x 106.52312pt.
-<PartOne/ChapterTwo/vignetting_example2c.png, id=309, 321.45094pt x 155.07938pt>
-File: PartOne/ChapterTwo/vignetting_example2c.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2c.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2c.png  used on input line 75.
-(pdftex.def)             Requested size: 224.39664pt x 108.25902pt.
-<PartOne/ChapterTwo/vignetting_example2d.png, id=310, 319.1925pt x 159.59625pt>
-File: PartOne/ChapterTwo/vignetting_example2d.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2d.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2d.png  used on input line 76.
-(pdftex.def)             Requested size: 224.39664pt x 112.19878pt.
-<PartOne/ChapterTwo/vignetting_example2e.png, id=311, 319.94531pt x 153.57375pt>
-File: PartOne/ChapterTwo/vignetting_example2e.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2e.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2e.png  used on input line 77.
-(pdftex.def)             Requested size: 224.39664pt x 107.71178pt.
-<PartOne/ChapterTwo/vignetting_example2f.png, id=312, 319.1925pt x 131.74219pt>
-File: PartOne/ChapterTwo/vignetting_example2f.png Graphic file (type png)
-<use PartOne/ChapterTwo/vignetting_example2f.png>
-Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2f.png  used on input line 78.
-(pdftex.def)             Requested size: 224.39664pt x 92.61691pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<PartOne/ChapterTwo/vignetting.png, id=287, 306.39468pt x 62.48344pt>
+File: PartOne/ChapterTwo/vignetting.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting.png  used on input line 28.
+(pdftex.def)             Requested size: 498.66258pt x 101.69835pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./PartOne/ChapterTwo/problem1_a.png>]
+<PartOne/ChapterTwo/vignettingcases.png, id=296, 311.66437pt x 130.23656pt>
+File: PartOne/ChapterTwo/vignettingcases.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignettingcases.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignettingcases.png  used on input line 37.
+(pdftex.def)             Requested size: 498.66258pt x 208.38274pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./PartOne/ChapterTwo/problem1.png> <./PartOne/ChapterTwo/raybundle1.png> <./PartOne/ChapterTwo/raybundle2.png> <./PartOne/ChapterTwo/vignetting.png>]
+<PartOne/ChapterTwo/vignetting_example1.png, id=306, 313.9228pt x 152.06813pt>
+File: PartOne/ChapterTwo/vignetting_example1.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example1.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1.png  used on input line 64.
+(pdftex.def)             Requested size: 224.39664pt x 108.70003pt.
+<PartOne/ChapterTwo/vignetting_example1b.png, id=307, 314.67563pt x 129.48375pt>
+File: PartOne/ChapterTwo/vignetting_example1b.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example1b.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1b.png  used on input line 65.
+(pdftex.def)             Requested size: 224.39664pt x 92.33516pt.
+<PartOne/ChapterTwo/vignetting_example1c.png, id=308, 255.95625pt x 127.97812pt>
+File: PartOne/ChapterTwo/vignetting_example1c.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example1c.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example1c.png  used on input line 66.
+(pdftex.def)             Requested size: 224.39664pt x 112.19928pt.
+<PartOne/ChapterTwo/vignetting_example2a.png, id=309, 304.13625pt x 96.36pt>
+File: PartOne/ChapterTwo/vignetting_example2a.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2a.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2a.png  used on input line 73.
+(pdftex.def)             Requested size: 224.39664pt x 71.09795pt.
+<PartOne/ChapterTwo/vignetting_example2b.png, id=310, 312.41719pt x 148.30406pt>
+File: PartOne/ChapterTwo/vignetting_example2b.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2b.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2b.png  used on input line 74.
+(pdftex.def)             Requested size: 224.39664pt x 106.52312pt.
+<PartOne/ChapterTwo/vignetting_example2c.png, id=311, 321.45094pt x 155.07938pt>
+File: PartOne/ChapterTwo/vignetting_example2c.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2c.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2c.png  used on input line 75.
+(pdftex.def)             Requested size: 224.39664pt x 108.25902pt.
+<PartOne/ChapterTwo/vignetting_example2d.png, id=312, 319.1925pt x 159.59625pt>
+File: PartOne/ChapterTwo/vignetting_example2d.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2d.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2d.png  used on input line 76.
+(pdftex.def)             Requested size: 224.39664pt x 112.19878pt.
+<PartOne/ChapterTwo/vignetting_example2e.png, id=313, 319.94531pt x 153.57375pt>
+File: PartOne/ChapterTwo/vignetting_example2e.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2e.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2e.png  used on input line 77.
+(pdftex.def)             Requested size: 224.39664pt x 107.71178pt.
+<PartOne/ChapterTwo/vignetting_example2f.png, id=314, 319.1925pt x 131.74219pt>
+File: PartOne/ChapterTwo/vignetting_example2f.png Graphic file (type png)
+<use PartOne/ChapterTwo/vignetting_example2f.png>
+Package pdftex.def Info: PartOne/ChapterTwo/vignetting_example2f.png  used on input line 78.
+(pdftex.def)             Requested size: 224.39664pt x 92.61691pt.
+ [18 <./PartOne/ChapterTwo/vignettingcases.png> <./PartOne/ChapterTwo/vignetting_example1.png> <./PartOne/ChapterTwo/vignetting_example1b.png> <./PartOne/ChapterTwo/vignetting_example1c.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 84.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2504,369 +2517,358 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 96.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 96.
-[18 <./PartOne/ChapterTwo/vignetting_example1.png> <./PartOne/ChapterTwo/vignetting_example1b.png> <./PartOne/ChapterTwo/vignetting_example1c.png>]
-<PartOne/ChapterTwo/dummysurfaces.png, id=323, 308.65312pt x 118.19156pt>
+<PartOne/ChapterTwo/dummysurfaces.png, id=327, 308.65312pt x 118.19156pt>
 File: PartOne/ChapterTwo/dummysurfaces.png Graphic file (type png)
 <use PartOne/ChapterTwo/dummysurfaces.png>
 Package pdftex.def Info: PartOne/ChapterTwo/dummysurfaces.png  used on input line 106.
 (pdftex.def)             Requested size: 398.93158pt x 152.77432pt.
-) (PartOne/ChapterTwo/RadiativeTransfer.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19 <./PartOne/ChapterTwo/vignetting_example2a.png> <./PartOne/ChapterTwo/vignetting_example2b.png> <./PartOne/ChapterTwo/vignetting_example2c.png> <./PartOne/ChapterTwo/vignetting_example2d.png> <./PartOne/ChapterTwo/vignetting_example2e.png> <./PartOne/ChapterTwo/vignetting_example2f.png>]
-<PartOne/ChapterTwo/solidangle.png, id=338, 285.31593pt x 99.37125pt>
+) (PartOne/ChapterTwo/RadiativeTransfer.tex [19 <./PartOne/ChapterTwo/vignetting_example2a.png> <./PartOne/ChapterTwo/vignetting_example2b.png> <./PartOne/ChapterTwo/vignetting_example2c.png> <./PartOne/ChapterTwo/vignetting_example2d.png> <./PartOne/ChapterTwo/vignetting_example2e.png> <./PartOne/ChapterTwo/vignetting_example2f.png>]
+<PartOne/ChapterTwo/solidangle.png, id=341, 285.31593pt x 99.37125pt>
 File: PartOne/ChapterTwo/solidangle.png Graphic file (type png)
 <use PartOne/ChapterTwo/solidangle.png>
 Package pdftex.def Info: PartOne/ChapterTwo/solidangle.png  used on input line 27.
 (pdftex.def)             Requested size: 398.93158pt x 138.9429pt.
- [20 <./PartOne/ChapterTwo/dummysurfaces.png> <./PartOne/ChapterTwo/solidangle.png>]
-<PartOne/ChapterTwo/radiativetransfer.png, id=349, 275.52937pt x 73.02281pt>
-File: PartOne/ChapterTwo/radiativetransfer.png Graphic file (type png)
-<use PartOne/ChapterTwo/radiativetransfer.png>
-Package pdftex.def Info: PartOne/ChapterTwo/radiativetransfer.png  used on input line 60.
-(pdftex.def)             Requested size: 398.93158pt x 105.7377pt.
- [21 <./PartOne/ChapterTwo/radiativetransfer.png>] [22]
-<PartOne/ChapterTwo/fluxconservation.png, id=369, 117.43875pt x 54.2025pt>
-File: PartOne/ChapterTwo/fluxconservation.png Graphic file (type png)
-<use PartOne/ChapterTwo/fluxconservation.png>
-Package pdftex.def Info: PartOne/ChapterTwo/fluxconservation.png  used on input line 194.
-(pdftex.def)             Requested size: 249.33128pt x 115.07663pt.
-) (PartOne/ChapterTwo/Objectives.tex
-<PartOne/ChapterTwo/simpleobjective.png, id=370, 240.14719pt x 95.6072pt>
-File: PartOne/ChapterTwo/simpleobjective.png Graphic file (type png)
-<use PartOne/ChapterTwo/simpleobjective.png>
-Package pdftex.def Info: PartOne/ChapterTwo/simpleobjective.png  used on input line 16.
-(pdftex.def)             Requested size: 119.68175pt x 47.64737pt.
-<PartOne/ChapterTwo/petzvalobjective.png, id=371, 266.49562pt x 155.07938pt>
-File: PartOne/ChapterTwo/petzvalobjective.png Graphic file (type png)
-<use PartOne/ChapterTwo/petzvalobjective.png>
-Package pdftex.def Info: PartOne/ChapterTwo/petzvalobjective.png  used on input line 22.
-(pdftex.def)             Requested size: 119.68175pt x 69.64545pt.
-<PartOne/ChapterTwo/telephotoobjective.png, id=372, 307.1475pt x 156.585pt>
-File: PartOne/ChapterTwo/telephotoobjective.png Graphic file (type png)
-<use PartOne/ChapterTwo/telephotoobjective.png>
-Package pdftex.def Info: PartOne/ChapterTwo/telephotoobjective.png  used on input line 28.
-(pdftex.def)             Requested size: 119.68175pt x 61.01534pt.
-<PartOne/ChapterTwo/reversetelephoto.png, id=373, 291.33844pt x 151.3153pt>
-File: PartOne/ChapterTwo/reversetelephoto.png Graphic file (type png)
-<use PartOne/ChapterTwo/reversetelephoto.png>
-Package pdftex.def Info: PartOne/ChapterTwo/reversetelephoto.png  used on input line 34.
-(pdftex.def)             Requested size: 119.68175pt x 62.15973pt.
-<PartOne/ChapterTwo/depthoffocus.png, id=374, 225.84375pt x 178.41656pt>
-File: PartOne/ChapterTwo/depthoffocus.png Graphic file (type png)
-<use PartOne/ChapterTwo/depthoffocus.png>
-Package pdftex.def Info: PartOne/ChapterTwo/depthoffocus.png  used on input line 51.
-(pdftex.def)             Requested size: 179.51799pt x 141.82686pt.
-<PartOne/ChapterTwo/dofrelationfnumber.png, id=375, 316.18124pt x 204.01219pt>
-File: PartOne/ChapterTwo/dofrelationfnumber.png Graphic file (type png)
-<use PartOne/ChapterTwo/dofrelationfnumber.png>
-Package pdftex.def Info: PartOne/ChapterTwo/dofrelationfnumber.png  used on input line 57.
-(pdftex.def)             Requested size: 224.39664pt x 144.79051pt.
- [23 <./PartOne/ChapterTwo/fluxconservation.png>]
-<PartOne/ChapterTwo/depthoffield.png, id=385, 255.95625pt x 106.14656pt>
-File: PartOne/ChapterTwo/depthoffield.png Graphic file (type png)
-<use PartOne/ChapterTwo/depthoffield.png>
-Package pdftex.def Info: PartOne/ChapterTwo/depthoffield.png  used on input line 72.
-(pdftex.def)             Requested size: 299.20059pt x 124.08893pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24 <./PartOne/ChapterTwo/simpleobjective.png> <./PartOne/ChapterTwo/petzvalobjective.png> <./PartOne/ChapterTwo/telephotoobjective.png> <./PartOne/ChapterTwo/reversetelephoto.png> <./PartOne/ChapterTwo/depthoffocus.png> <./PartOne/ChapterTwo/dofrelationfnumber.png>]
+[20 <./PartOne/ChapterTwo/dummysurfaces.png>]
+<PartOne/ChapterTwo/radiativetransfer.png, id=352, 275.52937pt x 73.02281pt>
+File: PartOne/ChapterTwo/radiativetransfer.png Graphic file (type png)
+<use PartOne/ChapterTwo/radiativetransfer.png>
+Package pdftex.def Info: PartOne/ChapterTwo/radiativetransfer.png  used on input line 60.
+(pdftex.def)             Requested size: 398.93158pt x 105.7377pt.
+ [21 <./PartOne/ChapterTwo/solidangle.png> <./PartOne/ChapterTwo/radiativetransfer.png>] [22]
+<PartOne/ChapterTwo/fluxconservation.png, id=371, 117.43875pt x 54.2025pt>
+File: PartOne/ChapterTwo/fluxconservation.png Graphic file (type png)
+<use PartOne/ChapterTwo/fluxconservation.png>
+Package pdftex.def Info: PartOne/ChapterTwo/fluxconservation.png  used on input line 194.
+(pdftex.def)             Requested size: 249.33128pt x 115.07663pt.
+) (PartOne/ChapterTwo/Objectives.tex [23 <./PartOne/ChapterTwo/fluxconservation.png>]
+<PartOne/ChapterTwo/simpleobjective.png, id=382, 240.14719pt x 95.6072pt>
+File: PartOne/ChapterTwo/simpleobjective.png Graphic file (type png)
+<use PartOne/ChapterTwo/simpleobjective.png>
+Package pdftex.def Info: PartOne/ChapterTwo/simpleobjective.png  used on input line 16.
+(pdftex.def)             Requested size: 119.68175pt x 47.64737pt.
+<PartOne/ChapterTwo/petzvalobjective.png, id=383, 266.49562pt x 155.07938pt>
+File: PartOne/ChapterTwo/petzvalobjective.png Graphic file (type png)
+<use PartOne/ChapterTwo/petzvalobjective.png>
+Package pdftex.def Info: PartOne/ChapterTwo/petzvalobjective.png  used on input line 22.
+(pdftex.def)             Requested size: 119.68175pt x 69.64545pt.
+<PartOne/ChapterTwo/telephotoobjective.png, id=384, 307.1475pt x 156.585pt>
+File: PartOne/ChapterTwo/telephotoobjective.png Graphic file (type png)
+<use PartOne/ChapterTwo/telephotoobjective.png>
+Package pdftex.def Info: PartOne/ChapterTwo/telephotoobjective.png  used on input line 28.
+(pdftex.def)             Requested size: 119.68175pt x 61.01534pt.
+<PartOne/ChapterTwo/reversetelephoto.png, id=385, 291.33844pt x 151.3153pt>
+File: PartOne/ChapterTwo/reversetelephoto.png Graphic file (type png)
+<use PartOne/ChapterTwo/reversetelephoto.png>
+Package pdftex.def Info: PartOne/ChapterTwo/reversetelephoto.png  used on input line 34.
+(pdftex.def)             Requested size: 119.68175pt x 62.15973pt.
+<PartOne/ChapterTwo/depthoffocus.png, id=386, 225.84375pt x 178.41656pt>
+File: PartOne/ChapterTwo/depthoffocus.png Graphic file (type png)
+<use PartOne/ChapterTwo/depthoffocus.png>
+Package pdftex.def Info: PartOne/ChapterTwo/depthoffocus.png  used on input line 51.
+(pdftex.def)             Requested size: 179.51799pt x 141.82686pt.
+<PartOne/ChapterTwo/dofrelationfnumber.png, id=387, 316.18124pt x 204.01219pt>
+File: PartOne/ChapterTwo/dofrelationfnumber.png Graphic file (type png)
+<use PartOne/ChapterTwo/dofrelationfnumber.png>
+Package pdftex.def Info: PartOne/ChapterTwo/dofrelationfnumber.png  used on input line 57.
+(pdftex.def)             Requested size: 224.39664pt x 144.79051pt.
+<PartOne/ChapterTwo/depthoffield.png, id=388, 255.95625pt x 106.14656pt>
+File: PartOne/ChapterTwo/depthoffield.png Graphic file (type png)
+<use PartOne/ChapterTwo/depthoffield.png>
+Package pdftex.def Info: PartOne/ChapterTwo/depthoffield.png  used on input line 72.
+(pdftex.def)             Requested size: 299.20059pt x 124.08893pt.
+ [24 <./PartOne/ChapterTwo/simpleobjective.png> <./PartOne/ChapterTwo/petzvalobjective.png> <./PartOne/ChapterTwo/telephotoobjective.png> <./PartOne/ChapterTwo/reversetelephoto.png> <./PartOne/ChapterTwo/depthoffocus.png> <./PartOne/ChapterTwo/dofrelationfnumber.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 101.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 101.
-<PartOne/ChapterTwo/hyperfocal1.png, id=400, 245.41687pt x 152.06813pt>
+<PartOne/ChapterTwo/hyperfocal1.png, id=402, 245.41687pt x 152.06813pt>
 File: PartOne/ChapterTwo/hyperfocal1.png Graphic file (type png)
 <use PartOne/ChapterTwo/hyperfocal1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/hyperfocal1.png  used on input line 110.
 (pdftex.def)             Requested size: 179.51799pt x 111.23851pt.
-<PartOne/ChapterTwo/hyperfocal2.png, id=401, 221.32687pt x 121.20282pt>
+<PartOne/ChapterTwo/hyperfocal2.png, id=403, 221.32687pt x 121.20282pt>
 File: PartOne/ChapterTwo/hyperfocal2.png Graphic file (type png)
 <use PartOne/ChapterTwo/hyperfocal2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/hyperfocal2.png  used on input line 115.
 (pdftex.def)             Requested size: 224.39664pt x 122.891pt.
-<PartOne/ChapterTwo/fixedfocuscamera.png, id=402, 310.91156pt x 130.23656pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterTwo/fixedfocuscamera.png, id=404, 310.91156pt x 130.23656pt>
 File: PartOne/ChapterTwo/fixedfocuscamera.png Graphic file (type png)
 <use PartOne/ChapterTwo/fixedfocuscamera.png>
 Package pdftex.def Info: PartOne/ChapterTwo/fixedfocuscamera.png  used on input line 122.
 (pdftex.def)             Requested size: 299.20059pt x 125.3317pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./PartOne/ChapterTwo/depthoffield.png> <./PartOne/ChapterTwo/hyperfocal1.png> <./PartOne/ChapterTwo/hyperfocal2.png>]
-<PartOne/ChapterTwo/fixedfocusdigital.png, id=416, 301.125pt x 133.24782pt>
+<PartOne/ChapterTwo/fixedfocusdigital.png, id=405, 301.125pt x 133.24782pt>
 File: PartOne/ChapterTwo/fixedfocusdigital.png Graphic file (type png)
 <use PartOne/ChapterTwo/fixedfocusdigital.png>
 Package pdftex.def Info: PartOne/ChapterTwo/fixedfocusdigital.png  used on input line 129.
 (pdftex.def)             Requested size: 299.20059pt x 132.40776pt.
-<PartOne/ChapterTwo/telephotozoom.png, id=417, 266.49562pt x 167.87718pt>
+[25 <./PartOne/ChapterTwo/depthoffield.png>] [26 <./PartOne/ChapterTwo/hyperfocal1.png> <./PartOne/ChapterTwo/hyperfocal2.png> <./PartOne/ChapterTwo/fixedfocuscamera.png> <./PartOne/ChapterTwo/fixedfocusdigital.png>]
+<PartOne/ChapterTwo/telephotozoom.png, id=432, 266.49562pt x 167.87718pt>
 File: PartOne/ChapterTwo/telephotozoom.png Graphic file (type png)
 <use PartOne/ChapterTwo/telephotozoom.png>
 Package pdftex.def Info: PartOne/ChapterTwo/telephotozoom.png  used on input line 149.
 (pdftex.def)             Requested size: 244.3474pt x 153.92886pt.
-<PartOne/ChapterTwo/reversetelephotozoom.png, id=418, 271.76532pt x 158.84344pt>
+<PartOne/ChapterTwo/reversetelephotozoom.png, id=433, 271.76532pt x 158.84344pt>
 File: PartOne/ChapterTwo/reversetelephotozoom.png Graphic file (type png)
 <use PartOne/ChapterTwo/reversetelephotozoom.png>
 Package pdftex.def Info: PartOne/ChapterTwo/reversetelephotozoom.png  used on input line 155.
 (pdftex.def)             Requested size: 244.3474pt x 142.82446pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PartOne/ChapterTwo/mechanicalcompensated.png, id=419, 252.19218pt x 83.5622pt>
+<PartOne/ChapterTwo/mechanicalcompensated.png, id=434, 252.19218pt x 83.5622pt>
 File: PartOne/ChapterTwo/mechanicalcompensated.png Graphic file (type png)
 <use PartOne/ChapterTwo/mechanicalcompensated.png>
 Package pdftex.def Info: PartOne/ChapterTwo/mechanicalcompensated.png  used on input line 168.
 (pdftex.def)             Requested size: 249.33128pt x 82.61461pt.
-) (PartOne/ChapterTwo/MagnifiersAndTelescopes.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PartOne/ChapterTwo/magnifier.png, id=420, 252.945pt x 66.2475pt>
+LaTeX Font Info:    Trying to load font information for TS1+qhv on input line 176.
+ (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qhv.fd
+File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
+) [27{C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./PartOne/ChapterTwo/telephotozoom.png> <./PartOne/ChapterTwo/reversetelephotozoom.png> <./PartOne/ChapterTwo/mechanicalcompensated.png>]) (PartOne/ChapterTwo/MagnifiersAndTelescopes.tex
+<PartOne/ChapterTwo/magnifier.png, id=451, 252.945pt x 66.2475pt>
 File: PartOne/ChapterTwo/magnifier.png Graphic file (type png)
 <use PartOne/ChapterTwo/magnifier.png>
 Package pdftex.def Info: PartOne/ChapterTwo/magnifier.png  used on input line 9.
 (pdftex.def)             Requested size: 299.20059pt x 78.36342pt.
-[26 <./PartOne/ChapterTwo/fixedfocuscamera.png> <./PartOne/ChapterTwo/fixedfocusdigital.png>] [27 <./PartOne/ChapterTwo/telephotozoom.png> <./PartOne/ChapterTwo/reversetelephotozoom.png> <./PartOne/ChapterTwo/mechanicalcompensated.png> <./PartOne/ChapterTwo/magnifier.png>]
-<PartOne/ChapterTwo/magnificationmagnifyingpower.png, id=444, 289.08pt x 140.02313pt>
-File: PartOne/ChapterTwo/magnificationmagnifyingpower.png Graphic file (type png)
-<use PartOne/ChapterTwo/magnificationmagnifyingpower.png>
-Package pdftex.def Info: PartOne/ChapterTwo/magnificationmagnifyingpower.png  used on input line 49.
-(pdftex.def)             Requested size: 199.46198pt x 96.61392pt.
- [28 <./PartOne/ChapterTwo/magnificationmagnifyingpower.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 69.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 69.
-<PartOne/ChapterTwo/kepleariantelescope.png, id=455, 272.51813pt x 143.03438pt>
-File: PartOne/ChapterTwo/kepleariantelescope.png Graphic file (type png)
-<use PartOne/ChapterTwo/kepleariantelescope.png>
-Package pdftex.def Info: PartOne/ChapterTwo/kepleariantelescope.png  used on input line 76.
-(pdftex.def)             Requested size: 244.3474pt x 128.24739pt.
-<PartOne/ChapterTwo/galileantelescope.png, id=456, 257.46187pt x 98.61844pt>
-File: PartOne/ChapterTwo/galileantelescope.png Graphic file (type png)
-<use PartOne/ChapterTwo/galileantelescope.png>
-Package pdftex.def Info: PartOne/ChapterTwo/galileantelescope.png  used on input line 82.
-(pdftex.def)             Requested size: 244.3474pt x 93.59668pt.
-<PartOne/ChapterTwo/eyereliefkeplerian.png, id=457, 306.39468pt x 148.30406pt>
-File: PartOne/ChapterTwo/eyereliefkeplerian.png Graphic file (type png)
-<use PartOne/ChapterTwo/eyereliefkeplerian.png>
-Package pdftex.def Info: PartOne/ChapterTwo/eyereliefkeplerian.png  used on input line 101.
-(pdftex.def)             Requested size: 349.06227pt x 168.96652pt.
-<PartOne/ChapterTwo/fieldlend.png, id=458, 201.75375pt x 82.05656pt>
-File: PartOne/ChapterTwo/fieldlend.png Graphic file (type png)
-<use PartOne/ChapterTwo/fieldlend.png>
-Package pdftex.def Info: PartOne/ChapterTwo/fieldlend.png  used on input line 113.
-(pdftex.def)             Requested size: 224.39664pt x 91.26665pt.
-<PartOne/ChapterTwo/fieldlens2.png, id=459, 127.22531pt x 71.51718pt>
-File: PartOne/ChapterTwo/fieldlens2.png Graphic file (type png)
-<use PartOne/ChapterTwo/fieldlens2.png>
-Package pdftex.def Info: PartOne/ChapterTwo/fieldlens2.png  used on input line 119.
-(pdftex.def)             Requested size: 179.51799pt x 100.9167pt.
- [29 <./PartOne/ChapterTwo/kepleariantelescope.png> <./PartOne/ChapterTwo/galileantelescope.png> <./PartOne/ChapterTwo/eyereliefkeplerian.png>]
-<PartOne/ChapterTwo/huygenseyepiece.png, id=472, 139.27031pt x 57.96657pt>
-File: PartOne/ChapterTwo/huygenseyepiece.png Graphic file (type png)
-<use PartOne/ChapterTwo/huygenseyepiece.png>
-Package pdftex.def Info: PartOne/ChapterTwo/huygenseyepiece.png  used on input line 156.
-(pdftex.def)             Requested size: 179.51799pt x 74.72055pt.
-<PartOne/ChapterTwo/ramsdeneyepiece.png, id=473, 140.77594pt x 60.225pt>
-File: PartOne/ChapterTwo/ramsdeneyepiece.png Graphic file (type png)
-<use PartOne/ChapterTwo/ramsdeneyepiece.png>
-Package pdftex.def Info: PartOne/ChapterTwo/ramsdeneyepiece.png  used on input line 162.
-(pdftex.def)             Requested size: 179.51799pt x 76.80376pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./PartOne/ChapterTwo/fieldlend.png> <./PartOne/ChapterTwo/fieldlens2.png>]
-<PartOne/ChapterTwo/newtonian.png, id=484, 217.5628pt x 143.78719pt>
+[28]
+<PartOne/ChapterTwo/magnificationmagnifyingpower.png, id=464, 289.08pt x 140.02313pt>
+File: PartOne/ChapterTwo/magnificationmagnifyingpower.png Graphic file (type png)
+<use PartOne/ChapterTwo/magnificationmagnifyingpower.png>
+Package pdftex.def Info: PartOne/ChapterTwo/magnificationmagnifyingpower.png  used on input line 49.
+(pdftex.def)             Requested size: 199.46198pt x 96.61392pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./PartOne/ChapterTwo/magnifier.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+<PartOne/ChapterTwo/kepleariantelescope.png, id=475, 272.51813pt x 143.03438pt>
+File: PartOne/ChapterTwo/kepleariantelescope.png Graphic file (type png)
+<use PartOne/ChapterTwo/kepleariantelescope.png>
+Package pdftex.def Info: PartOne/ChapterTwo/kepleariantelescope.png  used on input line 76.
+(pdftex.def)             Requested size: 244.3474pt x 128.24739pt.
+<PartOne/ChapterTwo/galileantelescope.png, id=476, 257.46187pt x 98.61844pt>
+File: PartOne/ChapterTwo/galileantelescope.png Graphic file (type png)
+<use PartOne/ChapterTwo/galileantelescope.png>
+Package pdftex.def Info: PartOne/ChapterTwo/galileantelescope.png  used on input line 82.
+(pdftex.def)             Requested size: 244.3474pt x 93.59668pt.
+ [30 <./PartOne/ChapterTwo/magnificationmagnifyingpower.png> <./PartOne/ChapterTwo/kepleariantelescope.png> <./PartOne/ChapterTwo/galileantelescope.png>]
+<PartOne/ChapterTwo/eyereliefkeplerian.png, id=486, 306.39468pt x 148.30406pt>
+File: PartOne/ChapterTwo/eyereliefkeplerian.png Graphic file (type png)
+<use PartOne/ChapterTwo/eyereliefkeplerian.png>
+Package pdftex.def Info: PartOne/ChapterTwo/eyereliefkeplerian.png  used on input line 101.
+(pdftex.def)             Requested size: 349.06227pt x 168.96652pt.
+<PartOne/ChapterTwo/fieldlend.png, id=487, 201.75375pt x 82.05656pt>
+File: PartOne/ChapterTwo/fieldlend.png Graphic file (type png)
+<use PartOne/ChapterTwo/fieldlend.png>
+Package pdftex.def Info: PartOne/ChapterTwo/fieldlend.png  used on input line 113.
+(pdftex.def)             Requested size: 224.39664pt x 91.26665pt.
+<PartOne/ChapterTwo/fieldlens2.png, id=488, 127.22531pt x 71.51718pt>
+File: PartOne/ChapterTwo/fieldlens2.png Graphic file (type png)
+<use PartOne/ChapterTwo/fieldlens2.png>
+Package pdftex.def Info: PartOne/ChapterTwo/fieldlens2.png  used on input line 119.
+(pdftex.def)             Requested size: 179.51799pt x 100.9167pt.
+ [31 <./PartOne/ChapterTwo/eyereliefkeplerian.png> <./PartOne/ChapterTwo/fieldlend.png> <./PartOne/ChapterTwo/fieldlens2.png>]
+<PartOne/ChapterTwo/huygenseyepiece.png, id=503, 139.27031pt x 57.96657pt>
+File: PartOne/ChapterTwo/huygenseyepiece.png Graphic file (type png)
+<use PartOne/ChapterTwo/huygenseyepiece.png>
+Package pdftex.def Info: PartOne/ChapterTwo/huygenseyepiece.png  used on input line 156.
+(pdftex.def)             Requested size: 179.51799pt x 74.72055pt.
+<PartOne/ChapterTwo/ramsdeneyepiece.png, id=504, 140.77594pt x 60.225pt>
+File: PartOne/ChapterTwo/ramsdeneyepiece.png Graphic file (type png)
+<use PartOne/ChapterTwo/ramsdeneyepiece.png>
+Package pdftex.def Info: PartOne/ChapterTwo/ramsdeneyepiece.png  used on input line 162.
+(pdftex.def)             Requested size: 179.51799pt x 76.80376pt.
+<PartOne/ChapterTwo/newtonian.png, id=505, 217.5628pt x 143.78719pt>
 File: PartOne/ChapterTwo/newtonian.png Graphic file (type png)
 <use PartOne/ChapterTwo/newtonian.png>
 Package pdftex.def Info: PartOne/ChapterTwo/newtonian.png  used on input line 183.
 (pdftex.def)             Requested size: 104.71974pt x 69.21013pt.
-<PartOne/ChapterTwo/gregorian.png, id=485, 316.93407pt x 85.82062pt>
+<PartOne/ChapterTwo/gregorian.png, id=506, 316.93407pt x 85.82062pt>
 File: PartOne/ChapterTwo/gregorian.png Graphic file (type png)
 <use PartOne/ChapterTwo/gregorian.png>
 Package pdftex.def Info: PartOne/ChapterTwo/gregorian.png  used on input line 189.
 (pdftex.def)             Requested size: 149.6003pt x 40.50984pt.
-<PartOne/ChapterTwo/cassegrain.png, id=486, 240.9pt x 73.02281pt>
+<PartOne/ChapterTwo/cassegrain.png, id=507, 240.9pt x 73.02281pt>
 File: PartOne/ChapterTwo/cassegrain.png Graphic file (type png)
 <use PartOne/ChapterTwo/cassegrain.png>
 Package pdftex.def Info: PartOne/ChapterTwo/cassegrain.png  used on input line 195.
 (pdftex.def)             Requested size: 149.6003pt x 45.34831pt.
-<PartOne/ChapterTwo/keplerianvignetting1.png, id=487, 307.1475pt x 154.32657pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterTwo/keplerianvignetting1.png, id=508, 307.1475pt x 154.32657pt>
 File: PartOne/ChapterTwo/keplerianvignetting1.png Graphic file (type png)
 <use PartOne/ChapterTwo/keplerianvignetting1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/keplerianvignetting1.png  used on input line 204.
 (pdftex.def)             Requested size: 149.6003pt x 75.16618pt.
-<PartOne/ChapterTwo/keplerianvignetting2.png, id=488, 307.1475pt x 130.98938pt>
+<PartOne/ChapterTwo/keplerianvignetting2.png, id=509, 307.1475pt x 130.98938pt>
 File: PartOne/ChapterTwo/keplerianvignetting2.png Graphic file (type png)
 <use PartOne/ChapterTwo/keplerianvignetting2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/keplerianvignetting2.png  used on input line 205.
 (pdftex.def)             Requested size: 149.6003pt x 63.79959pt.
-<PartOne/ChapterTwo/keplerianvignetting3.png, id=489, 301.8778pt x 167.87718pt>
+<PartOne/ChapterTwo/keplerianvignetting3.png, id=510, 301.8778pt x 167.87718pt>
 File: PartOne/ChapterTwo/keplerianvignetting3.png Graphic file (type png)
 <use PartOne/ChapterTwo/keplerianvignetting3.png>
 Package pdftex.def Info: PartOne/ChapterTwo/keplerianvignetting3.png  used on input line 206.
 (pdftex.def)             Requested size: 149.6003pt x 83.19295pt.
-<PartOne/ChapterTwo/galileanvignetting1.png, id=490, 302.63063pt x 146.04562pt>
+[32 <./PartOne/ChapterTwo/huygenseyepiece.png> <./PartOne/ChapterTwo/ramsdeneyepiece.png>]
+<PartOne/ChapterTwo/galileanvignetting1.png, id=521, 302.63063pt x 146.04562pt>
 File: PartOne/ChapterTwo/galileanvignetting1.png Graphic file (type png)
 <use PartOne/ChapterTwo/galileanvignetting1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/galileanvignetting1.png  used on input line 213.
 (pdftex.def)             Requested size: 224.39664pt x 108.29044pt.
-<PartOne/ChapterTwo/galileanvignetting2.png, id=491, 290.58563pt x 138.5175pt>
+<PartOne/ChapterTwo/galileanvignetting2.png, id=522, 290.58563pt x 138.5175pt>
 File: PartOne/ChapterTwo/galileanvignetting2.png Graphic file (type png)
 <use PartOne/ChapterTwo/galileanvignetting2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/galileanvignetting2.png  used on input line 214.
 (pdftex.def)             Requested size: 224.39664pt x 106.96738pt.
 ) (PartOne/ChapterTwo/RelaysAndMicroscopes.tex
-Underfull \vbox (badness 4913) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./PartOne/ChapterTwo/huygenseyepiece.png> <./PartOne/ChapterTwo/ramsdeneyepiece.png> <./PartOne/ChapterTwo/newtonian.png> <./PartOne/ChapterTwo/gregorian.png> <./PartOne/ChapterTwo/cassegrain.png> <./PartOne/ChapterTwo/keplerianvignetting1.png> <./PartOne/ChapterTwo/keplerianvignetting2.png> <./PartOne/ChapterTwo/keplerianvignetting3.png>]
-<PartOne/ChapterTwo/prism.png, id=510, 134.00063pt x 96.36pt>
+ [33 <./PartOne/ChapterTwo/newtonian.png> <./PartOne/ChapterTwo/gregorian.png> <./PartOne/ChapterTwo/cassegrain.png> <./PartOne/ChapterTwo/keplerianvignetting1.png> <./PartOne/ChapterTwo/keplerianvignetting2.png> <./PartOne/ChapterTwo/keplerianvignetting3.png> <./PartOne/ChapterTwo/galileanvignetting1.png> <./PartOne/ChapterTwo/galileanvignetting2.png>]
+<PartOne/ChapterTwo/prism.png, id=540, 134.00063pt x 96.36pt>
 File: PartOne/ChapterTwo/prism.png Graphic file (type png)
 <use PartOne/ChapterTwo/prism.png>
 Package pdftex.def Info: PartOne/ChapterTwo/prism.png  used on input line 18.
 (pdftex.def)             Requested size: 157.07695pt x 112.95392pt.
-<PartOne/ChapterTwo/relay.png, id=511, 191.21437pt x 66.2475pt>
+<PartOne/ChapterTwo/relay.png, id=541, 191.21437pt x 66.2475pt>
 File: PartOne/ChapterTwo/relay.png Graphic file (type png)
 <use PartOne/ChapterTwo/relay.png>
 Package pdftex.def Info: PartOne/ChapterTwo/relay.png  used on input line 24.
 (pdftex.def)             Requested size: 224.39664pt x 77.7478pt.
-<PartOne/ChapterTwo/erectorlens.png, id=512, 186.6975pt x 55.70813pt>
+<PartOne/ChapterTwo/erectorlens.png, id=542, 186.6975pt x 55.70813pt>
 File: PartOne/ChapterTwo/erectorlens.png Graphic file (type png)
 <use PartOne/ChapterTwo/erectorlens.png>
 Package pdftex.def Info: PartOne/ChapterTwo/erectorlens.png  used on input line 35.
 (pdftex.def)             Requested size: 249.33128pt x 74.40027pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./PartOne/ChapterTwo/galileanvignetting1.png> <./PartOne/ChapterTwo/galileanvignetting2.png> <./PartOne/ChapterTwo/prism.png> <./PartOne/ChapterTwo/relay.png>]
-<PartOne/ChapterTwo/microscope.png, id=526, 233.37187pt x 80.55093pt>
+ [34 <./PartOne/ChapterTwo/prism.png> <./PartOne/ChapterTwo/relay.png> <./PartOne/ChapterTwo/erectorlens.png>]
+<PartOne/ChapterTwo/microscope.png, id=557, 233.37187pt x 80.55093pt>
 File: PartOne/ChapterTwo/microscope.png Graphic file (type png)
 <use PartOne/ChapterTwo/microscope.png>
-Package pdftex.def Info: PartOne/ChapterTwo/microscope.png  used on input line 50.
+Package pdftex.def Info: PartOne/ChapterTwo/microscope.png  used on input line 87.
 (pdftex.def)             Requested size: 269.2787pt x 92.95488pt.
-<PartOne/ChapterTwo/objectivemicroscope.png, id=527, 95.6072pt x 54.2025pt>
+<PartOne/ChapterTwo/objectivemicroscope.png, id=558, 95.6072pt x 54.2025pt>
 File: PartOne/ChapterTwo/objectivemicroscope.png Graphic file (type png)
 <use PartOne/ChapterTwo/objectivemicroscope.png>
-Package pdftex.def Info: PartOne/ChapterTwo/objectivemicroscope.png  used on input line 56.
+Package pdftex.def Info: PartOne/ChapterTwo/objectivemicroscope.png  used on input line 93.
 (pdftex.def)             Requested size: 149.6003pt x 84.82434pt.
- [33 <./PartOne/ChapterTwo/erectorlens.png> <./PartOne/ChapterTwo/microscope.png> <./PartOne/ChapterTwo/objectivemicroscope.png>]
-<PartOne/ChapterTwo/shoulderheight.png, id=540, 57.21375pt x 64.74188pt>
+ [35 <./PartOne/ChapterTwo/microscope.png> <./PartOne/ChapterTwo/objectivemicroscope.png>]
+<PartOne/ChapterTwo/shoulderheight.png, id=571, 57.21375pt x 64.74188pt>
 File: PartOne/ChapterTwo/shoulderheight.png Graphic file (type png)
 <use PartOne/ChapterTwo/shoulderheight.png>
-Package pdftex.def Info: PartOne/ChapterTwo/shoulderheight.png  used on input line 85.
+Package pdftex.def Info: PartOne/ChapterTwo/shoulderheight.png  used on input line 122.
 (pdftex.def)             Requested size: 74.80014pt x 84.64552pt.
-<PartOne/ChapterTwo/microscopeinternal.png, id=541, 200.24812pt x 56.46094pt>
+<PartOne/ChapterTwo/microscopeinternal.png, id=572, 200.24812pt x 56.46094pt>
 File: PartOne/ChapterTwo/microscopeinternal.png Graphic file (type png)
 <use PartOne/ChapterTwo/microscopeinternal.png>
-Package pdftex.def Info: PartOne/ChapterTwo/microscopeinternal.png  used on input line 90.
+Package pdftex.def Info: PartOne/ChapterTwo/microscopeinternal.png  used on input line 127.
 (pdftex.def)             Requested size: 299.20059pt x 84.3724pt.
 ) (PartOne/ChapterTwo/TelecentricSystems.tex
-<PartOne/ChapterTwo/telecentricity1.png, id=542, 301.125pt x 189.70876pt>
+<PartOne/ChapterTwo/telecentricity1.png, id=573, 301.125pt x 189.70876pt>
 File: PartOne/ChapterTwo/telecentricity1.png Graphic file (type png)
 <use PartOne/ChapterTwo/telecentricity1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/telecentricity1.png  used on input line 11.
 (pdftex.def)             Requested size: 149.6003pt x 94.25203pt.
-<PartOne/ChapterTwo/telecentricity2.png, id=543, 301.8778pt x 155.83218pt>
+<PartOne/ChapterTwo/telecentricity2.png, id=574, 301.8778pt x 155.83218pt>
 File: PartOne/ChapterTwo/telecentricity2.png Graphic file (type png)
 <use PartOne/ChapterTwo/telecentricity2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/telecentricity2.png  used on input line 16.
 (pdftex.def)             Requested size: 149.6003pt x 77.22395pt.
-<PartOne/ChapterTwo/telecentricity3.png, id=544, 301.125pt x 182.93344pt>
+<PartOne/ChapterTwo/telecentricity3.png, id=575, 301.125pt x 182.93344pt>
 File: PartOne/ChapterTwo/telecentricity3.png Graphic file (type png)
 <use PartOne/ChapterTwo/telecentricity3.png>
 Package pdftex.def Info: PartOne/ChapterTwo/telecentricity3.png  used on input line 21.
 (pdftex.def)             Requested size: 149.6003pt x 90.88588pt.
-<PartOne/ChapterTwo/imagespacetelecentric.png, id=545, 216.05719pt x 73.02281pt>
+ [36 <./PartOne/ChapterTwo/shoulderheight.png> <./PartOne/ChapterTwo/microscopeinternal.png> <./PartOne/ChapterTwo/telecentricity1.png> <./PartOne/ChapterTwo/telecentricity2.png> <./PartOne/ChapterTwo/telecentricity3.png>]
+<PartOne/ChapterTwo/imagespacetelecentric.png, id=590, 216.05719pt x 73.02281pt>
 File: PartOne/ChapterTwo/imagespacetelecentric.png Graphic file (type png)
 <use PartOne/ChapterTwo/imagespacetelecentric.png>
 Package pdftex.def Info: PartOne/ChapterTwo/imagespacetelecentric.png  used on input line 35.
 (pdftex.def)             Requested size: 224.39664pt x 75.84386pt.
-<PartOne/ChapterTwo/objectspacetelecentric.png, id=546, 226.59656pt x 97.11281pt>
+<PartOne/ChapterTwo/objectspacetelecentric.png, id=591, 226.59656pt x 97.11281pt>
 File: PartOne/ChapterTwo/objectspacetelecentric.png Graphic file (type png)
 <use PartOne/ChapterTwo/objectspacetelecentric.png>
 Package pdftex.def Info: PartOne/ChapterTwo/objectspacetelecentric.png  used on input line 41.
 (pdftex.def)             Requested size: 224.39664pt x 96.17012pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package mdframed Info: mdframed works in twoside mode on input line 46.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 46.
-Package mdframed Info: Not enough space on this page on input line 47.
-[34 <./PartOne/ChapterTwo/shoulderheight.png> <./PartOne/ChapterTwo/microscopeinternal.png> <./PartOne/ChapterTwo/telecentricity1.png> <./PartOne/ChapterTwo/telecentricity2.png> <./PartOne/ChapterTwo/telecentricity3.png>]
-Package mdframed Info: Not enough space on this page on input line 47.
-<PartOne/ChapterTwo/doubletelecentric.png, id=561, 235.63031pt x 68.50594pt>
+<PartOne/ChapterTwo/doubletelecentric.png, id=592, 235.63031pt x 68.50594pt>
 File: PartOne/ChapterTwo/doubletelecentric.png Graphic file (type png)
 <use PartOne/ChapterTwo/doubletelecentric.png>
 Package pdftex.def Info: PartOne/ChapterTwo/doubletelecentric.png  used on input line 57.
 (pdftex.def)             Requested size: 299.20059pt x 86.98901pt.
-Package mdframed Info: mdframed works in twoside mode on input line 63.
+Package mdframed Info: mdframed works in twoside mode on input line 61.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 63.
+(mdframed)              on input line 61.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 71.
- [35 <./PartOne/ChapterTwo/imagespacetelecentric.png> <./PartOne/ChapterTwo/objectspacetelecentric.png> <./PartOne/ChapterTwo/doubletelecentric.png>]
-<PartOne/ChapterTwo/afocal.png, id=573, 258.9675pt x 75.28125pt>
+(mdframed)              on input line 69.
+ [37 <./PartOne/ChapterTwo/imagespacetelecentric.png> <./PartOne/ChapterTwo/objectspacetelecentric.png> <./PartOne/ChapterTwo/doubletelecentric.png>]
+<PartOne/ChapterTwo/doubletelecentricexample.png, id=604, 210.7875pt x 66.2475pt>
+File: PartOne/ChapterTwo/doubletelecentricexample.png Graphic file (type png)
+<use PartOne/ChapterTwo/doubletelecentricexample.png>
+Package pdftex.def Info: PartOne/ChapterTwo/doubletelecentricexample.png  used on input line 83.
+(pdftex.def)             Requested size: 199.46198pt x 62.68912pt.
+ [38 <./PartOne/ChapterTwo/doubletelecentricexample.png>]
+<PartOne/ChapterTwo/afocal.png, id=621, 258.9675pt x 75.28125pt>
 File: PartOne/ChapterTwo/afocal.png Graphic file (type png)
 <use PartOne/ChapterTwo/afocal.png>
-Package pdftex.def Info: PartOne/ChapterTwo/afocal.png  used on input line 94.
+Package pdftex.def Info: PartOne/ChapterTwo/afocal.png  used on input line 131.
 (pdftex.def)             Requested size: 224.39664pt x 65.23453pt.
-<PartOne/ChapterTwo/afocal2.png, id=574, 252.945pt x 133.24782pt>
+<PartOne/ChapterTwo/afocal2.png, id=622, 252.945pt x 133.24782pt>
 File: PartOne/ChapterTwo/afocal2.png Graphic file (type png)
 <use PartOne/ChapterTwo/afocal2.png>
-Package pdftex.def Info: PartOne/ChapterTwo/afocal2.png  used on input line 100.
+Package pdftex.def Info: PartOne/ChapterTwo/afocal2.png  used on input line 137.
 (pdftex.def)             Requested size: 224.39664pt x 118.21199pt.
-<PartOne/ChapterTwo/afocalexample.png, id=575, 295.1025pt x 146.04562pt>
+<PartOne/ChapterTwo/afocalexample.png, id=623, 295.1025pt x 146.04562pt>
 File: PartOne/ChapterTwo/afocalexample.png Graphic file (type png)
 <use PartOne/ChapterTwo/afocalexample.png>
-Package pdftex.def Info: PartOne/ChapterTwo/afocalexample.png  used on input line 108.
+Package pdftex.def Info: PartOne/ChapterTwo/afocalexample.png  used on input line 145.
 (pdftex.def)             Requested size: 299.20059pt x 148.0776pt.
 ) (PartOne/ChapterTwo/StopAndImageQuality.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./PartOne/ChapterTwo/afocal.png> <./PartOne/ChapterTwo/afocal2.png> <./PartOne/ChapterTwo/afocalexample.png>]
-<PartOne/ChapterTwo/airy.png, id=588, 129.48375pt x 129.48375pt>
+ [39 <./PartOne/ChapterTwo/afocal.png> <./PartOne/ChapterTwo/afocal2.png> <./PartOne/ChapterTwo/afocalexample.png>]
+<PartOne/ChapterTwo/airy.png, id=636, 129.48375pt x 129.48375pt>
 File: PartOne/ChapterTwo/airy.png Graphic file (type png)
 <use PartOne/ChapterTwo/airy.png>
 Package pdftex.def Info: PartOne/ChapterTwo/airy.png  used on input line 14.
 (pdftex.def)             Requested size: 87.26555pt x 87.26932pt.
-<PartOne/ChapterTwo/airyprofile.png, id=589, 96.36pt x 150.5625pt>
+<PartOne/ChapterTwo/airyprofile.png, id=637, 96.36pt x 150.5625pt>
 File: PartOne/ChapterTwo/airyprofile.png Graphic file (type png)
 <use PartOne/ChapterTwo/airyprofile.png>
 Package pdftex.def Info: PartOne/ChapterTwo/airyprofile.png  used on input line 20.
 (pdftex.def)             Requested size: 62.33281pt x 97.39348pt.
-<PartOne/ChapterTwo/airyzeros.png, id=590, 242.40562pt x 119.69719pt>
+<PartOne/ChapterTwo/airyzeros.png, id=638, 242.40562pt x 119.69719pt>
 File: PartOne/ChapterTwo/airyzeros.png Graphic file (type png)
 <use PartOne/ChapterTwo/airyzeros.png>
 Package pdftex.def Info: PartOne/ChapterTwo/airyzeros.png  used on input line 26.
 (pdftex.def)             Requested size: 199.46198pt x 98.49751pt.
-<PartOne/ChapterTwo/sphericalaberration1.png, id=591, 258.9675pt x 120.45pt>
+<PartOne/ChapterTwo/sphericalaberration1.png, id=639, 258.9675pt x 120.45pt>
 File: PartOne/ChapterTwo/sphericalaberration1.png Graphic file (type png)
 <use PartOne/ChapterTwo/sphericalaberration1.png>
 Package pdftex.def Info: PartOne/ChapterTwo/sphericalaberration1.png  used on input line 55.
 (pdftex.def)             Requested size: 239.36137pt x 111.33545pt.
-<PartOne/ChapterTwo/sphericalaberration2.png, id=592, 161.10187pt x 134.75343pt>
+<PartOne/ChapterTwo/sphericalaberration2.png, id=640, 161.10187pt x 134.75343pt>
 File: PartOne/ChapterTwo/sphericalaberration2.png Graphic file (type png)
 <use PartOne/ChapterTwo/sphericalaberration2.png>
 Package pdftex.def Info: PartOne/ChapterTwo/sphericalaberration2.png  used on input line 61.
@@ -2875,12 +2877,12 @@ Package pdftex.def Info: PartOne/ChapterTwo/sphericalaberration2.png  used on in
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterTwo/spotdiagramspherical.png, id=593, 270.25969pt x 193.47281pt>
+<PartOne/ChapterTwo/spotdiagramspherical.png, id=641, 270.25969pt x 193.47281pt>
 File: PartOne/ChapterTwo/spotdiagramspherical.png Graphic file (type png)
 <use PartOne/ChapterTwo/spotdiagramspherical.png>
 Package pdftex.def Info: PartOne/ChapterTwo/spotdiagramspherical.png  used on input line 72.
 (pdftex.def)             Requested size: 239.36137pt x 171.35774pt.
-<PartOne/ChapterTwo/sphericalfnumber.png, id=594, 160.34906pt x 180.675pt>
+<PartOne/ChapterTwo/sphericalfnumber.png, id=642, 160.34906pt x 180.675pt>
 File: PartOne/ChapterTwo/sphericalfnumber.png Graphic file (type png)
 <use PartOne/ChapterTwo/sphericalfnumber.png>
 Package pdftex.def Info: PartOne/ChapterTwo/sphericalfnumber.png  used on input line 78.
@@ -2888,24 +2890,24 @@ Package pdftex.def Info: PartOne/ChapterTwo/sphericalfnumber.png  used on input 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37 <./PartOne/ChapterTwo/airy.png> <./PartOne/ChapterTwo/airyprofile.png> <./PartOne/ChapterTwo/airyzeros.png>]
-<PartOne/ChapterTwo/convexplano.png, id=611, 246.1697pt x 121.20282pt>
+[40 <./PartOne/ChapterTwo/airy.png> <./PartOne/ChapterTwo/airyprofile.png> <./PartOne/ChapterTwo/airyzeros.png>]
+<PartOne/ChapterTwo/convexplano.png, id=658, 246.1697pt x 121.20282pt>
 File: PartOne/ChapterTwo/convexplano.png Graphic file (type png)
 <use PartOne/ChapterTwo/convexplano.png>
 Package pdftex.def Info: PartOne/ChapterTwo/convexplano.png  used on input line 96.
 (pdftex.def)             Requested size: 139.62848pt x 68.74973pt.
-<PartOne/ChapterTwo/biconvex.png, id=612, 255.20343pt x 63.98906pt>
+<PartOne/ChapterTwo/biconvex.png, id=659, 255.20343pt x 63.98906pt>
 File: PartOne/ChapterTwo/biconvex.png Graphic file (type png)
 <use PartOne/ChapterTwo/biconvex.png>
 Package pdftex.def Info: PartOne/ChapterTwo/biconvex.png  used on input line 102.
 (pdftex.def)             Requested size: 174.53494pt x 43.76486pt.
-<PartOne/ChapterTwo/blurfnumber.png, id=613, 316.93407pt x 202.50656pt>
+<PartOne/ChapterTwo/blurfnumber.png, id=660, 316.93407pt x 202.50656pt>
 File: PartOne/ChapterTwo/blurfnumber.png Graphic file (type png)
 <use PartOne/ChapterTwo/blurfnumber.png>
 Package pdftex.def Info: PartOne/ChapterTwo/blurfnumber.png  used on input line 108.
 (pdftex.def)             Requested size: 124.66563pt x 79.65393pt.
 ) (PartOne/ChapterTwo/Materials.tex
-<PartOne/ChapterTwo/dispersion.png, id=614, 268.00125pt x 145.29282pt>
+<PartOne/ChapterTwo/dispersion.png, id=661, 268.00125pt x 145.29282pt>
 File: PartOne/ChapterTwo/dispersion.png Graphic file (type png)
 <use PartOne/ChapterTwo/dispersion.png>
 Package pdftex.def Info: PartOne/ChapterTwo/dispersion.png  used on input line 7.
@@ -2913,18 +2915,18 @@ Package pdftex.def Info: PartOne/ChapterTwo/dispersion.png  used on input line 7
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <./PartOne/ChapterTwo/sphericalaberration1.png> <./PartOne/ChapterTwo/sphericalaberration2.png> <./PartOne/ChapterTwo/spotdiagramspherical.png> <./PartOne/ChapterTwo/sphericalfnumber.png> <./PartOne/ChapterTwo/convexplano.png> <./PartOne/ChapterTwo/biconvex.png> <./PartOne/ChapterTwo/blurfnumber.png>] [39 <./PartOne/ChapterTwo/dispersion.png>]
-<PartOne/ChapterTwo/glassmap.png, id=639, 256.70906pt x 191.21437pt>
+ [41 <./PartOne/ChapterTwo/sphericalaberration1.png> <./PartOne/ChapterTwo/sphericalaberration2.png> <./PartOne/ChapterTwo/spotdiagramspherical.png> <./PartOne/ChapterTwo/sphericalfnumber.png> <./PartOne/ChapterTwo/convexplano.png> <./PartOne/ChapterTwo/biconvex.png> <./PartOne/ChapterTwo/blurfnumber.png>] [42 <./PartOne/ChapterTwo/dispersion.png>]
+<PartOne/ChapterTwo/glassmap.png, id=686, 256.70906pt x 191.21437pt>
 File: PartOne/ChapterTwo/glassmap.png Graphic file (type png)
 <use PartOne/ChapterTwo/glassmap.png>
 Package pdftex.def Info: PartOne/ChapterTwo/glassmap.png  used on input line 54.
 (pdftex.def)             Requested size: 224.39664pt x 167.14876pt.
-<PartOne/ChapterTwo/glasscode.png, id=640, 243.15843pt x 201.00093pt>
+<PartOne/ChapterTwo/glasscode.png, id=687, 243.15843pt x 201.00093pt>
 File: PartOne/ChapterTwo/glasscode.png Graphic file (type png)
 <use PartOne/ChapterTwo/glasscode.png>
 Package pdftex.def Info: PartOne/ChapterTwo/glasscode.png  used on input line 60.
 (pdftex.def)             Requested size: 224.39664pt x 185.49048pt.
-)) [40 <./PartOne/ChapterTwo/glassmap.png> <./PartOne/ChapterTwo/glasscode.png>] [41] [42] (main.ind)
+)) [43 <./PartOne/ChapterTwo/glassmap.png> <./PartOne/ChapterTwo/glasscode.png>] [44] [45] (main.ind)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2944,7 +2946,7 @@ Package minitoc(hints) Warning: W0024
 \tf@ptc=\write14
 \openout14 = `main.ptc'.
 
-[43] (main.aux)
+[46] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2956,17 +2958,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 88217 strings out of 474486
- 2223235 string characters out of 5743755
- 3437100 words of memory out of 5000000
- 109114 multiletter control sequences out of 15000+600000
- 655758 words of font info for 143 fonts, out of 8000000 for 9000
+ 88297 strings out of 474486
+ 2224636 string characters out of 5743755
+ 3433099 words of memory out of 5000000
+ 109157 multiletter control sequences out of 15000+600000
+ 656124 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,19n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (43 pages, 6147686 bytes).
+<C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on main.pdf (46 pages, 6205762 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
- 675 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 241 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
 

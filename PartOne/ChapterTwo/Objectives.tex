@@ -167,3 +167,63 @@ a fixed front element and moving second and third groups.
 \centering
 \includegraphics[width=.5\columnwidth]{PartOne/ChapterTwo/mechanicalcompensated.png}
 \end{figure}
+
+
+\begin{example}{Digital camera}
+    You are using a digital camera to take a picture of a house against a distant
+    mountain backdrop. The camera is focused on the house. You have a wide selection of
+    camera lenses and 16:9 (width = 12.48mm, height = 7.02 mm) CCD detectors at your
+    disposal. The CCD detectors available to you have pixels with sizes ranging between 3 µm
+    and 6 µm, however, cameras with pixel sizes of exactly 3 µm and 6 µm are not available.
+    You want to make sure that you can take a high-quality picture of the house and the
+    mountains and therefore, want to achieve a diffraction-limited image based on the pixel
+    pitch of the CCD detector you selected. The location allows you to place the camera
+    anywhere between 10 and 30 meters (not exactly 10 nor 30 m) away from the house.
+    Assume that the lens is a thin lens with the stop at the lens.
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item What are the hyperfocal distance and acceptable blur for your camera system?
+        \item Determine the focal length, f, and the diameter, D, of the lens.
+        \item How far behind the lens must the detector be located? What is the maximum size (height and width) 
+        of the house in meters you would be able to image on the detector?
+        \item What is the horizontal and vertical Field of View of this photographic system (in degrees)?
+        \item What is the f/\# of this camera? What is the closest object that will be considered to be in focus?
+        \item It is an overcast day (outdoor illuminance=103 lux=103 lm/m2). The reflectance of the house is r = 0.5 
+        and the mountains have an average reflectance of r=0.18. What are the image plane illuminances for the house and the
+        mountains individually?
+    \end{enumerate}
+    \subsubsection{Solution}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item CCD pixel pitch is $4\;\mu m$. And camera at $20\;m$ away from the house.
+        \item The hyperfocal distance is $L_H=20\;mm$. The blur is $B'\approx4\;\mu m\to f/\#=4$.
+        \item The hyperfocal idstance can be related to focal length:
+        \begin{align*}
+            |L_H|=\frac{f^2}{B'f/\#}\longrightarrow f=\sqrt{L_HB'f/\#}=\sqrt{20\cdot4\;\mu m\cdot4}=17.889\;mm.
+        \end{align*}
+        The diameter is then:
+        \begin{align*}
+            D=\frac{f}{f/\#}=\frac{17.889\;mm}{4}=4.472\;mm.
+        \end{align*}
+        We can think os a single thin lens that images an object at $-20\;mm$ to $L_H$. 
+        The magnification is:
+        \begin{align*}
+            m=\frac{L_H'}{L_H}=frac{z'}{z}=1\cdot1^{-3}.
+        \end{align*}
+        The field of view for each dimension is:
+        \begin{align*}
+            \text{HFOV}_H&=\tan^{-1}\frac{7.02}{L_H'}=\\
+            \text{HFOV}_W&=\tan^{-1}\frac{12.48}{L_H'}=
+        \end{align*}
+        \item The near distance is half of the hyperfocal distance 
+        \begin{align*}
+            L_{\text{near}}=\frac{L_H}{2}=10\;mm.
+        \end{align*}
+        \item For the house, 
+        \begin{align*}
+            E'=\frac{M}{4(f/\#_W)^2}=\frac{\rho E}{4(f/\#_W)^2}=\frac{\rho E}{4(f/\#)^2(1-m)^2}.
+        \end{align*}
+        For the mountain (located at infinity):
+        \begin{align*}
+            E'=\frac{\rho E}{4(f/\#)^2}.
+        \end{align*}
+    \end{enumerate}
+\end{example}
