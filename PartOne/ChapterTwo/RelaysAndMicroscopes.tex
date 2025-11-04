@@ -135,3 +135,48 @@ The magnification of the objective-tube lens combination is
 If the objective is object-space telecentric and $f_{\text{TUBE}}$ equals the infinite optical tube length IOTL, the combination is afocal and double telecentric. This is a useful feature when 
 using reticles in the eyepiece.
 
+
+\begin{example}{Microscope}
+    As an optical engineer, you are asked to desifn a finite conjugate microscope. The microscope is a combination of the objective lens and 
+    the eyepice, which is also composed of a field lens ans an eye lens.
+    
+    Fortunately, your company has has collected over the years all kinds of parts, uncliding:
+    \begin{itemize}[itemsep=0pt,topsep=0pt]
+        \item Optical tube of any length ranging from $170-200\;mm$.
+        \item Lenses of any diameter between $6-18\;mm$ with any focal length between $5050\;mm$.
+    \end{itemize}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item Design a microscope with a visual magnification between $50X-100X$. Pick a value, select the focal length of your eye piece, and determine the working distance in object space of the microscope.
+        \item Your microscope will have to operate with a numerical aperture between $0.15-0.25$. Select the stop location such that your microscope operates telecentric 
+        in object space, select a nominal value fo NA, and determine the required stop diameter to produce this NA.
+        \item Select a lens diameter for your microscope objective and determine the maximum object size $\pm h$ that you can image iwth this instrument while unvignetted.
+        If it is not possible with your chosen design, explain why in terms of marignal and chief ray heights.
+    \end{enumerate}
+    \subsubsection{Solution}
+    \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+        \item We pick $m_v=50X$, an $OTL=200\;mm$, and a eye lens with $f_{\text{EYE}}=50\;mm$.
+        \begin{align*}
+            m_v=\frac{\text{OTL}}{f_{obj}}\frac{250}{f_{\text{EYE}}}=-\frac{z_0'}{z_0}\frac{250}{f_{\text{EYE}}}.
+        \end{align*}
+        We solve in the above equation for $f_{obj}$:
+        \begin{align*}
+            f_{obj}=\frac{OTL250}{m_vf_{\text{EYE}}}=\frac{200\cdot250}{50\cdot50}=20\;mm.
+        \end{align*}
+        The image distance is $z_0'=200+20=220\;mm$. We now solve for $z_0$:
+        \begin{align*}
+            z_0=WD=-\frac{z_0'}{m_v}\frac{250}{f_{\text{EYE}}}=-22\;mm.
+        \end{align*}
+        \item The numerical aperture chosen is $NA=0.2$, which we use to get the slope ray and raytrace to the objective lens:
+        \begin{align*}
+            U=\sin^{-1}(NA)=\sin^{-1}(0.2)=11.54^\circ\longrightarrow u=\tan(11.54^\circ)=0.204.
+        \end{align*}
+        \begin{align*}
+            &y'=y+ut=0+0.204\cdot22=4.49\;mm,\quad u'=u-y\phi=0.204-4.49/20=-0.0205\\
+            &y_{\text{stop}}=y'+u'f_{\text{obj}}=4.08\;mm\longrightarrow D_{\text{stop}}=8.16\;mm.
+        \end{align*}
+        \item We choose a diameter of the lens to be $D_{obj}=10\;mm$. Now, we impose the unvignetting condition to get the maximum height of the object:
+        \begin{align*}
+            D=2(y+\bar{y})=2(4.49+\bar{y})\longrightarrow\bar{y}=y_{\text{obj height}}=h=\frac{10-2\cdot4.49}{2}=\pm0.51\;mm.
+        \end{align*}
+    \end{enumerate}
+\end{example}
