@@ -99,7 +99,7 @@ The relation between the depth of focus and the hyperfocal distance where the de
 \end{align}
 \begin{emphasizer}
     \begin{itemize}[itemsep=0pt,topsep=0pt]
-        \item Focusing at the hyperfocal distance \textbf{ensures} that any greater distance meets the blur criteria.
+        \item Focusing at the hyperfocal distance \textbf{ensures} that any greater distance that $L_{\text{near}}=L_H/2$ meets the blur criteria.
         \item As $f/\#$ increases (lens stopped down), the hyperfocal distance moves closer to the lens. 
     \end{itemize}
 \end{emphasizer}
@@ -193,9 +193,14 @@ a fixed front element and moving second and third groups.
     \end{enumerate}
     \subsubsection{Solution}
     \begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
-        \item CCD pixel pitch is $4\;\mu m$. And camera at $20\;m$ away from the house.
-        \item The hyperfocal distance is $L_H=20\;mm$. The blur is $B'\approx4\;\mu m\to f/\#=4$.
-        \item The hyperfocal idstance can be related to focal length:
+        \item CCD pixel pitch chosen is $4\;\mu m$. And camera at $L_H=20\;m$ away from the house.
+        \item The hyperfocal distance is $L_H=20\;mm$. The blur is $B'\approx4\;\mu m$.
+        
+        We also fit the diameter of Airy in the pixel size with the average wavelength $\lambda=550\;nm$ to reach the diffraction-limited condition:
+        \begin{align*}
+            2.44\lambda f/\#=B'\longrightarrow f/\#=\frac{4}{2.44\cdot0.5}=2.981\approx 4.
+        \end{align*}
+        \item The hyperfocal distance can be related to focal length:
         \begin{align*}
             |L_H|=\frac{f^2}{B'f/\#}\longrightarrow f=\sqrt{L_HB'f/\#}=\sqrt{20\cdot4\;\mu m\cdot4}=17.889\;mm.
         \end{align*}
@@ -203,15 +208,25 @@ a fixed front element and moving second and third groups.
         \begin{align*}
             D=\frac{f}{f/\#}=\frac{17.889\;mm}{4}=4.472\;mm.
         \end{align*}
-        We can think os a single thin lens that images an object at $-20\;mm$ to $L_H$. 
-        The magnification is:
+        We can think of the thin lens taking an object at $-20\;m$ and imaging at $L_H'$ (approximately):
         \begin{align*}
-            m=\frac{L_H'}{L_H}=frac{z'}{z}=1\cdot1^{-3}.
+            \frac{1}{L_H'}=\frac{1}{L_H}+\frac{1}{f}
         \end{align*}
-        The field of view for each dimension is:
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=.6\columnwidth]{PartOne/ChapterTwo/ex_obj.png}
+        \end{figure}
+
+
+        But $L_H'=f+\text{DOF}\approx f$ so that the magnification is:
         \begin{align*}
-            \text{HFOV}_H&=\tan^{-1}\frac{7.02}{L_H'}=\\
-            \text{HFOV}_W&=\tan^{-1}\frac{12.48}{L_H'}=
+            m=\frac{L_H'}{L_H}=\frac{\approx18\;mm}{-20\;m}\approx-1\cdot10^{-3}.
+        \end{align*}
+        The field of view for each dimension in image space is the traingle formed by $L_H'$ and the size of 
+        one pixel detector:
+        \begin{align*}
+            \text{HFOV}_H&=\tan^{-1}\frac{7.02}{18\;mm}=\pm1.568^\circ\\
+            \text{HFOV}_W&=\tan^{-1}\frac{12.48}{18\;mm}=\pm1.569^\circ.
         \end{align*}
         \item The near distance is half of the hyperfocal distance 
         \begin{align*}

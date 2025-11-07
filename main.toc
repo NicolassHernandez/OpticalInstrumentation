@@ -74,34 +74,34 @@
 \contentsline {subsubsection}{Hyperfocal distance and depth of}{55}{equation.2.4.22}%
 \contentsline {subsection}{\numberline {2.4.4}Zoom lenses}{56}{subsection.2.4.4}%
 \contentsline {subsubsection}{Solution}{58}{Item.19}%
-\contentsline {section}{\numberline {2.5}Magnifiers and Telescopes}{58}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Magnifiers}{58}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Telescopes}{59}{subsection.2.5.2}%
-\contentsline {subsubsection}{Keplerian telescope}{60}{figure.caption.85}%
+\contentsline {section}{\numberline {2.5}Magnifiers and Telescopes}{59}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Magnifiers}{59}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Telescopes}{60}{subsection.2.5.2}%
+\contentsline {subsubsection}{Keplerian telescope}{60}{figure.caption.86}%
 \contentsline {subsubsection}{Galilean telescope}{60}{equation.2.5.27}%
 \contentsline {subsection}{\numberline {2.5.3}Field lenses}{61}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Eyepieces}{62}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Mirror-based Telescopes}{62}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Relays and Microscopes}{63}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Prisms and relay lenses}{63}{subsection.2.6.1}%
-\contentsline {subsubsection}{Solution}{64}{Item.26}%
+\contentsline {section}{\numberline {2.6}Relays and Microscopes}{64}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Prisms and relay lenses}{64}{subsection.2.6.1}%
+\contentsline {subsubsection}{Solution}{65}{Item.26}%
 \contentsline {subsection}{\numberline {2.6.2}Microscopes}{65}{subsection.2.6.2}%
 \contentsline {subsubsection}{Definition}{65}{subsection.2.6.2}%
 \contentsline {subsubsection}{Microscope terminology}{66}{equation.2.6.33}%
 \contentsline {subsubsection}{Solution}{67}{Item.31}%
-\contentsline {section}{\numberline {2.7}Telecentric systems}{67}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Telecentricity}{67}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.7}Telecentric systems}{68}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Telecentricity}{68}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Single telecenctric systems}{68}{subsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.7.3}Double telecentric systems}{68}{subsection.2.7.3}%
-\contentsline {subsubsection}{Solution}{69}{figure.caption.100}%
-\contentsline {subsection}{\numberline {2.7.4}Imaging with an afocal system}{69}{subsection.2.7.4}%
+\contentsline {subsubsection}{Solution}{69}{figure.caption.101}%
+\contentsline {subsection}{\numberline {2.7.4}Imaging with an afocal system}{70}{subsection.2.7.4}%
 \contentsline {section}{\numberline {2.8}Stop and image quality}{71}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Diffraction-limited}{71}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Spherical aberration}{71}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Lens bending and minimum spherical aberration}{71}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.2}Spherical aberration}{72}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Lens bending and minimum spherical aberration}{72}{subsection.2.8.3}%
 \contentsline {section}{\numberline {2.9}Materials}{73}{section.2.9}%
 \contentsline {subsection}{\numberline {2.9.1}Dispersion}{73}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Optical glass}{73}{subsection.2.9.2}%
-\contentsline {subsubsection}{Glass map}{73}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.2}Optical glass}{74}{subsection.2.9.2}%
+\contentsline {subsubsection}{Glass map}{74}{subsection.2.9.2}%
 \contentsline {subsubsection}{Glass code}{74}{subsection.2.9.2}%
 \contentsfinish 
