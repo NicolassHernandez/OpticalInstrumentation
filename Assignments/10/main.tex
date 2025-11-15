@@ -1,0 +1,154 @@
+\documentclass[letterpaper,11pt,twoside]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage[siunitx, RPvoltages]{circuitikz}
+\usetikzlibrary{3d}
+\usepackage{comment}
+\usepackage{caption,subcaption}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % or a newer version if available
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow} = [->,>=stealth,shorten >=2pt]
+\tikzstyle{darrow}=[<->,shorten >=2pt,shorten <=2pt,>=stealth]
+\usepackage{cancel}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.8in,top=1in,bottom=1in]{geometry}
+%%%%%
+\begin{filecontents*}{refs.bib}
+@book{bornwolf,
+  author    = {Born, M. and Wolf, E.},
+  title     = {Principles of Optics},
+  publisher = {Pergamon Press},
+  edition   = {7},
+  year      = {1999}
+}
+@book{hecht,
+  author    = {Hecht, E.},
+  title     = {Optics},
+  publisher = {Addison-Wesley},
+  edition   = {5},
+  year      = {2016}
+}
+\end{filecontents*}
+%
+\newcommand{\institution}{University of Arizona}
+\newcommand{\autor}{Nicolás Hernández Alegría}
+\newcommand{\course}{OPTI 502 Optical Design and Instrumentation I}
+\newcommand{\assignment}{Assignment 10}
+%
+\title{\textbf{\assignment}\\\course\\{\Large\institution}}
+\author{\autor}
+\date{\today}
+%
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancypagestyle{mainstyle}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage}
+    \fancyhead[LE,RO]{\course} % Section name on odd pages
+    \fancyhead[LO,RE]{\assignment}
+    % Optional: Thin rules
+    \renewcommand{\headrulewidth}{0pt} % Header rule
+    \renewcommand{\footrulewidth}{0pt} % No footer rule
+}
+%
+\begin{document}
+
+\pagestyle{mainstyle}
+\maketitle
+%%
+\section*{Exercise 1}
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item The focal length of each element can be determined using the following formulas:
+  \begin{align*}
+    \phi_1=\frac{1}{f_1}=\frac{\nu_1}{\nu_1-\nu_2}\phi,\quad\text{and}\quad\phi_2=\frac{1}{f_2}=\frac{\nu_2}{\nu_2-\nu_1}\phi,
+  \end{align*}
+  where $\phi$ is the total power of the system. By evaluating each achromat, we find:
+  \begin{align*}
+    \text{Achromat 1}:\quad f_1=\frac{56.0-33.8}{56.0}100=39.643\;mm,\quad f_2=\frac{33.8}{33.8-56.0}100=-65.680\;mm.\\
+    \text{Achromat 2}:\quad f_1=\frac{60.3-47.5}{60.3}100=21.227\;mm,\quad f_2=\frac{47.5}{47.5-60.3}100=-26.948\;mm.
+  \end{align*}
+  \item The elements have different power so that when combined the overall is the power desired. The elements also have equal and opposite longitudinal chromatic aberration and they are cancelled.
+  \item The excess power is $\Delta\nu$ between the Abbe number of each element, where the larger $\Delta\nu$ the less excess power.
+  For each achromat we have:
+  \begin{align*}
+    \text{Achromat 1}:\quad\Delta\nu_1=56.0-33.8=22.2\\
+    \text{Achromat 2}:\quad\Delta\nu_2=60.3-47.5=12.8
+  \end{align*} 
+  Because $\Delta\nu_1<\Delta\nu_2$, the achromat 1 has less excess power.
+  \item The ahcromat is composed of two thin lenses which are used to force the same focus for F and C light, but however, d light is focues at a different location. This effect is called secondary chromatic aberration. To correct it, we need a third lens.
+  \item The secondary chromatic aberration is computing using 
+  \begin{align*}
+    \delta f_{Cd}=\frac{\Delta P}{\Delta\nu}f.
+  \end{align*}
+  Evaluating for each achromat, yields:
+  \begin{align*}
+    \text{Achromat 1}:\quad\delta f_{Cd}=\frac{0.303-0.292}{22.2}100=0.0495.\\
+    \text{Achromat 2}:\quad\delta f_{Cd}=\frac{0.305-0.301}{12.8}100=0.0312.
+  \end{align*}
+  The achromat 2 has less secondary chromatic aberration.
+\end{enumerate}
+
+%%
+\section*{Exercise 2}
+This exercise can be performed purely by raytrace. We used an excel template for the raytrace where the elements were placed; the table is shown below.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{raytrace.png}
+\end{figure}
+
+\begin{enumerate}[itemsep=0pt,topsep=0pt,label=\alph*)]
+  \item The EP and XP locations correspond to:
+  \begin{align*}
+    z_{EP}=-66.667\;mm,\quad\text{and}\quad z_{EP}=-150\;mm.
+  \end{align*}
+  Meaning that the entrance pupil is to the right of the first lens, while the exit pupil is to the left of the third lens.
+  \item The focal length of the system and the back focal distance are:
+  \begin{align*}
+    f=\frac{1}{\phi}=131.579\;mm,\quad\text{and}\quad\text{BFD}=47.368\;mm.
+  \end{align*}
+  \item If the system stop is $20\;mm$, we need to scale the potential marginal ray from an infinity object by multiplying it by the following factor:
+  \begin{align*}
+    m_{\text{MR}}=\frac{10\;mm}{y_{\text{stop}}}=\frac{10\;mm}{0.6\;mm}=16.667\;mm.
+  \end{align*} 
+  By looking at the table, we have that 
+  \begin{align*}
+    D_{\text{EP}}=33.333\;mm,\quad\text{and}\quad D_{\text{XP}}=50\;mm.
+  \end{align*}
+  \item The unvignetted FOV given allow us to scale the potential chief ray by:
+  \begin{align*}
+    m_{CR}=\frac{\tan(12^\circ)}{\bar{y}_{\text{EP}}}=\frac{0.2126}{0.06}=3.543.
+  \end{align*}
+  From the table, we have that 
+  \begin{align*}
+    h=27.9711\;mm.
+  \end{align*}
+  \item The required lenses diameters to support this FOV are given by looking at the height of the chief and marginal ray at each lenses. Therefore, we have:
+  \begin{align*}
+    D_{L_1}\geq|y_{L_1}|+|\bar{y}_{L_1}|=61.678\;mm\\
+    D_{L_2}\geq|y_{L_2}|+|\bar{y}_{L_2}|=20.000\;mm\\
+    D_{L_3}\geq|y_{L_3}|+|\bar{y}_{L_3}|=54.516\;mm.
+  \end{align*}
+\end{enumerate}
+
+
+
+
+
+%\nocite{*}
+%\bibliographystyle{plain}   % or unsrt, alpha, apalike, etc.
+%\bibliography{refs}
+
+\end{document}
