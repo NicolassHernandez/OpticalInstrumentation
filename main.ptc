@@ -1,110 +1,16 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Preface}{2}{chapter*.1}%
-\contentsline {part}{I\hspace {1em}Introduction to Geometrical Optics principles}{8}{part.1}%
-\contentsline {chapter}{\numberline {1}Introduction to Optics}{9}{chapter.1}%
+\contentsline {part}{I\hspace {1em}Introduction to Geometrical Optics principles}{7}{part.1}%
+\contentsline {chapter}{\numberline {1}Applications}{8}{chapter.1}%
 \ttl@starttoc {chapters@1}
-\contentsline {section}{\numberline {1.1}Introduction}{10}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Light propagation}{10}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Sign convention}{10}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Electromagnetic spectrum}{11}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Optical path length}{12}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Snell's laws of reflection and refraction}{12}{subsection.1.1.5}%
-\contentsline {subsection}{\numberline {1.1.6}Total internal reflection (TIR)}{12}{subsection.1.1.6}%
-\contentsline {section}{\numberline {1.2}Mirrors and prisms}{13}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Parallel mirrors}{13}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Parity change}{13}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Non-parallel plane mirror}{13}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Prisms and tunnel diagrams}{14}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Reduced thickness}{14}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Thin lens Imaging}{16}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Introduction}{16}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Imaging relationships}{17}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Optical spaces}{18}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Object-image approximations}{19}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Field of view}{19}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Afocal systems}{20}{subsection.1.3.6}%
-\contentsline {section}{\numberline {1.4}Imaging and paraxial optics}{20}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}General system}{21}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Paraxial optics}{21}{subsection.1.4.2}%
-\contentsline {subsubsection}{Single refractive surface}{22}{figure.caption.24}%
-\contentsline {section}{\numberline {1.5}Gaussian imagery}{22}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Representation of an optical system}{24}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Newtonian equations}{24}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Gaussian equations}{24}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Longitudinal magnification}{25}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Gaussian properties of a single refracting surface}{25}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}Generalized afocal systems}{27}{subsection.1.5.6}%
-\contentsline {section}{\numberline {1.6}Object image relationship}{27}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Gaussian reduction}{27}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Vertex distances}{28}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Thick and thin lenses}{29}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Paraxial raytrace}{31}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Introduction}{31}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Procedure}{31}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Table worksheet}{36}{subsection.1.8.3}%
-\contentsline {chapter}{\numberline {2}Concepts of optics}{38}{chapter.2}%
-\ttl@stoptoc {chapters@1}
-\ttl@starttoc {chapters@2}
-\contentsline {section}{\numberline {2.1}Stops and pupils}{39}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Aperture stop}{39}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Marginal and Chief rays}{40}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Pupil locations}{40}{subsection.2.1.3}%
-\contentsline {subsubsection}{By raytrace}{40}{subsection.2.1.3}%
-\contentsline {subsubsection}{Solution}{41}{figure.caption.55}%
-\contentsline {subsubsection}{By Gaussian imagery}{42}{figure.caption.56}%
-\contentsline {subsection}{\numberline {2.1.4}Lagrange invariant}{43}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Field of view}{43}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Numerical aperture and F-number}{44}{subsection.2.1.6}%
-\contentsline {subsubsection}{Use of working F-number (left)}{44}{equation.2.1.13}%
-\contentsline {subsubsection}{Solution}{45}{figure.caption.61}%
-\contentsline {section}{\numberline {2.2}Vignetting}{46}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ray bundles}{46}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Vignetting}{46}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Dummy surfaces}{49}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Radiative transfer}{50}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Radiometry}{50}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Radiative transfer}{51}{subsection.2.3.2}%
-\contentsline {subsubsection}{Spectral dependence}{52}{equation.2.3.16}%
-\contentsline {subsubsection}{Exposure}{52}{equation.2.3.16}%
-\contentsline {subsection}{\numberline {2.3.3}Photometry}{52}{subsection.2.3.3}%
-\contentsline {subsubsection}{$A\Omega $ product}{53}{table.caption.74}%
-\contentsline {section}{\numberline {2.4}Objectives}{53}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Type of objectives}{53}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Depth of focus and field}{54}{subsection.2.4.2}%
-\contentsline {subsubsection}{Depth of focus}{54}{subsection.2.4.2}%
-\contentsline {subsubsection}{Depth of field}{55}{equation.2.4.19}%
-\contentsline {subsection}{\numberline {2.4.3}Hyperfocal distance}{55}{subsection.2.4.3}%
-\contentsline {subsubsection}{Hyperfocal distance and depth of}{55}{equation.2.4.22}%
-\contentsline {subsection}{\numberline {2.4.4}Zoom lenses}{56}{subsection.2.4.4}%
-\contentsline {subsubsection}{Solution}{58}{Item.19}%
-\contentsline {section}{\numberline {2.5}Magnifiers and Telescopes}{59}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Magnifiers}{59}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Telescopes}{60}{subsection.2.5.2}%
-\contentsline {subsubsection}{Keplerian telescope}{60}{figure.caption.86}%
-\contentsline {subsubsection}{Galilean telescope}{60}{equation.2.5.27}%
-\contentsline {subsection}{\numberline {2.5.3}Field lenses}{61}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Eyepieces}{62}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Mirror-based Telescopes}{62}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Relays and Microscopes}{64}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Prisms and relay lenses}{64}{subsection.2.6.1}%
-\contentsline {subsubsection}{Solution}{65}{Item.26}%
-\contentsline {subsection}{\numberline {2.6.2}Microscopes}{65}{subsection.2.6.2}%
-\contentsline {subsubsection}{Definition}{65}{subsection.2.6.2}%
-\contentsline {subsubsection}{Microscope terminology}{66}{equation.2.6.33}%
-\contentsline {subsubsection}{Solution}{67}{Item.31}%
-\contentsline {section}{\numberline {2.7}Telecentric systems}{68}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Telecentricity}{68}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Single telecenctric systems}{68}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Double telecentric systems}{68}{subsection.2.7.3}%
-\contentsline {subsubsection}{Solution}{69}{figure.caption.101}%
-\contentsline {subsection}{\numberline {2.7.4}Imaging with an afocal system}{70}{subsection.2.7.4}%
-\contentsline {section}{\numberline {2.8}Stop and image quality}{71}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Diffraction-limited}{71}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Spherical aberration}{72}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Lens bending and minimum spherical aberration}{72}{subsection.2.8.3}%
-\contentsline {section}{\numberline {2.9}Materials}{73}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}Dispersion}{73}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Optical glass}{74}{subsection.2.9.2}%
-\contentsline {subsubsection}{Glass map}{74}{subsection.2.9.2}%
-\contentsline {subsubsection}{Glass code}{74}{subsection.2.9.2}%
+\contentsline {section}{\numberline {1.1}Thin prisms and dispersing prisms}{9}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Thin prisms}{9}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Risley prism}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Thin prism dispersion}{9}{subsection.1.1.3}%
+\contentsline {subsubsection}{Thin prism}{9}{subsection.1.1.3}%
+\contentsline {subsubsection}{Achromatic thin prism}{10}{equation.1.1.5}%
+\contentsline {subsubsection}{Direct vision prism}{10}{figure.caption.8}%
+\contentsline {subsection}{\numberline {1.1.4}Dispersing prism}{11}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Chromatic effects}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Illumination systems}{11}{section.1.3}%
 \contentsfinish 

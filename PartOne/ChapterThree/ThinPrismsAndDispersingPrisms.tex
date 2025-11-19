@@ -1,0 +1,163 @@
+\section{Thin prisms and dispersing prisms}
+
+
+\subsection{Thin prisms}
+\bfemph{Thin prisms} introduce small angular beam deviations $\delta$ that is approximately independen of the incident angle:
+\begin{align}
+    \delta\approx-(n-1)\alpha.
+\end{align}
+The deviation is measured in prism diopters. A prisms of 1 diopter deviates a beam by $1\;cm$ at $1\;m$.
+The beam deviation is parallel to a principal section of the prism and towards the thick end of the prism. De magnitude and 
+direction of the deviation defines a vector perpendicular to the optical axis (xy plane). The net deviation vector for a series of thin prisms 
+is then the vector sum of the copmonent vectors:
+\begin{align*}
+    \bm{\delta}=\bm{\delta}_1+\bm{\delta}_2.
+\end{align*}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/thinprism.png}
+        \caption{Thin prism}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/beamdeviation.png}
+        \caption{Beam deviation}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/risleyprism.png}
+        \caption{Risley prism}
+    \end{subfigure}
+\end{figure}
+%%
+\subsection{Risley prism}
+A \bfemph{Risley prism} consists of a pair of identical, but opposing, thin prisms. The prisms are counter-rotated by $\pm\beta$ to obtain 
+a variable net deviation in a fixed direction. The Risley prism allows the fine angular alignment for an optical system by adjusting the prism 
+orientation $\beta$.
+%%
+\subsection{Thin prism dispersion}
+\subsubsection{Thin prism}
+The \bfemph{dispersion of a thin prism} $\Delta$ measures the total angular spread from $C$ to $F$ light, and the \bfemph{secondary dispersion} $\epsilon$ gives
+the spread from the $C$ to $d$ wavelengths. The results depend on the index $n_d$, Abbe number $\nu$ and partial dispersion ratio $P$ of the glass:
+\begin{align}
+    \text{Deviation}&\quad\delta=-(n_d-1)\alpha\\
+    \text{Dispersion}&\quad\Delta=-(n_F-n_C)\alpha,\quad\Delta=\frac{\delta}{\nu}\\
+    \text{Secondary dispersion}&\quad\varepsilon=-(n_d-n_C)\alpha,\quad\varepsilon=P\Delta=P\frac{\delta}{\nu}.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.7\columnwidth]{PartOne/ChapterThree/figures/prismdispersion.png}
+        \caption{Thin prism dispersion}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.4\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/edgethinprism.png}
+        \caption{Edge of a thin prism}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/achromaticwedge.png}
+        \caption{Achromatic thin prism}
+    \end{subfigure}
+\end{figure}
+
+An inverted prism deviates a ray up and has a negative vertex angle $\alpha$.
+
+Deviations and dispersions adds.
+\begin{align}
+    \delta=\sum_i\delta_i,\quad\Delta=\sum_i\Delta_i,\quad\varepsilon=\sum_i\varepsilon_i.
+\end{align}
+%
+\subsubsection{Achromatic thin prism}
+An \bfemph{achromatic thin prism} or \bfemph{achromatic wedge} provides deviation without dispersion. Opposite prisms made from two 
+different glasses $(n_{d1},\nu_1,P_1)$ and $(n_{d2},\nu_2,P_2)$ are combined to force the dispersion between the $F$ and $C$ wavelengths to be 
+zero. A deviation of $\delta$ is maintained for $d$ light:
+\begin{align*}
+    &\Delta=\Delta_1+\Delta_2=\longrightarrow \Delta_1=\frac{\delta_1}{\nu_1},\;\Delta_2=\frac{\delta_2}{\nu_2}\longrightarrow\delta_2=-\frac{\nu_2}{\nu_1}\delta_1.\\
+    &\delta=\delta_1+\delta_2=\delta_1-\frac{\nu_2}{\nu_1}\delta_1=(\nu_1-\nu_2)\frac{\delta_1}{\nu_1}=-(\nu_1-\nu_2)\frac{(n_{d1}-1)\alpha_1}{\nu_1}
+\end{align*}
+Therefore,
+\begin{align}
+    \frac{\alpha_1}{\delta}&=\frac{1}{\nu_2-\nu_1}\frac{\nu_1}{n_{d1}-1}\\
+    \frac{\alpha_2}{\delta}&=-\frac{1}{\nu_2-\nu_1}\frac{\nu_2}{n_{d2}-1}.
+\end{align}
+
+The high-dispersion prism is inverted to obtain an opposing deviation. While the F and C wavelegths are corrected, a residual secondary dispersion remains.
+For most glass pairs, d light will be bent more than the F and C wavelengths:
+\begin{align}
+    \frac{\varepsilon}{\delta}=\frac{P_2-P_1}{\nu_2-\nu_1}=\frac{\Delta P}{\Delta\nu}.
+\end{align}
+
+For most glases, $\frac{\varepsilon}{\delta}>0$. The shape of the curve of $|\delta|-\lambda$ is concave and the maxium dispersion does not occur at d ligth.
+The achromatic thin prism has about 40 less secondary dispersion compared to a simple thin prism. 
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/secondarydispersion.png}
+        \caption{Secondary disperion curve}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/directvisionprism.png}
+        \caption{Direct vision prism}
+    \end{subfigure}
+\end{figure}
+%
+\subsubsection{Direct vision prism}
+A \bfemph{direct vision prism} uses opposing prisms to provide dispersion without deviation of the d light.
+
+We first set the total dispersion to zero: $\delta=\delta_1+\delta_2=0$. Then,
+{\small
+\begin{align*}
+    \Delta=\Delta_1+\Delta_2=\frac{\delta_1}{\nu_1}+\frac{\delta_2}{\nu_2}=-\frac{\nu_1-\nu_2}{\nu_1\nu_2}\delta_1\longrightarrow\frac{\alpha_1}{\Delta}=\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{s1}-1}\right)\land\frac{\alpha_2}{\Delta}=-\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{d2}-1}\right).
+\end{align*}}
+
+
+\subsection{Dispersing prism}
+At minimum deviation, the ray path through a \bfemph{dispersion prism} is symetric $\theta'=-\theta$. The ray is bent an equal amount at each surface.
+The deviation is negative for this prims orientation. The \bfemph{angle of minimum deviation} is 
+\begin{align}
+    \delta_{\text{min}}=\alpha-2\sin^{-1}[n\sin(\alpha/2)].
+\end{align}
+The following table shows $\delta_{\text{min}}$ for several $n$.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/dispersingprism.png}
+        \caption{Dispersing prism}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.4\columnwidth]{PartOne/ChapterThree/figures/disersingprismtable.png}
+        \caption{Table for $\delta_{\text{min}}$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.3\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/dispersingprismdispersion.png}
+        \caption{Dispersion of the prism}
+    \end{subfigure}
+\end{figure}
+
+The measurement of the index depends only on $\delta_{\text{min}}$ and the prism apex angle $\alpha$:
+\begin{align}
+    n=\frac{ \sin\dfrac{\alpha-\delta_{\text{min}}}{2} }{\sin(\alpha/2)}.
+\end{align}
+Prism spectrometers can obtain accuracies of one part in $10^6$.
+
+In general, the total deviation $\delta$ is the sum od the deviations at the two surfaces:
+\begin{align*}
+    \text{Total deviation}\qquad\highlight{\delta=\alpha-\sin^{-1}[\sqrt{n^2-\sin^2\theta}\sin\alpha-\cos\alpha\sin\theta]-\theta}.
+\end{align*}
