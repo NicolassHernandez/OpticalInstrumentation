@@ -1,15 +1,61 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Applications}{8}{chapter.1}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Lateral chromatic aberration}}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Secondary chromatic aberration.}}{15}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Projector as the illumination system.}}{16}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Projection condenser system for specular illumination.}}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Without the condenser lens, the collection angle is limited by the projection lens.}}{17}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Kohler illumination system.}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Critical illumination system.}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Diffuse illumination system.}}{19}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Integrating sphere.}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces System with the facet reflector.}}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Elliptical reflector.}}{21}{figure.caption.26}%
+\contentsline {xchapter}{Introduction to Optics}{9}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces We can treat the wavefront as planar when assuming a distant object.}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces In refraction and reflection, the angles are taken respective to the surface normal.}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Reduced thickness is the vacuum (air) equivalent distance.}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The diagram is only shortened along the direction of the propagation.}}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Imaging scheme}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Ray diagram of the problem, the position of the image is $z'$ and is located to the right of the object. Dashed lines correspond to virtual rays.}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Plot of $z'$ and $m$ for positive and negative lenses. We can directly see when an object (image) is real or virtual.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces A virtual object is the projection of the image of a previous optical system.}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces \relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces SIngle refracting surface.}}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces General paraxial system, with parameters defined previously.}}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \relax }}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Newtonian equations.}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian equations.}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Longitudinal magnification allows you to have the thickness of the object or image.}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Illustration of cardinal point for a single refractive surface.}}{26}{figure.caption.36}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Generalized afocal system.}}{27}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Gaussian reduction scheme.}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Vertex distances are used to define BFD and FFD.}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces All reduces to 5 cardinal points.}}{29}{figure.caption.40}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Gaussian reduction for two positive lenses.}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A paraxial raytrace is linear with respect to ray angle and heights.}}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Gaussian reduction for the three-surfaces object.}}{34}{figure.caption.47}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Concepts of optics}{38}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The stop limits the cone of light, and its image in object (image) space creates the entrance (exit) pupil.}}{39}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The smallest angular size corrsponds to the stop in object space. Same for image space.}}{39}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The minimum slope value corresponds to the aperture stop.}}{40}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The}}{40}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The}}{41}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \relax }}{42}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces With Gaussian imagery, the computation of the pupils is based on the stop as the object of two optical systems.}}{46}{figure.caption.63}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Illustration of the stop and pupil in the optical system.}}{47}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The ray bundle is clipped and the beam is no longer circular.}}{47}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The solid angle of a sphere can be approximated to the solid angle of a cone.}}{51}{figure.caption.72}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Different type of objectives.}}{54}{figure.caption.76}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces In this case, $m<1$ while also $\text {MP}>1$: height and distance are important for these quantities.}}{60}{figure.caption.86}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Spherical aberration produces different image plane criteria. LA and Ta stand for longitudinal and transverse aberration, respectively.}}{72}{figure.caption.105}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces For visible applications, the F, d, and C lines are usually used.}}{73}{figure.caption.108}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Applications}{76}{chapter.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Lateral chromatic aberration}}{82}{figure.caption.117}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Secondary chromatic aberration.}}{83}{figure.caption.119}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Projector as the illumination system.}}{84}{figure.caption.120}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Projection condenser system for specular illumination.}}{85}{figure.caption.121}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Without the condenser lens, the collection angle is limited by the projection lens.}}{85}{figure.caption.122}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Kohler illumination system.}}{86}{figure.caption.124}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Critical illumination system.}}{87}{figure.caption.125}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diffuse illumination system.}}{87}{figure.caption.126}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Integrating sphere.}}{88}{figure.caption.127}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces System with the facet reflector.}}{89}{figure.caption.129}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Elliptical reflector.}}{89}{figure.caption.130}%
 \contentsfinish 

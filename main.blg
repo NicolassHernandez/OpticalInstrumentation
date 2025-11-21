@@ -1,23 +1,31 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[196] biber-MSWIN64:340> INFO - === 
-[258] Biber.pm:419> INFO - Reading 'main.bcf'
-[410] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[410] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[411] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[440] Biber.pm:4419> INFO - Processing section 0
-[456] Biber.pm:4610> INFO - Looking for bibtex file 'PartOne/ChapterOne/bib_.bib' for section 0
-[593] bibtex.pm:1713> INFO - LaTeX decoding ...
-[626] bibtex.pm:1519> INFO - Found BibTeX data source 'PartOne/ChapterOne/bib_.bib'
-[709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[709] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[709] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[709] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[714] Biber.pm:4419> INFO - Processing section 1
-[715] Biber.pm:4610> INFO - Looking for bibtex file 'PartOne/ChapterOne/bib_.bib' for section 1
-[781] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[781] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[781] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[782] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[786] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[790] bbl.pm:763> INFO - Output to main.bbl
+[315] biber-MSWIN64:340> INFO - === 
+[442] Biber.pm:419> INFO - Reading 'main.bcf'
+[559] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[560] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[560] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[560] Biber.pm:976> INFO - Using all citekeys in bib section 2
+[560] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[580] Biber.pm:4419> INFO - Processing section 0
+[613] Biber.pm:4610> INFO - Looking for bibtex file 'PartOne/ChapterOne/bib_.bib' for section 0
+[708] bibtex.pm:1713> INFO - LaTeX decoding ...
+[722] bibtex.pm:1519> INFO - Found BibTeX data source 'PartOne/ChapterOne/bib_.bib'
+[811] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[811] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[811] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[811] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[815] Biber.pm:4419> INFO - Processing section 1
+[816] Biber.pm:4610> INFO - Looking for bibtex file 'PartOne/ChapterOne/bib_.bib' for section 1
+[879] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[879] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[879] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[879] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[882] Biber.pm:4419> INFO - Processing section 2
+[882] Biber.pm:4610> INFO - Looking for bibtex file 'PartOne/ChapterOne/bib_.bib' for section 2
+[947] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[947] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[947] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[947] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[951] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[955] bbl.pm:763> INFO - Output to main.bbl
