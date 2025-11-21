@@ -27,4 +27,208 @@ There are three basic classifications of illumination systems:
         \text{Source to object coupling}
     \end{align*}
 \end{itemize}
+%
+\subsection{Specular illumination}
+Source is coupled into the EP of the imaging system. 
+\subsubsection{Projection condenser system}
+The most common example is the \bfemph{projection condenser system}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\columnwidth]{PartOne/ChapterThree/figures/projectorcondensersyste.png}
+    \caption{Projection condenser system for specular illumination.}
+\end{figure}
 
+In the projection condenser system, the source is optical conjugated (imaged) at the EP of the projection lens (imaging system).
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item The condenser lens serves as a field lens, bending the chief ray of the iamging system back into the projection lens.
+    \item The condenser lens should be as fast as possible ($f/\#_W$ faster than $f/1$ on the source side).
+    \item The projection lens diameter must be larger than the size of the source image.
+    \item The marginal ray of the condenser system becomes the chief ray of the imaging system and viceversa.
+\end{itemize}
+
+Without a condenser lens, the light colletion angle $\alpha$ is limited by the projection lens. The amount of source energy that is collected and used is defined by the solid angle 
+given by the angular size of the projection lens.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\columnwidth]{PartOne/ChapterThree/figures/nocollectionlens.png}
+    \caption{Without the condenser lens, the collection angle is limited by the projection lens.}
+\end{figure}
+
+The inclusion of the condenser makes that each point on the source illuminates all points on the object, resulting in a uniform illumination. The
+collection angle $\alpha$ is limited by the condenser lens size.
+%
+\subsubsection{Apparent source size}
+With a bare source, the apparent source size (how large appears to be at the observation point) is limited by the angular size of the source, regardless if 
+there is a condenser lens. However, the inclusion of a \bfemph{diffuser} makes that all angles are presents due to scattering; the source no appears to be large.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/baresource.png}
+        \caption{Bare source}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.45\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/diffuser.png}
+        \caption{Diffuser source}
+    \end{subfigure}
+\end{figure}
+%
+\subsubsection{Projection condenser design}
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item\textbf{What drives the choise in projection lens?}\\We image the transparent object. How big is the screen? Where is it? What kind of magnification do we need?
+    \item\textbf{What drives the physical size of the condenser lens?}\\The object size and any separation between the condenser lens and object. Pick the fastest condenser lens you can.
+    \item\textbf{What drives the position of the source?}\\The image of the source must be at the projection lens.
+    \item\textbf{Must be the projection lens diameter be larger than the source image size?}\\Yes, thisdetermines the $f/\#$ of the projection lens.
+\end{itemize}
+%
+\subsubsection{Kohler illumination}
+The \bfemph{Kohler illumination} is an example of specular illumination, often used in microscopes.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/kohler.png}
+    \caption{Kohler illumination system.}
+\end{figure}
+
+The source produces an intermediate image at the substage diaphragm, and an image at the objective. Similarly, the object is at the field diaphargm and generates an 
+intermediate image after the substage condenser.  
+The \bfemph{subtage diaphragm} (at source image) allows the overall light level to be varied, and the \bfemph{field diaphragm} (at object image) changes the amount of the object that is illuminated.
+%
+\subsection{Critical illumination}
+Critical illumination images the light directly onto the object. While it is light efficient, is not very used as the image is modulated by the source 
+structure. This requires to use a very uniform source. The FOV of this system is typically small
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/criticalillumination.png}
+    \caption{Critical illumination system.}
+\end{figure}
+%
+\subsection{Diffuse illumination}
+Diffuse illumination provides light with a large angular spread onto the object. There is no attempt to image the source into the imaging system.
+It is usually achieved by the insertion of a diffuser into the system. This makes a very uniform illumination but with a light inefficiency.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/diffuseillumination.png}
+    \caption{Diffuse illumination system.}
+\end{figure}
+
+The diffuser increases the apparent source size, resulting in greater uniformity of illumination. This greater range of illumination angles also provides \bfemph{scratch suppresion}
+that wll hide phase errors on the object, such as scratch or defect in the usbstrate of the object transparency.
+Diffusers are commonly made of ground glass or opal glass.
+
+%
+\subsection{Integrating sphere}
+Works through the ideas of diffure illumination. Inside the hollow sphere is coated with a highly-reflective diffuse white coating. 
+Light directed into the entry port undergoes many random refletions before escaping through the exit port. Output light is extremely uniform with a 
+brightness that is independent of viewgin angle, and a very good approximation to a Lambertian source.
+
+The system is in general light inefficient, and the two ports are usually at $90^\circ$ to prevent the direct viewing of the source and the first source reflection.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.2\columnwidth]{PartOne/ChapterThree/figures/integratingsphere.png}
+    \caption{Integrating sphere.}
+\end{figure}
+%
+\subsection{Source mirrors}
+%
+\subsubsection{Concave source}
+Placing a \bfemph{concave mirror} behind the source can increase the light level in the projection system. The source is placed at the center of curvature of the mirror.
+This creates an intermediate image at the source, which becomes the object for the condenser lens. An improvement of less than a factor of two is obtained.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/concavemirror.png}
+        \caption{Concave mirror}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.5\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/parabolicreflector.png}
+        \caption{Parabolic reflector}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.2\columnwidth}
+        \centering
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/facetedreflector.png}
+        \caption{Faceted reflector}
+    \end{subfigure}
+\end{figure}
+%
+\subsubsection{Parabolic reflector}
+Dramatic increases in illumination level occur by placing the source at the focus of the concave mirror. The source image occurs at infinity. The solid angle of the mirror can be more than $2\pi sr$,
+and the amount of light intercepted and reflected by the mirror can exceed the light directly collected by the condenser by a factor of 10 or more. $f/\#$ of the 
+condenser lens does not influence the light collection efficiency.
+
+The design of these systems typically ignore the forward light through the condenser. The mirror shape is usually parabolic.
+%
+\subsubsection{Faceted reflectors}
+To provide a greated level of diffuseness, the surface of the parabola can be segmented into small flat mirrors. A virtual source is formed behind each facet.
+The details of the \bfemph{faceted prabolic reflector} are complicated, but for design purposes it can be modeled as an extended source located at or near the concave mirror.
+The mirror aperture defines the extent of the extended source.
+
+The number, size and tilt of the facets are designed so that uniform illumination is achieved at the object plane. The total view is limited bt the overalll aperture of the reflector.
+This overall aperture is imaged into the projection lens as well as an image of the source, but this one contians much less light.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/facetedreflector1.png}
+    \caption{System with the facet reflector.}
+\end{figure}
+%
+\subsubsection{Elliptical reflector}
+An elliptical reflector can be used to focus the source into a small aperture. The source is placed at one focus of the ellipse, and a real image is formed 
+at the other focus.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/ellipticalreflector.png}
+    \caption{Elliptical reflector.}
+\end{figure}
+%
+\subsubsection{Light collection efficiency}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/lightefficiency.png}
+\end{figure}
+
+%
+\subsection{Schlieren and dark field systems}
+Specular or narrow angle illumination can be used to identify features on an object. 
+%
+\subsubsection{Schlieren system}
+In a \bfemph{schlieren system}, light from a small source is collimated before passing through the object plane.
+The image of the source is blocked by an opaque disk or knife edge. With no object present, the image appears black. When the object is inserted, any feature 
+will scatter some light past the obscuration. These localized areas n the object will appear bright in the image.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/schlieren.png}
+        \caption{Schlieren system}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.35\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/schlieren1.png}
+        \caption{Schlieren example}
+    \end{subfigure}
+\end{figure}
+%
+\subsubsection{Dark field system}
+\bfemph{Dark field illumination} is a variation of this technique using directional lightning. The light source is placed to the side of the objective lens, or in a ring 
+around the lens. If the object is perfectly smooth (a mirror), a specular reflection within the FOV misses the objective, and the image is dark. Features on the 
+surface will scatter light into the objective and appear bright in the image.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{.6\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/darkfield.png}
+        \caption{Dark field system}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.35\columnwidth}
+        \centering
+        \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/darkfield1.png}
+        \caption{Dark field example}
+    \end{subfigure}
+\end{figure}

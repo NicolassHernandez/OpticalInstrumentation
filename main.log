@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  20 NOV 2025 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.25)  21 NOV 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2294,17 +2294,17 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 4.
-<PartOne/ChapterThree/figures/thinprism.png, id=111, 207.77625pt x 158.09062pt>
+<PartOne/ChapterThree/figures/thinprism.png, id=129, 207.77625pt x 158.09062pt>
 File: PartOne/ChapterThree/figures/thinprism.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/thinprism.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/thinprism.png  used on input line 20.
 (pdftex.def)             Requested size: 119.68068pt x 91.0606pt.
-<PartOne/ChapterThree/figures/beamdeviation.png, id=113, 204.01219pt x 186.6975pt>
+<PartOne/ChapterThree/figures/beamdeviation.png, id=131, 204.01219pt x 186.6975pt>
 File: PartOne/ChapterThree/figures/beamdeviation.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/beamdeviation.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/beamdeviation.png  used on input line 26.
 (pdftex.def)             Requested size: 119.68068pt x 109.52383pt.
-<PartOne/ChapterThree/figures/risleyprism.png, id=114, 286.82156pt x 128.73094pt>
+<PartOne/ChapterThree/figures/risleyprism.png, id=132, 286.82156pt x 128.73094pt>
 File: PartOne/ChapterThree/figures/risleyprism.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/risleyprism.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/risleyprism.png  used on input line 32.
@@ -2317,17 +2317,17 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 45.
  [9 <./PartOne/ChapterThree/figures/thinprism.png> <./PartOne/ChapterThree/figures/beamdeviation.png> <./PartOne/ChapterThree/figures/risleyprism.png>]
-<PartOne/ChapterThree/figures/prismdispersion.png, id=136, 199.49532pt x 158.09062pt>
+<PartOne/ChapterThree/figures/prismdispersion.png, id=154, 199.49532pt x 158.09062pt>
 File: PartOne/ChapterThree/figures/prismdispersion.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/prismdispersion.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/prismdispersion.png  used on input line 65.
 (pdftex.def)             Requested size: 104.71974pt x 82.98433pt.
-<PartOne/ChapterThree/figures/edgethinprism.png, id=137, 304.88907pt x 93.34875pt>
+<PartOne/ChapterThree/figures/edgethinprism.png, id=155, 304.88907pt x 93.34875pt>
 File: PartOne/ChapterThree/figures/edgethinprism.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/edgethinprism.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/edgethinprism.png  used on input line 71.
 (pdftex.def)             Requested size: 199.46198pt x 61.07193pt.
-<PartOne/ChapterThree/figures/achromaticwedge.png, id=138, 219.82124pt x 157.33781pt>
+<PartOne/ChapterThree/figures/achromaticwedge.png, id=156, 219.82124pt x 157.33781pt>
 File: PartOne/ChapterThree/figures/achromaticwedge.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/achromaticwedge.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/achromaticwedge.png  used on input line 77.
@@ -2347,32 +2347,32 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 114.
  [10 <./PartOne/ChapterThree/figures/prismdispersion.png> <./PartOne/ChapterThree/figures/edgethinprism.png> <./PartOne/ChapterThree/figures/achromaticwedge.png>]
-<PartOne/ChapterThree/figures/secondarydispersion.png, id=155, 198.7425pt x 89.58469pt>
+<PartOne/ChapterThree/figures/secondarydispersion.png, id=173, 198.7425pt x 89.58469pt>
 File: PartOne/ChapterThree/figures/secondarydispersion.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/secondarydispersion.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/secondarydispersion.png  used on input line 128.
 (pdftex.def)             Requested size: 224.39664pt x 101.15158pt.
-<PartOne/ChapterThree/figures/directvisionprism.png, id=156, 215.30438pt x 178.41656pt>
+<PartOne/ChapterThree/figures/directvisionprism.png, id=174, 215.30438pt x 178.41656pt>
 File: PartOne/ChapterThree/figures/directvisionprism.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/directvisionprism.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/directvisionprism.png  used on input line 134.
 (pdftex.def)             Requested size: 134.63934pt x 111.57268pt.
-<PartOne/ChapterThree/figures/dispersingprism.png, id=157, 198.7425pt x 119.69719pt>
+<PartOne/ChapterThree/figures/dispersingprism.png, id=175, 198.7425pt x 119.69719pt>
 File: PartOne/ChapterThree/figures/dispersingprism.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/dispersingprism.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/dispersingprism.png  used on input line 165.
 (pdftex.def)             Requested size: 124.66563pt x 75.0845pt.
-<PartOne/ChapterThree/figures/deviationinputangle.png, id=158, 193.47281pt x 173.89969pt>
+<PartOne/ChapterThree/figures/deviationinputangle.png, id=176, 193.47281pt x 173.89969pt>
 File: PartOne/ChapterThree/figures/deviationinputangle.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/deviationinputangle.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/deviationinputangle.png  used on input line 171.
 (pdftex.def)             Requested size: 99.73099pt x 89.64291pt.
-<PartOne/ChapterThree/figures/disersingprismtable.png, id=159, 127.22531pt x 179.16937pt>
+<PartOne/ChapterThree/figures/disersingprismtable.png, id=177, 127.22531pt x 179.16937pt>
 File: PartOne/ChapterThree/figures/disersingprismtable.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/disersingprismtable.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/disersingprismtable.png  used on input line 177.
 (pdftex.def)             Requested size: 69.81139pt x 98.31654pt.
-<PartOne/ChapterThree/figures/dispersingprismdispersion.png, id=160, 186.6975pt x 123.46124pt>
+<PartOne/ChapterThree/figures/dispersingprismdispersion.png, id=178, 186.6975pt x 123.46124pt>
 File: PartOne/ChapterThree/figures/dispersingprismdispersion.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/dispersingprismdispersion.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/dispersingprismdispersion.png  used on input line 183.
@@ -2382,17 +2382,17 @@ Package pdftex.def Info: PartOne/ChapterThree/figures/dispersingprismdispersion.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./PartOne/ChapterThree/figures/secondarydispersion.png> <./PartOne/ChapterThree/figures/directvisionprism.png>]) (PartOne/ChapterThree/ChromaticEffects.tex
-<PartOne/ChapterThree/figures/chromaticaberration.png, id=173, 257.46187pt x 80.55093pt>
+<PartOne/ChapterThree/figures/chromaticaberration.png, id=191, 257.46187pt x 80.55093pt>
 File: PartOne/ChapterThree/figures/chromaticaberration.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/chromaticaberration.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/chromaticaberration.png  used on input line 10.
 (pdftex.def)             Requested size: 299.20059pt x 93.61736pt.
-<PartOne/ChapterThree/figures/dispersioncurve.png, id=174, 231.86626pt x 119.69719pt>
+<PartOne/ChapterThree/figures/dispersioncurve.png, id=192, 231.86626pt x 119.69719pt>
 File: PartOne/ChapterThree/figures/dispersioncurve.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/dispersioncurve.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/dispersioncurve.png  used on input line 16.
 (pdftex.def)             Requested size: 174.53494pt x 90.10324pt.
-<PartOne/ChapterThree/figures/negativelenschromaticaberration.png, id=175, 277.78781pt x 116.68594pt>
+<PartOne/ChapterThree/figures/negativelenschromaticaberration.png, id=193, 277.78781pt x 116.68594pt>
 File: PartOne/ChapterThree/figures/negativelenschromaticaberration.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/negativelenschromaticaberration.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/negativelenschromaticaberration.png  used on input line 22.
@@ -2406,22 +2406,22 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 38.
  [12 <./PartOne/ChapterThree/figures/dispersingprism.png> <./PartOne/ChapterThree/figures/deviationinputangle.png> <./PartOne/ChapterThree/figures/disersingprismtable.png> <./PartOne/ChapterThree/figures/dispersingprismdispersion.png> <./PartOne/ChapterThree/figures/chromaticaberration.png> <./PartOne/ChapterThree/figures/dispersioncurve.png> <./PartOne/ChapterThree/figures/negativelenschromaticaberration.png>]
 Package mdframed Info: Not enough space on this page on input line 38.
-<PartOne/ChapterThree/figures/axialchromaticaberration.png, id=193, 146.04562pt x 52.69687pt>
+<PartOne/ChapterThree/figures/axialchromaticaberration.png, id=211, 146.04562pt x 52.69687pt>
 File: PartOne/ChapterThree/figures/axialchromaticaberration.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/axialchromaticaberration.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/axialchromaticaberration.png  used on input line 54.
 (pdftex.def)             Requested size: 224.39664pt x 80.9749pt.
-<PartOne/ChapterThree/figures/axialchromaticaberration1.png, id=194, 136.25906pt x 32.37094pt>
+<PartOne/ChapterThree/figures/axialchromaticaberration1.png, id=212, 136.25906pt x 32.37094pt>
 File: PartOne/ChapterThree/figures/axialchromaticaberration1.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/axialchromaticaberration1.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/axialchromaticaberration1.png  used on input line 60.
 (pdftex.def)             Requested size: 224.39664pt x 53.31291pt.
-<PartOne/ChapterThree/figures/transversechromaticaberration.png, id=195, 249.93375pt x 86.57344pt>
+<PartOne/ChapterThree/figures/transversechromaticaberration.png, id=213, 249.93375pt x 86.57344pt>
 File: PartOne/ChapterThree/figures/transversechromaticaberration.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/transversechromaticaberration.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/transversechromaticaberration.png  used on input line 75.
-(pdftex.def)             Requested size: 299.20059pt x 103.6498pt.
-<PartOne/ChapterThree/figures/transversechromaticaberration1.png, id=196, 234.1247pt x 150.5625pt>
+(pdftex.def)             Requested size: 239.36137pt x 82.91403pt.
+<PartOne/ChapterThree/figures/transversechromaticaberration1.png, id=214, 234.1247pt x 150.5625pt>
 File: PartOne/ChapterThree/figures/transversechromaticaberration1.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/transversechromaticaberration1.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/transversechromaticaberration1.png  used on input line 81.
@@ -2430,23 +2430,23 @@ Package pdftex.def Info: PartOne/ChapterThree/figures/transversechromaticaberrat
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PartOne/ChapterThree/figures/lateralchromaticaberration.png, id=197, 253.69781pt x 105.39375pt>
+<PartOne/ChapterThree/figures/lateralchromaticaberration.png, id=215, 253.69781pt x 105.39375pt>
 File: PartOne/ChapterThree/figures/lateralchromaticaberration.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/lateralchromaticaberration.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/lateralchromaticaberration.png  used on input line 92.
 (pdftex.def)             Requested size: 149.6003pt x 62.1496pt.
 [13 <./PartOne/ChapterThree/figures/axialchromaticaberration.png> <./PartOne/ChapterThree/figures/axialchromaticaberration1.png>]
-<PartOne/ChapterThree/figures/achromaticdoublet.png, id=210, 271.76532pt x 116.68594pt>
+<PartOne/ChapterThree/figures/achromaticdoublet.png, id=228, 271.76532pt x 116.68594pt>
 File: PartOne/ChapterThree/figures/achromaticdoublet.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/achromaticdoublet.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/achromaticdoublet.png  used on input line 104.
 (pdftex.def)             Requested size: 179.51456pt x 77.0806pt.
-<PartOne/ChapterThree/figures/achromaticdoublet1.png, id=211, 79.79813pt x 99.37125pt>
+<PartOne/ChapterThree/figures/achromaticdoublet1.png, id=229, 79.79813pt x 99.37125pt>
 File: PartOne/ChapterThree/figures/achromaticdoublet1.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/achromaticdoublet1.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/achromaticdoublet1.png  used on input line 110.
 (pdftex.def)             Requested size: 52.35721pt x 65.20009pt.
-<PartOne/ChapterThree/figures/secondaryachromaticdoublet.png, id=212, 243.91125pt x 65.49469pt>
+<PartOne/ChapterThree/figures/secondaryachromaticdoublet.png, id=230, 243.91125pt x 65.49469pt>
 File: PartOne/ChapterThree/figures/secondaryachromaticdoublet.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/secondaryachromaticdoublet.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/secondaryachromaticdoublet.png  used on input line 116.
@@ -2457,9 +2457,27 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 121.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 126.
- [14 <./PartOne/ChapterThree/figures/transversechromaticaberration.png> <./PartOne/ChapterThree/figures/transversechromaticaberration1.png> <./PartOne/ChapterThree/figures/lateralchromaticaberration.png> <./PartOne/ChapterThree/figures/achromaticdoublet.png> <./PartOne/ChapterThree/figures/achromaticdoublet1.png> <./PartOne/ChapterThree/figures/secondaryachromaticdoublet.png>]) (PartOne/ChapterThree/IlluminationSystems.tex
-<PartOne/ChapterThree/figures/projector.png, id=227, 252.19218pt x 73.02281pt>
+(mdframed)              on input line 127.
+<PartOne/ChapterThree/figures/secondarychromaticaberration.png, id=231, 316.93407pt x 87.32625pt>
+File: PartOne/ChapterThree/figures/secondarychromaticaberration.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/secondarychromaticaberration.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/secondarychromaticaberration.png  used on input line 136.
+(pdftex.def)             Requested size: 199.46198pt x 54.95985pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./PartOne/ChapterThree/figures/transversechromaticaberration.png> <./PartOne/ChapterThree/figures/transversechromaticaberration1.png> <./PartOne/ChapterThree/figures/lateralchromaticaberration.png> <./PartOne/ChapterThree/figures/achromaticdoublet.png> <./PartOne/ChapterThree/figures/achromaticdoublet1.png> <./PartOne/ChapterThree/figures/secondaryachromaticdoublet.png>]
+Overfull \hbox (1.6793pt too wide) detected at line 154
+[]
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 164.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 164.
+[15 <./PartOne/ChapterThree/figures/secondarychromaticaberration.png>]) (PartOne/ChapterThree/IlluminationSystems.tex
+<PartOne/ChapterThree/figures/projector.png, id=254, 252.19218pt x 73.02281pt>
 File: PartOne/ChapterThree/figures/projector.png Graphic file (type png)
 <use PartOne/ChapterThree/figures/projector.png>
 Package pdftex.def Info: PartOne/ChapterThree/figures/projector.png  used on input line 9.
@@ -2467,13 +2485,144 @@ Package pdftex.def Info: PartOne/ChapterThree/figures/projector.png  used on inp
 LaTeX Font Info:    Trying to load font information for TS1+bch on input line 15.
  (C:\Users\irisp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
-)) [15 <./PartOne/ChapterThree/figures/projector.png>] (PartOne/ChapterOne/bibliography.tex
+)
+<PartOne/ChapterThree/figures/projectorcondensersyste.png, id=255, 251.43938pt x 79.79813pt>
+File: PartOne/ChapterThree/figures/projectorcondensersyste.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/projectorcondensersyste.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/projectorcondensersyste.png  used on input line 37.
+(pdftex.def)             Requested size: 349.06227pt x 110.78023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./PartOne/ChapterThree/figures/projector.png>]
+<PartOne/ChapterThree/figures/nocollectionlens.png, id=264, 327.47343pt x 94.85437pt>
+File: PartOne/ChapterThree/figures/nocollectionlens.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/nocollectionlens.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/nocollectionlens.png  used on input line 53.
+(pdftex.def)             Requested size: 349.06227pt x 101.10815pt.
+<PartOne/ChapterThree/figures/baresource.png, id=265, 247.67531pt x 161.85469pt>
+File: PartOne/ChapterThree/figures/baresource.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/baresource.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/baresource.png  used on input line 67.
+(pdftex.def)             Requested size: 224.39664pt x 146.64339pt.
+<PartOne/ChapterThree/figures/diffuser.png, id=266, 298.86656pt x 102.3825pt>
+File: PartOne/ChapterThree/figures/diffuser.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/diffuser.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/diffuser.png  used on input line 73.
+(pdftex.def)             Requested size: 224.39664pt x 76.8726pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+ [17 <./PartOne/ChapterThree/figures/projectorcondensersyste.png> <./PartOne/ChapterThree/figures/nocollectionlens.png>]
+<PartOne/ChapterThree/figures/kohler.png, id=273, 257.46187pt x 76.78688pt>
+File: PartOne/ChapterThree/figures/kohler.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/kohler.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/kohler.png  used on input line 90.
+(pdftex.def)             Requested size: 299.20059pt x 89.24272pt.
+<PartOne/ChapterThree/figures/criticalillumination.png, id=274, 268.75406pt x 94.10156pt>
+File: PartOne/ChapterThree/figures/criticalillumination.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/criticalillumination.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/criticalillumination.png  used on input line 103.
+(pdftex.def)             Requested size: 299.20059pt x 104.76266pt.
+ [18 <./PartOne/ChapterThree/figures/baresource.png> <./PartOne/ChapterThree/figures/diffuser.png> <./PartOne/ChapterThree/figures/kohler.png>]
+<PartOne/ChapterThree/figures/diffuseillumination.png, id=284, 307.90031pt x 82.80937pt>
+File: PartOne/ChapterThree/figures/diffuseillumination.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/diffuseillumination.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/diffuseillumination.png  used on input line 112.
+(pdftex.def)             Requested size: 299.20059pt x 80.47534pt.
+<PartOne/ChapterThree/figures/integratingsphere.png, id=285, 198.7425pt x 300.3722pt>
+File: PartOne/ChapterThree/figures/integratingsphere.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/integratingsphere.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/integratingsphere.png  used on input line 129.
+(pdftex.def)             Requested size: 99.73099pt x 150.73112pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterThree/figures/concavemirror.png, id=286, 224.33812pt x 183.68625pt>
+File: PartOne/ChapterThree/figures/concavemirror.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/concavemirror.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/concavemirror.png  used on input line 142.
+(pdftex.def)             Requested size: 99.73288pt x 81.66023pt.
+<PartOne/ChapterThree/figures/parabolicreflector.png, id=287, 274.02374pt x 102.3825pt>
+File: PartOne/ChapterThree/figures/parabolicreflector.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/parabolicreflector.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/parabolicreflector.png  used on input line 148.
+(pdftex.def)             Requested size: 249.33128pt x 93.15884pt.
+<PartOne/ChapterThree/figures/facetedreflector.png, id=288, 93.34875pt x 113.67468pt>
+File: PartOne/ChapterThree/figures/facetedreflector.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/facetedreflector.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/facetedreflector.png  used on input line 154.
+(pdftex.def)             Requested size: 79.78508pt x 97.16162pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19 <./PartOne/ChapterThree/figures/criticalillumination.png> <./PartOne/ChapterThree/figures/diffuseillumination.png>]
+<PartOne/ChapterThree/figures/facetedreflector1.png, id=299, 262.73157pt x 77.53969pt>
+File: PartOne/ChapterThree/figures/facetedreflector1.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/facetedreflector1.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/facetedreflector1.png  used on input line 175.
+(pdftex.def)             Requested size: 299.20059pt x 88.30621pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterThree/figures/ellipticalreflector.png, id=300, 271.0125pt x 91.09032pt>
+File: PartOne/ChapterThree/figures/ellipticalreflector.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/ellipticalreflector.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/ellipticalreflector.png  used on input line 184.
+(pdftex.def)             Requested size: 299.20059pt x 100.56796pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterThree/figures/lightefficiency.png, id=301, 313.9228pt x 124.96687pt>
+File: PartOne/ChapterThree/figures/lightefficiency.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/lightefficiency.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/lightefficiency.png  used on input line 191.
+(pdftex.def)             Requested size: 398.93158pt x 158.81485pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./PartOne/ChapterThree/figures/integratingsphere.png> <./PartOne/ChapterThree/figures/concavemirror.png> <./PartOne/ChapterThree/figures/parabolicreflector.png> <./PartOne/ChapterThree/figures/facetedreflector.png>]
+<PartOne/ChapterThree/figures/schlieren.png, id=311, 240.9pt x 77.53969pt>
+File: PartOne/ChapterThree/figures/schlieren.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/schlieren.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/schlieren.png  used on input line 206.
+(pdftex.def)             Requested size: 299.20059pt x 96.31383pt.
+<PartOne/ChapterThree/figures/schlieren1.png, id=312, 119.69719pt x 118.94438pt>
+File: PartOne/ChapterThree/figures/schlieren1.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/schlieren1.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/schlieren1.png  used on input line 212.
+(pdftex.def)             Requested size: 104.72203pt x 104.06335pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PartOne/ChapterThree/figures/darkfield.png, id=313, 277.035pt x 91.09032pt>
+File: PartOne/ChapterThree/figures/darkfield.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/darkfield.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/darkfield.png  used on input line 225.
+(pdftex.def)             Requested size: 299.20059pt x 98.37883pt.
+<PartOne/ChapterThree/figures/darkfield1.png, id=314, 88.07906pt x 85.06781pt>
+File: PartOne/ChapterThree/figures/darkfield1.png Graphic file (type png)
+<use PartOne/ChapterThree/figures/darkfield1.png>
+Package pdftex.def Info: PartOne/ChapterThree/figures/darkfield1.png  used on input line 231.
+(pdftex.def)             Requested size: 104.72203pt x 101.14238pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./PartOne/ChapterThree/figures/facetedreflector1.png> <./PartOne/ChapterThree/figures/ellipticalreflector.png> <./PartOne/ChapterThree/figures/lightefficiency.png>] [22 <./PartOne/ChapterThree/figures/schlieren.png> <./PartOne/ChapterThree/figures/schlieren1.png> <./PartOne/ChapterThree/figures/darkfield.png> <./PartOne/ChapterThree/figures/darkfield1.png>] (PartOne/ChapterOne/bibliography.tex
 \blx@maxsegment@1=\count592
 \blx@sectionciteorder@1=\count593
 Package biblatex Info: Reference section=1 on input line 3.
 Package biblatex Info: Setting label 'refsection:1' on input line 3.
 Package biblatex Info: Reference section=0 on input line 11.
-)) [16] [17] [18] (main.ind)
+)) [23] [24] [25] (main.ind)
 
 Package caption Warning: Unused \captionsetup[table] on input line 71.
 See the caption package documentation for explanation.
@@ -2496,7 +2645,7 @@ Package minitoc(hints) Warning: W0024
 \tf@ptc=\write14
 \openout14 = `main.ptc'.
 
-[19] (main.aux)
+[26] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2508,17 +2657,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 87723 strings out of 474486
- 2203845 string characters out of 5743755
- 3428883 words of memory out of 5000000
- 108770 multiletter control sequences out of 15000+600000
+ 87887 strings out of 474486
+ 2211575 string characters out of 5743755
+ 3428907 words of memory out of 5000000
+ 108904 multiletter control sequences out of 15000+600000
  658258 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,16n,104p,1683b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Users/irisp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (19 pages, 987871 bytes).
+Output written on main.pdf (26 pages, 1888477 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 474 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
