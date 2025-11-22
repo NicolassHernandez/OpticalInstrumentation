@@ -1,25 +1,25 @@
 \section{Chromatic effects}
 \subsection{Chromatic aberration}
-\bfemph{Axial chromatic aberration} or \bfemph{axial color} is a variation of the system focal lenfgth with wavelenegth. This 
+\bfemph{Axial chromatic aberration} or \bfemph{axial color} is a variation of the system focal lenfgth with wavelength. This 
 aberration derives from the dispersion of the glass as the index changes with wavelength $n(\lambda)$.
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{.6\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/chromaticaberration.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/chromaticaberration.png}
         \caption{Chromatic aberration, $f>0$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{.35\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/dispersioncurve.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/dispersioncurve.png}
         \caption{Disperison curve}
     \end{subfigure}
     \hfill
     \begin{subfigure}{.6\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/negativelenschromaticaberration.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/negativelenschromaticaberration.png}
         \caption{Chromatic aberration, $f<0$}
     \end{subfigure}
 \end{figure}
@@ -39,19 +39,22 @@ Similarly, for the focal length:
 
 The foci of F, d and C are not evenly spaced due to the shape of the dispersion curve. The relative order of the foci is reversed for a negative lens.
 \begin{align}
-    \text{+ lens chromatic aberration }&\qquad\highlight{\delta f_{CF}=f_C-f_F,\quad\delta\phi_{FC}=\phi_F-\phi_C,\quad\frac{\delta f_{CF}}{f_d}=\frac{\delta\phi_{FC}}{\phi_d}=\frac{1}{\nu}}\\
+    \text{+ lens chromatic aberration}&\qquad\highlight{\delta f_{CF}=f_C-f_F,\quad\delta\phi_{FC}=\phi_F-\phi_C,\quad\frac{\delta f_{CF}}{f_d}=\frac{\delta\phi_{FC}}{\phi_d}=\frac{1}{\nu}}\\
     \text{- lens chromatic aberration}&\qquad\highlight{\text{same, with }f_d<0,\quad\phi_d<0,\quad\delta f_{CF}<0,\quad\delta\phi_{FC}<0}.
 \end{align}
 %
 \subsection{Type of chromatic aberrations}
 \subsubsection{Longitudinal chromatic aberration}
-The blur associated wit hthe chromatic aberration of the objective lens limits the performance of an objective.
-To reduce the blut, a small diameter objective lens is required. The blur is then proportional to the lens diameter.
+The blur associated with the chromatic aberration of the objective lens limits the performance of an objective.
+To reduce the blur, a small diameter objective lens is required.
+\begin{align*}
+    \text{Blur}\propto\text{Lens diameter}.
+\end{align*}
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{.45\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/axialchromaticaberration.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/axialchromaticaberration.png}
         \caption{Axial longitudinal chromatic aberration}
     \end{subfigure}
     \hfill
@@ -63,10 +66,14 @@ To reduce the blut, a small diameter objective lens is required. The blur is the
 \end{figure}
 %
 \subsubsection{Transverse axial chromatic aberration}
-\bfemph{Transverse axial chromatic aberration} measures the image blur size due to axial chromatic aberration.
-It depends only on the glass and the pupil radius $r_P$ (stop at the lens):
+\bfemph{Transverse axial chromatic aberration} measures the image blur size due to axial chromatic aberration. It depends only on the glass and the pupil radius $r_P$ (stop at the lens):
+The rays from the edge of the pupil are approximately parallel in the vecinity of the focus ($f\gg\delta f$).
+\begin{align*}
+    \tan U'&=-\frac{\text{TA}_{CH}}{\delta f}=-\frac{r_p}{f}\longrightarrow\frac{\text{TA}_{CH}}{\delta f}=\frac{r_P}{f}\longrightarrow\frac{\text{TA}_{CH}}{r_p}=\frac{\delta f}{f}=\frac{1}{\nu}.
+\end{align*}
+Therefore,
 \begin{align}
-    \text{Transverse axial chromatic aberration (10)}\qquad\highlight{\text{TA}_{CH}=\frac{r_P}{\nu}}.
+    \text{Transverse axial chromatic aberration}\qquad\highlight{\text{TA}_{CH}=\frac{r_P}{\nu}}.
 \end{align}
 \begin{figure}[h!]
     \centering
@@ -84,7 +91,7 @@ It depends only on the glass and the pupil radius $r_P$ (stop at the lens):
 \end{figure}
 %
 \subsubsection{Lateral chromatic aberration}
-\bfemph{Lateral chromatic aberration} or \bfemph{lateral color} is caused by dispersion of the chief ray. The edge of the lens behaves 
+\bfemph{Lateral chromatic aberration} or \bfemph{lateral color} is the chromatic aberration of the marginal ray and is caused by dispersion of the chief ray. The edge of the lens behaves 
 like a thin prism. Off-axis image points will exhibit a radial color smear. The blur length increases linearly with the image height. Each color has a different
 lateral magnification.
 \begin{figure}[h!]
@@ -92,16 +99,15 @@ lateral magnification.
     \includegraphics[width=.3\columnwidth]{PartOne/ChapterThree/figures/lateralchromaticaberration.png}
     \caption{Lateral chromatic aberration}
 \end{figure}
-
 %
 \subsection{Achromatic doublet}
 The thin lens \bfemph{achromatic doublet} corrects longtiduinal chromatic aberration by combining a positive element with a negatvie one.
-Two different glasses $(\nu_1,P_1)$ and $(\nu_2,P_2)$ are used. 
+Two different glasses $(\nu_1,P_1)$ and $(\nu_2,P_2)$ are used. The nominal powers and focal lengths are for d light.
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{.4\columnwidth}
         \centering
-        \includegraphics[width=.9\columnwidth]{PartOne/ChapterThree/figures/achromaticdoublet.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/achromaticdoublet.png}
         \caption{Achromatic doublet}
     \end{subfigure}
     \hfill
@@ -121,19 +127,24 @@ Two different glasses $(\nu_1,P_1)$ and $(\nu_2,P_2)$ are used.
 \begin{emphasizer}[How do we design the individual powers of the achromatic doublet?]
     Red and blue light are made to focus at the same location ($\Delta f=0$):
     \begin{align*}
-        &\phi=\phi_1+\phi_2\Longrightarrow\delta\phi_{FC}=\delta\phi_{FC1}+\delta\phi_{FC2}=\frac{\phi_1}{\nu_1}+\frac{\phi_2}{\nu_2}=\phi_F-\phi_C=\textcolor{red}{0}\longrightarrow\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}.\\
+        &\phi=\phi_1+\phi_2\Longrightarrow\delta\phi_{FC}=\delta\phi_{FC1}+\delta\phi_{FC2}=\frac{\phi_1}{\nu_1}+\frac{\phi_2}{\nu_2}=\phi_F-\phi_C=\textcolor{red}{0}\longrightarrow\highlight{\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}}.\\
         &\phi=\phi_2-\frac{\nu_1}{\nu_2}\phi_2=\frac{\nu_2-\nu_1}{\nu_2}\phi_2\longrightarrow=\highlight{\frac{\phi_2}{\phi}=-\frac{\nu_2}{\nu_1-\nu_2}\land\frac{\phi_1}{\phi}=\frac{\nu_1}{\nu_1-\nu_2}}.
     \end{align*}
 \end{emphasizer}
 
-All we have done is to force the axial focus for F and C light. However, the d line can focus at a different location. 
-This is known as \bfemph{secondary chromatic aberration}.
-%
-\subsection{Secondary chromatic aberration}
-We have ensured the F and C lines are at the same longitudinal distance, but the d line havea different focal position.
+The doublet design places excess power in the positive element that is cancelleed by the negative element. Both contribute equal, but opposite, amounts of longitudinal chromatic aberration.
+Large differences in the Abbe numbers minimize the excess power and provide better performance.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=.4\columnwidth]{PartOne/ChapterThree/figures/secondarychromaticaberration.png}
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterThree/figures/excesspower.png}
+    \caption{Excess power in achromatic doublet}
+\end{figure}
+%
+\subsection{Secondary chromatic aberration}
+We have ensured the F and C lines are at the same longitudinal distance, but the d line have a different focal position.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterThree/figures/secondarychromaticaberration.png}
     \caption{Secondary chromatic aberration.}
 \end{figure}
 
@@ -158,7 +169,7 @@ We go back to the initial equation:
     &=P_1\delta\phi_{FC1}+P_2\delta\phi_{FC2}\\
     &=P_1\frac{\phi_1}{\nu_1}+P_2\frac{\phi_2}{\nu_2}\\
     &=\frac{P_1-P_2}{\nu_1-\nu_2}\phi\quad\text{Achromat eq: }\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}\\
-    \delta\phi_{dC}&=\frac{\Delta P}{\Delta \nu}\phi
+    \delta\phi_{dC}&=\frac{\Delta P}{\Delta \nu}\phi.
 \end{align*}
 \begin{emphasizer}
     In order to obtain zero secondary achromatic aberration with a doublet, the partial dispersion ratio $P$ of the two glasses must be zero:
@@ -167,9 +178,17 @@ We go back to the initial equation:
     \end{align}
     To correct chromatic aberration at additional wavelength, more than two glasses are used.
 \end{emphasizer}
+%
+\subsection{Partial dispersion ratio and Abbe number}
+On a plot of P versus $\nu$, most glasses lie on a straight line.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.4\columnwidth]{PartOne/ChapterThree/figures/pversusnu.png}
+    \caption{Partial dispersion ratio versus Abbe number.}
+\end{figure}
 For a singlet and doublet, we have:
 \begin{align}
-    \delta f_{Cf}\approx\frac{f}{50}\quad\text{vs}\quad\delta f_{Cd}\approx\frac{f}{2200}.
+    \delta f_{CF}\approx\frac{f}{50}\quad\text{vs}\quad\delta f_{Cd}\approx\frac{f}{2200}.
 \end{align}
 %
 \begin{example}{Design of an achromatic doublet}

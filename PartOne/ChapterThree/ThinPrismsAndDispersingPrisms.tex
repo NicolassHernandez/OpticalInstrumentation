@@ -4,45 +4,55 @@
 \subsection{Thin prisms}
 \bfemph{Thin prisms} introduce small angular beam deviations $\delta$ that is approximately independen of the incident angle:
 \begin{align}
-    \delta\approx-(n-1)\alpha.
+    \text{Thin prism deviation}\qquad\highlight{\delta\approx-(n-1)\alpha}.
 \end{align}
 The deviation is measured in prism diopters. A prisms of 1 diopter deviates a beam by $1\;cm$ at $1\;m$.
-The beam deviation is parallel to a principal section of the prism and towards the thick end of the prism. De magnitude and 
-direction of the deviation defines a vector perpendicular to the optical axis (xy plane). The net deviation vector for a series of thin prisms 
-is then the vector sum of the copmonent vectors:
-\begin{align*}
-    \bm{\delta}=\bm{\delta}_1+\bm{\delta}_2.
-\end{align*}
+The beam deviation is parallel to a principal section of the prism and towards the thick end of the prism. 
 \begin{figure}[h!]
     \centering
-    \begin{subfigure}{.3\columnwidth}
+    \begin{subfigure}{.25\columnwidth}
         \centering
         \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/thinprism.png}
         \caption{Thin prism}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{.3\columnwidth}
+    \begin{subfigure}{.25\columnwidth}
+        \centering
+        \includegraphics[width=.9\columnwidth]{PartOne/ChapterThree/figures/thinprismderivation.png}
+        \caption{Thin prism derivation}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{.2\columnwidth}
         \centering
         \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/beamdeviation.png}
         \caption{Beam deviation}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{.3\columnwidth}
+    \begin{subfigure}{.25\columnwidth}
         \centering
-        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/risleyprism.png}
+        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/risleyprism.png}
         \caption{Risley prism}
     \end{subfigure}
 \end{figure}
-\begin{emphasizer}[Proof of the deviation]
+\begin{emphasizer}[Proof of the thin prism deviation]
     We tip the prism by $\theta$ so that the front face is perpendicular to the input ray (no refraction):
     \begin{align}
-    \delta=-\alpha,\delta'=\delta-\alpha\longrightarrow\begin{array}{l}
-        n\theta=\theta'\\
-        -n\alpha=\delta-\alpha\\
-        \delta\approx-(n-1)\alpha
+    \begin{array}{l}
+        \theta=-\alpha\\
+        \theta'=\delta-\alpha
+    \end{array}\longrightarrow\begin{array}{rl}
+        n\theta&=\theta'\quad(\text{small angle})\\
+        -n\alpha&=\delta-\alpha\\
+        \delta&\approx-(n-1)\alpha
     \end{array}.
 \end{align}
 \end{emphasizer}
+
+The magnitude and direction of the deviation defines a vector perpendicular to the optical axis (xy plane). The net deviation vector for a series of 
+thin prisms is then the vector sum of the copmonent vectors:
+\begin{align*}
+    \text{Algeba of deviation}\qquad\highlight{\bm{\delta}=\bm{\delta}_1+\bm{\delta}_2}.
+\end{align*}
 %%
 \subsection{Risley prism}
 A \bfemph{Risley prism} consists of a pair of identical, but opposing, thin prisms. The prisms are counter-rotated by $\pm\beta$ to obtain 
@@ -51,22 +61,26 @@ orientation $\beta$.
 %%
 \subsection{Thin prism dispersion}
 \subsubsection{Thin prism}
-The \bfemph{dispersion of a thin prism} $\Delta$ measures the total angular spread from $C$ to $F$ light, and the \bfemph{secondary dispersion} $\epsilon$ gives
-the spread from the $C$ to $d$ wavelengths. The results depend on the index $n_d$, Abbe number $\nu$ and partial dispersion ratio $P$ of the glass:
+The dispersion of a thin prism $\Delta$ measures the total angular spread from $C$ to $F$ light, and the \bfemph{secondary dispersion} $\varepsilon$ gives
+the spread from the $C$ to $d$ wavelengths. The results depend on the index $n_d$, the Abbe number $\nu$ and the partial dispersion ratio $P$ of the glass:
 \begin{align}
-    \text{Deviation}&\quad\delta=-(n_d-1)\alpha\\
-    \text{Dispersion}&\quad\Delta=-(n_F-n_C)\alpha,\quad\Delta=\frac{\delta}{\nu}\\
-    \text{Secondary dispersion}&\quad\varepsilon=-(n_d-n_C)\alpha,\quad\varepsilon=P\Delta=P\frac{\delta}{\nu}.
+    \text{Deviation}&\quad\highlight{\delta=-(n_d-1)\alpha}\\
+    \text{Dispersion}&\quad\highlight{\Delta=}(n_F-1)(-\alpha)-(n_C-1)(-\alpha)=\highlight{-(n_F-n_C)\alpha}\\
+    \text{Secondary dispersion}&\quad\highlight{\varepsilon=}(n_d-1)(-\alpha)-(n_C-1)(-\alpha)=\highlight{-(n_d-n_C)\alpha}.
+\end{align}
+From above and the definition of the Abbe number, we can also get the following relations
+\begin{align}
+    \frac{\delta}{\Delta}=\frac{n_d-1}{n_F-n_C}=\nu\longrightarrow\highlight{\Delta=\frac{\delta}{\nu}},\quad\text{and}\quad\frac{\varepsilon}{\Delta}=\frac{n_d-n_C}{n_F-n_C}=P\longrightarrow\highlight{\varepsilon=P\frac{\delta}{\nu}}.
 \end{align}
 \begin{figure}[h!]
     \centering
-    \begin{subfigure}{.3\columnwidth}
+    \begin{subfigure}{.25\columnwidth}
         \centering
-        \includegraphics[width=.7\columnwidth]{PartOne/ChapterThree/figures/prismdispersion.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/prismdispersion.png}
         \caption{Thin prism dispersion}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{.4\columnwidth}
+    \begin{subfigure}{.45\columnwidth}
         \centering
         \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/edgethinprism.png}
         \caption{Edge of a thin prism}
@@ -79,73 +93,95 @@ the spread from the $C$ to $d$ wavelengths. The results depend on the index $n_d
     \end{subfigure}
 \end{figure}
 
+The edge of a thin lens can be considered to be a thin prism. The angle $\alpha$ depend on the power and diameter of the lens. Each wavelength will be deviated by a different angle. 
+The focal length of the lens is defined for d light. From the above figure, we have the following relation.
 \begin{emphasizer}[How does the difference in focal length is related with the Abbe number?]
     \begin{align*}
+        &\delta(\lambda)=-(n_\alpha-1)\alpha,\quad f(\lambda)=-\frac{r}{\delta(\lambda)},\quad f_d=-\frac{r}{\delta_d}\\
         &\delta f=f_C-f_F=-\frac{r}{\delta_C}+\frac{r}{\delta_F}=-r\frac{\delta_F-\delta_C}{\delta_F\delta_C}\approx-r\frac{\delta_F-\delta_C}{\delta_d^2}.\\
-        &\frac{\delta f}{f_d}=\frac{-r\frac{\delta_F-\delta_C}{\delta_d^2}}{-\frac{r}{\delta_d}}=\frac{\delta_F-\delta_C}{\delta_d}=\frac{-i(n_F-1)\alpha+(n_C-1)\alpha}{-(n_d-1)\alpha}=\frac{n_F-n_C}{n_d-1}=\frac{1}{\nu}\longrightarrow\frac{\delta f}{f_d}=\frac{1}{\nu}.
+        &\frac{\delta f}{f_d}=\frac{-r\frac{\delta_F-\delta_C}{\delta_d^2}}{-\frac{r}{\delta_d}}=\frac{\delta_F-\delta_C}{\delta_d}=\frac{-(n_F-1)\alpha+(n_C-1)\alpha}{-(n_d-1)\alpha}=\frac{n_F-n_C}{n_d-1}=\frac{1}{\nu}\longrightarrow\highlight{\frac{\delta f}{f_d}=\frac{1}{\nu}}.
     \end{align*}
 \end{emphasizer}
 
 An inverted prism deviates a ray up and has a negative vertex angle $\alpha$.
 
-Deviations and dispersions adds.
+Deviations and dispersions adds:
 \begin{align}
-    \delta=\sum_i\delta_i,\quad\Delta=\sum_i\Delta_i,\quad\varepsilon=\sum_i\varepsilon_i.
+    \text{Deviation}\quad\delta=\sum_i\delta_i,\quad\text{Dispersion}\quad\Delta=\sum_i\Delta_i,\quad\text{Seoncdary dispersion}\quad\varepsilon=\sum_i\varepsilon_i.
 \end{align}
 %
 \subsubsection{Achromatic thin prism}
 An \bfemph{achromatic thin prism} or \bfemph{achromatic wedge} provides deviation without dispersion. Opposite prisms made from two 
 different glasses $(n_{d1},\nu_1,P_1)$ and $(n_{d2},\nu_2,P_2)$ are combined to force the dispersion between the $F$ and $C$ wavelengths to be 
-zero. A deviation of $\delta$ is maintained for $d$ light:
-\begin{align}
-    \text{Achromatic relations}\qquad\highlight{\frac{\alpha_1}{\delta}=\frac{1}{\nu_2-\nu_1}\frac{\nu_1}{n_{d1}-1},\quad\frac{\alpha_2}{\delta}=-\frac{1}{\nu_2-\nu_1}\frac{\nu_2}{n_{d2}-1}}.
-\end{align}
-
-\begin{emphasizer}[Proof of the above relations]
-    We force the dispersion of F and C to be zero:
+zero ($\Delta=0$):
 \begin{align*}
-    \Delta=\Delta_1+\Delta_2=\frac{\delta_1}{\nu_1}+\frac{\delta_2}{\nu_2}=0\longrightarrow\delta_2=-\frac{\nu_2}{\nu_1}\delta_1.
+    \Delta=\Delta_1+\Delta_2=\frac{\delta_1}{\nu_1}+\frac{\delta_2}{\nu_2}=0\longrightarrow\highlight{\delta_2=-\frac{\nu_2}{\nu_1}\delta_1}.
 \end{align*}
-A deviation $\delta$ for d light is maintained:
+A deviation of $\delta$ is maintained for $d$ light:
 \begin{align*}
     \delta=\delta_1+\delta_2=\delta_1-\frac{\nu_2}{\nu_1}\delta_1=(\nu_1-\nu_2)\frac{\delta_1}{\nu_1}=-(\nu_1-\nu_2)\frac{(n_{d1}-1)\alpha_1}{\nu_1}.
 \end{align*}
-Doing $\alpha_1/\delta$ and $\alpha_2/\delta$ yields the above results.
-\end{emphasizer}
-
-The high-dispersion prism is inverted to obtain an opposing deviation. While the F and C wavelegths are corrected, a residual secondary dispersion remains.
-For most glass pairs, d light will be bent more than the F and C wavelengths:
+Doing $\alpha_1/\delta$ and $\alpha_2/\delta$ gives the deviation ratio for each element
 \begin{align}
-    \text{Secondary dispersion (11)}\qquad\highlight{\frac{\varepsilon}{\delta}=\frac{P_2-P_1}{\nu_2-\nu_1}=\frac{\Delta P}{\Delta\nu}}.
+    \text{Achromatic deviation ratio}\qquad\highlight{\frac{\alpha_1}{\delta}=\frac{1}{\nu_2-\nu_1}\frac{\nu_1}{n_{d1}-1},\quad\frac{\alpha_2}{\delta}=-\frac{1}{\nu_2-\nu_1}\frac{\nu_2}{n_{d2}-1}}.
 \end{align}
 
-For most glases, $\frac{\varepsilon}{\delta}>0$. The shape of the curve of $|\delta|-\lambda$ is concave and the maxium dispersion does not occur at d ligth.
-The achromatic thin prism has about 40 less secondary dispersion compared to a simple thin prism. 
+The high-dispersion prism is inverted to obtain an opposing deviation. While the F and C wavelegths are corrected, a residual secondary dispersion remains.
+The residual dispersion is the secondary dispersion $\varepsilon$:
+\begin{align*}
+    \varepsilon=\varepsilon_1+\varepsilon_2=P_1\frac{\delta_1}{\nu_1}+P_2\frac{\delta_2}{\nu_2}.
+\end{align*}
+From the achromatic condition $\delta_2=-(\nu_2/\nu_1)\delta_1$ we have:
+\begin{align*}
+    \nu_1\delta_2&=-\nu_2\delta_1\\
+    \nu_1(\delta-\delta_1)&=-\nu_2\delta_1\\
+    \nu_1\delta&=(\nu_1-\nu_2)\delta_1\\
+    \frac{\delta_1}{\nu_1}&=\frac{\delta}{\nu_1-\nu_2},\quad\frac{\delta_2}{\nu_2}=-\frac{\delta}{\nu_1-\nu_2}.
+\end{align*}
+Putting these two ratios back in the secondary dispersion and rearranging yields:
+\begin{align}
+    \text{Secondary dispersion in the thin prism}\qquad\highlight{\frac{\varepsilon}{\delta}=\frac{P_2-P_1}{\nu_2-\nu_1}=\frac{\Delta P}{\Delta\nu}}.
+\end{align}
+
+For most glass pairs, d light will be bent more than the F and C wavelengths and also $\frac{\varepsilon}{\delta}>0$. The shape of the curve of $|\delta|-\lambda$ 
+is concave and the maximum dispersion \textbf{does not occur} at d light.
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{.45\columnwidth}
         \centering
-        \includegraphics[width=\columnwidth]{PartOne/ChapterThree/figures/secondarydispersion.png}
+        \includegraphics[width=.8\columnwidth]{PartOne/ChapterThree/figures/secondarydispersion.png}
         \caption{Secondary disperion curve}
     \end{subfigure}
     \hfill
     \begin{subfigure}{.45\columnwidth}
         \centering
-        \includegraphics[width=.6\columnwidth]{PartOne/ChapterThree/figures/directvisionprism.png}
+        \includegraphics[width=.5\columnwidth]{PartOne/ChapterThree/figures/directvisionprism.png}
         \caption{Direct vision prism}
     \end{subfigure}
 \end{figure}
-%
-\subsubsection{Direct vision prism}
-A \bfemph{direct vision prism} uses opposing prisms to provide dispersion without deviation of the d light.
 
-We first set the total dispersion to zero: $\delta=\delta_1+\delta_2=0$. Then,
+The achromatic thin prism has about 40 less secondary dispersion compared to a simple thin prism:
 {\small
 \begin{align*}
-    \Delta=\Delta_1+\Delta_2=\frac{\delta_1}{\nu_1}+\frac{\delta_2}{\nu_2}=-\frac{\nu_1-\nu_2}{\nu_1\nu_2}\delta_1\longrightarrow\highlight{\frac{\alpha_1}{\Delta}=\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{s1}-1}\right)}\land\highlight{\frac{\alpha_2}{\Delta}=-\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{d2}-1}\right)}.
+    \text{Siple thin prism ($\nu\approx[30,70]$)}\quad\frac{\Delta P}{\Delta\nu}=\frac{1}{\nu}\approx[1.5,3]\%\quad\text{vs}\quad\text{Achromatic thin prism}\quad\frac{\Delta P}{\Delta\nu}\approx0.045\%.
 \end{align*}}
-
-
+%
+\subsubsection{Direct vision prism}
+A \bfemph{direct vision prism} uses opposing prisms to provide dispersion without deviation of the d light ($\delta=\delta_1+\delta_2=0$).
+For a desired dispersion $\Delta$, we have 
+{\small
+\begin{align*}
+    \Delta=\Delta_1+\Delta_2=\frac{\delta_1}{\nu_1}+\frac{\delta_2}{\nu_2}=-\frac{\nu_1-\nu_2}{\nu_1\nu_2}\delta_1.
+\end{align*}}
+Consequently,
+\begin{align}
+    \text{Dispersion in a direct vision prism}\qquad\begin{array}{l}
+    \highlight{\displaystyle\frac{\alpha_1}{\Delta}=\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{d1}-1}\right)}\\
+    \highlight{\displaystyle\frac{\alpha_2}{\Delta}=-\left(\frac{\nu_1\nu_2}{\nu_1-\nu_2}\right)\left(\frac{1}{n_{d2}-1}\right)}
+    \end{array}.
+\end{align}
+In order to get dufficient dispersion, it is ioften necessary to use more than two prisms.
+%
 \subsection{Dispersing prism}
 The total deviation $\delta$ in the \bfemph{dispersion prism} is the sum of the deviations at the two surfaces:
 \begin{align*}
@@ -157,7 +193,6 @@ The \bfemph{angle of minimum deviation} is
 \begin{align}
     \delta_{\text{min}}=\alpha-2\sin^{-1}[n\sin(\alpha/2)].
 \end{align}
-The following table shows $\delta_{\text{min}}$ for several $n$.
 \begin{figure}[h!]
     \centering
     \begin{subfigure}{.25\columnwidth}
@@ -187,6 +222,25 @@ The following table shows $\delta_{\text{min}}$ for several $n$.
 
 The measurement of the index depends only on $\delta_{\text{min}}$ and the prism apex angle $\alpha$:
 \begin{align}
-    n=\frac{ \sin\dfrac{\alpha-\delta_{\text{min}}}{2} }{\sin(\alpha/2)}.
+    n=\frac{\sin[(\alpha-\delta_{\text{min}})/2]}{\sin(\alpha/2)}.
 \end{align}
+Minimum deviation provides an extremely accurate method of measuring the index of refraction of a material.
 Prism spectrometers can obtain accuracies of one part in $10^6$.
+\begin{align}
+    \delta_{\text{min}}=I_2-I_1.
+\end{align}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.5\columnwidth]{PartOne/ChapterThree/figures/prismspectrometer.png}
+    \caption{Prism spectrometer to measure the index of refraction.}
+\end{figure}
+
+\begin{itemize}[itemsep=0pt,topsep=0pt]
+    \item Telescope and collimator mounted in a rotation stage.
+    \item Use the telescope as autocollimator to measure the angle $\alpha$.
+    \item Measure the straight through angle $I_1$ without prism.
+    \item Insert the prism an observe the angle of refracted beam $\delta$.
+    \item Rotate the prism to obtain the minimum deviation and measure this angle $I_2$.
+    \item Make $\delta_{\text{min}}=I_2-I_1$.
+    \item Calculate the index with the formula above.
+\end{itemize}
