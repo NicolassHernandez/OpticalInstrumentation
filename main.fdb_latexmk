@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber main"] 1763786916.89797 "main.bcf" "main.bbl" "main" 1763786971.51092 0
+["biber main"] 1763786916.89797 "main.bcf" "main.bbl" "main" 1763834222.90864 0
   "PartOne/ChapterOne/bib_.bib" 1756311235 814 ca0c4b5b986e047b1001d6e5f3140200 ""
-  "main.bcf" 1763786970 108847 3450f066afafd1a5795aabdb53bad092 "pdflatex"
+  "main.bcf" 1763834219 108847 3450f066afafd1a5795aabdb53bad092 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1763785918.11111 "main.idx" "main.ind" "main" 1763786971.50959 0
-  "main.idx" 1763786958 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1763785918.11111 "main.idx" "main.ind" "main" 1763834222.90527 0
+  "main.idx" 1763834195 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1763786954.86349 "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" "main.pdf" "main" 1763786971.51173 0
+["pdflatex"] 1763834190.07777 "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" "main.pdf" "main" 1763834222.91418 0
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761848276 123178 2ccd746f0a4ec0e4e75a2c14b6603cde ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1742930834 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/irisp/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1756137706 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -742,9 +742,9 @@
   "PartOne/ChapterOne/figures/virtualobject.png" 1759366984 45469 c225fb3173b034dca20bf003faf8d729 ""
   "PartOne/ChapterOne/figures/wavefront.png" 1759359029 57353 bef832855da2dca93ff2240471552360 ""
   "PartOne/ChapterOne/main.tex" 1759385533 683 58de4fdcc1c4f01e3ab93f1ef7679bfd ""
-  "PartOne/ChapterThree/ChromaticEffects.tex" 1763786809 10439 9bb4247651ada50593af1b979db78295 ""
-  "PartOne/ChapterThree/IlluminationSystems.tex" 1763699584 12911 4c42df25cc84d169f1282f3d3b0e07c0 ""
-  "PartOne/ChapterThree/ThinPrismsAndDispersingPrisms.tex" 1763784745 12586 08b1ad286a3b7ba41663919ddcb7ee2e ""
+  "PartOne/ChapterThree/ChromaticEffects.tex" 1763833502 10321 1bf498a176a62a4b7df8442f2afa5cfd ""
+  "PartOne/ChapterThree/IlluminationSystems.tex" 1763834170 12990 132e9df6841e76ff39839f853e48fde8 ""
+  "PartOne/ChapterThree/ThinPrismsAndDispersingPrisms.tex" 1763831755 12586 6d113038e79de2d8267cfc889c12d92e ""
   "PartOne/ChapterThree/figures/achromaticdoublet.png" 1763624304 44858 b793967416504507499c8823d9acb975 ""
   "PartOne/ChapterThree/figures/achromaticdoublet1.png" 1763624416 12159 90f31f24aa4f853425286aae841da432 ""
   "PartOne/ChapterThree/figures/achromaticwedge.png" 1763579869 44193 91b9d9fa6ae4d28cb9abe81a500ab00a ""
@@ -786,7 +786,6 @@
   "PartOne/ChapterThree/figures/schlieren.png" 1763695724 61790 9e433df3c2ac45af70bcc22c9d0a0a9b ""
   "PartOne/ChapterThree/figures/schlieren1.png" 1763697118 132102 f6b2be19b5a1d145db0ce1d6701bf17c ""
   "PartOne/ChapterThree/figures/secondaryachromaticdoublet.png" 1763624362 24153 5e8ecc6962a8ead3ca0b79a7fac7311a ""
-  "PartOne/ChapterThree/figures/secondarychromaticaberration.png" 1763700315 26971 c211eb1d3f2ebac0fccfdc8507571e95 ""
   "PartOne/ChapterThree/figures/secondarydispersion.png" 1763583443 13654 8d39134c094ba33dbe3f5a0874f342e7 ""
   "PartOne/ChapterThree/figures/thinprism.png" 1763578193 26102 8c90e3a7f29199ea5755862987c291dc ""
   "PartOne/ChapterThree/figures/thinprismderivation.png" 1763781564 26423 566525f1cb4e83fea50adf584c2f637f ""
@@ -901,19 +900,19 @@
   "PartOne/ChapterTwo/vignetting_example2f.png" 1760210396 107953 11e5d815bfa22d80a483361eae85209b ""
   "PartOne/ChapterTwo/vignettingcases.png" 1760209192 87839 46309bf531abddebe9d6df2227ff4c78 ""
   "c:/Users/irisp/Documents/python/OpticalInstrumentation/main.tex" 1763786899 985 6f71519b9584e10f2807ad8597d62d30 ""
-  "main.aux" 1763786970 34434 2f249d1af11498ed2367b34efb5312e1 "pdflatex"
+  "main.aux" 1763834219 34101 6413958b93bdad8762ec0126aa31fc75 "pdflatex"
   "main.bbl" 1763786921 13596 4e7800474386f23e32c960a95b5110c1 "biber main"
   "main.ind" 1763785918 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1763786970 7560 585ae13625f373572f81b4af8525479b "pdflatex"
-  "main.lol" 1763786958 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.lot" 1763786970 412 63157480714e1cd18cd5d96590f3a7e3 "pdflatex"
-  "main.mtc" 1763786955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.mtc0" 1763786955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.out" 1763786970 3827 3edf97ae69eb2ea867ed246db9a607ca "pdflatex"
-  "main.ptc" 1763786970 12101 d6904ef5feeabcd4415aa686476f81ec "pdflatex"
-  "main.run.xml" 1763786970 2318 471f701eca3e29696c4e2ff7a8ae79b2 "pdflatex"
+  "main.lof" 1763834219 7446 587a6d4b88512e1615d70371fe2e2914 "pdflatex"
+  "main.lol" 1763834196 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lot" 1763834219 412 63157480714e1cd18cd5d96590f3a7e3 "pdflatex"
+  "main.mtc" 1763834192 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.mtc0" 1763834192 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.out" 1763834219 3827 3edf97ae69eb2ea867ed246db9a607ca "pdflatex"
+  "main.ptc" 1763834219 12101 2d04b3edf4909a2af401c2345160fc85 "pdflatex"
+  "main.run.xml" 1763834219 2318 471f701eca3e29696c4e2ff7a8ae79b2 "pdflatex"
   "main.tex" 1763786899 985 6f71519b9584e10f2807ad8597d62d30 ""
-  "main.toc" 1763786970 11968 4275c444a2e68fad25fffafb2c2ca540 "pdflatex"
+  "main.toc" 1763834219 11968 cee4f41409868ec2bd542f425f7b7b94 "pdflatex"
   "struct/Frontpage.tex" 1756311235 694 d9fdb487a8bf032879278c8f1e42e602 ""
   "struct/Preface.tex" 1756311235 119 33a77da7ce89f15d2a52b013e322dbd9 ""
   "struct/circuitikz.tex" 1756311235 3621 e55994767a1aa6f3db9e8adbe25c8836 ""

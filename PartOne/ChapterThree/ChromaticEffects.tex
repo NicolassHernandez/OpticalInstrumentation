@@ -1,6 +1,6 @@
 \section{Chromatic effects}
 \subsection{Chromatic aberration}
-\bfemph{Axial chromatic aberration} or \bfemph{axial color} is a variation of the system focal lenfgth with wavelength. This 
+\bfemph{Axial chromatic aberration} or \bfemph{axial color} is a variation of the system focal length with wavelength. This 
 aberration derives from the dispersion of the glass as the index changes with wavelength $n(\lambda)$.
 
 \begin{figure}[h!]
@@ -28,12 +28,12 @@ Because of the higher index for F light, blue light is bent more and therefore t
 \begin{emphasizer}[How much does the focal length change for the F and C wavelengths?]
     We look at the difference in power between these two wavelengths:
 \begin{align*}
-    \delta\phi&=\phi_F-\phi_C=(n_F-1)(C_1-C_2)-(n_C-1)(C_1-C_2)=(n_F-n_C)(C_1-C_2)\\
-    \delta\phi&=\underbrace{\frac{n_F-n_C}{n_d-1}}_{1/\nu}\underbrace{(n_d-1)(C_1-C_2)}_{\phi_d}=\frac{\phi_d}{\nu}.
+    \delta\phi_{FC}&=\phi_F-\phi_C=(n_F-1)(C_1-C_2)-(n_C-1)(C_1-C_2)=(n_F-n_C)(C_1-C_2)\\
+    \delta\phi_{FC}&=\underbrace{\frac{n_F-n_C}{n_d-1}}_{1/\nu}\underbrace{(n_d-1)(C_1-C_2)}_{\phi_d}=\highlight{\frac{\phi_d}{\nu}=\delta\phi_{FC}}.
 \end{align*}
 Similarly, for the focal length:
 \begin{align*}
-    \delta f=f_C-f_F=\frac{1}{\phi_C}-\frac{1}{\phi_F}=\frac{\phi_F-\phi_C}{\phi_C\phi_F}=\frac{\delta\phi}{\phi_C\phi_F}\approx\frac{\delta\phi}{\phi_d^2}=\frac{\phi_d}{\nu\phi_d^2}=\frac{f_d}{\nu}.
+    \delta f_{CF}=f_C-f_F=\frac{1}{\phi_C}-\frac{1}{\phi_F}=\frac{\phi_F-\phi_C}{\phi_C\phi_F}=\frac{\delta\phi}{\phi_C\phi_F}\approx\frac{\delta\phi}{\phi_d^2}=\frac{\phi_d}{\nu\phi_d^2}=\highlight{\frac{f_d}{\nu}=\delta f_{CF}}.
 \end{align*}
 \end{emphasizer}
 
@@ -101,7 +101,7 @@ lateral magnification.
 \end{figure}
 %
 \subsection{Achromatic doublet}
-The thin lens \bfemph{achromatic doublet} corrects longtiduinal chromatic aberration by combining a positive element with a negatvie one.
+The thin lens \bfemph{achromatic doublet} corrects longitudinal chromatic aberration by combining a positive element with a negative one.
 Two different glasses $(\nu_1,P_1)$ and $(\nu_2,P_2)$ are used. The nominal powers and focal lengths are for d light.
 \begin{figure}[h!]
     \centering
@@ -128,25 +128,20 @@ Two different glasses $(\nu_1,P_1)$ and $(\nu_2,P_2)$ are used. The nominal powe
     Red and blue light are made to focus at the same location ($\Delta f=0$):
     \begin{align*}
         &\phi=\phi_1+\phi_2\Longrightarrow\delta\phi_{FC}=\delta\phi_{FC1}+\delta\phi_{FC2}=\frac{\phi_1}{\nu_1}+\frac{\phi_2}{\nu_2}=\phi_F-\phi_C=\textcolor{red}{0}\longrightarrow\highlight{\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}}.\\
-        &\phi=\phi_2-\frac{\nu_1}{\nu_2}\phi_2=\frac{\nu_2-\nu_1}{\nu_2}\phi_2\longrightarrow=\highlight{\frac{\phi_2}{\phi}=-\frac{\nu_2}{\nu_1-\nu_2}\land\frac{\phi_1}{\phi}=\frac{\nu_1}{\nu_1-\nu_2}}.
+        &\phi=\phi_2-\frac{\nu_1}{\nu_2}\phi_2=\frac{\nu_2-\nu_1}{\nu_2}\phi_2\longrightarrow\highlight{\frac{\phi_2}{\phi}=-\frac{\nu_2}{\nu_1-\nu_2}\land\frac{\phi_1}{\phi}=\frac{\nu_1}{\nu_1-\nu_2}}.
     \end{align*}
 \end{emphasizer}
 
-The doublet design places excess power in the positive element that is cancelleed by the negative element. Both contribute equal, but opposite, amounts of longitudinal chromatic aberration.
-Large differences in the Abbe numbers minimize the excess power and provide better performance.
+The doublet design places excess power in the positive element that is cancelleed by the negative element. Both contribute equal, but opposite amounts of longitudinal chromatic aberration.
+Large differences in the Abbe number minimize the excess power and provide better performance.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=.4\columnwidth]{PartOne/ChapterThree/figures/excesspower.png}
+    \includegraphics[width=.3\columnwidth]{PartOne/ChapterThree/figures/excesspower.png}
     \caption{Excess power in achromatic doublet}
 \end{figure}
 %
 \subsection{Secondary chromatic aberration}
 We have ensured the F and C lines are at the same longitudinal distance, but the d line have a different focal position.
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=.5\columnwidth]{PartOne/ChapterThree/figures/secondarychromaticaberration.png}
-    \caption{Secondary chromatic aberration.}
-\end{figure}
 
 First, we have:
 {\small
@@ -156,28 +151,28 @@ First, we have:
 We derive each term:
 {\small
 \begin{align*}
-    \delta\phi_{dC1}&=(n_{d1}-1)(C_1-C_2)-(n_{c1}-1)(C_1-C_2)=(n_{d1}-n_{C1})(C_1-C_2)\\
-   \delta\phi_{dC1}&=\frac{(n_{d1}-n_{C1})}{(n_{F1}-n_{C1})}(n_{F1}-n_{C1})(C_1-C_2)=P_1\delta\phi_{FC1}.
+    \delta\phi_{dC1}=(n_{d1}-n_{C1})(C_1-C_2)=\frac{(n_{d1}-n_{C1})}{(n_{F1}-n_{C1})}(n_{F1}-n_{C1})(C_1-C_2)=P_1\delta\phi_{FC1}.
 \end{align*}}
 Similarly,
 \begin{align*}
-    \delta\phi_{dC1}=(n_{d1}-n_{C1})(C_1-C_2),\quad\delta\phi_{FC1}=(n_{F1}-n_{C1})(C_1-C_2),\quad P_1=\frac{n_{d1}-n_{C1}}{n_{F1}-n_{C1}},\quad P_2=\frac{n_{d2}-n_{C2}}{n_{F2}-n_{C2}}.
+    \delta\phi_{dC1}=P\delta\phi_{FC1},\quad\delta\phi_{dC2}=P_2\delta\phi_{FC2},\quad P_1=\frac{n_{d1}-n_{C1}}{n_{F1}-n_{C1}},\quad P_2=\frac{n_{d2}-n_{C2}}{n_{F2}-n_{C2}}.
 \end{align*}
 We go back to the initial equation:
 \begin{align*}
     \delta\phi_{dC}&=\delta\phi_{dC1}+\delta\phi_{dC2}\\
     &=P_1\delta\phi_{FC1}+P_2\delta\phi_{FC2}\\
     &=P_1\frac{\phi_1}{\nu_1}+P_2\frac{\phi_2}{\nu_2}\\
-    &=\frac{P_1-P_2}{\nu_1-\nu_2}\phi\quad\text{Achromat eq: }\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}\\
-    \delta\phi_{dC}&=\frac{\Delta P}{\Delta \nu}\phi.
+    \delta\phi_{dC}&=\frac{P_1-P_2}{\nu_1-\nu_2}\phi\quad\text{Achromat eq: }\frac{\phi_1}{\nu_1}=-\frac{\phi_2}{\nu_2}.
 \end{align*}
-\begin{emphasizer}
-    In order to obtain zero secondary achromatic aberration with a doublet, the partial dispersion ratio $P$ of the two glasses must be zero:
-    \begin{align}
-        \Delta P=0\Longrightarrow\delta f_{Cd}=\frac{\Delta P}{\Delta\nu}f=0.
-    \end{align}
-    To correct chromatic aberration at additional wavelength, more than two glasses are used.
-\end{emphasizer}
+Then, the secondary deviation is:
+\begin{align*}
+    \text{Secondary chromatic aberration}\qquad\highlight{\delta\phi_{dC}=\frac{\Delta P}{\Delta \nu}\phi}.
+\end{align*}
+Consequently, in order to obtain zero secondary achromatic aberration with a doublet, the partial dispersion ratio $P$ of the two glasses \textbf{must be zero}:
+\begin{align}
+    \Delta P=0\Longrightarrow\delta f_{Cd}=\frac{\Delta P}{\Delta\nu}f=0.
+\end{align}
+To correct chromatic aberration at additional wavelength, more than two glasses are used.
 %
 \subsection{Partial dispersion ratio and Abbe number}
 On a plot of P versus $\nu$, most glasses lie on a straight line.

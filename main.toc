@@ -121,25 +121,25 @@
 \contentsline {subsubsection}{Lateral chromatic aberration}{82}{figure.caption.117}%
 \contentsline {subsection}{\numberline {3.2.3}Achromatic doublet}{83}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Secondary chromatic aberration}{83}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Partial dispersion ratio and Abbe number}{85}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.5}Partial dispersion ratio and Abbe number}{84}{subsection.3.2.5}%
 \contentsline {subsubsection}{Solution}{85}{example.3.1}%
 \contentsline {section}{\numberline {3.3}Illumination systems}{85}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Illumination systems and types}{85}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Specular illumination}{86}{subsection.3.3.2}%
 \contentsline {subsubsection}{Projection condenser system}{86}{subsection.3.3.2}%
-\contentsline {subsubsection}{Apparent source size}{87}{figure.caption.125}%
-\contentsline {subsubsection}{Projection condenser design}{87}{figure.caption.126}%
-\contentsline {subsubsection}{Kohler illumination}{88}{figure.caption.126}%
+\contentsline {subsubsection}{Apparent source size}{87}{figure.caption.124}%
+\contentsline {subsubsection}{Projection condenser design}{87}{figure.caption.125}%
+\contentsline {subsubsection}{Kohler illumination}{87}{figure.caption.125}%
 \contentsline {subsection}{\numberline {3.3.3}Critical illumination}{88}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Diffuse illumination}{88}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Integrating sphere}{89}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.5}Integrating sphere}{88}{subsection.3.3.5}%
 \contentsline {subsection}{\numberline {3.3.6}Source mirrors}{89}{subsection.3.3.6}%
 \contentsline {subsubsection}{Concave source}{89}{subsection.3.3.6}%
-\contentsline {subsubsection}{Parabolic reflector}{90}{figure.caption.131}%
-\contentsline {subsubsection}{Faceted reflectors}{90}{figure.caption.131}%
-\contentsline {subsubsection}{Elliptical reflector}{90}{figure.caption.132}%
-\contentsline {subsubsection}{Light collection efficiency}{90}{figure.caption.133}%
-\contentsline {subsection}{\numberline {3.3.7}Schlieren and dark field systems}{90}{subsection.3.3.7}%
+\contentsline {subsubsection}{Parabolic reflector}{89}{figure.caption.130}%
+\contentsline {subsubsection}{Faceted reflectors}{89}{figure.caption.130}%
+\contentsline {subsubsection}{Elliptical reflector}{90}{figure.caption.131}%
+\contentsline {subsubsection}{Light collection efficiency}{90}{figure.caption.132}%
+\contentsline {subsection}{\numberline {3.3.7}Schlieren and dark field systems}{91}{subsection.3.3.7}%
 \contentsline {subsubsection}{Schlieren system}{91}{subsection.3.3.7}%
-\contentsline {subsubsection}{Dark field system}{91}{figure.caption.135}%
+\contentsline {subsubsection}{Dark field system}{91}{figure.caption.134}%
 \contentsfinish 
